@@ -1,0 +1,21 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from IPv6UDPSockets/IPv6UDPUnboundSocketTest
+[ RUN      ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.IPv6PacketInfo/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.IPv6PacketInfo/0 (0 ms)
+[ RUN      ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.IPv6PacketInfo/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.IPv6PacketInfo/1 (0 ms)
+[ RUN      ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.SetAndReceiveIPReceiveOrigDstAddr/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.SetAndReceiveIPReceiveOrigDstAddr/0 (0 ms)
+[ RUN      ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.SetAndReceiveIPReceiveOrigDstAddr/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UDPSockets/IPv6UDPUnboundSocketTest.SetAndReceiveIPReceiveOrigDstAddr/1 (0 ms)
+[----------] 4 tests from IPv6UDPSockets/IPv6UDPUnboundSocketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

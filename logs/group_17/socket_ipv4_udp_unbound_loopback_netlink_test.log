@@ -1,0 +1,38 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.JoinSubnet/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_udp_unbound_netlink.cc:38: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.JoinSubnet/0 (0 ms)
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.JoinSubnet/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_udp_unbound_netlink.cc:38: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.JoinSubnet/1 (0 ms)
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.ReuseAddrSubnetDirectedBroadcast/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_udp_unbound_netlink.cc:112: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.ReuseAddrSubnetDirectedBroadcast/0 (0 ms)
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.ReuseAddrSubnetDirectedBroadcast/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_udp_unbound_netlink.cc:112: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.ReuseAddrSubnetDirectedBroadcast/1 (0 ms)
+[----------] 4 tests from IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.JoinSubnet/0
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.JoinSubnet/1
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.ReuseAddrSubnetDirectedBroadcast/0
+[  SKIPPED ] IPv4UDPSockets/IPv4UDPUnboundSocketNetlinkTest.ReuseAddrSubnetDirectedBroadcast/1
+Failed to match any benchmarks against regex: .

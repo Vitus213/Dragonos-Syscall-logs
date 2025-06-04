@@ -1,0 +1,21 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPConnectPortExhaustion/0
+Testing with IPv4 UDP socket
+[       OK ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPConnectPortExhaustion/0 (330 ms)
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPConnectPortExhaustion/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPConnectPortExhaustion/1 (458 ms)
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPBindPortExhaustion/0
+Testing with IPv4 UDP socket
+[       OK ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPBindPortExhaustion/0 (372 ms)
+[ RUN      ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPBindPortExhaustion/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest.UDPBindPortExhaustion/1 (366 ms)
+[----------] 4 tests from IPv4UDPSockets/IPv4UDPUnboundSocketNogotsanTest (1527 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (1527 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

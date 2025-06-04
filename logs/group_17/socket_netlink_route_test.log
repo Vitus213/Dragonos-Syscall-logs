@@ -1,0 +1,280 @@
+[==========] Running 47 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 27 tests from NetlinkRouteTest
+[ RUN      ] NetlinkRouteTest.GetLinkDump
+Found interface idx=1, type=304
+Found interface idx=2, type=1
+Found interface idx=3, type=1
+Found interface idx=4, type=fffe
+Found interface idx=5, type=1
+[       OK ] NetlinkRouteTest.GetLinkDump (0 ms)
+[ RUN      ] NetlinkRouteTest.GetLinkByIndex
+[       OK ] NetlinkRouteTest.GetLinkByIndex (0 ms)
+[ RUN      ] NetlinkRouteTest.LinkUp
+test/syscalls/linux/socket_netlink_route.cc:397: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.LinkUp (0 ms)
+[ RUN      ] NetlinkRouteTest.GetLinkByName
+[       OK ] NetlinkRouteTest.GetLinkByName (0 ms)
+[ RUN      ] NetlinkRouteTest.GetLinkByIndexNotFound
+[       OK ] NetlinkRouteTest.GetLinkByIndexNotFound (0 ms)
+[ RUN      ] NetlinkRouteTest.GetLinkByNameNotFound
+[       OK ] NetlinkRouteTest.GetLinkByNameNotFound (0 ms)
+[ RUN      ] NetlinkRouteTest.RemoveLoopbackByName
+test/syscalls/linux/socket_netlink_route.cc:509: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.RemoveLoopbackByName (0 ms)
+[ RUN      ] NetlinkRouteTest.RemoveLoopbackByIndex
+test/syscalls/linux/socket_netlink_route.cc:539: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.RemoveLoopbackByIndex (0 ms)
+[ RUN      ] NetlinkRouteTest.RemoveLinkByIndexNotFound
+test/syscalls/linux/socket_netlink_route.cc:562: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.RemoveLinkByIndexNotFound (0 ms)
+[ RUN      ] NetlinkRouteTest.RemoveLinkByNameNotFound
+test/syscalls/linux/socket_netlink_route.cc:586: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.RemoveLinkByNameNotFound (0 ms)
+[ RUN      ] NetlinkRouteTest.MsgHdrMsgUnsuppType
+[       OK ] NetlinkRouteTest.MsgHdrMsgUnsuppType (0 ms)
+[ RUN      ] NetlinkRouteTest.MsgHdrMsgTrunc
+[       OK ] NetlinkRouteTest.MsgHdrMsgTrunc (0 ms)
+[ RUN      ] NetlinkRouteTest.SpliceFromPipe
+[       OK ] NetlinkRouteTest.SpliceFromPipe (0 ms)
+[ RUN      ] NetlinkRouteTest.MsgTruncMsgHdrMsgTrunc
+[       OK ] NetlinkRouteTest.MsgTruncMsgHdrMsgTrunc (0 ms)
+[ RUN      ] NetlinkRouteTest.ControlMessageIgnored
+[       OK ] NetlinkRouteTest.ControlMessageIgnored (0 ms)
+[ RUN      ] NetlinkRouteTest.GetAddrDump
+[       OK ] NetlinkRouteTest.GetAddrDump (0 ms)
+[ RUN      ] NetlinkRouteTest.LookupAll
+[       OK ] NetlinkRouteTest.LookupAll (0 ms)
+[ RUN      ] NetlinkRouteTest.AddAndRemoveAddr
+test/syscalls/linux/socket_netlink_route.cc:849: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.AddAndRemoveAddr (0 ms)
+[ RUN      ] NetlinkRouteTest.LinkedToNetns
+test/syscalls/linux/socket_netlink_route.cc:888: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.LinkedToNetns (0 ms)
+[ RUN      ] NetlinkRouteTest.GetRouteDump
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.1
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.2
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.3
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.4
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.5
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.7
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.8
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.9
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.10
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.11
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.12
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.13
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.14
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.15
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.16
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.64.0.17
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=20, dst=100.100.100.100
+Found route table=fe, protocol=10, scope=0, type=1, prefixlen=0
+Found route table=fe, protocol=10, scope=0, type=1, prefixlen=0
+Found route table=fe, protocol=2, scope=fd, type=1, prefixlen=14, dst=10.196.80.0
+Found route table=fe, protocol=2, scope=fd, type=1, prefixlen=10, dst=172.17.0.0
+Found route table=fe, protocol=2, scope=fd, type=1, prefixlen=18, dst=192.168.199.0
+Found route table=ff, protocol=2, scope=fe, type=2, prefixlen=20, dst=10.196.83.72
+Found route table=ff, protocol=2, scope=fd, type=3, prefixlen=20, dst=10.196.95.255
+Found route table=ff, protocol=2, scope=fe, type=2, prefixlen=20, dst=100.64.0.6
+Found route table=ff, protocol=2, scope=fe, type=2, prefixlen=8, dst=127.0.0.0
+Found route table=ff, protocol=2, scope=fe, type=2, prefixlen=20, dst=127.0.0.1
+Found route table=ff, protocol=2, scope=fd, type=3, prefixlen=20, dst=127.255.255.255
+Found route table=ff, protocol=2, scope=fe, type=2, prefixlen=20, dst=172.17.0.1
+Found route table=ff, protocol=2, scope=fd, type=3, prefixlen=20, dst=172.17.255.255
+Found route table=ff, protocol=2, scope=fe, type=2, prefixlen=20, dst=192.168.199.180
+Found route table=ff, protocol=2, scope=fd, type=3, prefixlen=20, dst=192.168.199.255
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=80, dst=253.122.17.92
+Found route table=34, protocol=3, scope=0, type=1, prefixlen=30, dst=253.122.17.92
+Found route table=fe, protocol=9, scope=0, type=1, prefixlen=40, dst=36.0.96.0
+Found route table=fe, protocol=2, scope=0, type=1, prefixlen=80, dst=253.122.17.92
+Found route table=fe, protocol=9, scope=0, type=1, prefixlen=40, dst=253.204.130.248
+Found route table=fe, protocol=9, scope=0, type=1, prefixlen=30, dst=253.204.130.248
+Found route table=fe, protocol=2, scope=0, type=1, prefixlen=40, dst=254.128.0.0
+Found route table=fe, protocol=2, scope=0, type=1, prefixlen=40, dst=254.128.0.0
+Found route table=fe, protocol=2, scope=0, type=1, prefixlen=40, dst=254.128.0.0
+Found route table=fe, protocol=9, scope=0, type=1, prefixlen=0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=0.0.0.0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=36.0.96.0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=36.0.96.0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=36.0.96.0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=36.0.96.0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=253.122.17.92
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=253.204.130.248
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=253.204.130.248
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=253.204.130.248
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=253.204.130.248
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=254.128.0.0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=254.128.0.0
+Found route table=ff, protocol=2, scope=0, type=2, prefixlen=80, dst=254.128.0.0
+Found route table=ff, protocol=2, scope=0, type=5, prefixlen=8, dst=255.0.0.0
+Found route table=ff, protocol=2, scope=0, type=5, prefixlen=8, dst=255.0.0.0
+Found route table=ff, protocol=2, scope=0, type=5, prefixlen=8, dst=255.0.0.0
+[       OK ] NetlinkRouteTest.GetRouteDump (0 ms)
+[ RUN      ] NetlinkRouteTest.GetRouteRequest
+Found route table=ff, protocol=0, scope=0, type=2, len=4c, dst=127.0.0.2, oif=
+[       OK ] NetlinkRouteTest.GetRouteRequest (0 ms)
+[ RUN      ] NetlinkRouteTest.GetRuleDump
+Found rule: family=2, table=255, action=1
+Found rule: family=2, table=254, action=1
+Found rule: family=2, table=253, action=1
+Found rule: family=2, table=0, action=7
+Found rule: family=2, table=52, action=1
+Found rule: family=2, table=254, action=1
+Found rule: family=2, table=253, action=1
+Found rule: family=128, table=253, action=1
+Found rule: family=129, table=254, action=1
+Found rule: family=10, table=255, action=1
+Found rule: family=10, table=254, action=1
+Found rule: family=10, table=253, action=1
+Found rule: family=10, table=0, action=7
+Found rule: family=10, table=52, action=1
+Found rule: family=10, table=254, action=1
+[       OK ] NetlinkRouteTest.GetRuleDump (0 ms)
+[ RUN      ] NetlinkRouteTest.RecvmsgTrunc
+[       OK ] NetlinkRouteTest.RecvmsgTrunc (0 ms)
+[ RUN      ] NetlinkRouteTest.RecvmsgTruncPeek
+[       OK ] NetlinkRouteTest.RecvmsgTruncPeek (0 ms)
+[ RUN      ] NetlinkRouteTest.NoPasscredNoCreds
+[       OK ] NetlinkRouteTest.NoPasscredNoCreds (0 ms)
+[ RUN      ] NetlinkRouteTest.PasscredCreds
+[       OK ] NetlinkRouteTest.PasscredCreds (0 ms)
+[ RUN      ] NetlinkRouteTest.VethAdd
+test/syscalls/linux/socket_netlink_route.cc:1740: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteTest.VethAdd (0 ms)
+[----------] 27 tests from NetlinkRouteTest (3 ms total)
+
+[----------] 6 tests from NetlinkRouteTest/SockOptTest
+[ RUN      ] NetlinkRouteTest/SockOptTest.GetSockOpt/0
+[       OK ] NetlinkRouteTest/SockOptTest.GetSockOpt/0 (0 ms)
+[ RUN      ] NetlinkRouteTest/SockOptTest.GetSockOpt/1
+[       OK ] NetlinkRouteTest/SockOptTest.GetSockOpt/1 (0 ms)
+[ RUN      ] NetlinkRouteTest/SockOptTest.GetSockOpt/2
+[       OK ] NetlinkRouteTest/SockOptTest.GetSockOpt/2 (0 ms)
+[ RUN      ] NetlinkRouteTest/SockOptTest.GetSockOpt/3
+[       OK ] NetlinkRouteTest/SockOptTest.GetSockOpt/3 (0 ms)
+[ RUN      ] NetlinkRouteTest/SockOptTest.GetSockOpt/4
+[       OK ] NetlinkRouteTest/SockOptTest.GetSockOpt/4 (0 ms)
+[ RUN      ] NetlinkRouteTest/SockOptTest.GetSockOpt/5
+[       OK ] NetlinkRouteTest/SockOptTest.GetSockOpt/5 (0 ms)
+[----------] 6 tests from NetlinkRouteTest/SockOptTest (0 ms total)
+
+[----------] 6 tests from _/NetlinkSetLinkTest
+[ RUN      ] _/NetlinkSetLinkTest.ChangeLinkName/0
+test/syscalls/linux/socket_netlink_route.cc:223: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeLinkName/0 (0 ms)
+[ RUN      ] _/NetlinkSetLinkTest.ChangeLinkName/1
+test/syscalls/linux/socket_netlink_route.cc:223: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeLinkName/1 (0 ms)
+[ RUN      ] _/NetlinkSetLinkTest.ChangeMTU/0
+test/syscalls/linux/socket_netlink_route.cc:281: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMTU/0 (0 ms)
+[ RUN      ] _/NetlinkSetLinkTest.ChangeMTU/1
+test/syscalls/linux/socket_netlink_route.cc:281: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMTU/1 (0 ms)
+[ RUN      ] _/NetlinkSetLinkTest.ChangeMACAddress/0
+test/syscalls/linux/socket_netlink_route.cc:334: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMACAddress/0 (0 ms)
+[ RUN      ] _/NetlinkSetLinkTest.ChangeMACAddress/1
+test/syscalls/linux/socket_netlink_route.cc:334: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMACAddress/1 (0 ms)
+[----------] 6 tests from _/NetlinkSetLinkTest (0 ms total)
+
+[----------] 8 tests from NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.NewRoute/0
+test/syscalls/linux/socket_netlink_route.cc:1100: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.NewRoute/0 (0 ms)
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.NewRoute/1
+test/syscalls/linux/socket_netlink_route.cc:1100: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.NewRoute/1 (0 ms)
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.DeleteRoute/0
+test/syscalls/linux/socket_netlink_route.cc:1198: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.DeleteRoute/0 (0 ms)
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.DeleteRoute/1
+test/syscalls/linux/socket_netlink_route.cc:1198: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.DeleteRoute/1 (0 ms)
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRoute/0
+test/syscalls/linux/socket_netlink_route.cc:1305: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRoute/0 (0 ms)
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRoute/1
+test/syscalls/linux/socket_netlink_route.cc:1305: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRoute/1 (0 ms)
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRule/0
+test/syscalls/linux/socket_netlink_route.cc:1412: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRule/0 (0 ms)
+[ RUN      ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRule/1
+test/syscalls/linux/socket_netlink_route.cc:1412: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRule/1 (0 ms)
+[----------] 8 tests from NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 47 tests from 4 test suites ran. (4 ms total)
+[  PASSED  ] 25 tests.
+[  SKIPPED ] 22 tests, listed below:
+[  SKIPPED ] NetlinkRouteTest.LinkUp
+[  SKIPPED ] NetlinkRouteTest.RemoveLoopbackByName
+[  SKIPPED ] NetlinkRouteTest.RemoveLoopbackByIndex
+[  SKIPPED ] NetlinkRouteTest.RemoveLinkByIndexNotFound
+[  SKIPPED ] NetlinkRouteTest.RemoveLinkByNameNotFound
+[  SKIPPED ] NetlinkRouteTest.AddAndRemoveAddr
+[  SKIPPED ] NetlinkRouteTest.LinkedToNetns
+[  SKIPPED ] NetlinkRouteTest.VethAdd
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeLinkName/0
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeLinkName/1
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMTU/0
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMTU/1
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMACAddress/0
+[  SKIPPED ] _/NetlinkSetLinkTest.ChangeMACAddress/1
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.NewRoute/0
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.NewRoute/1
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.DeleteRoute/0
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.DeleteRoute/1
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRoute/0
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRoute/1
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRule/0
+[  SKIPPED ] NetlinkRouteIpv4AndIpv6Tests/NetlinkRouteIpInvariantTest.AddAndRemoveRule/1
+Failed to match any benchmarks against regex: .

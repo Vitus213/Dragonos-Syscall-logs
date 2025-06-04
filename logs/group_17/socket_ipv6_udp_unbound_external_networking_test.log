@@ -1,0 +1,42 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest
+[ RUN      ] IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest.TestJoinLeaveMulticast/0
+Testing with IPv6 UDP socket
+test/syscalls/linux/socket_ipv6_udp_unbound_external_networking.cc:65: Failure
+Value of: RecvTimeout(receiver->get(), recv_buf, sizeof(recv_buf), 1 )
+Expected: is OK and has a value that is equal to 200
+  Actual: PosixError(errno=11 Resource temporarily unavailable) ret = RetryEINTR(recv)(sock, buf, buf_size, MSG_DONTWAIT)
+
+test/syscalls/linux/socket_ipv6_udp_unbound_external_networking.cc:69: Failure
+Expected equality of these values:
+  0
+  memcmp(send_buf, recv_buf, sizeof(send_buf))
+    Which is: 183
+
+[  FAILED  ] IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest.TestJoinLeaveMulticast/0, where GetParam() = 80-byte object <B0-4F 57-3B 9D-5B 00-00 0F-00 00-00 00-00 00-00 49-50 76-36 20-55 44-50 20-73 6F-63 6B-65 74-00 0A-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 0A-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 FB-88 9C-2D 9D-5B 00-00 C3-88 9C-2D 9D-5B 00-00> (1002 ms)
+[ RUN      ] IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest.TestJoinLeaveMulticast/1
+Testing with non-blocking IPv6 UDP socket
+test/syscalls/linux/socket_ipv6_udp_unbound_external_networking.cc:65: Failure
+Value of: RecvTimeout(receiver->get(), recv_buf, sizeof(recv_buf), 1 )
+Expected: is OK and has a value that is equal to 200
+  Actual: PosixError(errno=11 Resource temporarily unavailable) ret = RetryEINTR(recv)(sock, buf, buf_size, MSG_DONTWAIT)
+
+test/syscalls/linux/socket_ipv6_udp_unbound_external_networking.cc:69: Failure
+Expected equality of these values:
+  0
+  memcmp(send_buf, recv_buf, sizeof(send_buf))
+    Which is: 217
+
+[  FAILED  ] IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest.TestJoinLeaveMulticast/1, where GetParam() = 80-byte object <B0-5D 57-3B 9D-5B 00-00 1C-00 00-00 00-00 00-00 1C-00 00-00 00-00 00-00 20-73 6F-63 6B-65 74-00 0A-00 00-00 02-08 00-00 11-00 00-00 00-00 00-00 0A-00 00-00 02-08 00-00 11-00 00-00 00-00 00-00 FB-88 9C-2D 9D-5B 00-00 C3-88 9C-2D 9D-5B 00-00> (1001 ms)
+[----------] 2 tests from IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest (2003 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (2004 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest.TestJoinLeaveMulticast/0, where GetParam() = 80-byte object <B0-4F 57-3B 9D-5B 00-00 0F-00 00-00 00-00 00-00 49-50 76-36 20-55 44-50 20-73 6F-63 6B-65 74-00 0A-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 0A-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 FB-88 9C-2D 9D-5B 00-00 C3-88 9C-2D 9D-5B 00-00>
+[  FAILED  ] IPv6UDPUnboundSockets/IPv6UDPUnboundExternalNetworkingSocketTest.TestJoinLeaveMulticast/1, where GetParam() = 80-byte object <B0-5D 57-3B 9D-5B 00-00 1C-00 00-00 00-00 00-00 1C-00 00-00 00-00 00-00 20-73 6F-63 6B-65 74-00 0A-00 00-00 02-08 00-00 11-00 00-00 00-00 00-00 0A-00 00-00 02-08 00-00 11-00 00-00 00-00 00-00 FB-88 9C-2D 9D-5B 00-00 C3-88 9C-2D 9D-5B 00-00>
+
+ 2 FAILED TESTS
+Failed to match any benchmarks against regex: .

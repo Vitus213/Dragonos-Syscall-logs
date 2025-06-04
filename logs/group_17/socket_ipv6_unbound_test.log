@@ -1,0 +1,57 @@
+[==========] Running 16 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 16 tests from IPv6UnboundSockets/IPv6UnboundSocketTest
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.HopLimitDefault/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.HopLimitDefault/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.HopLimitDefault/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.HopLimitDefault/1 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimit/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimit/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimit/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimit/1 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.ResetHopLimitToDefault/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.ResetHopLimitToDefault/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.ResetHopLimitToDefault/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.ResetHopLimitToDefault/1 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.ZeroHopLimit/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.ZeroHopLimit/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.ZeroHopLimit/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.ZeroHopLimit/1 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidLargeHopLimit/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidLargeHopLimit/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidLargeHopLimit/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidLargeHopLimit/1 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidNegativeHopLimit/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidNegativeHopLimit/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidNegativeHopLimit/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.InvalidNegativeHopLimit/1 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetTtlDoesNotAffectHopLimit/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetTtlDoesNotAffectHopLimit/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetTtlDoesNotAffectHopLimit/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetTtlDoesNotAffectHopLimit/1 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimitDoesNotAffectTtl/0
+Testing with IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimitDoesNotAffectTtl/0 (0 ms)
+[ RUN      ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimitDoesNotAffectTtl/1
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPv6UnboundSockets/IPv6UnboundSocketTest.SetHopLimitDoesNotAffectTtl/1 (0 ms)
+[----------] 16 tests from IPv6UnboundSockets/IPv6UnboundSocketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 16 tests.
+Failed to match any benchmarks against regex: .

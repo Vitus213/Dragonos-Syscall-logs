@@ -1,0 +1,23 @@
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from NetdeviceTest
+[ RUN      ] NetdeviceTest.Loopback
+[       OK ] NetdeviceTest.Loopback (0 ms)
+[ RUN      ] NetdeviceTest.Netmask
+[       OK ] NetdeviceTest.Netmask (0 ms)
+[ RUN      ] NetdeviceTest.InterfaceName
+[       OK ] NetdeviceTest.InterfaceName (0 ms)
+[ RUN      ] NetdeviceTest.InterfaceFlags
+[       OK ] NetdeviceTest.InterfaceFlags (0 ms)
+[ RUN      ] NetdeviceTest.InterfaceMTU
+[       OK ] NetdeviceTest.InterfaceMTU (0 ms)
+[ RUN      ] NetdeviceTest.InterfaceQLEN
+[       OK ] NetdeviceTest.InterfaceQLEN (0 ms)
+[ RUN      ] NetdeviceTest.EthtoolGetTSInfo
+[       OK ] NetdeviceTest.EthtoolGetTSInfo (0 ms)
+[----------] 7 tests from NetdeviceTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+Failed to match any benchmarks against regex: .

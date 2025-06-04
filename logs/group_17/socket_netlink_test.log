@@ -1,0 +1,33 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from ProtocolTest/NetlinkTest
+[ RUN      ] ProtocolTest/NetlinkTest.Types/0
+[       OK ] ProtocolTest/NetlinkTest.Types/0 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.Types/1
+[       OK ] ProtocolTest/NetlinkTest.Types/1 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.AutomaticPort/0
+[       OK ] ProtocolTest/NetlinkTest.AutomaticPort/0 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.AutomaticPort/1
+[       OK ] ProtocolTest/NetlinkTest.AutomaticPort/1 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.ConnectBinds/0
+[       OK ] ProtocolTest/NetlinkTest.ConnectBinds/0 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.ConnectBinds/1
+[       OK ] ProtocolTest/NetlinkTest.ConnectBinds/1 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.GetPeerName/0
+[       OK ] ProtocolTest/NetlinkTest.GetPeerName/0 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.GetPeerName/1
+[       OK ] ProtocolTest/NetlinkTest.GetPeerName/1 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.GetSendTimeout/0
+[       OK ] ProtocolTest/NetlinkTest.GetSendTimeout/0 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.GetSendTimeout/1
+[       OK ] ProtocolTest/NetlinkTest.GetSendTimeout/1 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.GetReceiveTimeout/0
+[       OK ] ProtocolTest/NetlinkTest.GetReceiveTimeout/0 (0 ms)
+[ RUN      ] ProtocolTest/NetlinkTest.GetReceiveTimeout/1
+[       OK ] ProtocolTest/NetlinkTest.GetReceiveTimeout/1 (0 ms)
+[----------] 12 tests from ProtocolTest/NetlinkTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 12 tests.
+Failed to match any benchmarks against regex: .

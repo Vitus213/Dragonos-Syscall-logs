@@ -1,0 +1,24 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest
+[ RUN      ] IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest.JoinSubnet/0
+Testing with IPv6 UDP socket
+test/syscalls/linux/socket_ipv6_udp_unbound_netlink.cc:32: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest.JoinSubnet/0 (0 ms)
+[ RUN      ] IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest.JoinSubnet/1
+Testing with non-blocking IPv6 UDP socket
+test/syscalls/linux/socket_ipv6_udp_unbound_netlink.cc:32: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest.JoinSubnet/1 (0 ms)
+[----------] 2 tests from IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest.JoinSubnet/0
+[  SKIPPED ] IPv6UDPSockets/IPv6UDPUnboundSocketNetlinkTest.JoinSubnet/1
+Failed to match any benchmarks against regex: .
