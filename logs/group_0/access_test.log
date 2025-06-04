@@ -1,0 +1,51 @@
+[==========] Running 18 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 15 tests from AccessTest
+[ RUN      ] AccessTest.RelativeFile
+[       OK ] AccessTest.RelativeFile (0 ms)
+[ RUN      ] AccessTest.RelativeDir
+[       OK ] AccessTest.RelativeDir (0 ms)
+[ RUN      ] AccessTest.AbsFile
+[       OK ] AccessTest.AbsFile (0 ms)
+[ RUN      ] AccessTest.AbsDir
+[       OK ] AccessTest.AbsDir (0 ms)
+[ RUN      ] AccessTest.RelDoesNotExist
+[       OK ] AccessTest.RelDoesNotExist (0 ms)
+[ RUN      ] AccessTest.AbsDoesNotExist
+[       OK ] AccessTest.AbsDoesNotExist (0 ms)
+[ RUN      ] AccessTest.InvalidMode
+[       OK ] AccessTest.InvalidMode (0 ms)
+[ RUN      ] AccessTest.InvalidModeRoot
+[       OK ] AccessTest.InvalidModeRoot (0 ms)
+[ RUN      ] AccessTest.InvalidModes
+[       OK ] AccessTest.InvalidModes (0 ms)
+[ RUN      ] AccessTest.NoPerms
+[       OK ] AccessTest.NoPerms (0 ms)
+[ RUN      ] AccessTest.InvalidName
+[       OK ] AccessTest.InvalidName (0 ms)
+[ RUN      ] AccessTest.UsrReadOnly
+[       OK ] AccessTest.UsrReadOnly (0 ms)
+[ RUN      ] AccessTest.UsrReadExec
+[       OK ] AccessTest.UsrReadExec (0 ms)
+[ RUN      ] AccessTest.UsrReadWrite
+[       OK ] AccessTest.UsrReadWrite (0 ms)
+[ RUN      ] AccessTest.UsrReadWriteExec
+[       OK ] AccessTest.UsrReadWriteExec (0 ms)
+[----------] 15 tests from AccessTest (5 ms total)
+
+[----------] 1 test from FaccessatTest
+[ RUN      ] FaccessatTest.SymlinkFollowed
+[       OK ] FaccessatTest.SymlinkFollowed (0 ms)
+[----------] 1 test from FaccessatTest (0 ms total)
+
+[----------] 2 tests from Faccessat2Test
+[ RUN      ] Faccessat2Test.SymlinkFollowedByDefault
+[       OK ] Faccessat2Test.SymlinkFollowedByDefault (0 ms)
+[ RUN      ] Faccessat2Test.SymlinkNofollow
+[       OK ] Faccessat2Test.SymlinkNofollow (0 ms)
+[----------] 2 tests from Faccessat2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 3 test suites ran. (5 ms total)
+[  PASSED  ] 18 tests.
+Failed to match any benchmarks against regex: .

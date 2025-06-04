@@ -1,0 +1,19 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from AlarmTest
+[ RUN      ] AlarmTest.Interrupt
+[       OK ] AlarmTest.Interrupt (20000 ms)
+[ RUN      ] AlarmTest.Restart
+[       OK ] AlarmTest.Restart (30000 ms)
+[ RUN      ] AlarmTest.SaSiginfo
+[       OK ] AlarmTest.SaSiginfo (20000 ms)
+[ RUN      ] AlarmTest.SaInterrupt
+[       OK ] AlarmTest.SaInterrupt (20000 ms)
+[ RUN      ] AlarmTest.UserModeSpinning
+[       OK ] AlarmTest.UserModeSpinning (20000 ms)
+[----------] 5 tests from AlarmTest (110001 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (110001 ms total)
+[  PASSED  ] 5 tests.
+Failed to match any benchmarks against regex: .

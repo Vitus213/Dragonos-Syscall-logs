@@ -1,0 +1,21 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from AllUnixDomainSockets/AllSocketPairTest
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/2
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/3
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddrCoalesced/3 (0 ms)
+[----------] 4 tests from AllUnixDomainSockets/AllSocketPairTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

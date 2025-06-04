@@ -1,0 +1,35 @@
+[==========] Running 13 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 13 tests from AffinityTest
+[ RUN      ] AffinityTest.SchedGetAffinityImplemented
+[       OK ] AffinityTest.SchedGetAffinityImplemented (0 ms)
+[ RUN      ] AffinityTest.SchedGetAffinityInvalidPID
+[       OK ] AffinityTest.SchedGetAffinityInvalidPID (0 ms)
+[ RUN      ] AffinityTest.SchedSetAffinityInvalidPID
+[       OK ] AffinityTest.SchedSetAffinityInvalidPID (0 ms)
+[ RUN      ] AffinityTest.SchedSetAffinityZeroMask
+[       OK ] AffinityTest.SchedSetAffinityZeroMask (0 ms)
+[ RUN      ] AffinityTest.SchedSetAffinityNonexistentCPUDropped
+[       OK ] AffinityTest.SchedSetAffinityNonexistentCPUDropped (0 ms)
+[ RUN      ] AffinityTest.SchedSetAffinityOnlyNonexistentCPUFails
+[       OK ] AffinityTest.SchedSetAffinityOnlyNonexistentCPUFails (0 ms)
+[ RUN      ] AffinityTest.SchedSetAffinityInvalidSize
+[       OK ] AffinityTest.SchedSetAffinityInvalidSize (0 ms)
+[ RUN      ] AffinityTest.Sanity
+[       OK ] AffinityTest.Sanity (0 ms)
+[ RUN      ] AffinityTest.NewThread
+[       OK ] AffinityTest.NewThread (0 ms)
+[ RUN      ] AffinityTest.ConsistentWithProcCpuInfo
+[       OK ] AffinityTest.ConsistentWithProcCpuInfo (0 ms)
+[ RUN      ] AffinityTest.ConsistentWithProcStat
+[       OK ] AffinityTest.ConsistentWithProcStat (0 ms)
+[ RUN      ] AffinityTest.SmallCpuMask
+[       OK ] AffinityTest.SmallCpuMask (0 ms)
+[ RUN      ] AffinityTest.LargeCpuMask
+[       OK ] AffinityTest.LargeCpuMask (0 ms)
+[----------] 13 tests from AffinityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 13 tests.
+Failed to match any benchmarks against regex: .

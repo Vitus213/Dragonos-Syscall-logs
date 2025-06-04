@@ -1,0 +1,121 @@
+[==========] Running 14 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 8 tests from AIOTest
+[ RUN      ] AIOTest.BasicWrite
+[       OK ] AIOTest.BasicWrite (23 ms)
+[ RUN      ] AIOTest.BadWrite
+[       OK ] AIOTest.BadWrite (30 ms)
+[ RUN      ] AIOTest.ExitWithPendingIo
+[       OK ] AIOTest.ExitWithPendingIo (26 ms)
+[ RUN      ] AIOTest.CloneVm
+[       OK ] AIOTest.CloneVm (26 ms)
+[ RUN      ] AIOTest.Mremap
+line: 58627cb25000-58627cd8e000 r-xp 00000000 00:33 521186                     /home/dragonos/Downloads/tmp-syscalltest/aio_test
+line: 58627cd8f000-58627cd94000 r--p 00269000 00:33 521186                     /home/dragonos/Downloads/tmp-syscalltest/aio_test
+line: 58627cd94000-58627cd95000 rw-p 0026e000 00:33 521186                     /home/dragonos/Downloads/tmp-syscalltest/aio_test
+line: 58627cd95000-58627cd98000 rw-p 00000000 00:00 0 
+line: 5862ba404000-5862ba425000 rw-p 00000000 00:00 0                          [heap]
+line: 7276e1c5c000-7276e1c81000 rw-p 00000000 00:00 0 
+line: 7276e1c81000-7276e1ca9000 r--p 00000000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1ca9000-7276e1e31000 r-xp 00028000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e31000-7276e1e80000 r--p 001b0000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e80000-7276e1e84000 r--p 001fe000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e84000-7276e1e86000 rw-p 00202000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e86000-7276e1e93000 rw-p 00000000 00:00 0 
+line: 7276e1e93000-7276e1e97000 r--p 00000000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1e97000-7276e1ebb000 r-xp 00004000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ebb000-7276e1ebf000 r--p 00028000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ebf000-7276e1ec0000 r--p 0002b000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ec0000-7276e1ec1000 rw-p 0002c000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ec1000-7276e1ed1000 r--p 00000000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1ed1000-7276e1f50000 r-xp 00010000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1f50000-7276e1fa8000 r--p 0008f000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1fa8000-7276e1fa9000 r--p 000e7000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1fa9000-7276e1faa000 rw-p 000e8000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1faa000-7276e2047000 r--p 00000000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2047000-7276e218f000 r-xp 0009d000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e218f000-7276e2216000 r--p 001e5000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2216000-7276e2221000 r--p 0026b000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2221000-7276e2224000 rw-p 00276000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2224000-7276e2228000 rw-p 00000000 00:00 0 
+line: 7276e2229000-7276e222c000 rw-s 00000000 00:14 564699                     /[aio] (deleted)
+line: 7276e222c000-7276e223e000 rw-p 00000000 00:00 0 
+line: 7276e223e000-7276e2242000 r--p 00000000 00:00 0                          [vvar]
+line: 7276e2242000-7276e2244000 r-xp 00000000 00:00 0                          [vdso]
+line: 7276e2244000-7276e2245000 r--p 00000000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e2245000-7276e2270000 r-xp 00001000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e2270000-7276e227a000 r--p 0002c000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e227a000-7276e227c000 r--p 00036000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e227c000-7276e227e000 rw-p 00038000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7ffc791cd000-7ffc791ef000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] AIOTest.Mremap (32 ms)
+[ RUN      ] AIOTest.MremapExpansion
+line: 58627cb25000-58627cd8e000 r-xp 00000000 00:33 521186                     /home/dragonos/Downloads/tmp-syscalltest/aio_test
+line: 58627cd8f000-58627cd94000 r--p 00269000 00:33 521186                     /home/dragonos/Downloads/tmp-syscalltest/aio_test
+line: 58627cd94000-58627cd95000 rw-p 0026e000 00:33 521186                     /home/dragonos/Downloads/tmp-syscalltest/aio_test
+line: 58627cd95000-58627cd98000 rw-p 00000000 00:00 0 
+line: 5862ba404000-5862ba425000 rw-p 00000000 00:00 0                          [heap]
+line: 7276e1c5c000-7276e1c81000 rw-p 00000000 00:00 0 
+line: 7276e1c81000-7276e1ca9000 r--p 00000000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1ca9000-7276e1e31000 r-xp 00028000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e31000-7276e1e80000 r--p 001b0000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e80000-7276e1e84000 r--p 001fe000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e84000-7276e1e86000 rw-p 00202000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7276e1e86000-7276e1e93000 rw-p 00000000 00:00 0 
+line: 7276e1e93000-7276e1e97000 r--p 00000000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1e97000-7276e1ebb000 r-xp 00004000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ebb000-7276e1ebf000 r--p 00028000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ebf000-7276e1ec0000 r--p 0002b000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ec0000-7276e1ec1000 rw-p 0002c000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 7276e1ec1000-7276e1ed1000 r--p 00000000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1ed1000-7276e1f50000 r-xp 00010000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1f50000-7276e1fa8000 r--p 0008f000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1fa8000-7276e1fa9000 r--p 000e7000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1fa9000-7276e1faa000 rw-p 000e8000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 7276e1faa000-7276e2047000 r--p 00000000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2047000-7276e218f000 r-xp 0009d000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e218f000-7276e2216000 r--p 001e5000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2216000-7276e2221000 r--p 0026b000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2221000-7276e2224000 rw-p 00276000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7276e2224000-7276e2228000 rw-p 00000000 00:00 0 
+line: 7276e2229000-7276e222c000 rw-s 00000000 00:14 564703                     /[aio] (deleted)
+line: 7276e222c000-7276e223e000 rw-p 00000000 00:00 0 
+line: 7276e223e000-7276e2242000 r--p 00000000 00:00 0                          [vvar]
+line: 7276e2242000-7276e2244000 r-xp 00000000 00:00 0                          [vdso]
+line: 7276e2244000-7276e2245000 r--p 00000000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e2245000-7276e2270000 r-xp 00001000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e2270000-7276e227a000 r--p 0002c000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e227a000-7276e227c000 r--p 00036000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7276e227c000-7276e227e000 rw-p 00038000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7ffc791cd000-7ffc791ef000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] AIOTest.MremapExpansion (40 ms)
+[ RUN      ] AIOTest.Mprotect
+[       OK ] AIOTest.Mprotect (0 ms)
+[ RUN      ] AIOTest.Timeout
+[       OK ] AIOTest.Timeout (35 ms)
+[----------] 8 tests from AIOTest (217 ms total)
+
+[----------] 4 tests from BadOffset/AIOReadWriteParamTest
+[ RUN      ] BadOffset/AIOReadWriteParamTest.BadOffset/0
+[       OK ] BadOffset/AIOReadWriteParamTest.BadOffset/0 (26 ms)
+[ RUN      ] BadOffset/AIOReadWriteParamTest.BadOffset/1
+[       OK ] BadOffset/AIOReadWriteParamTest.BadOffset/1 (24 ms)
+[ RUN      ] BadOffset/AIOReadWriteParamTest.BadOffset/2
+[       OK ] BadOffset/AIOReadWriteParamTest.BadOffset/2 (21 ms)
+[ RUN      ] BadOffset/AIOReadWriteParamTest.BadOffset/3
+[       OK ] BadOffset/AIOReadWriteParamTest.BadOffset/3 (30 ms)
+[----------] 4 tests from BadOffset/AIOReadWriteParamTest (104 ms total)
+
+[----------] 2 tests from BadIOVecs/AIOVectorizedParamTest
+[ RUN      ] BadIOVecs/AIOVectorizedParamTest.BadIOVecs/0
+[       OK ] BadIOVecs/AIOVectorizedParamTest.BadIOVecs/0 (29 ms)
+[ RUN      ] BadIOVecs/AIOVectorizedParamTest.BadIOVecs/1
+[       OK ] BadIOVecs/AIOVectorizedParamTest.BadIOVecs/1 (30 ms)
+[----------] 2 tests from BadIOVecs/AIOVectorizedParamTest (60 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 3 test suites ran. (383 ms total)
+[  PASSED  ] 14 tests.
+Failed to match any benchmarks against regex: .

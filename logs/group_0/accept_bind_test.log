@@ -1,0 +1,753 @@
+[==========] Running 248 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 248 tests from AllUnixDomainSockets/AllSocketPairTest
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Listen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Listen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenIncreaseBacklog/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenDecreaseBacklog/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/0 (13 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/1 (14 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/2 (13 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/3 (13 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/4 (12 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/5 (12 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/6 (12 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenBacklogSizes/7 (12 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ListenWithoutBind/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleBind/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindListenBind/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleListen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.DoubleConnect/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Connect/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Connect/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithWrongType/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectNonListening/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToFilePath/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectToInvalidAbstractPath/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.SelfConnect/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.ConnectWithoutListen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.Accept/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.Accept/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptValidAddrLen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptNegativeAddrLen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptLargePositiveAddrLen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptVeryLargePositiveAddrLen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutBind/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.AcceptWithoutListen/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.GetRemoteAddress/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundGetLocalAddress/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundGetLocalAddress/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundConnector/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.UnboundSenderAddr/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BoundSenderAddr/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterConnectSenderAddr/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/4
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/5
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/6
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/7
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/AllSocketPairTest.BindAfterAcceptSenderAddr/7 (0 ms)
+[----------] 248 tests from AllUnixDomainSockets/AllSocketPairTest (128 ms total)
+
+[----------] Global test environment tear-down
+[==========] 248 tests from 1 test suite ran. (129 ms total)
+[  PASSED  ] 248 tests.
+Failed to match any benchmarks against regex: .
