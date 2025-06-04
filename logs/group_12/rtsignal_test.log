@@ -1,0 +1,17 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from RtSignalTest
+[ RUN      ] RtSignalTest.InvalidTID
+[       OK ] RtSignalTest.InvalidTID (0 ms)
+[ RUN      ] RtSignalTest.InvalidCodes
+[       OK ] RtSignalTest.InvalidCodes (0 ms)
+[ RUN      ] RtSignalTest.ValueDelivered
+[       OK ] RtSignalTest.ValueDelivered (0 ms)
+[ RUN      ] RtSignalTest.SignoMatch
+[       OK ] RtSignalTest.SignoMatch (0 ms)
+[----------] 4 tests from RtSignalTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

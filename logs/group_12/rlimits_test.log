@@ -1,0 +1,48 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from RlimitTest
+[ RUN      ] RlimitTest.SetRlimitHigher
+test/syscalls/linux/rlimits.cc:56: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_RESOURCE))
+
+[  SKIPPED ] RlimitTest.SetRlimitHigher (0 ms)
+[ RUN      ] RlimitTest.UnprivilegedSetRlimit
+[       OK ] RlimitTest.UnprivilegedSetRlimit (0 ms)
+[ RUN      ] RlimitTest.SetSoftRlimitAboveHard
+test/syscalls/linux/rlimits.cc:96: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_RESOURCE))
+
+[  SKIPPED ] RlimitTest.SetSoftRlimitAboveHard (0 ms)
+[ RUN      ] RlimitTest.RlimitNProc
+test/syscalls/linux/rlimits.cc:106: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] RlimitTest.RlimitNProc (0 ms)
+[ RUN      ] RlimitTest.ParseProcPidLimits
+line: Max cpu time              unlimited            unlimited            seconds   
+line: Max file size             unlimited            unlimited            bytes     
+line: Max data size             unlimited            unlimited            bytes     
+line: Max stack size            8388608              unlimited            bytes     
+line: Max core file size        0                    unlimited            bytes     
+line: Max resident set          unlimited            unlimited            bytes     
+line: Max processes             60872                60872                processes 
+line: Max open files            1000                 20000                files     
+line: Max locked memory         2015154176           2015154176           bytes     
+line: Max address space         unlimited            unlimited            bytes     
+line: Max file locks            unlimited            unlimited            locks     
+line: Max pending signals       60872                60872                signals   
+line: Max msgqueue size         819200               819200               bytes     
+line: Max nice priority         0                    0                    
+line: Max realtime priority     0                    0                    
+line: Max realtime timeout      unlimited            unlimited            us        
+[       OK ] RlimitTest.ParseProcPidLimits (0 ms)
+[----------] 5 tests from RlimitTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 2 tests.
+[  SKIPPED ] 3 tests, listed below:
+[  SKIPPED ] RlimitTest.SetRlimitHigher
+[  SKIPPED ] RlimitTest.SetSoftRlimitAboveHard
+[  SKIPPED ] RlimitTest.RlimitNProc
+Failed to match any benchmarks against regex: .

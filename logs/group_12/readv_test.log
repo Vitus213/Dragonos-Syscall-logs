@@ -1,0 +1,76 @@
+[==========] Running 32 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 31 tests from ReadvTest
+[ RUN      ] ReadvTest.ReadOneBufferPerByte_File
+[       OK ] ReadvTest.ReadOneBufferPerByte_File (0 ms)
+[ RUN      ] ReadvTest.ReadOneBufferPerByte_Pipe
+[       OK ] ReadvTest.ReadOneBufferPerByte_Pipe (0 ms)
+[ RUN      ] ReadvTest.ReadOneHalfAtATime_File
+[       OK ] ReadvTest.ReadOneHalfAtATime_File (0 ms)
+[ RUN      ] ReadvTest.ReadOneHalfAtATime_Pipe
+[       OK ] ReadvTest.ReadOneHalfAtATime_Pipe (0 ms)
+[ RUN      ] ReadvTest.ReadAllOneBuffer_File
+[       OK ] ReadvTest.ReadAllOneBuffer_File (0 ms)
+[ RUN      ] ReadvTest.ReadAllOneBuffer_Pipe
+[       OK ] ReadvTest.ReadAllOneBuffer_Pipe (0 ms)
+[ RUN      ] ReadvTest.ReadAllOneLargeBuffer_File
+[       OK ] ReadvTest.ReadAllOneLargeBuffer_File (0 ms)
+[ RUN      ] ReadvTest.ReadAllOneLargeBuffer_Pipe
+[       OK ] ReadvTest.ReadAllOneLargeBuffer_Pipe (0 ms)
+[ RUN      ] ReadvTest.ReadBuffersOverlapping_File
+[       OK ] ReadvTest.ReadBuffersOverlapping_File (0 ms)
+[ RUN      ] ReadvTest.ReadBuffersOverlapping_Pipe
+[       OK ] ReadvTest.ReadBuffersOverlapping_Pipe (0 ms)
+[ RUN      ] ReadvTest.ReadBuffersDiscontinuous_File
+[       OK ] ReadvTest.ReadBuffersDiscontinuous_File (0 ms)
+[ RUN      ] ReadvTest.ReadBuffersDiscontinuous_Pipe
+[       OK ] ReadvTest.ReadBuffersDiscontinuous_Pipe (0 ms)
+[ RUN      ] ReadvTest.ReadIovecsCompletelyFilled_File
+[       OK ] ReadvTest.ReadIovecsCompletelyFilled_File (0 ms)
+[ RUN      ] ReadvTest.ReadIovecsCompletelyFilled_Pipe
+[       OK ] ReadvTest.ReadIovecsCompletelyFilled_Pipe (0 ms)
+[ RUN      ] ReadvTest.BadFileDescriptor
+[       OK ] ReadvTest.BadFileDescriptor (0 ms)
+[ RUN      ] ReadvTest.BadIovecsPointer_File
+[       OK ] ReadvTest.BadIovecsPointer_File (0 ms)
+[ RUN      ] ReadvTest.BadIovecsPointer_Pipe
+[       OK ] ReadvTest.BadIovecsPointer_Pipe (0 ms)
+[ RUN      ] ReadvTest.BadIovecBase_File
+[       OK ] ReadvTest.BadIovecBase_File (0 ms)
+[ RUN      ] ReadvTest.BadIovecBase_Pipe
+[       OK ] ReadvTest.BadIovecBase_Pipe (0 ms)
+[ RUN      ] ReadvTest.ZeroIovecs_File
+[       OK ] ReadvTest.ZeroIovecs_File (0 ms)
+[ RUN      ] ReadvTest.ZeroIovecs_Pipe
+[       OK ] ReadvTest.ZeroIovecs_Pipe (0 ms)
+[ RUN      ] ReadvTest.NotReadable_File
+[       OK ] ReadvTest.NotReadable_File (0 ms)
+[ RUN      ] ReadvTest.NotReadable_Pipe
+[       OK ] ReadvTest.NotReadable_Pipe (0 ms)
+[ RUN      ] ReadvTest.DirNotReadable
+[       OK ] ReadvTest.DirNotReadable (0 ms)
+[ RUN      ] ReadvTest.OffsetIncremented
+[       OK ] ReadvTest.OffsetIncremented (0 ms)
+[ RUN      ] ReadvTest.EndOfFile
+[       OK ] ReadvTest.EndOfFile (0 ms)
+[ RUN      ] ReadvTest.WouldBlock_Pipe
+[       OK ] ReadvTest.WouldBlock_Pipe (0 ms)
+[ RUN      ] ReadvTest.ZeroBuffer
+[       OK ] ReadvTest.ZeroBuffer (0 ms)
+[ RUN      ] ReadvTest.NullIovecInNonemptyArray
+[       OK ] ReadvTest.NullIovecInNonemptyArray (0 ms)
+[ RUN      ] ReadvTest.IovecOutsideTaskAddressRangeInNonemptyArray
+[       OK ] ReadvTest.IovecOutsideTaskAddressRangeInNonemptyArray (0 ms)
+[ RUN      ] ReadvTest.ReadvWithOpath
+[       OK ] ReadvTest.ReadvWithOpath (0 ms)
+[----------] 31 tests from ReadvTest (8 ms total)
+
+[----------] 1 test from ReadvTestNoFixture
+[ RUN      ] ReadvTestNoFixture.TruncatedAtMax
+[       OK ] ReadvTestNoFixture.TruncatedAtMax (1352 ms)
+[----------] 1 test from ReadvTestNoFixture (1352 ms total)
+
+[----------] Global test environment tear-down
+[==========] 32 tests from 2 test suites ran. (1360 ms total)
+[  PASSED  ] 32 tests.
+Failed to match any benchmarks against regex: .

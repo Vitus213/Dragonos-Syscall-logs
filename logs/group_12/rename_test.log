@@ -1,0 +1,105 @@
+[==========] Running 36 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 33 tests from RenameTest
+[ RUN      ] RenameTest.RootToAnything
+[       OK ] RenameTest.RootToAnything (0 ms)
+[ RUN      ] RenameTest.AnythingToRoot
+[       OK ] RenameTest.AnythingToRoot (0 ms)
+[ RUN      ] RenameTest.SourceIsAncestorOfTarget
+[       OK ] RenameTest.SourceIsAncestorOfTarget (0 ms)
+[ RUN      ] RenameTest.TargetIsAncestorOfSource
+[       OK ] RenameTest.TargetIsAncestorOfSource (0 ms)
+[ RUN      ] RenameTest.FileToSelf
+[       OK ] RenameTest.FileToSelf (0 ms)
+[ RUN      ] RenameTest.DirectoryToSelf
+[       OK ] RenameTest.DirectoryToSelf (0 ms)
+[ RUN      ] RenameTest.FileToSameDirectory
+[       OK ] RenameTest.FileToSameDirectory (0 ms)
+[ RUN      ] RenameTest.FileNameTooLong
+[       OK ] RenameTest.FileNameTooLong (0 ms)
+[ RUN      ] RenameTest.RenameAfterWritableFDAndChmod
+/tmp/gvisor_test_temp_13_1749026117319246443: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_13_1749026117319246443 does not exist
+[       OK ] RenameTest.RenameAfterWritableFDAndChmod (0 ms)
+[ RUN      ] RenameTest.DirectoryToSameDirectory
+[       OK ] RenameTest.DirectoryToSameDirectory (0 ms)
+[ RUN      ] RenameTest.FileToParentDirectory
+[       OK ] RenameTest.FileToParentDirectory (0 ms)
+[ RUN      ] RenameTest.DirectoryToParentDirectory
+[       OK ] RenameTest.DirectoryToParentDirectory (0 ms)
+[ RUN      ] RenameTest.FileToChildDirectory
+[       OK ] RenameTest.FileToChildDirectory (0 ms)
+[ RUN      ] RenameTest.DirectoryToChildDirectory
+[       OK ] RenameTest.DirectoryToChildDirectory (0 ms)
+[ RUN      ] RenameTest.DirectoryToOwnChildDirectory
+[       OK ] RenameTest.DirectoryToOwnChildDirectory (0 ms)
+[ RUN      ] RenameTest.FileOverwritesFile
+[       OK ] RenameTest.FileOverwritesFile (0 ms)
+[ RUN      ] RenameTest.DirectoryOverwritesDirectoryLinkCount
+/tmp/gvisor_test_temp_39_1749026117322487329/gvisor_test_temp_41_1749026117322648581: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_39_1749026117322487329/gvisor_test_temp_41_1749026117322648581 does not exist
+[       OK ] RenameTest.DirectoryOverwritesDirectoryLinkCount (0 ms)
+[ RUN      ] RenameTest.FileDoesNotExist
+[       OK ] RenameTest.FileDoesNotExist (0 ms)
+[ RUN      ] RenameTest.FileDoesNotOverwriteDirectory
+[       OK ] RenameTest.FileDoesNotOverwriteDirectory (0 ms)
+[ RUN      ] RenameTest.DirectoryDoesNotOverwriteFile
+[       OK ] RenameTest.DirectoryDoesNotOverwriteFile (0 ms)
+[ RUN      ] RenameTest.DirectoryOverwritesEmptyDirectory
+[       OK ] RenameTest.DirectoryOverwritesEmptyDirectory (0 ms)
+[ RUN      ] RenameTest.FailsWithDots
+[       OK ] RenameTest.FailsWithDots (0 ms)
+[ RUN      ] RenameTest.DirectoryDoesNotOverwriteNonemptyDirectory
+[       OK ] RenameTest.DirectoryDoesNotOverwriteNonemptyDirectory (0 ms)
+[ RUN      ] RenameTest.FailsWhenOldParentNotWritable
+/tmp/gvisor_test_temp_57_1749026117325388738/gvisor_test_temp_58_1749026117325451947: failed to delete 0 directories and 1 files: PosixError(errno=13 Permission denied) unlink /tmp/gvisor_test_temp_57_1749026117325388738/gvisor_test_temp_58_1749026117325451947
+/tmp/gvisor_test_temp_57_1749026117325388738: failed to delete 1 directories and 1 files: No Error
+[       OK ] RenameTest.FailsWhenOldParentNotWritable (0 ms)
+[ RUN      ] RenameTest.FailsWhenNewParentNotWritable
+[       OK ] RenameTest.FailsWhenNewParentNotWritable (0 ms)
+[ RUN      ] RenameTest.OverwriteFailsWhenNewParentNotWritable
+/tmp/gvisor_test_temp_67_1749026117326534316/gvisor_test_temp_68_1749026117326593447: failed to delete 0 directories and 1 files: PosixError(errno=13 Permission denied) unlink /tmp/gvisor_test_temp_67_1749026117326534316/gvisor_test_temp_68_1749026117326593447
+/tmp/gvisor_test_temp_67_1749026117326534316: failed to delete 1 directories and 1 files: No Error
+[       OK ] RenameTest.OverwriteFailsWhenNewParentNotWritable (0 ms)
+[ RUN      ] RenameTest.FileDoesNotExistWhenNewParentNotExecutable
+[       OK ] RenameTest.FileDoesNotExistWhenNewParentNotExecutable (0 ms)
+[ RUN      ] RenameTest.DirectoryWithOpenFdOverwritesEmptyDirectory
+[       OK ] RenameTest.DirectoryWithOpenFdOverwritesEmptyDirectory (0 ms)
+[ RUN      ] RenameTest.FileWithOpenFd
+/tmp/gvisor_test_temp_73_1749026117327687508/gvisor_test_temp_74_1749026117327751628/gvisor_test_temp_77_1749026117327919292: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_73_1749026117327687508/gvisor_test_temp_74_1749026117327751628/gvisor_test_temp_77_1749026117327919292 does not exist
+[       OK ] RenameTest.FileWithOpenFd (0 ms)
+[ RUN      ] RenameTest.PathEndingWithDots
+[       OK ] RenameTest.PathEndingWithDots (0 ms)
+[ RUN      ] RenameTest.SysfsPathEndingWithDots
+test/syscalls/linux/rename.cc:446: Skipped
+geteuid() != 0
+
+[  SKIPPED ] RenameTest.SysfsPathEndingWithDots (0 ms)
+[ RUN      ] RenameTest.SysfsFileToSelf
+test/syscalls/linux/rename.cc:455: Skipped
+geteuid() != 0
+
+[  SKIPPED ] RenameTest.SysfsFileToSelf (0 ms)
+[ RUN      ] RenameTest.SysfsDirectoryToSelf
+test/syscalls/linux/rename.cc:462: Skipped
+geteuid() != 0
+
+[  SKIPPED ] RenameTest.SysfsDirectoryToSelf (0 ms)
+[----------] 33 tests from RenameTest (12 ms total)
+
+[----------] 3 tests from Renameat2Test
+[ RUN      ] Renameat2Test.NoReplaceSuccess
+/tmp/gvisor_test_temp_83_1749026117329103963: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_83_1749026117329103963 does not exist
+[       OK ] Renameat2Test.NoReplaceSuccess (0 ms)
+[ RUN      ] Renameat2Test.NoReplaceExisting
+[       OK ] Renameat2Test.NoReplaceExisting (0 ms)
+[ RUN      ] Renameat2Test.NoReplaceDot
+[       OK ] Renameat2Test.NoReplaceDot (0 ms)
+[----------] 3 tests from Renameat2Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 36 tests from 2 test suites ran. (13 ms total)
+[  PASSED  ] 33 tests.
+[  SKIPPED ] 3 tests, listed below:
+[  SKIPPED ] RenameTest.SysfsPathEndingWithDots
+[  SKIPPED ] RenameTest.SysfsFileToSelf
+[  SKIPPED ] RenameTest.SysfsDirectoryToSelf
+Failed to match any benchmarks against regex: .

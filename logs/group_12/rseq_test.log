@@ -1,0 +1,139 @@
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from RseqTest
+[ RUN      ] RseqTest.Unaligned
+Unable to find runfiles: ERROR: external/bazel_tools/tools/cpp/runfiles/runfiles.cc(123): cannot find runfiles (argv0="")
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.Unaligned (0 ms)
+[ RUN      ] RseqTest.Register
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.Register (0 ms)
+[ RUN      ] RseqTest.DoubleRegister
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.DoubleRegister (0 ms)
+[ RUN      ] RseqTest.RegisterUnregister
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.RegisterUnregister (0 ms)
+[ RUN      ] RseqTest.UnregisterDifferentPtr
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.UnregisterDifferentPtr (0 ms)
+[ RUN      ] RseqTest.UnregisterDifferentSignature
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.UnregisterDifferentSignature (0 ms)
+[ RUN      ] RseqTest.CPU
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.CPU (0 ms)
+[ RUN      ] RseqTest.Abort
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.Abort (0 ms)
+[ RUN      ] RseqTest.AbortBefore
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.AbortBefore (0 ms)
+[ RUN      ] RseqTest.AbortSignature
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.AbortSignature (0 ms)
+[ RUN      ] RseqTest.AbortPreCommit
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.AbortPreCommit (0 ms)
+[ RUN      ] RseqTest.AbortClearsCS
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.AbortClearsCS (0 ms)
+[ RUN      ] RseqTest.InvalidAbortClearsCS
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.InvalidAbortClearsCS (0 ms)
+[ RUN      ] RseqTest.MembarrierResetsCpuIdStart
+test/syscalls/linux/rseq.cc:102: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] RseqTest.MembarrierResetsCpuIdStart (0 ms)
+[----------] 14 tests from RseqTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 14 tests, listed below:
+[  FAILED  ] RseqTest.Unaligned
+[  FAILED  ] RseqTest.Register
+[  FAILED  ] RseqTest.DoubleRegister
+[  FAILED  ] RseqTest.RegisterUnregister
+[  FAILED  ] RseqTest.UnregisterDifferentPtr
+[  FAILED  ] RseqTest.UnregisterDifferentSignature
+[  FAILED  ] RseqTest.CPU
+[  FAILED  ] RseqTest.Abort
+[  FAILED  ] RseqTest.AbortBefore
+[  FAILED  ] RseqTest.AbortSignature
+[  FAILED  ] RseqTest.AbortPreCommit
+[  FAILED  ] RseqTest.AbortClearsCS
+[  FAILED  ] RseqTest.InvalidAbortClearsCS
+[  FAILED  ] RseqTest.MembarrierResetsCpuIdStart
+
+14 FAILED TESTS
+Failed to match any benchmarks against regex: .

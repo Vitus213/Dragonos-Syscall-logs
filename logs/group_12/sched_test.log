@@ -1,0 +1,26 @@
+[==========] Running 7 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from SchedGetparamTest
+[ RUN      ] SchedGetparamTest.ReturnsZero
+[       OK ] SchedGetparamTest.ReturnsZero (0 ms)
+[ RUN      ] SchedGetparamTest.InvalidPIDReturnsEINVAL
+[       OK ] SchedGetparamTest.InvalidPIDReturnsEINVAL (0 ms)
+[ RUN      ] SchedGetparamTest.ImpossiblePIDReturnsESRCH
+[       OK ] SchedGetparamTest.ImpossiblePIDReturnsESRCH (0 ms)
+[ RUN      ] SchedGetparamTest.NullParamReturnsEINVAL
+[       OK ] SchedGetparamTest.NullParamReturnsEINVAL (0 ms)
+[----------] 4 tests from SchedGetparamTest (0 ms total)
+
+[----------] 3 tests from SchedGetschedulerTest
+[ RUN      ] SchedGetschedulerTest.ReturnsSchedOther
+[       OK ] SchedGetschedulerTest.ReturnsSchedOther (0 ms)
+[ RUN      ] SchedGetschedulerTest.ReturnsEINVAL
+[       OK ] SchedGetschedulerTest.ReturnsEINVAL (0 ms)
+[ RUN      ] SchedGetschedulerTest.ReturnsESRCH
+[       OK ] SchedGetschedulerTest.ReturnsESRCH (0 ms)
+[----------] 3 tests from SchedGetschedulerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 7 tests.
+Failed to match any benchmarks against regex: .

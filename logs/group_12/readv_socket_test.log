@@ -1,0 +1,55 @@
+[==========] Running 23 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 23 tests from ReadvSocketTest
+[ RUN      ] ReadvSocketTest.ReadOneBufferPerByte_StreamSocket
+[       OK ] ReadvSocketTest.ReadOneBufferPerByte_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadOneBufferPerByte_DgramSocket
+[       OK ] ReadvSocketTest.ReadOneBufferPerByte_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadOneBufferPerByte_SeqPacketSocket
+[       OK ] ReadvSocketTest.ReadOneBufferPerByte_SeqPacketSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadOneHalfAtATime_StreamSocket
+[       OK ] ReadvSocketTest.ReadOneHalfAtATime_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadOneHalfAtATime_DgramSocket
+[       OK ] ReadvSocketTest.ReadOneHalfAtATime_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadAllOneBuffer_StreamSocket
+[       OK ] ReadvSocketTest.ReadAllOneBuffer_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadAllOneBuffer_DgramSocket
+[       OK ] ReadvSocketTest.ReadAllOneBuffer_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadAllOneLargeBuffer_StreamSocket
+[       OK ] ReadvSocketTest.ReadAllOneLargeBuffer_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadAllOneLargeBuffer_DgramSocket
+[       OK ] ReadvSocketTest.ReadAllOneLargeBuffer_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadBuffersOverlapping_StreamSocket
+[       OK ] ReadvSocketTest.ReadBuffersOverlapping_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadBuffersOverlapping_DgramSocket
+[       OK ] ReadvSocketTest.ReadBuffersOverlapping_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadBuffersDiscontinuous_StreamSocket
+[       OK ] ReadvSocketTest.ReadBuffersDiscontinuous_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadBuffersDiscontinuous_DgramSocket
+[       OK ] ReadvSocketTest.ReadBuffersDiscontinuous_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadIovecsCompletelyFilled_StreamSocket
+[       OK ] ReadvSocketTest.ReadIovecsCompletelyFilled_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ReadIovecsCompletelyFilled_DgramSocket
+[       OK ] ReadvSocketTest.ReadIovecsCompletelyFilled_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.BadIovecsPointer_StreamSocket
+[       OK ] ReadvSocketTest.BadIovecsPointer_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.BadIovecsPointer_DgramSocket
+[       OK ] ReadvSocketTest.BadIovecsPointer_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.BadIovecBase_StreamSocket
+[       OK ] ReadvSocketTest.BadIovecBase_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.BadIovecBase_DgramSocket
+[       OK ] ReadvSocketTest.BadIovecBase_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ZeroIovecs_StreamSocket
+[       OK ] ReadvSocketTest.ZeroIovecs_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.ZeroIovecs_DgramSocket
+[       OK ] ReadvSocketTest.ZeroIovecs_DgramSocket (0 ms)
+[ RUN      ] ReadvSocketTest.WouldBlock_StreamSocket
+[       OK ] ReadvSocketTest.WouldBlock_StreamSocket (0 ms)
+[ RUN      ] ReadvSocketTest.WouldBlock_DgramSocket
+[       OK ] ReadvSocketTest.WouldBlock_DgramSocket (0 ms)
+[----------] 23 tests from ReadvSocketTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 23 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 23 tests.
+Failed to match any benchmarks against regex: .

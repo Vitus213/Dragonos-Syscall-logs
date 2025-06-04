@@ -1,0 +1,34 @@
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from ReadaheadTest
+[ RUN      ] ReadaheadTest.InvalidFD
+[       OK ] ReadaheadTest.InvalidFD (0 ms)
+[ RUN      ] ReadaheadTest.UnsupportedFile
+[       OK ] ReadaheadTest.UnsupportedFile (0 ms)
+[ RUN      ] ReadaheadTest.InvalidOffset
+test/syscalls/linux/readahead.cc:41: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] ReadaheadTest.InvalidOffset (0 ms)
+[ RUN      ] ReadaheadTest.ValidOffset
+[       OK ] ReadaheadTest.ValidOffset (0 ms)
+[ RUN      ] ReadaheadTest.PastEnd
+[       OK ] ReadaheadTest.PastEnd (0 ms)
+[ RUN      ] ReadaheadTest.CrossesEnd
+[       OK ] ReadaheadTest.CrossesEnd (0 ms)
+[ RUN      ] ReadaheadTest.WriteOnly
+[       OK ] ReadaheadTest.WriteOnly (0 ms)
+[ RUN      ] ReadaheadTest.InvalidSize
+test/syscalls/linux/readahead.cc:92: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] ReadaheadTest.InvalidSize (0 ms)
+[----------] 8 tests from ReadaheadTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 6 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] ReadaheadTest.InvalidOffset
+[  SKIPPED ] ReadaheadTest.InvalidSize
+Failed to match any benchmarks against regex: .
