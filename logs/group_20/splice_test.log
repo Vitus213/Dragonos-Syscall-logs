@@ -1,0 +1,70 @@
+[==========] Running 29 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 21 tests from SpliceTest
+[ RUN      ] SpliceTest.TwoRegularFiles
+[       OK ] SpliceTest.TwoRegularFiles (0 ms)
+[ RUN      ] SpliceTest.NegativeOffset
+[       OK ] SpliceTest.NegativeOffset (0 ms)
+[ RUN      ] SpliceTest.WriteOverflow
+[       OK ] SpliceTest.WriteOverflow (0 ms)
+[ RUN      ] SpliceTest.SamePipe
+[       OK ] SpliceTest.SamePipe (0 ms)
+[ RUN      ] SpliceTest.PipeOffsets
+[       OK ] SpliceTest.PipeOffsets (0 ms)
+[ RUN      ] SpliceTest.ToPipe
+[       OK ] SpliceTest.ToPipe (0 ms)
+[ RUN      ] SpliceTest.ToPipeEOF
+[       OK ] SpliceTest.ToPipeEOF (0 ms)
+[ RUN      ] SpliceTest.ToPipeOffset
+[       OK ] SpliceTest.ToPipeOffset (0 ms)
+[ RUN      ] SpliceTest.FromPipe
+[       OK ] SpliceTest.FromPipe (0 ms)
+[ RUN      ] SpliceTest.FromPipeMultiple
+[       OK ] SpliceTest.FromPipeMultiple (0 ms)
+[ RUN      ] SpliceTest.FromPipeOffset
+[       OK ] SpliceTest.FromPipeOffset (0 ms)
+[ RUN      ] SpliceTest.TwoPipes
+[       OK ] SpliceTest.TwoPipes (0 ms)
+[ RUN      ] SpliceTest.TwoPipesPartialRead
+[       OK ] SpliceTest.TwoPipesPartialRead (0 ms)
+[ RUN      ] SpliceTest.TwoPipesPartialWrite
+[       OK ] SpliceTest.TwoPipesPartialWrite (0 ms)
+[ RUN      ] SpliceTest.TwoPipesCircular
+[       OK ] SpliceTest.TwoPipesCircular (1 ms)
+[ RUN      ] SpliceTest.Blocking
+[       OK ] SpliceTest.Blocking (0 ms)
+[ RUN      ] SpliceTest.NonBlocking
+[       OK ] SpliceTest.NonBlocking (0 ms)
+[ RUN      ] SpliceTest.FromPipeMaxFileSize
+[       OK ] SpliceTest.FromPipeMaxFileSize (0 ms)
+[ RUN      ] SpliceTest.ToPipeWithSmallCapacityDoesNotSpin
+[       OK ] SpliceTest.ToPipeWithSmallCapacityDoesNotSpin (1000 ms)
+[ RUN      ] SpliceTest.FromPipeWithConcurrentIo
+[       OK ] SpliceTest.FromPipeWithConcurrentIo (43 ms)
+[ RUN      ] SpliceTest.FromPipeWithWriterToDevNull
+[       OK ] SpliceTest.FromPipeWithWriterToDevNull (0 ms)
+[----------] 21 tests from SpliceTest (1048 ms total)
+
+[----------] 8 tests from TeeTest
+[ RUN      ] TeeTest.SamePipe
+[       OK ] TeeTest.SamePipe (0 ms)
+[ RUN      ] TeeTest.RegularFile
+[       OK ] TeeTest.RegularFile (0 ms)
+[ RUN      ] TeeTest.TwoPipesPartialRead
+[       OK ] TeeTest.TwoPipesPartialRead (0 ms)
+[ RUN      ] TeeTest.TwoPipesPartialWrite
+[       OK ] TeeTest.TwoPipesPartialWrite (0 ms)
+[ RUN      ] TeeTest.Blocking
+[       OK ] TeeTest.Blocking (0 ms)
+[ RUN      ] TeeTest.BlockingWrite
+[       OK ] TeeTest.BlockingWrite (100 ms)
+[ RUN      ] TeeTest.NonBlocking
+[       OK ] TeeTest.NonBlocking (0 ms)
+[ RUN      ] TeeTest.MultiPage
+[       OK ] TeeTest.MultiPage (0 ms)
+[----------] 8 tests from TeeTest (101 ms total)
+
+[----------] Global test environment tear-down
+[==========] 29 tests from 2 test suites ran. (1149 ms total)
+[  PASSED  ] 29 tests.
+Failed to match any benchmarks against regex: .

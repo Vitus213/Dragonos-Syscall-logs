@@ -1,0 +1,19 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from SyncTest
+[ RUN      ] SyncTest.SyncEverything
+[       OK ] SyncTest.SyncEverything (204 ms)
+[ RUN      ] SyncTest.SyncFileSytem
+[       OK ] SyncTest.SyncFileSytem (1 ms)
+[ RUN      ] SyncTest.SyncFromPipe
+[       OK ] SyncTest.SyncFromPipe (0 ms)
+[ RUN      ] SyncTest.CannotSyncFileSystemAtBadFd
+[       OK ] SyncTest.CannotSyncFileSystemAtBadFd (0 ms)
+[ RUN      ] SyncTest.CannotSyncFileSystemAtOpathFD
+[       OK ] SyncTest.CannotSyncFileSystemAtOpathFD (0 ms)
+[----------] 5 tests from SyncTest (206 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (206 ms total)
+[  PASSED  ] 5 tests.
+Failed to match any benchmarks against regex: .

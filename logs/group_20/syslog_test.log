@@ -1,0 +1,28 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from Syslog
+[ RUN      ] Syslog.Size
+test/syscalls/linux/syslog.cc:38: Failure
+Value of: Syslog(SYSLOG_ACTION_SIZE_BUFFER, nullptr, 0)
+Expected: not -1 (success)
+  Actual: -1 (of type int), with errno PosixError(errno=1 Operation not permitted)
+
+[  FAILED  ] Syslog.Size (0 ms)
+[ RUN      ] Syslog.ReadAll
+test/syscalls/linux/syslog.cc:44: Failure
+Value of: Syslog(SYSLOG_ACTION_READ_ALL, buf, sizeof(buf))
+Expected: not -1 (success)
+  Actual: -1 (of type int), with errno PosixError(errno=1 Operation not permitted)
+
+[  FAILED  ] Syslog.ReadAll (0 ms)
+[----------] 2 tests from Syslog (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] Syslog.Size
+[  FAILED  ] Syslog.ReadAll
+
+ 2 FAILED TESTS
+Failed to match any benchmarks against regex: .

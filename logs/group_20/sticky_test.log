@@ -1,0 +1,28 @@
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from StickyTest
+[ RUN      ] StickyTest.StickyBitPermDenied
+test/syscalls/linux/sticky.cc:41: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] StickyTest.StickyBitPermDenied (0 ms)
+[ RUN      ] StickyTest.StickyBitSameUID
+test/syscalls/linux/sticky.cc:81: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] StickyTest.StickyBitSameUID (0 ms)
+[ RUN      ] StickyTest.StickyBitCapFOWNER
+test/syscalls/linux/sticky.cc:117: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] StickyTest.StickyBitCapFOWNER (0 ms)
+[----------] 3 tests from StickyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 3 tests, listed below:
+[  SKIPPED ] StickyTest.StickyBitPermDenied
+[  SKIPPED ] StickyTest.StickyBitSameUID
+[  SKIPPED ] StickyTest.StickyBitCapFOWNER
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,17 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SyncFileRangeTest
+[ RUN      ] SyncFileRangeTest.TempFileSucceeds
+[       OK ] SyncFileRangeTest.TempFileSucceeds (0 ms)
+[ RUN      ] SyncFileRangeTest.CannotSyncFileRangeOnUnopenedFd
+[       OK ] SyncFileRangeTest.CannotSyncFileRangeOnUnopenedFd (0 ms)
+[ RUN      ] SyncFileRangeTest.BadArgs
+[       OK ] SyncFileRangeTest.BadArgs (0 ms)
+[ RUN      ] SyncFileRangeTest.CannotSyncFileRangeWithWaitBefore
+[       OK ] SyncFileRangeTest.CannotSyncFileRangeWithWaitBefore (0 ms)
+[----------] 4 tests from SyncFileRangeTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

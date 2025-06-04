@@ -1,0 +1,93 @@
+[==========] Running 35 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 33 tests from StatTest
+[ RUN      ] StatTest.FstatatAbs
+[       OK ] StatTest.FstatatAbs (0 ms)
+[ RUN      ] StatTest.FstatatEmptyPath
+[       OK ] StatTest.FstatatEmptyPath (0 ms)
+[ RUN      ] StatTest.FstatatRel
+[       OK ] StatTest.FstatatRel (0 ms)
+[ RUN      ] StatTest.FstatatSymlink
+[       OK ] StatTest.FstatatSymlink (0 ms)
+[ RUN      ] StatTest.Nlinks
+[       OK ] StatTest.Nlinks (0 ms)
+[ RUN      ] StatTest.BlocksIncreaseOnWrite
+test/syscalls/linux/stat.cc:154: Failure
+Expected: (st.st_blocks) > (initial_blocks), actual: 2 vs 2
+
+[  FAILED  ] StatTest.BlocksIncreaseOnWrite (0 ms)
+[ RUN      ] StatTest.PathNotCleaned
+[       OK ] StatTest.PathNotCleaned (0 ms)
+[ RUN      ] StatTest.PathCanContainDotDot
+[       OK ] StatTest.PathCanContainDotDot (0 ms)
+[ RUN      ] StatTest.PathCanContainEmptyComponent
+[       OK ] StatTest.PathCanContainEmptyComponent (0 ms)
+[ RUN      ] StatTest.TrailingSlashNotCleanedReturnsENOTDIR
+[       OK ] StatTest.TrailingSlashNotCleanedReturnsENOTDIR (0 ms)
+[ RUN      ] StatTest.FstatFileWithOpath
+[       OK ] StatTest.FstatFileWithOpath (0 ms)
+[ RUN      ] StatTest.FstatDirWithOpath
+[       OK ] StatTest.FstatDirWithOpath (0 ms)
+[ RUN      ] StatTest.FstatatDirWithOpath
+[       OK ] StatTest.FstatatDirWithOpath (0 ms)
+[ RUN      ] StatTest.FstatatSymlinkDir
+[       OK ] StatTest.FstatatSymlinkDir (0 ms)
+[ RUN      ] StatTest.FstatatSymlinkDirWithTrailingSlash
+[       OK ] StatTest.FstatatSymlinkDirWithTrailingSlash (0 ms)
+[ RUN      ] StatTest.FstatatSymlinkDirWithTrailingSlashSameInode
+[       OK ] StatTest.FstatatSymlinkDirWithTrailingSlashSameInode (0 ms)
+[ RUN      ] StatTest.LeadingDoubleSlash
+[       OK ] StatTest.LeadingDoubleSlash (0 ms)
+[ RUN      ] StatTest.StatDoesntChangeAfterRename
+/tmp/gvisor_test_temp_43_1749027323803196229: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_43_1749027323803196229 does not exist
+[       OK ] StatTest.StatDoesntChangeAfterRename (0 ms)
+[ RUN      ] StatTest.LinkCountsWithRegularFileChild
+/tmp/gvisor_test_temp_46_1749027323803668023/gvisor_test_temp_47_1749027323803731943: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_46_1749027323803668023/gvisor_test_temp_47_1749027323803731943 does not exist
+[       OK ] StatTest.LinkCountsWithRegularFileChild (0 ms)
+[ RUN      ] StatTest.ZeroLinksOpenFdRegularFileChild_NoSave
+/tmp/gvisor_test_temp_49_1749027323804174854/gvisor_test_temp_50_1749027323804236118: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_49_1749027323804174854/gvisor_test_temp_50_1749027323804236118 does not exist
+[       OK ] StatTest.ZeroLinksOpenFdRegularFileChild_NoSave (0 ms)
+[ RUN      ] StatTest.LinkCountsWithDirChild
+/tmp/gvisor_test_temp_52_1749027323804697714/gvisor_test_temp_53_1749027323804775399: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_52_1749027323804697714/gvisor_test_temp_53_1749027323804775399 does not exist
+[       OK ] StatTest.LinkCountsWithDirChild (0 ms)
+[ RUN      ] StatTest.ChildOfNonDir
+[       OK ] StatTest.ChildOfNonDir (0 ms)
+[ RUN      ] StatTest.LstatSymlinkDir
+[       OK ] StatTest.LstatSymlinkDir (0 ms)
+[ RUN      ] StatTest.LstatELOOPPath
+[       OK ] StatTest.LstatELOOPPath (0 ms)
+[ RUN      ] StatTest.StatxAbsPath
+[       OK ] StatTest.StatxAbsPath (0 ms)
+[ RUN      ] StatTest.StatxRelPathDirFD
+[       OK ] StatTest.StatxRelPathDirFD (0 ms)
+[ RUN      ] StatTest.StatxRelPathCwd
+[       OK ] StatTest.StatxRelPathCwd (0 ms)
+[ RUN      ] StatTest.StatxEmptyPath
+[       OK ] StatTest.StatxEmptyPath (0 ms)
+[ RUN      ] StatTest.StatxDoesNotRejectExtraneousMaskBits
+[       OK ] StatTest.StatxDoesNotRejectExtraneousMaskBits (0 ms)
+[ RUN      ] StatTest.StatxRejectsReservedMaskBit
+[       OK ] StatTest.StatxRejectsReservedMaskBit (0 ms)
+[ RUN      ] StatTest.StatxSymlink
+[       OK ] StatTest.StatxSymlink (0 ms)
+[ RUN      ] StatTest.StatxInvalidFlags
+[       OK ] StatTest.StatxInvalidFlags (0 ms)
+[ RUN      ] StatTest.StatIgnoreNoAutomount
+[       OK ] StatTest.StatIgnoreNoAutomount (0 ms)
+[----------] 33 tests from StatTest (11 ms total)
+
+[----------] 2 tests from SimpleStatTest
+[ RUN      ] SimpleStatTest.DifferentFilesHaveDifferentDeviceInodeNumberPairs
+[       OK ] SimpleStatTest.DifferentFilesHaveDifferentDeviceInodeNumberPairs (0 ms)
+[ RUN      ] SimpleStatTest.AnonDeviceAllocatesUniqueInodesAcrossSaveRestore
+[       OK ] SimpleStatTest.AnonDeviceAllocatesUniqueInodesAcrossSaveRestore (0 ms)
+[----------] 2 tests from SimpleStatTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 35 tests from 2 test suites ran. (11 ms total)
+[  PASSED  ] 34 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StatTest.BlocksIncreaseOnWrite
+
+ 1 FAILED TEST
+Failed to match any benchmarks against regex: .

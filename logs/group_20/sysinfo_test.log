@@ -1,0 +1,25 @@
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from SysinfoTest
+[ RUN      ] SysinfoTest.SysinfoIsCallable
+[       OK ] SysinfoTest.SysinfoIsCallable (0 ms)
+[ RUN      ] SysinfoTest.EfaultProducedOnBadAddress
+[       OK ] SysinfoTest.EfaultProducedOnBadAddress (0 ms)
+[ RUN      ] SysinfoTest.TotalRamSaneValue
+[       OK ] SysinfoTest.TotalRamSaneValue (0 ms)
+[ RUN      ] SysinfoTest.MemunitSet
+[       OK ] SysinfoTest.MemunitSet (0 ms)
+[ RUN      ] SysinfoTest.UptimeSaneValue
+[       OK ] SysinfoTest.UptimeSaneValue (0 ms)
+[ RUN      ] SysinfoTest.UptimeIncreasingValue
+[       OK ] SysinfoTest.UptimeIncreasingValue (2000 ms)
+[ RUN      ] SysinfoTest.FreeRamSaneValue
+[       OK ] SysinfoTest.FreeRamSaneValue (0 ms)
+[ RUN      ] SysinfoTest.NumProcsSaneValue
+[       OK ] SysinfoTest.NumProcsSaneValue (0 ms)
+[----------] 8 tests from SysinfoTest (2000 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (2000 ms total)
+[  PASSED  ] 8 tests.
+Failed to match any benchmarks against regex: .

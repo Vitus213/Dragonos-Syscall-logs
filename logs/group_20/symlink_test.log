@@ -1,0 +1,83 @@
+[==========] Running 33 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 21 tests from SymlinkTest
+[ RUN      ] SymlinkTest.CanCreateSymlinkWithCachedSourceDirent
+[       OK ] SymlinkTest.CanCreateSymlinkWithCachedSourceDirent (0 ms)
+[ RUN      ] SymlinkTest.CanCreateSymlinkFile
+[       OK ] SymlinkTest.CanCreateSymlinkFile (0 ms)
+[ RUN      ] SymlinkTest.CanCreateSymlinkDir
+[       OK ] SymlinkTest.CanCreateSymlinkDir (0 ms)
+[ RUN      ] SymlinkTest.CannotCreateSymlinkInReadOnlyDir
+[       OK ] SymlinkTest.CannotCreateSymlinkInReadOnlyDir (0 ms)
+[ RUN      ] SymlinkTest.CannotSymlinkOverExistingFile
+[       OK ] SymlinkTest.CannotSymlinkOverExistingFile (0 ms)
+[ RUN      ] SymlinkTest.CannotSymlinkOverExistingDir
+[       OK ] SymlinkTest.CannotSymlinkOverExistingDir (0 ms)
+[ RUN      ] SymlinkTest.OldnameIsEmpty
+[       OK ] SymlinkTest.OldnameIsEmpty (0 ms)
+[ RUN      ] SymlinkTest.OldnameIsDangling
+[       OK ] SymlinkTest.OldnameIsDangling (0 ms)
+[ RUN      ] SymlinkTest.NewnameCannotExist
+[       OK ] SymlinkTest.NewnameCannotExist (0 ms)
+[ RUN      ] SymlinkTest.CanEvaluateLink
+[       OK ] SymlinkTest.CanEvaluateLink (0 ms)
+[ RUN      ] SymlinkTest.TargetIsNotMapped
+[       OK ] SymlinkTest.TargetIsNotMapped (0 ms)
+[ RUN      ] SymlinkTest.PreadFromSymlink
+[       OK ] SymlinkTest.PreadFromSymlink (0 ms)
+[ RUN      ] SymlinkTest.PwriteToSymlink
+[       OK ] SymlinkTest.PwriteToSymlink (0 ms)
+[ RUN      ] SymlinkTest.SymlinkAtDegradedPermissions
+/tmp/gvisor_test_temp_35_1749027334858542225/gvisor_test_temp_36_1749027334858618929: failed to delete 0 directories and 0 files: PosixError(errno=13 Permission denied) lstat /tmp/gvisor_test_temp_35_1749027334858542225/gvisor_test_temp_36_1749027334858618929
+/tmp/gvisor_test_temp_35_1749027334858542225: failed to delete 0 directories and 0 files: PosixError(errno=13 Permission denied) opendir /tmp/gvisor_test_temp_35_1749027334858542225
+[       OK ] SymlinkTest.SymlinkAtDegradedPermissions (0 ms)
+[ RUN      ] SymlinkTest.SymlinkAtDirWithOpath
+/tmp/gvisor_test_temp_37_1749027334858995565: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) stat /tmp/gvisor_test_temp_37_1749027334858995565/gvisor_test_temp_38_1749027334859067280
+[       OK ] SymlinkTest.SymlinkAtDirWithOpath (0 ms)
+[ RUN      ] SymlinkTest.ReadlinkAtDirWithOpath
+/tmp/gvisor_test_temp_39_1749027334859323620: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) stat /tmp/gvisor_test_temp_39_1749027334859323620/gvisor_test_temp_40_1749027334859399422
+[       OK ] SymlinkTest.ReadlinkAtDirWithOpath (0 ms)
+[ RUN      ] SymlinkTest.ReadlinkAtDegradedPermissions
+/tmp/gvisor_test_temp_41_1749027334859604196: failed to delete 0 directories and 0 files: PosixError(errno=13 Permission denied) opendir /tmp/gvisor_test_temp_41_1749027334859604196
+[       OK ] SymlinkTest.ReadlinkAtDegradedPermissions (0 ms)
+[ RUN      ] SymlinkTest.ChmodSymlink
+[       OK ] SymlinkTest.ChmodSymlink (0 ms)
+[ RUN      ] SymlinkTest.FollowUpdatesATime
+[       OK ] SymlinkTest.FollowUpdatesATime (1000 ms)
+[ RUN      ] SymlinkTest.SymlinkAtEmptyPath
+[       OK ] SymlinkTest.SymlinkAtEmptyPath (0 ms)
+[ RUN      ] SymlinkTest.AbsoluteSymlinkDouble
+[       OK ] SymlinkTest.AbsoluteSymlinkDouble (0 ms)
+[----------] 21 tests from SymlinkTest (1006 ms total)
+
+[----------] 12 tests from AbsAndRelTarget/ParamSymlinkTest
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.CreatLinkCreatesTarget/0
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.CreatLinkCreatesTarget/0 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.CreatLinkCreatesTarget/1
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.CreatLinkCreatesTarget/1 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkCreatesTarget/0
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkCreatesTarget/0 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkCreatesTarget/1
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkCreatesTarget/1 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingSelfLink/0
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingSelfLink/0 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingSelfLink/1
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingSelfLink/1 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingParentLink/0
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingParentLink/0 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingParentLink/1
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.CreateExistingParentLink/1 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkExclFails/0
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkExclFails/0 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkExclFails/1
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkExclFails/1 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkNoFollowFails/0
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkNoFollowFails/0 (0 ms)
+[ RUN      ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkNoFollowFails/1
+[       OK ] AbsAndRelTarget/ParamSymlinkTest.OpenLinkNoFollowFails/1 (0 ms)
+[----------] 12 tests from AbsAndRelTarget/ParamSymlinkTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 33 tests from 2 test suites ran. (1009 ms total)
+[  PASSED  ] 33 tests.
+Failed to match any benchmarks against regex: .

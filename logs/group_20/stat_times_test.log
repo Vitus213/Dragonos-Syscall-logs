@@ -1,0 +1,33 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from StatTimesTest
+[ RUN      ] StatTimesTest.FileCreation
+[       OK ] StatTimesTest.FileCreation (0 ms)
+[ RUN      ] StatTimesTest.FileChmod
+[       OK ] StatTimesTest.FileChmod (1000 ms)
+[ RUN      ] StatTimesTest.FileRename
+[       OK ] StatTimesTest.FileRename (1000 ms)
+[ RUN      ] StatTimesTest.FileRenameOpenFD
+[       OK ] StatTimesTest.FileRenameOpenFD (1000 ms)
+[ RUN      ] StatTimesTest.FileUtimes
+[       OK ] StatTimesTest.FileUtimes (1000 ms)
+[ RUN      ] StatTimesTest.FileTruncate
+[       OK ] StatTimesTest.FileTruncate (1000 ms)
+[ RUN      ] StatTimesTest.FileWrite
+[       OK ] StatTimesTest.FileWrite (1000 ms)
+[ RUN      ] StatTimesTest.FileRead
+[       OK ] StatTimesTest.FileRead (1000 ms)
+[ RUN      ] StatTimesTest.DirList
+[       OK ] StatTimesTest.DirList (1001 ms)
+[ RUN      ] StatTimesTest.DirCreateFile
+[       OK ] StatTimesTest.DirCreateFile (1000 ms)
+[ RUN      ] StatTimesTest.DirCreateDir
+[       OK ] StatTimesTest.DirCreateDir (1000 ms)
+[ RUN      ] StatTimesTest.DirRemoveFile
+[       OK ] StatTimesTest.DirRemoveFile (1000 ms)
+[----------] 12 tests from StatTimesTest (11008 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (11008 ms total)
+[  PASSED  ] 12 tests.
+Failed to match any benchmarks against regex: .

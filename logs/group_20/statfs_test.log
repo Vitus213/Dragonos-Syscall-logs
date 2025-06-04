@@ -1,0 +1,42 @@
+[==========] Running 9 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from StatfsTest
+[ RUN      ] StatfsTest.CannotStatBadPath
+[       OK ] StatfsTest.CannotStatBadPath (0 ms)
+[ RUN      ] StatfsTest.TempPath
+[       OK ] StatfsTest.TempPath (0 ms)
+[ RUN      ] StatfsTest.InternalDevShm
+[       OK ] StatfsTest.InternalDevShm (0 ms)
+[----------] 3 tests from StatfsTest (0 ms total)
+
+[----------] 1 test from StatFsTest
+[ RUN      ] StatFsTest.MountFlags
+test/syscalls/linux/statfs.cc:64: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] StatFsTest.MountFlags (0 ms)
+[----------] 1 test from StatFsTest (0 ms total)
+
+[----------] 5 tests from FstatfsTest
+[ RUN      ] FstatfsTest.CannotStatBadFd
+[       OK ] FstatfsTest.CannotStatBadFd (0 ms)
+[ RUN      ] FstatfsTest.TempPath
+[       OK ] FstatfsTest.TempPath (0 ms)
+[ RUN      ] FstatfsTest.CanStatFileWithOpath
+[       OK ] FstatfsTest.CanStatFileWithOpath (0 ms)
+[ RUN      ] FstatfsTest.InternalDevShm
+[       OK ] FstatfsTest.InternalDevShm (0 ms)
+[ RUN      ] FstatfsTest.BlocksFree
+test/syscalls/linux/statfs.cc:121: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] FstatfsTest.BlocksFree (0 ms)
+[----------] 5 tests from FstatfsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 3 test suites ran. (1 ms total)
+[  PASSED  ] 7 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] StatFsTest.MountFlags
+[  SKIPPED ] FstatfsTest.BlocksFree
+Failed to match any benchmarks against regex: .
