@@ -1,0 +1,42 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from Processes
+[ RUN      ] Processes.SetPGIDOfZombie
+test/syscalls/linux/processes.cc:101: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] Processes.SetPGIDOfZombie (0 ms)
+[ RUN      ] Processes.TheadSharesSamePID
+[       OK ] Processes.TheadSharesSamePID (0 ms)
+[ RUN      ] Processes.ThousandsOfThreads
+[       OK ] Processes.ThousandsOfThreads (97 ms)
+[ RUN      ] Processes.ExecSwapThreadGroupLeader
+Test forking.
+Waiting for test results.
+Test cloning.
+Test exec'ing:
+  execve_array[0] = /proc/self/exe
+  execve_array[1] = --processes_test_exec_swap
+  execve_array[2] = --processes_test_exec_swap_pre_clone_pid=307833
+  execve_array[3] = --processes_test_exec_swap_pre_clone_tid=307833
+  execve_array[4] = --processes_test_exec_swap_pre_exec_pid=307833
+  execve_array[5] = --processes_test_exec_swap_pre_exec_tid=307834
+  execve_array[6] = --processes_test_exec_swap_pipe_fd=5
+Test exec'd.
+Test writing results to pipe FD.
+Test results written out.ExecSwap results:
+
+  Parent test process PID / TID:306829 / 306829
+  Parent test child PID, as seen by parent:307833
+  Pre-clone PID / TID: 307833 / 307833
+  Pre-exec  PID / TID: 307833 / 307834
+  Post-exec PID / TID: 307833 / 307833
+[       OK ] Processes.ExecSwapThreadGroupLeader (4 ms)
+[----------] 4 tests from Processes (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (102 ms total)
+[  PASSED  ] 3 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] Processes.SetPGIDOfZombie
+Failed to match any benchmarks against regex: .

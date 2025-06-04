@@ -1,0 +1,74 @@
+[==========] Running 13 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 5 tests from GetpriorityTest
+[ RUN      ] GetpriorityTest.Implemented
+[       OK ] GetpriorityTest.Implemented (0 ms)
+[ RUN      ] GetpriorityTest.InvalidWhich
+[       OK ] GetpriorityTest.InvalidWhich (0 ms)
+[ RUN      ] GetpriorityTest.ValidWho
+[       OK ] GetpriorityTest.ValidWho (0 ms)
+[ RUN      ] GetpriorityTest.InvalidWho
+[       OK ] GetpriorityTest.InvalidWho (0 ms)
+[ RUN      ] GetpriorityTest.CloneMaintainsPriority
+test/syscalls/linux/priority.cc:195: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] GetpriorityTest.CloneMaintainsPriority (0 ms)
+[----------] 5 tests from GetpriorityTest (0 ms total)
+
+[----------] 7 tests from SetpriorityTest
+[ RUN      ] SetpriorityTest.Implemented
+test/syscalls/linux/priority.cc:71: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] SetpriorityTest.Implemented (0 ms)
+[ RUN      ] SetpriorityTest.ValidWho
+test/syscalls/linux/priority.cc:91: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] SetpriorityTest.ValidWho (0 ms)
+[ RUN      ] SetpriorityTest.InsideRange
+test/syscalls/linux/priority.cc:100: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] SetpriorityTest.InsideRange (0 ms)
+[ RUN      ] SetpriorityTest.NicenessExposedViaProcfs
+test/syscalls/linux/priority.cc:121: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] SetpriorityTest.NicenessExposedViaProcfs (0 ms)
+[ RUN      ] SetpriorityTest.OutsideRange
+test/syscalls/linux/priority.cc:145: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] SetpriorityTest.OutsideRange (0 ms)
+[ RUN      ] SetpriorityTest.InvalidWho
+test/syscalls/linux/priority.cc:172: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] SetpriorityTest.InvalidWho (0 ms)
+[ RUN      ] SetpriorityTest.NiceSucceeds
+[       OK ] SetpriorityTest.NiceSucceeds (0 ms)
+[----------] 7 tests from SetpriorityTest (0 ms total)
+
+[----------] 1 test from Setpriority
+[ RUN      ] Setpriority.InvalidWhich
+test/syscalls/linux/priority.cc:82: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_NICE))
+
+[  SKIPPED ] Setpriority.InvalidWhich (0 ms)
+[----------] 1 test from Setpriority (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 5 tests.
+[  SKIPPED ] 8 tests, listed below:
+[  SKIPPED ] GetpriorityTest.CloneMaintainsPriority
+[  SKIPPED ] SetpriorityTest.Implemented
+[  SKIPPED ] SetpriorityTest.ValidWho
+[  SKIPPED ] SetpriorityTest.InsideRange
+[  SKIPPED ] SetpriorityTest.NicenessExposedViaProcfs
+[  SKIPPED ] SetpriorityTest.OutsideRange
+[  SKIPPED ] SetpriorityTest.InvalidWho
+[  SKIPPED ] Setpriority.InvalidWhich
+Failed to match any benchmarks against regex: .

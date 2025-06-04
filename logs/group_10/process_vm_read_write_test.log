@@ -1,0 +1,115 @@
+[==========] Running 50 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from ProcessVMInvalidTest
+[ RUN      ] ProcessVMInvalidTest.NonZeroFlags
+[       OK ] ProcessVMInvalidTest.NonZeroFlags (0 ms)
+[ RUN      ] ProcessVMInvalidTest.NullLocalIovec
+[       OK ] ProcessVMInvalidTest.NullLocalIovec (17 ms)
+[ RUN      ] ProcessVMInvalidTest.NULLRemoteIovec
+[       OK ] ProcessVMInvalidTest.NULLRemoteIovec (9 ms)
+[ RUN      ] ProcessVMInvalidTest.ProcessNoExist
+[       OK ] ProcessVMInvalidTest.ProcessNoExist (0 ms)
+[ RUN      ] ProcessVMInvalidTest.GreaterThanIOV_MAX
+[       OK ] ProcessVMInvalidTest.GreaterThanIOV_MAX (7 ms)
+[ RUN      ] ProcessVMInvalidTest.PartialReadWrite
+[       OK ] ProcessVMInvalidTest.PartialReadWrite (0 ms)
+[ RUN      ] ProcessVMInvalidTest.AccessInvalidMemoryFailsWithEINVAL
+[       OK ] ProcessVMInvalidTest.AccessInvalidMemoryFailsWithEINVAL (0 ms)
+[----------] 7 tests from ProcessVMInvalidTest (34 ms total)
+
+[----------] 3 tests from ProcessVMTest
+[ RUN      ] ProcessVMTest.WriteToZombie
+[       OK ] ProcessVMTest.WriteToZombie (12 ms)
+[ RUN      ] ProcessVMTest.TestReadvNull
+[       OK ] ProcessVMTest.TestReadvNull (0 ms)
+[ RUN      ] ProcessVMTest.TestWritevNull
+[       OK ] ProcessVMTest.TestWritevNull (0 ms)
+[----------] 3 tests from ProcessVMTest (12 ms total)
+
+[----------] 40 tests from ProcessVMTests/ProcessVMTest
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/BothEmpty
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/BothEmpty (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/EmptyLocal
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/EmptyLocal (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/EmptyRemote
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/EmptyRemote (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/SingleChar
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/SingleChar (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/LargerRemoteBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/LargerRemoteBuffer (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/LargerLocalBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/LargerLocalBuffer (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/BothWithMultipleIovecs
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/BothWithMultipleIovecs (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/LargeBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcess/LargeBuffer (212 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/BothEmpty
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/BothEmpty (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/EmptyLocal
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/EmptyLocal (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/EmptyRemote
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/EmptyRemote (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/SingleChar
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/SingleChar (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/LargerRemoteBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/LargerRemoteBuffer (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/LargerLocalBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/LargerLocalBuffer (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/BothWithMultipleIovecs
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/BothWithMultipleIovecs (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/LargeBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSameProcessDifferentThread/LargeBuffer (211 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/BothEmpty
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/BothEmpty (8 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/EmptyLocal
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/EmptyLocal (7 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/EmptyRemote
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/EmptyRemote (6 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/SingleChar
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/SingleChar (7 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/LargerRemoteBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/LargerRemoteBuffer (7 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/LargerLocalBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/LargerLocalBuffer (7 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/BothWithMultipleIovecs
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/BothWithMultipleIovecs (6 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/LargeBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestReadvSubProcess/LargeBuffer (307 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/BothEmpty
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/BothEmpty (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/EmptyLocal
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/EmptyLocal (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/EmptyRemote
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/EmptyRemote (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/SingleChar
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/SingleChar (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/LargerRemoteBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/LargerRemoteBuffer (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/LargerLocalBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/LargerLocalBuffer (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/BothWithMultipleIovecs
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/BothWithMultipleIovecs (0 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/LargeBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSameProcess/LargeBuffer (210 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/BothEmpty
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/BothEmpty (16 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/EmptyLocal
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/EmptyLocal (15 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/EmptyRemote
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/EmptyRemote (14 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/SingleChar
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/SingleChar (14 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/LargerRemoteBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/LargerRemoteBuffer (12 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/LargerLocalBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/LargerLocalBuffer (11 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/BothWithMultipleIovecs
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/BothWithMultipleIovecs (15 ms)
+[ RUN      ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/LargeBuffer
+[       OK ] ProcessVMTests/ProcessVMTest.TestWritevSubProcess/LargeBuffer (246 ms)
+[----------] 40 tests from ProcessVMTests/ProcessVMTest (1341 ms total)
+
+[----------] Global test environment tear-down
+[==========] 50 tests from 3 test suites ran. (1389 ms total)
+[  PASSED  ] 50 tests.
+Failed to match any benchmarks against regex: .

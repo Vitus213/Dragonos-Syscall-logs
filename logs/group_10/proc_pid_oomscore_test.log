@@ -1,0 +1,42 @@
+[==========] Running 4 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from ProcPidOomscoreTest
+[ RUN      ] ProcPidOomscoreTest.BasicRead
+[       OK ] ProcPidOomscoreTest.BasicRead (0 ms)
+[----------] 1 test from ProcPidOomscoreTest (0 ms total)
+
+[----------] 3 tests from ProcPidOomscoreAdjTest
+[ RUN      ] ProcPidOomscoreAdjTest.BasicRead
+test/syscalls/linux/proc_pid_oomscore.cc:53: Failure
+Expected equality of these values:
+  oom_score
+    Which is: 100
+  0
+
+[  FAILED  ] ProcPidOomscoreAdjTest.BasicRead (0 ms)
+[ RUN      ] ProcPidOomscoreAdjTest.BasicWrite
+test/syscalls/linux/proc_pid_oomscore.cc:60: Failure
+Value of: RetryEINTR(write)(fd.get(), std::to_string(test_value).c_str(), 1)
+Expected: not -1 (success)
+  Actual: -1 (of type long), with errno PosixError(errno=13 Permission denied)
+
+[  FAILED  ] ProcPidOomscoreAdjTest.BasicWrite (0 ms)
+[ RUN      ] ProcPidOomscoreAdjTest.WriteNullTerminatedString
+test/syscalls/linux/proc_pid_oomscore.cc:73: Failure
+Value of: RetryEINTR(write)(fd.get(), std::to_string(test_value).c_str(), 2)
+Expected: not -1 (success)
+  Actual: -1 (of type long), with errno PosixError(errno=13 Permission denied)
+
+[  FAILED  ] ProcPidOomscoreAdjTest.WriteNullTerminatedString (0 ms)
+[----------] 3 tests from ProcPidOomscoreAdjTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] ProcPidOomscoreAdjTest.BasicRead
+[  FAILED  ] ProcPidOomscoreAdjTest.BasicWrite
+[  FAILED  ] ProcPidOomscoreAdjTest.WriteNullTerminatedString
+
+ 3 FAILED TESTS
+Failed to match any benchmarks against regex: .

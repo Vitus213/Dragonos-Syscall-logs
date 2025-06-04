@@ -1,0 +1,129 @@
+[==========] Running 20 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from ProcNetSymlinkTarget
+[ RUN      ] ProcNetSymlinkTarget.FileMode
+[       OK ] ProcNetSymlinkTarget.FileMode (0 ms)
+[----------] 1 test from ProcNetSymlinkTarget (0 ms total)
+
+[----------] 2 tests from ProcNetSymlink
+[ RUN      ] ProcNetSymlink.FileMode
+[       OK ] ProcNetSymlink.FileMode (0 ms)
+[ RUN      ] ProcNetSymlink.Contents
+[       OK ] ProcNetSymlink.Contents (0 ms)
+[----------] 2 tests from ProcNetSymlink (0 ms total)
+
+[----------] 1 test from ProcNetIfInet6
+[ RUN      ] ProcNetIfInet6.Format
+[       OK ] ProcNetIfInet6.Format (0 ms)
+[----------] 1 test from ProcNetIfInet6 (0 ms total)
+
+[----------] 2 tests from ProcSysNetIpv4Sack
+[ RUN      ] ProcSysNetIpv4Sack.Exists
+[       OK ] ProcSysNetIpv4Sack.Exists (0 ms)
+[ RUN      ] ProcSysNetIpv4Sack.CanReadAndWrite
+test/syscalls/linux/proc_net.cc:81: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_NET_ADMIN))) || IsRunningWithHostinet()
+
+[  SKIPPED ] ProcSysNetIpv4Sack.CanReadAndWrite (0 ms)
+[----------] 2 tests from ProcSysNetIpv4Sack (0 ms total)
+
+[----------] 1 test from ProcNetDev
+[ RUN      ] ProcNetDev.Format
+[       OK ] ProcNetDev.Format (0 ms)
+[----------] 1 test from ProcNetDev (0 ms total)
+
+[----------] 7 tests from ProcNetSnmp
+[ RUN      ] ProcNetSnmp.TcpReset
+[       OK ] ProcNetSnmp.TcpReset (0 ms)
+[ RUN      ] ProcNetSnmp.TcpEstab
+test/syscalls/linux/proc_net.cc:373: Failure
+Expected equality of these values:
+  oldCurrEstab
+    Which is: 35
+  newCurrEstab
+    Which is: 34
+
+[  FAILED  ] ProcNetSnmp.TcpEstab (1001 ms)
+[ RUN      ] ProcNetSnmp.UdpNoPorts
+[       OK ] ProcNetSnmp.UdpNoPorts (0 ms)
+[ RUN      ] ProcNetSnmp.UdpIn
+snmp: 
+Ip: Forwarding DefaultTTL InReceives InHdrErrors InAddrErrors ForwDatagrams InUnknownProtos InDiscards InDelivers OutRequests OutDiscards OutNoRoutes ReasmTimeout ReasmReqds ReasmOKs ReasmFails FragOKs FragFails FragCreates OutTransmits
+Ip: 1 64 1867531 0 3 0 0 0 1864130 1437565 20 6 0 154 77 0 0 0 0 1437565
+Icmp: InMsgs InErrors InCsumErrors InDestUnreachs InTimeExcds InParmProbs InSrcQuenchs InRedirects InEchos InEchoReps InTimestamps InTimestampReps InAddrMasks InAddrMaskReps OutMsgs OutErrors OutRateLimitGlobal OutRateLimitHost OutDestUnreachs OutTimeExcds OutParmProbs OutSrcQuenchs OutRedirects OutEchos OutEchoReps OutTimestamps OutTimestampReps OutAddrMasks OutAddrMaskReps
+Icmp: 9853 0 0 9852 0 0 0 0 1 0 0 0 0 0 180 0 0 0 179 0 0 0 0 0 1 0 0 0 0
+IcmpMsg: InType3 InType8 OutType0 OutType3
+IcmpMsg: 9852 1 1 179
+Tcp: RtoAlgorithm RtoMin RtoMax MaxConn ActiveOpens PassiveOpens AttemptFails EstabResets CurrEstab InSegs OutSegs RetransSegs InErrs OutRsts InCsumErrors
+Tcp: 1 200 120000 -1 12790 2090 2796 85 34 1430139 1191269 12635 0 690 0
+Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors
+Udp: 426985 179 0 335694 0 0 0 16371 0
+UdpLite: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors
+UdpLite: 0 0 0 0 0 0 0 0 0
+
+new snmp: 
+Ip: Forwarding DefaultTTL InReceives InHdrErrors InAddrErrors ForwDatagrams InUnknownProtos InDiscards InDelivers OutRequests OutDiscards OutNoRoutes ReasmTimeout ReasmReqds ReasmOKs ReasmFails FragOKs FragFails FragCreates OutTransmits
+Ip: 1 64 1867532 0 3 0 0 0 1864131 1437566 20 6 0 154 77 0 0 0 0 1437566
+Icmp: InMsgs InErrors InCsumErrors InDestUnreachs InTimeExcds InParmProbs InSrcQuenchs InRedirects InEchos InEchoReps InTimestamps InTimestampReps InAddrMasks InAddrMaskReps OutMsgs OutErrors OutRateLimitGlobal OutRateLimitHost OutDestUnreachs OutTimeExcds OutParmProbs OutSrcQuenchs OutRedirects OutEchos OutEchoReps OutTimestamps OutTimestampReps OutAddrMasks OutAddrMaskReps
+Icmp: 9853 0 0 9852 0 0 0 0 1 0 0 0 0 0 180 0 0 0 179 0 0 0 0 0 1 0 0 0 0
+IcmpMsg: InType3 InType8 OutType0 OutType3
+IcmpMsg: 9852 1 1 179
+Tcp: RtoAlgorithm RtoMin RtoMax MaxConn ActiveOpens PassiveOpens AttemptFails EstabResets CurrEstab InSegs OutSegs RetransSegs InErrs OutRsts InCsumErrors
+Tcp: 1 200 120000 -1 12790 2090 2796 85 34 1430139 1191269 12635 0 690 0
+Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors
+Udp: 426986 179 0 335695 0 0 0 16371 0
+UdpLite: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumErrors IgnoredMulti MemErrors
+UdpLite: 0 0 0 0 0 0 0 0 0
+
+[       OK ] ProcNetSnmp.UdpIn (0 ms)
+[ RUN      ] ProcNetSnmp.CheckNetStat
+[       OK ] ProcNetSnmp.CheckNetStat (0 ms)
+[ RUN      ] ProcNetSnmp.Stat
+[       OK ] ProcNetSnmp.Stat (0 ms)
+[ RUN      ] ProcNetSnmp.CheckSnmp
+[       OK ] ProcNetSnmp.CheckSnmp (0 ms)
+[----------] 7 tests from ProcNetSnmp (1003 ms total)
+
+[----------] 2 tests from ProcSysNetIpv4Recovery
+[ RUN      ] ProcSysNetIpv4Recovery.Exists
+[       OK ] ProcSysNetIpv4Recovery.Exists (0 ms)
+[ RUN      ] ProcSysNetIpv4Recovery.CanReadAndWrite
+test/syscalls/linux/proc_net.cc:557: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_NET_ADMIN))) || IsRunningWithHostinet()
+
+[  SKIPPED ] ProcSysNetIpv4Recovery.CanReadAndWrite (0 ms)
+[----------] 2 tests from ProcSysNetIpv4Recovery (0 ms total)
+
+[----------] 3 tests from ProcSysNetIpv4IpForward
+[ RUN      ] ProcSysNetIpv4IpForward.Exists
+[       OK ] ProcSysNetIpv4IpForward.Exists (0 ms)
+[ RUN      ] ProcSysNetIpv4IpForward.DefaultValueEqZero
+test/syscalls/linux/proc_net.cc:594: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] ProcSysNetIpv4IpForward.DefaultValueEqZero (0 ms)
+[ RUN      ] ProcSysNetIpv4IpForward.CanReadAndWrite
+test/syscalls/linux/proc_net.cc:605: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_NET_ADMIN))) || IsRunningWithHostinet()
+
+[  SKIPPED ] ProcSysNetIpv4IpForward.CanReadAndWrite (0 ms)
+[----------] 3 tests from ProcSysNetIpv4IpForward (0 ms total)
+
+[----------] 1 test from ProcSysNetPortRange
+[ RUN      ] ProcSysNetPortRange.CanReadAndWrite
+[       OK ] ProcSysNetPortRange.CanReadAndWrite (0 ms)
+[----------] 1 test from ProcSysNetPortRange (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 9 test suites ran. (1005 ms total)
+[  PASSED  ] 15 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] ProcSysNetIpv4Sack.CanReadAndWrite
+[  SKIPPED ] ProcSysNetIpv4Recovery.CanReadAndWrite
+[  SKIPPED ] ProcSysNetIpv4IpForward.DefaultValueEqZero
+[  SKIPPED ] ProcSysNetIpv4IpForward.CanReadAndWrite
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] ProcNetSnmp.TcpEstab
+
+ 1 FAILED TEST
+Failed to match any benchmarks against regex: .

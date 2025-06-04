@@ -1,0 +1,43 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from ProcPidSmapsTest
+[ RUN      ] ProcPidSmapsTest.SharedAnon
+skipping unknown smaps field Pss_Dirty
+skipping unknown smaps field KSM
+skipping unknown smaps field LazyFree
+skipping unknown smaps field ShmemPmdMapped
+skipping unknown smaps field FilePmdMapped
+skipping unknown smaps field THPeligible
+skipping unknown smaps field ProtectionKey
+[       OK ] ProcPidSmapsTest.SharedAnon (4 ms)
+[ RUN      ] ProcPidSmapsTest.PrivateAnon
+skipping unknown smaps field Pss_Dirty
+skipping unknown smaps field KSM
+skipping unknown smaps field LazyFree
+skipping unknown smaps field ShmemPmdMapped
+skipping unknown smaps field FilePmdMapped
+skipping unknown smaps field THPeligible
+skipping unknown smaps field ProtectionKey
+[       OK ] ProcPidSmapsTest.PrivateAnon (3 ms)
+[ RUN      ] ProcPidSmapsTest.SharedReadOnlyFile
+skipping unknown smaps field Pss_Dirty
+skipping unknown smaps field KSM
+skipping unknown smaps field LazyFree
+skipping unknown smaps field ShmemPmdMapped
+skipping unknown smaps field FilePmdMapped
+skipping unknown smaps field THPeligible
+skipping unknown smaps field ProtectionKey
+[       OK ] ProcPidSmapsTest.SharedReadOnlyFile (4 ms)
+[ RUN      ] ProcPidSmapsTest.GvisorFields
+test/syscalls/linux/proc_pid_smaps.cc:163: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] ProcPidSmapsTest.GvisorFields (0 ms)
+[----------] 4 tests from ProcPidSmapsTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (12 ms total)
+[  PASSED  ] 3 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] ProcPidSmapsTest.GvisorFields
+Failed to match any benchmarks against regex: .

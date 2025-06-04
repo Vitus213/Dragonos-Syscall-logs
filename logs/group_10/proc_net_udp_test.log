@@ -1,0 +1,31 @@
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from ProcNetUDP
+[ RUN      ] ProcNetUDP.Exists
+[       OK ] ProcNetUDP.Exists (0 ms)
+[ RUN      ] ProcNetUDP.EntryUID
+<end of /proc/net/udp>
+[       OK ] ProcNetUDP.EntryUID (0 ms)
+[ RUN      ] ProcNetUDP.FindMutualEntries
+<end of /proc/net/udp>
+[       OK ] ProcNetUDP.FindMutualEntries (0 ms)
+[ RUN      ] ProcNetUDP.EntriesRemovedOnClose
+<end of /proc/net/udp>
+<end of /proc/net/udp>
+<end of /proc/net/udp>
+[       OK ] ProcNetUDP.EntriesRemovedOnClose (0 ms)
+[ RUN      ] ProcNetUDP.BoundEntry
+<end of /proc/net/udp>
+[       OK ] ProcNetUDP.BoundEntry (0 ms)
+[ RUN      ] ProcNetUDP.BoundSocketStateClosed
+<end of /proc/net/udp>
+[       OK ] ProcNetUDP.BoundSocketStateClosed (0 ms)
+[ RUN      ] ProcNetUDP.ConnectedSocketStateEstablished
+<end of /proc/net/udp>
+[       OK ] ProcNetUDP.ConnectedSocketStateEstablished (0 ms)
+[----------] 7 tests from ProcNetUDP (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 7 tests.
+Failed to match any benchmarks against regex: .
