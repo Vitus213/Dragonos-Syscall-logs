@@ -1,0 +1,123 @@
+[==========] Running 27 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from ChownTest
+[ RUN      ] ChownTest.FchownBadF
+[       OK ] ChownTest.FchownBadF (0 ms)
+[ RUN      ] ChownTest.FchownatBadF
+[       OK ] ChownTest.FchownatBadF (0 ms)
+[ RUN      ] ChownTest.FchownFileWithOpath
+[       OK ] ChownTest.FchownFileWithOpath (0 ms)
+[ RUN      ] ChownTest.FchownDirWithOpath
+[       OK ] ChownTest.FchownDirWithOpath (0 ms)
+[ RUN      ] ChownTest.FchownPipeFileSucceeds
+test/syscalls/linux/chown.cc:69: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_CHOWN))
+
+[  SKIPPED ] ChownTest.FchownPipeFileSucceeds (0 ms)
+[ RUN      ] ChownTest.FchownPipeFileFails
+test/syscalls/linux/chown.cc:84: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] ChownTest.FchownPipeFileFails (0 ms)
+[ RUN      ] ChownTest.FchownatWithOpath
+[       OK ] ChownTest.FchownatWithOpath (0 ms)
+[ RUN      ] ChownTest.FchownatWithOpathEmtpyPath
+[       OK ] ChownTest.FchownatWithOpathEmtpyPath (0 ms)
+[ RUN      ] ChownTest.FchownatEmptyPath
+[       OK ] ChownTest.FchownatEmptyPath (0 ms)
+[----------] 9 tests from ChownTest (1 ms total)
+
+[----------] 18 tests from ChownKinds/ChownParamTest
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceeds/0
+[       OK ] ChownKinds/ChownParamTest.ChownFileSucceeds/0 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceeds/1
+[       OK ] ChownKinds/ChownParamTest.ChownFileSucceeds/1 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceeds/2
+[       OK ] ChownKinds/ChownParamTest.ChownFileSucceeds/2 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceeds/3
+[       OK ] ChownKinds/ChownParamTest.ChownFileSucceeds/3 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceeds/4
+[       OK ] ChownKinds/ChownParamTest.ChownFileSucceeds/4 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceeds/5
+[       OK ] ChownKinds/ChownParamTest.ChownFileSucceeds/5 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/0
+test/syscalls/linux/chown.cc:169: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/0 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/1
+test/syscalls/linux/chown.cc:169: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/1 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/2
+test/syscalls/linux/chown.cc:169: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/2 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/3
+test/syscalls/linux/chown.cc:169: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/3 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/4
+test/syscalls/linux/chown.cc:169: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/4 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/5
+test/syscalls/linux/chown.cc:169: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/5 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/0
+test/syscalls/linux/chown.cc:196: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_CHOWN)))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/0 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/1
+test/syscalls/linux/chown.cc:196: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_CHOWN)))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/1 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/2
+test/syscalls/linux/chown.cc:196: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_CHOWN)))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/2 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/3
+test/syscalls/linux/chown.cc:196: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_CHOWN)))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/3 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/4
+test/syscalls/linux/chown.cc:196: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_CHOWN)))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/4 (0 ms)
+[ RUN      ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/5
+test/syscalls/linux/chown.cc:196: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_CHOWN)))
+
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/5 (0 ms)
+[----------] 18 tests from ChownKinds/ChownParamTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 27 tests from 2 test suites ran. (3 ms total)
+[  PASSED  ] 13 tests.
+[  SKIPPED ] 14 tests, listed below:
+[  SKIPPED ] ChownTest.FchownPipeFileSucceeds
+[  SKIPPED ] ChownTest.FchownPipeFileFails
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/0
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/1
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/2
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/3
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/4
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFilePermissionDenied/5
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/0
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/1
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/2
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/3
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/4
+[  SKIPPED ] ChownKinds/ChownParamTest.ChownFileSucceedsAsRoot/5
+Failed to match any benchmarks against regex: .

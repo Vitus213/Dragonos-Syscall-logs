@@ -1,0 +1,34 @@
+[==========] Running 11 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from ClockNanosleepProcessTest
+[ RUN      ] ClockNanosleepProcessTest.SleepFiveSeconds
+[       OK ] ClockNanosleepProcessTest.SleepFiveSeconds (5001 ms)
+[----------] 1 test from ClockNanosleepProcessTest (5001 ms total)
+
+[----------] 10 tests from Sleepers/WallClockNanosleepTest
+[ RUN      ] Sleepers/WallClockNanosleepTest.InvalidValues/0
+[       OK ] Sleepers/WallClockNanosleepTest.InvalidValues/0 (0 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.InvalidValues/1
+[       OK ] Sleepers/WallClockNanosleepTest.InvalidValues/1 (0 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.SleepOneSecond/0
+[       OK ] Sleepers/WallClockNanosleepTest.SleepOneSecond/0 (1000 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.SleepOneSecond/1
+[       OK ] Sleepers/WallClockNanosleepTest.SleepOneSecond/1 (1000 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.InterruptedNanosleep/0
+[       OK ] Sleepers/WallClockNanosleepTest.InterruptedNanosleep/0 (1000 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.InterruptedNanosleep/1
+[       OK ] Sleepers/WallClockNanosleepTest.InterruptedNanosleep/1 (1000 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.UninterruptedNanosleep/0
+[       OK ] Sleepers/WallClockNanosleepTest.UninterruptedNanosleep/0 (10 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.UninterruptedNanosleep/1
+[       OK ] Sleepers/WallClockNanosleepTest.UninterruptedNanosleep/1 (10 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.SleepUntil/0
+[       OK ] Sleepers/WallClockNanosleepTest.SleepUntil/0 (2000 ms)
+[ RUN      ] Sleepers/WallClockNanosleepTest.SleepUntil/1
+[       OK ] Sleepers/WallClockNanosleepTest.SleepUntil/1 (2000 ms)
+[----------] 10 tests from Sleepers/WallClockNanosleepTest (8021 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 2 test suites ran. (13023 ms total)
+[  PASSED  ] 11 tests.
+Failed to match any benchmarks against regex: .

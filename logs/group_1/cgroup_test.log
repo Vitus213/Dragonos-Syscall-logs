@@ -1,0 +1,358 @@
+[==========] Running 53 tests from 11 test suites.
+[----------] Global test environment set-up.
+[----------] 28 tests from Cgroup
+[ RUN      ] Cgroup.MountsForAllControllers
+test/syscalls/linux/cgroup.cc:100: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.MountsForAllControllers (0 ms)
+[ RUN      ] Cgroup.AllControllersImplicit
+test/syscalls/linux/cgroup.cc:110: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.AllControllersImplicit (0 ms)
+[ RUN      ] Cgroup.ProcsAndTasks
+test/syscalls/linux/cgroup.cc:122: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.ProcsAndTasks (0 ms)
+[ RUN      ] Cgroup.Statfs
+test/syscalls/linux/cgroup.cc:140: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.Statfs (0 ms)
+[ RUN      ] Cgroup.StatfsCgroupDir
+test/syscalls/linux/cgroup.cc:155: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.StatfsCgroupDir (0 ms)
+[ RUN      ] Cgroup.CgroupsCannotMountTwice
+test/syscalls/linux/cgroup.cc:163: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.CgroupsCannotMountTwice (0 ms)
+[ RUN      ] Cgroup.OnlyContainsControllerSpecificFiles
+test/syscalls/linux/cgroup.cc:172: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.OnlyContainsControllerSpecificFiles (0 ms)
+[ RUN      ] Cgroup.InvalidController
+test/syscalls/linux/cgroup.cc:195: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.InvalidController (0 ms)
+[ RUN      ] Cgroup.MoptAllMustBeExclusive
+test/syscalls/linux/cgroup.cc:205: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.MoptAllMustBeExclusive (0 ms)
+[ RUN      ] Cgroup.UnmountRepeated
+test/syscalls/linux/cgroup.cc:215: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.UnmountRepeated (0 ms)
+[ RUN      ] Cgroup.Create
+test/syscalls/linux/cgroup.cc:227: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.Create (0 ms)
+[ RUN      ] Cgroup.SubcontainerInitiallyEmpty
+test/syscalls/linux/cgroup.cc:235: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.SubcontainerInitiallyEmpty (0 ms)
+[ RUN      ] Cgroup.SubcontainersHaveIndependentState
+test/syscalls/linux/cgroup.cc:243: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.SubcontainersHaveIndependentState (0 ms)
+[ RUN      ] Cgroup.MigrateToSubcontainer
+test/syscalls/linux/cgroup.cc:270: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.MigrateToSubcontainer (0 ms)
+[ RUN      ] Cgroup.MigrateToSubcontainerThread
+test/syscalls/linux/cgroup.cc:289: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.MigrateToSubcontainerThread (0 ms)
+[ RUN      ] Cgroup.MigrateInvalidPID
+test/syscalls/linux/cgroup.cc:311: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.MigrateInvalidPID (0 ms)
+[ RUN      ] Cgroup.DuplicateUnlinkOnDirFD
+test/syscalls/linux/cgroup.cc:325: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.DuplicateUnlinkOnDirFD (0 ms)
+[ RUN      ] Cgroup.MkdirWithPermissions
+test/syscalls/linux/cgroup.cc:343: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.MkdirWithPermissions (0 ms)
+[ RUN      ] Cgroup.CantRenameControlFile
+test/syscalls/linux/cgroup.cc:361: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.CantRenameControlFile (0 ms)
+[ RUN      ] Cgroup.CrossDirRenameNotAllowed
+test/syscalls/linux/cgroup.cc:371: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.CrossDirRenameNotAllowed (0 ms)
+[ RUN      ] Cgroup.RenameNameCollision
+test/syscalls/linux/cgroup.cc:390: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.RenameNameCollision (0 ms)
+[ RUN      ] Cgroup.Rename
+test/syscalls/linux/cgroup.cc:405: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.Rename (0 ms)
+[ RUN      ] Cgroup.PIDZeroMovesSelf
+test/syscalls/linux/cgroup.cc:416: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.PIDZeroMovesSelf (0 ms)
+[ RUN      ] Cgroup.TIDZeroMovesSelf
+test/syscalls/linux/cgroup.cc:433: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.TIDZeroMovesSelf (0 ms)
+[ RUN      ] Cgroup.NamedHierarchies
+test/syscalls/linux/cgroup.cc:450: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.NamedHierarchies (0 ms)
+[ RUN      ] Cgroup.NoneExclusiveWithAnyController
+test/syscalls/linux/cgroup.cc:466: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.NoneExclusiveWithAnyController (0 ms)
+[ RUN      ] Cgroup.EmptyHierarchyMustHaveName
+test/syscalls/linux/cgroup.cc:473: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.EmptyHierarchyMustHaveName (0 ms)
+[ RUN      ] Cgroup.NameMatchButControllersDont
+test/syscalls/linux/cgroup.cc:481: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] Cgroup.NameMatchButControllersDont (0 ms)
+[----------] 28 tests from Cgroup (0 ms total)
+
+[----------] 1 test from MemoryCgroup
+[ RUN      ] MemoryCgroup.MemoryUsageInBytes
+test/syscalls/linux/cgroup.cc:491: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] MemoryCgroup.MemoryUsageInBytes (0 ms)
+[----------] 1 test from MemoryCgroup (0 ms total)
+
+[----------] 1 test from CPUCgroup
+[ RUN      ] CPUCgroup.ControlFilesHaveDefaultValues
+test/syscalls/linux/cgroup.cc:500: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CPUCgroup.ControlFilesHaveDefaultValues (0 ms)
+[----------] 1 test from CPUCgroup (0 ms total)
+
+[----------] 5 tests from CPUAcctCgroup
+[ RUN      ] CPUAcctCgroup.CPUAcctUsage
+test/syscalls/linux/cgroup.cc:512: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CPUAcctCgroup.CPUAcctUsage (0 ms)
+[ RUN      ] CPUAcctCgroup.CPUAcctStat
+test/syscalls/linux/cgroup.cc:530: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CPUAcctCgroup.CPUAcctStat (0 ms)
+[ RUN      ] CPUAcctCgroup.HierarchicalAccounting
+test/syscalls/linux/cgroup.cc:557: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CPUAcctCgroup.HierarchicalAccounting (0 ms)
+[ RUN      ] CPUAcctCgroup.IndirectCharge
+test/syscalls/linux/cgroup.cc:598: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CPUAcctCgroup.IndirectCharge (0 ms)
+[ RUN      ] CPUAcctCgroup.NoDoubleAccounting
+test/syscalls/linux/cgroup.cc:653: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CPUAcctCgroup.NoDoubleAccounting (0 ms)
+[----------] 5 tests from CPUAcctCgroup (0 ms total)
+
+[----------] 1 test from JobCgroup
+[ RUN      ] JobCgroup.ReadWriteRead
+test/syscalls/linux/cgroup.cc:736: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] JobCgroup.ReadWriteRead (0 ms)
+[----------] 1 test from JobCgroup (0 ms total)
+
+[----------] 3 tests from CpusetCgroup
+[ RUN      ] CpusetCgroup.Defaults
+test/syscalls/linux/cgroup.cc:748: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CpusetCgroup.Defaults (0 ms)
+[ RUN      ] CpusetCgroup.SetMask
+test/syscalls/linux/cgroup.cc:765: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CpusetCgroup.SetMask (0 ms)
+[ RUN      ] CpusetCgroup.SetEmptyMask
+test/syscalls/linux/cgroup.cc:785: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] CpusetCgroup.SetEmptyMask (0 ms)
+[----------] 3 tests from CpusetCgroup (0 ms total)
+
+[----------] 2 tests from ProcCgroups
+[ RUN      ] ProcCgroups.Empty
+test/syscalls/linux/cgroup.cc:798: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] ProcCgroups.Empty (0 ms)
+[ RUN      ] ProcCgroups.ProcCgroupsEntries
+test/syscalls/linux/cgroup.cc:807: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] ProcCgroups.ProcCgroupsEntries (0 ms)
+[----------] 2 tests from ProcCgroups (0 ms total)
+
+[----------] 1 test from ProcPIDCgroup
+[ RUN      ] ProcPIDCgroup.Entries
+test/syscalls/linux/cgroup.cc:840: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] ProcPIDCgroup.Entries (0 ms)
+[----------] 1 test from ProcPIDCgroup (0 ms total)
+
+[----------] 1 test from ProcCgroup
+[ RUN      ] ProcCgroup.PIDCgroupMatchesCgroups
+test/syscalls/linux/cgroup.cc:869: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] ProcCgroup.PIDCgroupMatchesCgroups (0 ms)
+[----------] 1 test from ProcCgroup (0 ms total)
+
+[----------] 5 tests from PIDsCgroup
+[ RUN      ] PIDsCgroup.ControlFilesExist
+test/syscalls/linux/cgroup.cc:894: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] PIDsCgroup.ControlFilesExist (0 ms)
+[ RUN      ] PIDsCgroup.ChargeMigration
+test/syscalls/linux/cgroup.cc:923: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] PIDsCgroup.ChargeMigration (0 ms)
+[ RUN      ] PIDsCgroup.MigrationCanExceedLimit
+test/syscalls/linux/cgroup.cc:951: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] PIDsCgroup.MigrationCanExceedLimit (0 ms)
+[ RUN      ] PIDsCgroup.SetInvalidLimit
+test/syscalls/linux/cgroup.cc:965: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] PIDsCgroup.SetInvalidLimit (0 ms)
+[ RUN      ] PIDsCgroup.CanLowerLimitBelowCurrentCharge
+test/syscalls/linux/cgroup.cc:991: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] PIDsCgroup.CanLowerLimitBelowCurrentCharge (0 ms)
+[----------] 5 tests from PIDsCgroup (0 ms total)
+
+[----------] 5 tests from DevicesCgroup
+[ RUN      ] DevicesCgroup.ControlFilesExist
+test/syscalls/linux/cgroup.cc:1004: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] DevicesCgroup.ControlFilesExist (0 ms)
+[ RUN      ] DevicesCgroup.DenyAll
+test/syscalls/linux/cgroup.cc:1016: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] DevicesCgroup.DenyAll (0 ms)
+[ RUN      ] DevicesCgroup.AddDeviceRule
+test/syscalls/linux/cgroup.cc:1029: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] DevicesCgroup.AddDeviceRule (0 ms)
+[ RUN      ] DevicesCgroup.RemoveDeviceRule
+test/syscalls/linux/cgroup.cc:1052: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] DevicesCgroup.RemoveDeviceRule (0 ms)
+[ RUN      ] DevicesCgroup.IgnorePartialMatchRule
+test/syscalls/linux/cgroup.cc:1072: Skipped
+!CgroupsAvailable()
+
+[  SKIPPED ] DevicesCgroup.IgnorePartialMatchRule (0 ms)
+[----------] 5 tests from DevicesCgroup (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 53 tests from 11 test suites ran. (2 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 53 tests, listed below:
+[  SKIPPED ] Cgroup.MountsForAllControllers
+[  SKIPPED ] Cgroup.AllControllersImplicit
+[  SKIPPED ] Cgroup.ProcsAndTasks
+[  SKIPPED ] Cgroup.Statfs
+[  SKIPPED ] Cgroup.StatfsCgroupDir
+[  SKIPPED ] Cgroup.CgroupsCannotMountTwice
+[  SKIPPED ] Cgroup.OnlyContainsControllerSpecificFiles
+[  SKIPPED ] Cgroup.InvalidController
+[  SKIPPED ] Cgroup.MoptAllMustBeExclusive
+[  SKIPPED ] Cgroup.UnmountRepeated
+[  SKIPPED ] Cgroup.Create
+[  SKIPPED ] Cgroup.SubcontainerInitiallyEmpty
+[  SKIPPED ] Cgroup.SubcontainersHaveIndependentState
+[  SKIPPED ] Cgroup.MigrateToSubcontainer
+[  SKIPPED ] Cgroup.MigrateToSubcontainerThread
+[  SKIPPED ] Cgroup.MigrateInvalidPID
+[  SKIPPED ] Cgroup.DuplicateUnlinkOnDirFD
+[  SKIPPED ] Cgroup.MkdirWithPermissions
+[  SKIPPED ] Cgroup.CantRenameControlFile
+[  SKIPPED ] Cgroup.CrossDirRenameNotAllowed
+[  SKIPPED ] Cgroup.RenameNameCollision
+[  SKIPPED ] Cgroup.Rename
+[  SKIPPED ] Cgroup.PIDZeroMovesSelf
+[  SKIPPED ] Cgroup.TIDZeroMovesSelf
+[  SKIPPED ] Cgroup.NamedHierarchies
+[  SKIPPED ] Cgroup.NoneExclusiveWithAnyController
+[  SKIPPED ] Cgroup.EmptyHierarchyMustHaveName
+[  SKIPPED ] Cgroup.NameMatchButControllersDont
+[  SKIPPED ] MemoryCgroup.MemoryUsageInBytes
+[  SKIPPED ] CPUCgroup.ControlFilesHaveDefaultValues
+[  SKIPPED ] CPUAcctCgroup.CPUAcctUsage
+[  SKIPPED ] CPUAcctCgroup.CPUAcctStat
+[  SKIPPED ] CPUAcctCgroup.HierarchicalAccounting
+[  SKIPPED ] CPUAcctCgroup.IndirectCharge
+[  SKIPPED ] CPUAcctCgroup.NoDoubleAccounting
+[  SKIPPED ] JobCgroup.ReadWriteRead
+[  SKIPPED ] CpusetCgroup.Defaults
+[  SKIPPED ] CpusetCgroup.SetMask
+[  SKIPPED ] CpusetCgroup.SetEmptyMask
+[  SKIPPED ] ProcCgroups.Empty
+[  SKIPPED ] ProcCgroups.ProcCgroupsEntries
+[  SKIPPED ] ProcPIDCgroup.Entries
+[  SKIPPED ] ProcCgroup.PIDCgroupMatchesCgroups
+[  SKIPPED ] PIDsCgroup.ControlFilesExist
+[  SKIPPED ] PIDsCgroup.ChargeMigration
+[  SKIPPED ] PIDsCgroup.MigrationCanExceedLimit
+[  SKIPPED ] PIDsCgroup.SetInvalidLimit
+[  SKIPPED ] PIDsCgroup.CanLowerLimitBelowCurrentCharge
+[  SKIPPED ] DevicesCgroup.ControlFilesExist
+[  SKIPPED ] DevicesCgroup.DenyAll
+[  SKIPPED ] DevicesCgroup.AddDeviceRule
+[  SKIPPED ] DevicesCgroup.RemoveDeviceRule
+[  SKIPPED ] DevicesCgroup.IgnorePartialMatchRule
+Failed to match any benchmarks against regex: .

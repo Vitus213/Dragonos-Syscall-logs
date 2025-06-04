@@ -1,0 +1,35 @@
+[==========] Running 9 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 5 tests from ClockGettime
+[ RUN      ] ClockGettime.CputimeId
+[       OK ] ClockGettime.CputimeId (1430 ms)
+[ RUN      ] ClockGettime.JavaThreadTime
+[       OK ] ClockGettime.JavaThreadTime (0 ms)
+[ RUN      ] ClockGettime.RealtimeWorks
+[       OK ] ClockGettime.RealtimeWorks (0 ms)
+[ RUN      ] ClockGettime.UnimplementedReturnsEINVAL
+test/syscalls/linux/clock_gettime.cc:146: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] ClockGettime.UnimplementedReturnsEINVAL (0 ms)
+[ RUN      ] ClockGettime.InvalidClockIDReturnsEINVAL
+[       OK ] ClockGettime.InvalidClockIDReturnsEINVAL (0 ms)
+[----------] 5 tests from ClockGettime (1431 ms total)
+
+[----------] 4 tests from ClockGettime/MonotonicClockTest
+[ RUN      ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_MONOTONIC
+[       OK ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_MONOTONIC (5000 ms)
+[ RUN      ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_MONOTONIC_COARSE
+[       OK ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_MONOTONIC_COARSE (5000 ms)
+[ RUN      ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_MONOTONIC_RAW
+[       OK ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_MONOTONIC_RAW (5000 ms)
+[ RUN      ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_BOOTTIME
+[       OK ] ClockGettime/MonotonicClockTest.IsMonotonic/CLOCK_BOOTTIME (5000 ms)
+[----------] 4 tests from ClockGettime/MonotonicClockTest (20000 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 2 test suites ran. (21431 ms total)
+[  PASSED  ] 8 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] ClockGettime.UnimplementedReturnsEINVAL
+Failed to match any benchmarks against regex: .

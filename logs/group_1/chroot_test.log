@@ -1,0 +1,82 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from ChrootTest
+[ RUN      ] ChrootTest.Success
+test/syscalls/linux/chroot.cc:91: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.Success (0 ms)
+[ RUN      ] ChrootTest.PermissionDenied
+test/syscalls/linux/chroot.cc:100: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.PermissionDenied (0 ms)
+[ RUN      ] ChrootTest.NotDir
+test/syscalls/linux/chroot.cc:113: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.NotDir (0 ms)
+[ RUN      ] ChrootTest.NotExist
+test/syscalls/linux/chroot.cc:120: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.NotExist (0 ms)
+[ RUN      ] ChrootTest.WithoutCapability
+test/syscalls/linux/chroot.cc:126: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETPCAP))
+
+[  SKIPPED ] ChrootTest.WithoutCapability (0 ms)
+[ RUN      ] ChrootTest.CreatesNewRoot
+test/syscalls/linux/chroot.cc:136: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.CreatesNewRoot (0 ms)
+[ RUN      ] ChrootTest.DotDotFromOpenFD
+test/syscalls/linux/chroot.cc:203: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.DotDotFromOpenFD (0 ms)
+[ RUN      ] ChrootTest.ProcFdLinkResolutionInChroot
+test/syscalls/linux/chroot.cc:230: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.ProcFdLinkResolutionInChroot (0 ms)
+[ RUN      ] ChrootTest.ProcMemSelfFdsNoEscapeProcOpen
+test/syscalls/linux/chroot.cc:271: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.ProcMemSelfFdsNoEscapeProcOpen (0 ms)
+[ RUN      ] ChrootTest.ProcMemSelfFdsYesEscapeProcOpen
+test/syscalls/linux/chroot.cc:313: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.ProcMemSelfFdsYesEscapeProcOpen (0 ms)
+[ RUN      ] ChrootTest.ProcMemSelfMapsNoEscapeProcOpen
+test/syscalls/linux/chroot.cc:354: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_CHROOT))
+
+[  SKIPPED ] ChrootTest.ProcMemSelfMapsNoEscapeProcOpen (0 ms)
+[ RUN      ] ChrootTest.ProcMountsMountinfoNoEscape
+test/syscalls/linux/chroot.cc:407: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] ChrootTest.ProcMountsMountinfoNoEscape (0 ms)
+[----------] 12 tests from ChrootTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 12 tests, listed below:
+[  SKIPPED ] ChrootTest.Success
+[  SKIPPED ] ChrootTest.PermissionDenied
+[  SKIPPED ] ChrootTest.NotDir
+[  SKIPPED ] ChrootTest.NotExist
+[  SKIPPED ] ChrootTest.WithoutCapability
+[  SKIPPED ] ChrootTest.CreatesNewRoot
+[  SKIPPED ] ChrootTest.DotDotFromOpenFD
+[  SKIPPED ] ChrootTest.ProcFdLinkResolutionInChroot
+[  SKIPPED ] ChrootTest.ProcMemSelfFdsNoEscapeProcOpen
+[  SKIPPED ] ChrootTest.ProcMemSelfFdsYesEscapeProcOpen
+[  SKIPPED ] ChrootTest.ProcMemSelfMapsNoEscapeProcOpen
+[  SKIPPED ] ChrootTest.ProcMountsMountinfoNoEscape
+Failed to match any benchmarks against regex: .

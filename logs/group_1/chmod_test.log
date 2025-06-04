@@ -1,0 +1,50 @@
+[==========] Running 19 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 19 tests from ChmodTest
+[ RUN      ] ChmodTest.ChmodFileSucceeds
+[       OK ] ChmodTest.ChmodFileSucceeds (0 ms)
+[ RUN      ] ChmodTest.ChmodDirSucceeds
+[       OK ] ChmodTest.ChmodDirSucceeds (0 ms)
+[ RUN      ] ChmodTest.FchmodFileSucceeds
+[       OK ] ChmodTest.FchmodFileSucceeds (0 ms)
+[ RUN      ] ChmodTest.FchmodDirSucceeds
+/tmp/gvisor_test_temp_5_1749025255797080035: failed to delete 0 directories and 0 files: PosixError(errno=13 Permission denied) opendir /tmp/gvisor_test_temp_5_1749025255797080035
+[       OK ] ChmodTest.FchmodDirSucceeds (0 ms)
+[ RUN      ] ChmodTest.FchmodBadF
+[       OK ] ChmodTest.FchmodBadF (0 ms)
+[ RUN      ] ChmodTest.FchmodatBadF
+[       OK ] ChmodTest.FchmodatBadF (0 ms)
+[ RUN      ] ChmodTest.FchmodFileWithOpath
+[       OK ] ChmodTest.FchmodFileWithOpath (0 ms)
+[ RUN      ] ChmodTest.FchmodDirWithOpath
+[       OK ] ChmodTest.FchmodDirWithOpath (0 ms)
+[ RUN      ] ChmodTest.FchmodatWithOpath
+[       OK ] ChmodTest.FchmodatWithOpath (0 ms)
+[ RUN      ] ChmodTest.FchmodatNotDir
+[       OK ] ChmodTest.FchmodatNotDir (0 ms)
+[ RUN      ] ChmodTest.FchmodatFileAbsolutePath
+[       OK ] ChmodTest.FchmodatFileAbsolutePath (0 ms)
+[ RUN      ] ChmodTest.FchmodatDirAbsolutePath
+/tmp/gvisor_test_temp_10_1749025255798169879: failed to delete 0 directories and 0 files: PosixError(errno=13 Permission denied) opendir /tmp/gvisor_test_temp_10_1749025255798169879
+[       OK ] ChmodTest.FchmodatDirAbsolutePath (0 ms)
+[ RUN      ] ChmodTest.FchmodatFile
+[       OK ] ChmodTest.FchmodatFile (0 ms)
+[ RUN      ] ChmodTest.FchmodatDir
+/tmp/gvisor_test_temp_12_1749025255798581430: failed to delete 0 directories and 0 files: PosixError(errno=13 Permission denied) opendir /tmp/gvisor_test_temp_12_1749025255798581430
+[       OK ] ChmodTest.FchmodatDir (0 ms)
+[ RUN      ] ChmodTest.ChmodDowngradeWritability
+[       OK ] ChmodTest.ChmodDowngradeWritability (0 ms)
+[ RUN      ] ChmodTest.ChmodFileToNoPermissionsSucceeds
+[       OK ] ChmodTest.ChmodFileToNoPermissionsSucceeds (0 ms)
+[ RUN      ] ChmodTest.FchmodDowngradeWritability
+[       OK ] ChmodTest.FchmodDowngradeWritability (0 ms)
+[ RUN      ] ChmodTest.FchmodFileToNoPermissionsSucceeds
+[       OK ] ChmodTest.FchmodFileToNoPermissionsSucceeds (0 ms)
+[ RUN      ] ChmodTest.ChmodWritableWithOpenFD
+[       OK ] ChmodTest.ChmodWritableWithOpenFD (0 ms)
+[----------] 19 tests from ChmodTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 19 tests.
+Failed to match any benchmarks against regex: .
