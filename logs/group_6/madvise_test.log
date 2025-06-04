@@ -1,0 +1,49 @@
+[==========] Running 17 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from MadviseDontneedTest
+[ RUN      ] MadviseDontneedTest.ZerosPrivateAnonPage
+[       OK ] MadviseDontneedTest.ZerosPrivateAnonPage (0 ms)
+[ RUN      ] MadviseDontneedTest.ZerosCOWAnonPageInCallerOnly
+[       OK ] MadviseDontneedTest.ZerosCOWAnonPageInCallerOnly (0 ms)
+[ RUN      ] MadviseDontneedTest.DoesNotModifySharedAnonPage
+[       OK ] MadviseDontneedTest.DoesNotModifySharedAnonPage (0 ms)
+[ RUN      ] MadviseDontneedTest.CleansPrivateFilePage
+[       OK ] MadviseDontneedTest.CleansPrivateFilePage (0 ms)
+[ RUN      ] MadviseDontneedTest.DoesNotModifySharedFilePage
+[       OK ] MadviseDontneedTest.DoesNotModifySharedFilePage (0 ms)
+[ RUN      ] MadviseDontneedTest.IgnoresPermissions
+[       OK ] MadviseDontneedTest.IgnoresPermissions (0 ms)
+[----------] 6 tests from MadviseDontneedTest (2 ms total)
+
+[----------] 8 tests from MadviseDontneedHugePageSubrangeTest
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.OneHugePageWhole
+[       OK ] MadviseDontneedHugePageSubrangeTest.OneHugePageWhole (59 ms)
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.OneHugePagePartial
+[       OK ] MadviseDontneedHugePageSubrangeTest.OneHugePagePartial (57 ms)
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.TwoHugePagesPartialStart
+[       OK ] MadviseDontneedHugePageSubrangeTest.TwoHugePagesPartialStart (116 ms)
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.TwoHugePagesPartialEnd
+[       OK ] MadviseDontneedHugePageSubrangeTest.TwoHugePagesPartialEnd (129 ms)
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.TwoHugePagesPartialStartAndEnd
+[       OK ] MadviseDontneedHugePageSubrangeTest.TwoHugePagesPartialStartAndEnd (125 ms)
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.ThreeHugePagesPartialStart
+[       OK ] MadviseDontneedHugePageSubrangeTest.ThreeHugePagesPartialStart (173 ms)
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.ThreeHugePagesPartialEnd
+[       OK ] MadviseDontneedHugePageSubrangeTest.ThreeHugePagesPartialEnd (171 ms)
+[ RUN      ] MadviseDontneedHugePageSubrangeTest.ThreeHugePagesPartialStartAndEnd
+[       OK ] MadviseDontneedHugePageSubrangeTest.ThreeHugePagesPartialStartAndEnd (172 ms)
+[----------] 8 tests from MadviseDontneedHugePageSubrangeTest (1006 ms total)
+
+[----------] 3 tests from MadviseDontforkTest
+[ RUN      ] MadviseDontforkTest.AddressLength
+[       OK ] MadviseDontforkTest.AddressLength (0 ms)
+[ RUN      ] MadviseDontforkTest.DontforkShared
+[       OK ] MadviseDontforkTest.DontforkShared (0 ms)
+[ RUN      ] MadviseDontforkTest.DontforkAnonPrivate
+[       OK ] MadviseDontforkTest.DontforkAnonPrivate (0 ms)
+[----------] 3 tests from MadviseDontforkTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 3 test suites ran. (1011 ms total)
+[  PASSED  ] 17 tests.
+Failed to match any benchmarks against regex: .

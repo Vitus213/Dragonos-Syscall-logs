@@ -1,0 +1,44 @@
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from KillTest
+[ RUN      ] KillTest.CanKillValidPid
+[       OK ] KillTest.CanKillValidPid (0 ms)
+[ RUN      ] KillTest.CanKillAllPIDs
+test/syscalls/linux/kill.cc:65: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] KillTest.CanKillAllPIDs (0 ms)
+[ RUN      ] KillTest.CannotKillInvalidPID
+[       OK ] KillTest.CannotKillInvalidPID (0 ms)
+[ RUN      ] KillTest.CannotUseInvalidSignal
+[       OK ] KillTest.CannotUseInvalidSignal (0 ms)
+[ RUN      ] KillTest.CanKillRemoteProcess
+[       OK ] KillTest.CanKillRemoteProcess (0 ms)
+[ RUN      ] KillTest.CanKillOwnProcess
+[       OK ] KillTest.CanKillOwnProcess (0 ms)
+[ RUN      ] KillTest.CannotKillTid
+[       OK ] KillTest.CannotKillTid (3 ms)
+[ RUN      ] KillTest.SetPgid
+[       OK ] KillTest.SetPgid (1 ms)
+[ RUN      ] KillTest.ProcessGroups
+[       OK ] KillTest.ProcessGroups (0 ms)
+[ RUN      ] KillTest.ChildDropsPrivsCannotKill
+test/syscalls/linux/kill.cc:263: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] KillTest.ChildDropsPrivsCannotKill (0 ms)
+[ RUN      ] KillTest.CanSIGCONTSameSession
+test/syscalls/linux/kill.cc:320: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETUID))
+
+[  SKIPPED ] KillTest.CanSIGCONTSameSession (0 ms)
+[----------] 11 tests from KillTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (7 ms total)
+[  PASSED  ] 8 tests.
+[  SKIPPED ] 3 tests, listed below:
+[  SKIPPED ] KillTest.CanKillAllPIDs
+[  SKIPPED ] KillTest.ChildDropsPrivsCannotKill
+[  SKIPPED ] KillTest.CanSIGCONTSameSession
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,31 @@
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from MkdirTest
+[ RUN      ] MkdirTest.CanCreateWritableDir
+[       OK ] MkdirTest.CanCreateWritableDir (0 ms)
+[ RUN      ] MkdirTest.HonorsUmask
+[       OK ] MkdirTest.HonorsUmask (0 ms)
+[ RUN      ] MkdirTest.HonorsUmask2
+[       OK ] MkdirTest.HonorsUmask2 (0 ms)
+[ RUN      ] MkdirTest.FailsOnDirWithoutWritePerms
+[       OK ] MkdirTest.FailsOnDirWithoutWritePerms (0 ms)
+[ RUN      ] MkdirTest.DirAlreadyExists
+mode: 00
+mode: 0100
+mode: 0200
+mode: 0300
+mode: 0400
+mode: 0500
+mode: 0600
+mode: 0700
+[       OK ] MkdirTest.DirAlreadyExists (0 ms)
+[ RUN      ] MkdirTest.MkdirAtEmptyPath
+[       OK ] MkdirTest.MkdirAtEmptyPath (0 ms)
+[ RUN      ] MkdirTest.TrailingSlash
+[       OK ] MkdirTest.TrailingSlash (0 ms)
+[----------] 7 tests from MkdirTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 7 tests.
+Failed to match any benchmarks against regex: .

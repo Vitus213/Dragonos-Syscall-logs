@@ -1,0 +1,17 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from MembarrierTest
+[ RUN      ] MembarrierTest.NoMembarrier
+[       OK ] MembarrierTest.NoMembarrier (5000 ms)
+[ RUN      ] MembarrierTest.Global
+[       OK ] MembarrierTest.Global (5001 ms)
+[ RUN      ] MembarrierTest.GlobalExpedited
+[       OK ] MembarrierTest.GlobalExpedited (5000 ms)
+[ RUN      ] MembarrierTest.PrivateExpedited
+[       OK ] MembarrierTest.PrivateExpedited (5000 ms)
+[----------] 4 tests from MembarrierTest (20002 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (20002 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

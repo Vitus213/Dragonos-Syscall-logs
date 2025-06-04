@@ -1,0 +1,53 @@
+[==========] Running 19 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 19 tests from LinkTest
+[ RUN      ] LinkTest.CanCreateLinkFile
+[       OK ] LinkTest.CanCreateLinkFile (0 ms)
+[ RUN      ] LinkTest.PermissionDenied
+test/syscalls/linux/link.cc:80: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_FOWNER))
+
+[  SKIPPED ] LinkTest.PermissionDenied (0 ms)
+[ RUN      ] LinkTest.CannotLinkDirectory
+/tmp/gvisor_test_temp_3_1749025712916515084: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_3_1749025712916515084 does not exist
+[       OK ] LinkTest.CannotLinkDirectory (0 ms)
+[ RUN      ] LinkTest.CannotLinkWithSlash
+[       OK ] LinkTest.CannotLinkWithSlash (0 ms)
+[ RUN      ] LinkTest.OldnameIsEmpty
+[       OK ] LinkTest.OldnameIsEmpty (0 ms)
+[ RUN      ] LinkTest.OldnameDoesNotExist
+[       OK ] LinkTest.OldnameDoesNotExist (0 ms)
+[ RUN      ] LinkTest.NewnameCannotExist
+[       OK ] LinkTest.NewnameCannotExist (0 ms)
+[ RUN      ] LinkTest.WithOldDirFD
+[       OK ] LinkTest.WithOldDirFD (0 ms)
+[ RUN      ] LinkTest.BogusFlags
+[       OK ] LinkTest.BogusFlags (0 ms)
+[ RUN      ] LinkTest.WithNewDirFD
+[       OK ] LinkTest.WithNewDirFD (0 ms)
+[ RUN      ] LinkTest.RelPathsWithNonDirFDs
+[       OK ] LinkTest.RelPathsWithNonDirFDs (0 ms)
+[ RUN      ] LinkTest.AbsPathsWithNonDirFDs
+[       OK ] LinkTest.AbsPathsWithNonDirFDs (0 ms)
+[ RUN      ] LinkTest.NewDirFDWithOpath
+[       OK ] LinkTest.NewDirFDWithOpath (0 ms)
+[ RUN      ] LinkTest.RelPathsNonDirFDsWithOpath
+[       OK ] LinkTest.RelPathsNonDirFDsWithOpath (0 ms)
+[ RUN      ] LinkTest.AbsPathsNonDirFDsWithOpath
+[       OK ] LinkTest.AbsPathsNonDirFDsWithOpath (0 ms)
+[ RUN      ] LinkTest.LinkDoesNotFollowSymlinks
+[       OK ] LinkTest.LinkDoesNotFollowSymlinks (0 ms)
+[ RUN      ] LinkTest.LinkatDoesNotFollowSymlinkByDefault
+[       OK ] LinkTest.LinkatDoesNotFollowSymlinkByDefault (0 ms)
+[ RUN      ] LinkTest.LinkatWithSymlinkFollow
+[       OK ] LinkTest.LinkatWithSymlinkFollow (0 ms)
+[ RUN      ] LinkTest.KernfsAcrossFilesystem
+[       OK ] LinkTest.KernfsAcrossFilesystem (0 ms)
+[----------] 19 tests from LinkTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test suite ran. (5 ms total)
+[  PASSED  ] 18 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] LinkTest.PermissionDenied
+Failed to match any benchmarks against regex: .

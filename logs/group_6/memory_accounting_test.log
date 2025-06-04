@@ -1,0 +1,16 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemoryAccounting
+[ RUN      ] MemoryAccounting.AnonAccountingPreservedOnSaveRestore
+test/syscalls/linux/memory_accounting.cc:66: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] MemoryAccounting.AnonAccountingPreservedOnSaveRestore (0 ms)
+[----------] 1 test from MemoryAccounting (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] MemoryAccounting.AnonAccountingPreservedOnSaveRestore
+Failed to match any benchmarks against regex: .

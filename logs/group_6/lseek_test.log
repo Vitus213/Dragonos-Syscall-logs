@@ -1,0 +1,48 @@
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from LseekTest
+[ RUN      ] LseekTest.InvalidWhence
+[       OK ] LseekTest.InvalidWhence (0 ms)
+[ RUN      ] LseekTest.NegativeOffset
+[       OK ] LseekTest.NegativeOffset (0 ms)
+[ RUN      ] LseekTest.Overflow
+[       OK ] LseekTest.Overflow (0 ms)
+[ RUN      ] LseekTest.Set
+[       OK ] LseekTest.Set (0 ms)
+[ RUN      ] LseekTest.Cur
+[       OK ] LseekTest.Cur (0 ms)
+[ RUN      ] LseekTest.End
+[       OK ] LseekTest.End (0 ms)
+[ RUN      ] LseekTest.InvalidFD
+[       OK ] LseekTest.InvalidFD (0 ms)
+[ RUN      ] LseekTest.DirCurEnd
+[       OK ] LseekTest.DirCurEnd (0 ms)
+[ RUN      ] LseekTest.ProcDir
+[       OK ] LseekTest.ProcDir (0 ms)
+[ RUN      ] LseekTest.ProcFile
+[       OK ] LseekTest.ProcFile (0 ms)
+[ RUN      ] LseekTest.SysDir
+[       OK ] LseekTest.SysDir (0 ms)
+[ RUN      ] LseekTest.SeekCurrentDir
+test/syscalls/linux/lseek.cc:158: Failure
+Value of: lseek(fd.get(), 0, 2)
+Expected: (is equal to 9223372036854775807) or (-1 (failure), with errno PosixError(errno=22 Invalid argument))
+  Actual: 239 (of type long)
+
+[  FAILED  ] LseekTest.SeekCurrentDir (0 ms)
+[ RUN      ] LseekTest.ProcStatTwice
+[       OK ] LseekTest.ProcStatTwice (0 ms)
+[ RUN      ] LseekTest.EtcPasswdDup
+[       OK ] LseekTest.EtcPasswdDup (0 ms)
+[ RUN      ] LseekTest.SeekDataAndSeekHole
+[       OK ] LseekTest.SeekDataAndSeekHole (9 ms)
+[----------] 15 tests from LseekTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (11 ms total)
+[  PASSED  ] 14 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] LseekTest.SeekCurrentDir
+
+ 1 FAILED TEST
+Failed to match any benchmarks against regex: .

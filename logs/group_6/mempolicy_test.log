@@ -1,0 +1,27 @@
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from MempolicyTest
+[ RUN      ] MempolicyTest.CheckDefaultPolicy
+[       OK ] MempolicyTest.CheckDefaultPolicy (0 ms)
+[ RUN      ] MempolicyTest.PolicyPreservedAfterSetMempolicy
+[       OK ] MempolicyTest.PolicyPreservedAfterSetMempolicy (0 ms)
+[ RUN      ] MempolicyTest.SetMempolicyRejectsInvalidInputs
+[       OK ] MempolicyTest.SetMempolicyRejectsInvalidInputs (0 ms)
+[ RUN      ] MempolicyTest.EmptyNodemaskOnSet
+[       OK ] MempolicyTest.EmptyNodemaskOnSet (0 ms)
+[ RUN      ] MempolicyTest.QueryAvailableNodes
+[       OK ] MempolicyTest.QueryAvailableNodes (0 ms)
+[ RUN      ] MempolicyTest.GetMempolicyQueryNodeForAddress
+[       OK ] MempolicyTest.GetMempolicyQueryNodeForAddress (0 ms)
+[ RUN      ] MempolicyTest.GetMempolicyCanOmitPointers
+[       OK ] MempolicyTest.GetMempolicyCanOmitPointers (0 ms)
+[ RUN      ] MempolicyTest.GetMempolicyNextInterleaveNode
+[       OK ] MempolicyTest.GetMempolicyNextInterleaveNode (0 ms)
+[ RUN      ] MempolicyTest.Mbind
+[       OK ] MempolicyTest.Mbind (0 ms)
+[----------] 9 tests from MempolicyTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 9 tests.
+Failed to match any benchmarks against regex: .

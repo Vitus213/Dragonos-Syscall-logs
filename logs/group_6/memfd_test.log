@@ -1,0 +1,73 @@
+[==========] Running 21 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 21 tests from MemfdTest
+[ RUN      ] MemfdTest.Name
+[       OK ] MemfdTest.Name (0 ms)
+[ RUN      ] MemfdTest.WriteRead
+[       OK ] MemfdTest.WriteRead (0 ms)
+[ RUN      ] MemfdTest.Mmap
+[       OK ] MemfdTest.Mmap (0 ms)
+[ RUN      ] MemfdTest.DuplicateFDsShareContent
+[       OK ] MemfdTest.DuplicateFDsShareContent (0 ms)
+[ RUN      ] MemfdTest.SealingDisabledByDefault
+[       OK ] MemfdTest.SealingDisabledByDefault (0 ms)
+[ RUN      ] MemfdTest.SealsGetSet
+[       OK ] MemfdTest.SealsGetSet (0 ms)
+[ RUN      ] MemfdTest.SealGrowWithTruncate
+[       OK ] MemfdTest.SealGrowWithTruncate (0 ms)
+[ RUN      ] MemfdTest.SealGrowWithWrite
+[       OK ] MemfdTest.SealGrowWithWrite (0 ms)
+[ RUN      ] MemfdTest.SealGrowPartialWriteTruncated
+test/syscalls/linux/memfd.cc:257: Failure
+Value of: write(memfd.get(), buf.data(), buf.size())
+Expected: is equal to 1024
+  Actual: -1 (of type long), with errno PosixError(errno=1 Operation not permitted)
+
+[  FAILED  ] MemfdTest.SealGrowPartialWriteTruncated (0 ms)
+[ RUN      ] MemfdTest.SealGrowPartialWriteTruncatedSamePage
+[       OK ] MemfdTest.SealGrowPartialWriteTruncatedSamePage (0 ms)
+[ RUN      ] MemfdTest.SealShrink
+[       OK ] MemfdTest.SealShrink (0 ms)
+[ RUN      ] MemfdTest.SealWriteWithWrite
+[       OK ] MemfdTest.SealWriteWithWrite (0 ms)
+[ RUN      ] MemfdTest.SealWriteWithMmap
+test/syscalls/linux/memfd.cc:341: Failure
+Expected equality of these values:
+  ret
+    Which is: 0x725ec6a71000
+  ((void *) -1)
+    Which is: 0xffffffffffffffff
+
+[  FAILED  ] MemfdTest.SealWriteWithMmap (0 ms)
+[ RUN      ] MemfdTest.SealWriteWithOutstandingWritbleMapping
+[       OK ] MemfdTest.SealWriteWithOutstandingWritbleMapping (0 ms)
+[ RUN      ] MemfdTest.NoPartialSealApplicationWhenWriteSealRejected
+[       OK ] MemfdTest.NoPartialSealApplicationWhenWriteSealRejected (0 ms)
+[ RUN      ] MemfdTest.SealsAreInodeLevelProperties
+[       OK ] MemfdTest.SealsAreInodeLevelProperties (0 ms)
+[ RUN      ] MemfdTest.TmpfsFilesHaveSealSeal
+test/syscalls/linux/memfd.cc:449: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(IsTmpfs(tmpdir.c_str()))
+
+[  SKIPPED ] MemfdTest.TmpfsFilesHaveSealSeal (0 ms)
+[ RUN      ] MemfdTest.CanOpenFromProcfs
+[       OK ] MemfdTest.CanOpenFromProcfs (0 ms)
+[ RUN      ] MemfdTest.OtherProcessCanOpenFromProcfs
+[       OK ] MemfdTest.OtherProcessCanOpenFromProcfs (0 ms)
+[ RUN      ] MemfdTest.MemfdMustBeWritableToModifySeals
+[       OK ] MemfdTest.MemfdMustBeWritableToModifySeals (0 ms)
+[ RUN      ] MemfdTest.MultipleWritableAndNonWritableRefsToSameFileRegion
+[       OK ] MemfdTest.MultipleWritableAndNonWritableRefsToSameFileRegion (0 ms)
+[----------] 21 tests from MemfdTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 21 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 18 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] MemfdTest.TmpfsFilesHaveSealSeal
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] MemfdTest.SealGrowPartialWriteTruncated
+[  FAILED  ] MemfdTest.SealWriteWithMmap
+
+ 2 FAILED TESTS
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,19 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from MincoreTest
+[ RUN      ] MincoreTest.DirtyAnonPagesAreResident
+[       OK ] MincoreTest.DirtyAnonPagesAreResident (0 ms)
+[ RUN      ] MincoreTest.UnalignedAddressFails
+[       OK ] MincoreTest.UnalignedAddressFails (0 ms)
+[ RUN      ] MincoreTest.UnalignedLengthSucceedsAndIsRoundedUp
+[       OK ] MincoreTest.UnalignedLengthSucceedsAndIsRoundedUp (0 ms)
+[ RUN      ] MincoreTest.ZeroLengthSucceedsAndAllowsAnyVecBelowTaskSize
+[       OK ] MincoreTest.ZeroLengthSucceedsAndAllowsAnyVecBelowTaskSize (0 ms)
+[ RUN      ] MincoreTest.InvalidLengthFails
+[       OK ] MincoreTest.InvalidLengthFails (0 ms)
+[----------] 5 tests from MincoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+Failed to match any benchmarks against regex: .
