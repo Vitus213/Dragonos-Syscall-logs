@@ -1,0 +1,13 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from PreadvTest
+[ RUN      ] PreadvTest.MMConcurrencyStress
+[       OK ] PreadvTest.MMConcurrencyStress (5000 ms)
+[ RUN      ] PreadvTest.PreadvWithOpath
+[       OK ] PreadvTest.PreadvWithOpath (0 ms)
+[----------] 2 tests from PreadvTest (5001 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (5001 ms total)
+[  PASSED  ] 2 tests.
+Failed to match any benchmarks against regex: .

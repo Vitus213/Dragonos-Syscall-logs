@@ -1,0 +1,44 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from PrctlTest
+[ RUN      ] PrctlTest.NameInitialized
+[       OK ] PrctlTest.NameInitialized (0 ms)
+[ RUN      ] PrctlTest.SetNameLongName
+[       OK ] PrctlTest.SetNameLongName (0 ms)
+[ RUN      ] PrctlTest.ChildProcessName
+[       OK ] PrctlTest.ChildProcessName (0 ms)
+[ RUN      ] PrctlTest.NoNewPrivsPreservedAcrossCloneForkAndExecve
+[       OK ] PrctlTest.NoNewPrivsPreservedAcrossCloneForkAndExecve (2 ms)
+[ RUN      ] PrctlTest.PDeathSig
+[       OK ] PrctlTest.PDeathSig (0 ms)
+[ RUN      ] PrctlTest.InvalidPrSetMM
+[       OK ] PrctlTest.InvalidPrSetMM (0 ms)
+[ RUN      ] PrctlTest.SetGetDumpability
+[       OK ] PrctlTest.SetGetDumpability (0 ms)
+[ RUN      ] PrctlTest.RootDumpability
+[       OK ] PrctlTest.RootDumpability (0 ms)
+[ RUN      ] PrctlTest.SimpleSetGetChildSubreaper
+[       OK ] PrctlTest.SimpleSetGetChildSubreaper (0 ms)
+[ RUN      ] PrctlTest.ThreadsInheritChildSubreaperBit
+[       OK ] PrctlTest.ThreadsInheritChildSubreaperBit (0 ms)
+[ RUN      ] PrctlTest.ProcessesDoNotInheritChildSubreaperBit
+[       OK ] PrctlTest.ProcessesDoNotInheritChildSubreaperBit (0 ms)
+[ RUN      ] PrctlTest.OrphansReparentedToSubreaper
+Unable to find runfiles: ERROR: external/bazel_tools/tools/cpp/runfiles/runfiles.cc(123): cannot find runfiles (argv0="")
+test/syscalls/linux/prctl.cc:291: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] PrctlTest.OrphansReparentedToSubreaper (1 ms)
+[----------] 12 tests from PrctlTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 11 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] PrctlTest.OrphansReparentedToSubreaper
+
+ 1 FAILED TEST
+Failed to match any benchmarks against regex: .

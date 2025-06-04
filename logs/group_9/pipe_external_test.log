@@ -1,0 +1,36 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from Paths/HostPipeTest
+[ RUN      ] Paths/HostPipeTest.Read/0
+test/syscalls/linux/pipe_external.cc:53: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] Paths/HostPipeTest.Read/0, where GetParam() = "TEST_FIFO_TREE" (0 ms)
+[ RUN      ] Paths/HostPipeTest.Read/1
+test/syscalls/linux/pipe_external.cc:53: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] Paths/HostPipeTest.Read/1, where GetParam() = "TEST_FIFO_ATTACH_TREE" (0 ms)
+[ RUN      ] Paths/HostPipeTest.Write/0
+test/syscalls/linux/pipe_external.cc:78: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] Paths/HostPipeTest.Write/0, where GetParam() = "TEST_FIFO_TREE" (0 ms)
+[ RUN      ] Paths/HostPipeTest.Write/1
+test/syscalls/linux/pipe_external.cc:78: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] Paths/HostPipeTest.Write/1, where GetParam() = "TEST_FIFO_ATTACH_TREE" (0 ms)
+[----------] 4 tests from Paths/HostPipeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] Paths/HostPipeTest.Read/0, where GetParam() = "TEST_FIFO_TREE"
+[  FAILED  ] Paths/HostPipeTest.Read/1, where GetParam() = "TEST_FIFO_ATTACH_TREE"
+[  FAILED  ] Paths/HostPipeTest.Write/0, where GetParam() = "TEST_FIFO_TREE"
+[  FAILED  ] Paths/HostPipeTest.Write/1, where GetParam() = "TEST_FIFO_ATTACH_TREE"
+
+ 4 FAILED TESTS
+Failed to match any benchmarks against regex: .

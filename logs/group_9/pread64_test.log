@@ -1,0 +1,36 @@
+[==========] Running 12 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from Pread64TestNoTempFile
+[ RUN      ] Pread64TestNoTempFile.BadFileDescriptor
+[       OK ] Pread64TestNoTempFile.BadFileDescriptor (0 ms)
+[ RUN      ] Pread64TestNoTempFile.CantReadSocketPair
+[       OK ] Pread64TestNoTempFile.CantReadSocketPair (0 ms)
+[ RUN      ] Pread64TestNoTempFile.CantReadPipe
+[       OK ] Pread64TestNoTempFile.CantReadPipe (0 ms)
+[----------] 3 tests from Pread64TestNoTempFile (0 ms total)
+
+[----------] 9 tests from Pread64Test
+[ RUN      ] Pread64Test.ZeroBuffer
+[       OK ] Pread64Test.ZeroBuffer (0 ms)
+[ RUN      ] Pread64Test.BadBuffer
+[       OK ] Pread64Test.BadBuffer (0 ms)
+[ RUN      ] Pread64Test.WriteOnlyNotReadable
+[       OK ] Pread64Test.WriteOnlyNotReadable (0 ms)
+[ RUN      ] Pread64Test.Pread64WithOpath
+[       OK ] Pread64Test.Pread64WithOpath (0 ms)
+[ RUN      ] Pread64Test.DirNotReadable
+[       OK ] Pread64Test.DirNotReadable (0 ms)
+[ RUN      ] Pread64Test.BadOffset
+[       OK ] Pread64Test.BadOffset (0 ms)
+[ RUN      ] Pread64Test.OffsetNotIncremented
+[       OK ] Pread64Test.OffsetNotIncremented (0 ms)
+[ RUN      ] Pread64Test.EndOfFile
+[       OK ] Pread64Test.EndOfFile (0 ms)
+[ RUN      ] Pread64Test.Overflow
+[       OK ] Pread64Test.Overflow (0 ms)
+[----------] 9 tests from Pread64Test (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 2 test suites ran. (2 ms total)
+[  PASSED  ] 12 tests.
+Failed to match any benchmarks against regex: .

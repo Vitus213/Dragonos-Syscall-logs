@@ -1,0 +1,29 @@
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from Preadv2Test
+[ RUN      ] Preadv2Test.TestBaseCall
+[       OK ] Preadv2Test.TestBaseCall (0 ms)
+[ RUN      ] Preadv2Test.TestValidPositiveOffset
+[       OK ] Preadv2Test.TestValidPositiveOffset (0 ms)
+[ RUN      ] Preadv2Test.TestNegativeOneOffset
+[       OK ] Preadv2Test.TestNegativeOneOffset (0 ms)
+[ RUN      ] Preadv2Test.TestCallWithRWF_HIPRI
+[       OK ] Preadv2Test.TestCallWithRWF_HIPRI (1 ms)
+[ RUN      ] Preadv2Test.TestInvalidFlag
+[       OK ] Preadv2Test.TestInvalidFlag (0 ms)
+[ RUN      ] Preadv2Test.TestInvalidOffset
+[       OK ] Preadv2Test.TestInvalidOffset (0 ms)
+[ RUN      ] Preadv2Test.TestUnreadableFile
+[       OK ] Preadv2Test.TestUnreadableFile (0 ms)
+[ RUN      ] Preadv2Test.Preadv2WithOpath
+[       OK ] Preadv2Test.Preadv2WithOpath (0 ms)
+[ RUN      ] Preadv2Test.TestUnseekableFileInvalid
+[       OK ] Preadv2Test.TestUnseekableFileInvalid (0 ms)
+[ RUN      ] Preadv2Test.TestUnseekableFileValid
+[       OK ] Preadv2Test.TestUnseekableFileValid (0 ms)
+[----------] 10 tests from Preadv2Test (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 10 tests.
+Failed to match any benchmarks against regex: .

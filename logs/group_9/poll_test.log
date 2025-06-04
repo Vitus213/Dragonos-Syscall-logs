@@ -1,0 +1,56 @@
+[==========] Running 23 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 23 tests from PollTest
+[ RUN      ] PollTest.InvalidFds
+[       OK ] PollTest.InvalidFds (0 ms)
+[ RUN      ] PollTest.NullFds
+[       OK ] PollTest.NullFds (10 ms)
+[ RUN      ] PollTest.ZeroTimeout
+[       OK ] PollTest.ZeroTimeout (0 ms)
+[ RUN      ] PollTest.NegativeTimeout
+[       OK ] PollTest.NegativeTimeout (100 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLIN
+[       OK ] PollTest.NonBlockingEventPOLLIN (0 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLRDNORM
+[       OK ] PollTest.NonBlockingEventPOLLRDNORM (0 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLRDNORM_POLLIN
+[       OK ] PollTest.NonBlockingEventPOLLRDNORM_POLLIN (0 ms)
+[ RUN      ] PollTest.BlockingEventPOLLIN
+[       OK ] PollTest.BlockingEventPOLLIN (1000 ms)
+[ RUN      ] PollTest.BlockingEventPOLLRDNORM
+[       OK ] PollTest.BlockingEventPOLLRDNORM (1000 ms)
+[ RUN      ] PollTest.BlockingEventPOLLRDNORM_POLLIN
+[       OK ] PollTest.BlockingEventPOLLRDNORM_POLLIN (1000 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLOUT
+[       OK ] PollTest.NonBlockingEventPOLLOUT (0 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLWRNORM
+[       OK ] PollTest.NonBlockingEventPOLLWRNORM (0 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLWRNORM_POLLOUT
+[       OK ] PollTest.NonBlockingEventPOLLWRNORM_POLLOUT (0 ms)
+[ RUN      ] PollTest.BlockingEventPOLLOUT
+[       OK ] PollTest.BlockingEventPOLLOUT (0 ms)
+[ RUN      ] PollTest.BlockingEventPOLLWRNORM
+[       OK ] PollTest.BlockingEventPOLLWRNORM (0 ms)
+[ RUN      ] PollTest.BlockingEventPOLLWRNORM_POLLOUT
+[       OK ] PollTest.BlockingEventPOLLWRNORM_POLLOUT (0 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLHUP
+[       OK ] PollTest.NonBlockingEventPOLLHUP (0 ms)
+[ RUN      ] PollTest.BlockingEventPOLLHUP
+[       OK ] PollTest.BlockingEventPOLLHUP (1000 ms)
+[ RUN      ] PollTest.NonBlockingEventPOLLERR
+[       OK ] PollTest.NonBlockingEventPOLLERR (0 ms)
+[ RUN      ] PollTest.ImmediatelyReturnOnlyOnPollEvents
+[       OK ] PollTest.ImmediatelyReturnOnlyOnPollEvents (100 ms)
+[ RUN      ] PollTest.PollLevelTriggered
+[       OK ] PollTest.PollLevelTriggered (0 ms)
+[ RUN      ] PollTest.Nfds
+Using limit: 4096
+[       OK ] PollTest.Nfds (0 ms)
+[ RUN      ] PollTest.UnpollableFile
+[       OK ] PollTest.UnpollableFile (0 ms)
+[----------] 23 tests from PollTest (4214 ms total)
+
+[----------] Global test environment tear-down
+[==========] 23 tests from 1 test suite ran. (4214 ms total)
+[  PASSED  ] 23 tests.
+Failed to match any benchmarks against regex: .

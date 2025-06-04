@@ -1,0 +1,355 @@
+[==========] Running 160 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from PipeTest
+[ RUN      ] PipeTest.StatFS
+[       OK ] PipeTest.StatFS (0 ms)
+[----------] 1 test from PipeTest (0 ms total)
+
+[----------] 2 tests from Pipe2Test
+[ RUN      ] Pipe2Test.CloExec
+[       OK ] Pipe2Test.CloExec (0 ms)
+[ RUN      ] Pipe2Test.BadOptions
+[       OK ] Pipe2Test.BadOptions (0 ms)
+[----------] 2 tests from Pipe2Test (0 ms total)
+
+[----------] 1 test from NamedPipeTest
+[ RUN      ] NamedPipeTest.Truncate
+[       OK ] NamedPipeTest.Truncate (0 ms)
+[----------] 1 test from NamedPipeTest (0 ms total)
+
+[----------] 156 tests from Pipes/PipeTest
+[ RUN      ] Pipes/PipeTest.Inode/pipe
+[       OK ] Pipes/PipeTest.Inode/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.Inode/pipe2blocking
+[       OK ] Pipes/PipeTest.Inode/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Inode/pipe2nonblocking
+[       OK ] Pipes/PipeTest.Inode/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Inode/smallbuffer
+[       OK ] Pipes/PipeTest.Inode/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.Inode/namednonblocking
+[       OK ] Pipes/PipeTest.Inode/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Inode/namedblocking
+[       OK ] Pipes/PipeTest.Inode/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Permissions/pipe
+[       OK ] Pipes/PipeTest.Permissions/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.Permissions/pipe2blocking
+[       OK ] Pipes/PipeTest.Permissions/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Permissions/pipe2nonblocking
+[       OK ] Pipes/PipeTest.Permissions/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Permissions/smallbuffer
+[       OK ] Pipes/PipeTest.Permissions/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.Permissions/namednonblocking
+[       OK ] Pipes/PipeTest.Permissions/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Permissions/namedblocking
+[       OK ] Pipes/PipeTest.Permissions/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Flags/pipe
+[       OK ] Pipes/PipeTest.Flags/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.Flags/pipe2blocking
+[       OK ] Pipes/PipeTest.Flags/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Flags/pipe2nonblocking
+[       OK ] Pipes/PipeTest.Flags/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Flags/smallbuffer
+[       OK ] Pipes/PipeTest.Flags/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.Flags/namednonblocking
+[       OK ] Pipes/PipeTest.Flags/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Flags/namedblocking
+[       OK ] Pipes/PipeTest.Flags/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Write/pipe
+[       OK ] Pipes/PipeTest.Write/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.Write/pipe2blocking
+[       OK ] Pipes/PipeTest.Write/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Write/pipe2nonblocking
+[       OK ] Pipes/PipeTest.Write/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Write/smallbuffer
+[       OK ] Pipes/PipeTest.Write/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.Write/namednonblocking
+[       OK ] Pipes/PipeTest.Write/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Write/namedblocking
+[       OK ] Pipes/PipeTest.Write/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WritePage/pipe
+[       OK ] Pipes/PipeTest.WritePage/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.WritePage/pipe2blocking
+[       OK ] Pipes/PipeTest.WritePage/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WritePage/pipe2nonblocking
+[       OK ] Pipes/PipeTest.WritePage/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WritePage/smallbuffer
+[       OK ] Pipes/PipeTest.WritePage/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.WritePage/namednonblocking
+[       OK ] Pipes/PipeTest.WritePage/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WritePage/namedblocking
+[       OK ] Pipes/PipeTest.WritePage/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.NonBlocking/pipe
+[       OK ] Pipes/PipeTest.NonBlocking/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.NonBlocking/pipe2blocking
+[       OK ] Pipes/PipeTest.NonBlocking/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.NonBlocking/pipe2nonblocking
+[       OK ] Pipes/PipeTest.NonBlocking/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.NonBlocking/smallbuffer
+[       OK ] Pipes/PipeTest.NonBlocking/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.NonBlocking/namednonblocking
+[       OK ] Pipes/PipeTest.NonBlocking/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.NonBlocking/namedblocking
+[       OK ] Pipes/PipeTest.NonBlocking/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Seek/pipe
+[       OK ] Pipes/PipeTest.Seek/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.Seek/pipe2blocking
+[       OK ] Pipes/PipeTest.Seek/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Seek/pipe2nonblocking
+[       OK ] Pipes/PipeTest.Seek/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Seek/smallbuffer
+[       OK ] Pipes/PipeTest.Seek/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.Seek/namednonblocking
+[       OK ] Pipes/PipeTest.Seek/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Seek/namedblocking
+[       OK ] Pipes/PipeTest.Seek/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OffsetCalls/pipe
+[       OK ] Pipes/PipeTest.OffsetCalls/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.OffsetCalls/pipe2blocking
+[       OK ] Pipes/PipeTest.OffsetCalls/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OffsetCalls/pipe2nonblocking
+[       OK ] Pipes/PipeTest.OffsetCalls/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OffsetCalls/smallbuffer
+[       OK ] Pipes/PipeTest.OffsetCalls/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.OffsetCalls/namednonblocking
+[       OK ] Pipes/PipeTest.OffsetCalls/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OffsetCalls/namedblocking
+[       OK ] Pipes/PipeTest.OffsetCalls/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideCloses/pipe
+[       OK ] Pipes/PipeTest.WriterSideCloses/pipe (4001 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideCloses/pipe2blocking
+[       OK ] Pipes/PipeTest.WriterSideCloses/pipe2blocking (4000 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideCloses/pipe2nonblocking
+[       OK ] Pipes/PipeTest.WriterSideCloses/pipe2nonblocking (4000 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideCloses/smallbuffer
+[       OK ] Pipes/PipeTest.WriterSideCloses/smallbuffer (4000 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideCloses/namednonblocking
+[       OK ] Pipes/PipeTest.WriterSideCloses/namednonblocking (4000 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideCloses/namedblocking
+[       OK ] Pipes/PipeTest.WriterSideCloses/namedblocking (4000 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideClosesReadDataFirst/pipe
+[       OK ] Pipes/PipeTest.WriterSideClosesReadDataFirst/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideClosesReadDataFirst/pipe2blocking
+[       OK ] Pipes/PipeTest.WriterSideClosesReadDataFirst/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideClosesReadDataFirst/pipe2nonblocking
+[       OK ] Pipes/PipeTest.WriterSideClosesReadDataFirst/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideClosesReadDataFirst/smallbuffer
+[       OK ] Pipes/PipeTest.WriterSideClosesReadDataFirst/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideClosesReadDataFirst/namednonblocking
+[       OK ] Pipes/PipeTest.WriterSideClosesReadDataFirst/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.WriterSideClosesReadDataFirst/namedblocking
+[       OK ] Pipes/PipeTest.WriterSideClosesReadDataFirst/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ReaderSideCloses/pipe
+[       OK ] Pipes/PipeTest.ReaderSideCloses/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.ReaderSideCloses/pipe2blocking
+[       OK ] Pipes/PipeTest.ReaderSideCloses/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ReaderSideCloses/pipe2nonblocking
+[       OK ] Pipes/PipeTest.ReaderSideCloses/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ReaderSideCloses/smallbuffer
+[       OK ] Pipes/PipeTest.ReaderSideCloses/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.ReaderSideCloses/namednonblocking
+[       OK ] Pipes/PipeTest.ReaderSideCloses/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ReaderSideCloses/namedblocking
+[       OK ] Pipes/PipeTest.ReaderSideCloses/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.CloseTwice/pipe
+[       OK ] Pipes/PipeTest.CloseTwice/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.CloseTwice/pipe2blocking
+[       OK ] Pipes/PipeTest.CloseTwice/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.CloseTwice/pipe2nonblocking
+[       OK ] Pipes/PipeTest.CloseTwice/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.CloseTwice/smallbuffer
+[       OK ] Pipes/PipeTest.CloseTwice/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.CloseTwice/namednonblocking
+[       OK ] Pipes/PipeTest.CloseTwice/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.CloseTwice/namedblocking
+[       OK ] Pipes/PipeTest.CloseTwice/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.BlockWriteClosed/pipe
+[       OK ] Pipes/PipeTest.BlockWriteClosed/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.BlockWriteClosed/pipe2blocking
+[       OK ] Pipes/PipeTest.BlockWriteClosed/pipe2blocking (3 ms)
+[ RUN      ] Pipes/PipeTest.BlockWriteClosed/pipe2nonblocking
+[       OK ] Pipes/PipeTest.BlockWriteClosed/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.BlockWriteClosed/smallbuffer
+[       OK ] Pipes/PipeTest.BlockWriteClosed/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.BlockWriteClosed/namednonblocking
+[       OK ] Pipes/PipeTest.BlockWriteClosed/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.BlockWriteClosed/namedblocking
+[       OK ] Pipes/PipeTest.BlockWriteClosed/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.BlockPartialWriteClosed/pipe
+[       OK ] Pipes/PipeTest.BlockPartialWriteClosed/pipe (2000 ms)
+[ RUN      ] Pipes/PipeTest.BlockPartialWriteClosed/pipe2blocking
+[       OK ] Pipes/PipeTest.BlockPartialWriteClosed/pipe2blocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.BlockPartialWriteClosed/pipe2nonblocking
+[       OK ] Pipes/PipeTest.BlockPartialWriteClosed/pipe2nonblocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.BlockPartialWriteClosed/smallbuffer
+[       OK ] Pipes/PipeTest.BlockPartialWriteClosed/smallbuffer (2000 ms)
+[ RUN      ] Pipes/PipeTest.BlockPartialWriteClosed/namednonblocking
+[       OK ] Pipes/PipeTest.BlockPartialWriteClosed/namednonblocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.BlockPartialWriteClosed/namedblocking
+[       OK ] Pipes/PipeTest.BlockPartialWriteClosed/namedblocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.ReadFromClosedFd/pipe
+[       OK ] Pipes/PipeTest.ReadFromClosedFd/pipe (2000 ms)
+[ RUN      ] Pipes/PipeTest.ReadFromClosedFd/pipe2blocking
+[       OK ] Pipes/PipeTest.ReadFromClosedFd/pipe2blocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.ReadFromClosedFd/pipe2nonblocking
+[       OK ] Pipes/PipeTest.ReadFromClosedFd/pipe2nonblocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.ReadFromClosedFd/smallbuffer
+[       OK ] Pipes/PipeTest.ReadFromClosedFd/smallbuffer (2000 ms)
+[ RUN      ] Pipes/PipeTest.ReadFromClosedFd/namednonblocking
+[       OK ] Pipes/PipeTest.ReadFromClosedFd/namednonblocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.ReadFromClosedFd/namedblocking
+[       OK ] Pipes/PipeTest.ReadFromClosedFd/namedblocking (2000 ms)
+[ RUN      ] Pipes/PipeTest.FionRead/pipe
+[       OK ] Pipes/PipeTest.FionRead/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.FionRead/pipe2blocking
+[       OK ] Pipes/PipeTest.FionRead/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.FionRead/pipe2nonblocking
+[       OK ] Pipes/PipeTest.FionRead/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.FionRead/smallbuffer
+[       OK ] Pipes/PipeTest.FionRead/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.FionRead/namednonblocking
+[       OK ] Pipes/PipeTest.FionRead/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.FionRead/namedblocking
+[       OK ] Pipes/PipeTest.FionRead/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFD/pipe
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFD/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFD/pipe2blocking
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFD/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFD/pipe2nonblocking
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFD/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFD/smallbuffer
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFD/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFD/namednonblocking
+test/syscalls/linux/pipe.cc:532: Skipped
+IsNamedPipe()
+
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFD/namednonblocking (1 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFD/namedblocking
+test/syscalls/linux/pipe.cc:532: Skipped
+IsNamedPipe()
+
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFD/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/pipe
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/pipe2blocking
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/pipe2nonblocking
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/smallbuffer
+[       OK ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/namednonblocking
+test/syscalls/linux/pipe.cc:546: Skipped
+IsNamedPipe()
+
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/namedblocking
+test/syscalls/linux/pipe.cc:546: Skipped
+IsNamedPipe()
+
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDReleasesFile/pipe
+[       OK ] Pipes/PipeTest.ProcFDReleasesFile/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDReleasesFile/pipe2blocking
+[       OK ] Pipes/PipeTest.ProcFDReleasesFile/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDReleasesFile/pipe2nonblocking
+[       OK ] Pipes/PipeTest.ProcFDReleasesFile/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDReleasesFile/smallbuffer
+[       OK ] Pipes/PipeTest.ProcFDReleasesFile/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDReleasesFile/namednonblocking
+[       OK ] Pipes/PipeTest.ProcFDReleasesFile/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDReleasesFile/namedblocking
+[       OK ] Pipes/PipeTest.ProcFDReleasesFile/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDInfoReleasesFile/pipe
+[       OK ] Pipes/PipeTest.ProcFDInfoReleasesFile/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDInfoReleasesFile/pipe2blocking
+[       OK ] Pipes/PipeTest.ProcFDInfoReleasesFile/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDInfoReleasesFile/pipe2nonblocking
+[       OK ] Pipes/PipeTest.ProcFDInfoReleasesFile/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDInfoReleasesFile/smallbuffer
+[       OK ] Pipes/PipeTest.ProcFDInfoReleasesFile/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDInfoReleasesFile/namednonblocking
+[       OK ] Pipes/PipeTest.ProcFDInfoReleasesFile/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ProcFDInfoReleasesFile/namedblocking
+[       OK ] Pipes/PipeTest.ProcFDInfoReleasesFile/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChange/pipe
+[       OK ] Pipes/PipeTest.SizeChange/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChange/pipe2blocking
+[       OK ] Pipes/PipeTest.SizeChange/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChange/pipe2nonblocking
+[       OK ] Pipes/PipeTest.SizeChange/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChange/smallbuffer
+[       OK ] Pipes/PipeTest.SizeChange/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChange/namednonblocking
+[       OK ] Pipes/PipeTest.SizeChange/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChange/namedblocking
+[       OK ] Pipes/PipeTest.SizeChange/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeMax/pipe
+[       OK ] Pipes/PipeTest.SizeChangeMax/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeMax/pipe2blocking
+[       OK ] Pipes/PipeTest.SizeChangeMax/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeMax/pipe2nonblocking
+[       OK ] Pipes/PipeTest.SizeChangeMax/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeMax/smallbuffer
+[       OK ] Pipes/PipeTest.SizeChangeMax/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeMax/namednonblocking
+[       OK ] Pipes/PipeTest.SizeChangeMax/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeMax/namedblocking
+[       OK ] Pipes/PipeTest.SizeChangeMax/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeFull/pipe
+[       OK ] Pipes/PipeTest.SizeChangeFull/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeFull/pipe2blocking
+[       OK ] Pipes/PipeTest.SizeChangeFull/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeFull/pipe2nonblocking
+[       OK ] Pipes/PipeTest.SizeChangeFull/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeFull/smallbuffer
+[       OK ] Pipes/PipeTest.SizeChangeFull/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeFull/namednonblocking
+[       OK ] Pipes/PipeTest.SizeChangeFull/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.SizeChangeFull/namedblocking
+[       OK ] Pipes/PipeTest.SizeChangeFull/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Streaming/pipe
+[       OK ] Pipes/PipeTest.Streaming/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.Streaming/pipe2blocking
+[       OK ] Pipes/PipeTest.Streaming/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Streaming/pipe2nonblocking
+[       OK ] Pipes/PipeTest.Streaming/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Streaming/smallbuffer
+[       OK ] Pipes/PipeTest.Streaming/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.Streaming/namednonblocking
+[       OK ] Pipes/PipeTest.Streaming/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.Streaming/namedblocking
+[       OK ] Pipes/PipeTest.Streaming/namedblocking (1 ms)
+[ RUN      ] Pipes/PipeTest.ZeroSize/pipe
+[       OK ] Pipes/PipeTest.ZeroSize/pipe (0 ms)
+[ RUN      ] Pipes/PipeTest.ZeroSize/pipe2blocking
+[       OK ] Pipes/PipeTest.ZeroSize/pipe2blocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ZeroSize/pipe2nonblocking
+[       OK ] Pipes/PipeTest.ZeroSize/pipe2nonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ZeroSize/smallbuffer
+[       OK ] Pipes/PipeTest.ZeroSize/smallbuffer (0 ms)
+[ RUN      ] Pipes/PipeTest.ZeroSize/namednonblocking
+[       OK ] Pipes/PipeTest.ZeroSize/namednonblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.ZeroSize/namedblocking
+[       OK ] Pipes/PipeTest.ZeroSize/namedblocking (0 ms)
+[ RUN      ] Pipes/PipeTest.PipeFdCount/pipe
+[       OK ] Pipes/PipeTest.PipeFdCount/pipe (199 ms)
+[ RUN      ] Pipes/PipeTest.PipeFdCount/pipe2blocking
+[       OK ] Pipes/PipeTest.PipeFdCount/pipe2blocking (197 ms)
+[ RUN      ] Pipes/PipeTest.PipeFdCount/pipe2nonblocking
+[       OK ] Pipes/PipeTest.PipeFdCount/pipe2nonblocking (206 ms)
+[ RUN      ] Pipes/PipeTest.PipeFdCount/smallbuffer
+[       OK ] Pipes/PipeTest.PipeFdCount/smallbuffer (205 ms)
+[ RUN      ] Pipes/PipeTest.PipeFdCount/namednonblocking
+[       OK ] Pipes/PipeTest.PipeFdCount/namednonblocking (240 ms)
+[ RUN      ] Pipes/PipeTest.PipeFdCount/namedblocking
+[       OK ] Pipes/PipeTest.PipeFdCount/namedblocking (211 ms)
+[----------] 156 tests from Pipes/PipeTest (49303 ms total)
+
+[----------] Global test environment tear-down
+[==========] 160 tests from 4 test suites ran. (49304 ms total)
+[  PASSED  ] 156 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFD/namednonblocking
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFD/namedblocking
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/namednonblocking
+[  SKIPPED ] Pipes/PipeTest.OpenViaProcSelfFDWithWrites/namedblocking
+Failed to match any benchmarks against regex: .

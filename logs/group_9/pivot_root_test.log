@@ -1,0 +1,124 @@
+[==========] Running 19 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 19 tests from PivotRootTest
+[ RUN      ] PivotRootTest.Success
+test/syscalls/linux/pivot_root.cc:55: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.Success (0 ms)
+[ RUN      ] PivotRootTest.CreatesNewRoot
+test/syscalls/linux/pivot_root.cc:80: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.CreatesNewRoot (0 ms)
+[ RUN      ] PivotRootTest.MovesOldRoot
+test/syscalls/linux/pivot_root.cc:136: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.MovesOldRoot (0 ms)
+[ RUN      ] PivotRootTest.ChangesCwdForAllProcesses
+test/syscalls/linux/pivot_root.cc:179: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.ChangesCwdForAllProcesses (0 ms)
+[ RUN      ] PivotRootTest.DotDot
+test/syscalls/linux/pivot_root.cc:216: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.DotDot (0 ms)
+[ RUN      ] PivotRootTest.NotDir
+test/syscalls/linux/pivot_root.cc:247: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.NotDir (0 ms)
+[ RUN      ] PivotRootTest.NotExist
+test/syscalls/linux/pivot_root.cc:264: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.NotExist (0 ms)
+[ RUN      ] PivotRootTest.WithoutCapability
+test/syscalls/linux/pivot_root.cc:276: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SETPCAP))
+
+[  SKIPPED ] PivotRootTest.WithoutCapability (0 ms)
+[ RUN      ] PivotRootTest.NewRootOnRootMount
+test/syscalls/linux/pivot_root.cc:293: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.NewRootOnRootMount (0 ms)
+[ RUN      ] PivotRootTest.NewRootNotAMountpoint
+test/syscalls/linux/pivot_root.cc:319: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.NewRootNotAMountpoint (0 ms)
+[ RUN      ] PivotRootTest.PutOldNotUnderNewRoot
+test/syscalls/linux/pivot_root.cc:352: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.PutOldNotUnderNewRoot (0 ms)
+[ RUN      ] PivotRootTest.CurrentRootNotAMountPoint
+test/syscalls/linux/pivot_root.cc:378: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.CurrentRootNotAMountPoint (0 ms)
+[ RUN      ] PivotRootTest.OnRootFS
+test/syscalls/linux/pivot_root.cc:402: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.OnRootFS (0 ms)
+[ RUN      ] PivotRootTest.OnSharedNewRootParent
+test/syscalls/linux/pivot_root.cc:434: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.OnSharedNewRootParent (0 ms)
+[ RUN      ] PivotRootTest.OnSharedNewRoot
+test/syscalls/linux/pivot_root.cc:462: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.OnSharedNewRoot (0 ms)
+[ RUN      ] PivotRootTest.OnSharedPutOldMountpoint
+test/syscalls/linux/pivot_root.cc:491: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.OnSharedPutOldMountpoint (0 ms)
+[ RUN      ] PivotRootTest.UnreachableNewRootFails
+test/syscalls/linux/pivot_root.cc:522: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.UnreachableNewRootFails (0 ms)
+[ RUN      ] PivotRootTest.LockedNewRootFails
+test/syscalls/linux/pivot_root.cc:553: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.LockedNewRootFails (0 ms)
+[ RUN      ] PivotRootTest.OldRootUnlocked
+test/syscalls/linux/pivot_root.cc:581: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] PivotRootTest.OldRootUnlocked (0 ms)
+[----------] 19 tests from PivotRootTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 19 tests, listed below:
+[  SKIPPED ] PivotRootTest.Success
+[  SKIPPED ] PivotRootTest.CreatesNewRoot
+[  SKIPPED ] PivotRootTest.MovesOldRoot
+[  SKIPPED ] PivotRootTest.ChangesCwdForAllProcesses
+[  SKIPPED ] PivotRootTest.DotDot
+[  SKIPPED ] PivotRootTest.NotDir
+[  SKIPPED ] PivotRootTest.NotExist
+[  SKIPPED ] PivotRootTest.WithoutCapability
+[  SKIPPED ] PivotRootTest.NewRootOnRootMount
+[  SKIPPED ] PivotRootTest.NewRootNotAMountpoint
+[  SKIPPED ] PivotRootTest.PutOldNotUnderNewRoot
+[  SKIPPED ] PivotRootTest.CurrentRootNotAMountPoint
+[  SKIPPED ] PivotRootTest.OnRootFS
+[  SKIPPED ] PivotRootTest.OnSharedNewRootParent
+[  SKIPPED ] PivotRootTest.OnSharedNewRoot
+[  SKIPPED ] PivotRootTest.OnSharedPutOldMountpoint
+[  SKIPPED ] PivotRootTest.UnreachableNewRootFails
+[  SKIPPED ] PivotRootTest.LockedNewRootFails
+[  SKIPPED ] PivotRootTest.OldRootUnlocked
+Failed to match any benchmarks against regex: .

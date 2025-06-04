@@ -1,0 +1,27 @@
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from PpollTest
+[ RUN      ] PpollTest.InvalidFds
+[       OK ] PpollTest.InvalidFds (0 ms)
+[ RUN      ] PpollTest.NullFds
+[       OK ] PpollTest.NullFds (10 ms)
+[ RUN      ] PpollTest.ZeroTimeout
+[       OK ] PpollTest.ZeroTimeout (0 ms)
+[ RUN      ] PpollTest.NoTimeout
+[       OK ] PpollTest.NoTimeout (100 ms)
+[ RUN      ] PpollTest.InvalidTimeoutNegative
+[       OK ] PpollTest.InvalidTimeoutNegative (0 ms)
+[ RUN      ] PpollTest.InvalidTimeoutNotNormalized
+[       OK ] PpollTest.InvalidTimeoutNotNormalized (0 ms)
+[ RUN      ] PpollTest.InvalidMaskSize
+[       OK ] PpollTest.InvalidMaskSize (0 ms)
+[ RUN      ] PpollTest.SignalMaskBlocksSignal
+[       OK ] PpollTest.SignalMaskBlocksSignal (30030 ms)
+[ RUN      ] PpollTest.SignalMaskAllowsSignal
+[       OK ] PpollTest.SignalMaskAllowsSignal (10000 ms)
+[----------] 9 tests from PpollTest (40141 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (40141 ms total)
+[  PASSED  ] 9 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,30 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from PrctlKeepCapsSetuidTest
+[ RUN      ] PrctlKeepCapsSetuidTest.PrctlBadArgsToKeepCaps
+[       OK ] PrctlKeepCapsSetuidTest.PrctlBadArgsToKeepCaps (0 ms)
+[ RUN      ] PrctlKeepCapsSetuidTest.SetUidNoKeepCaps
+test/syscalls/linux/prctl_setuid.cc:96: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] PrctlKeepCapsSetuidTest.SetUidNoKeepCaps (0 ms)
+[ RUN      ] PrctlKeepCapsSetuidTest.SetUidKeepCaps
+test/syscalls/linux/prctl_setuid.cc:139: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] PrctlKeepCapsSetuidTest.SetUidKeepCaps (0 ms)
+[ RUN      ] PrctlKeepCapsSetuidTest.NoKeepCapsAfterExec
+[       OK ] PrctlKeepCapsSetuidTest.NoKeepCapsAfterExec (2 ms)
+[ RUN      ] PrctlKeepCapsSetuidTest.NoKeepCapsAfterNewUserNamespace
+[       OK ] PrctlKeepCapsSetuidTest.NoKeepCapsAfterNewUserNamespace (0 ms)
+[ RUN      ] PrctlKeepCapsSetuidTest.PrGetKeepCaps
+[       OK ] PrctlKeepCapsSetuidTest.PrGetKeepCaps (0 ms)
+[----------] 6 tests from PrctlKeepCapsSetuidTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 4 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] PrctlKeepCapsSetuidTest.SetUidNoKeepCaps
+[  SKIPPED ] PrctlKeepCapsSetuidTest.SetUidKeepCaps
+Failed to match any benchmarks against regex: .
