@@ -1,0 +1,49 @@
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from IP6TablesBasic
+[ RUN      ] IP6TablesBasic.FailSockoptNonRaw
+test/syscalls/linux/ip6tables.cc:42: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IP6TablesBasic.FailSockoptNonRaw (0 ms)
+[ RUN      ] IP6TablesBasic.GetInfoErrorPrecedence
+test/syscalls/linux/ip6tables.cc:57: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IP6TablesBasic.GetInfoErrorPrecedence (0 ms)
+[ RUN      ] IP6TablesBasic.GetEntriesErrorPrecedence
+test/syscalls/linux/ip6tables.cc:72: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IP6TablesBasic.GetEntriesErrorPrecedence (0 ms)
+[ RUN      ] IP6TablesBasic.GetRevision
+test/syscalls/linux/ip6tables.cc:88: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IP6TablesBasic.GetRevision (0 ms)
+[----------] 4 tests from IP6TablesBasic (0 ms total)
+
+[----------] 2 tests from IP6TablesTest
+[ RUN      ] IP6TablesTest.InitialInfo
+test/syscalls/linux/ip6tables.cc:118: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IP6TablesTest.InitialInfo (0 ms)
+[ RUN      ] IP6TablesTest.InitialEntries
+test/syscalls/linux/ip6tables.cc:161: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IP6TablesTest.InitialEntries (0 ms)
+[----------] 2 tests from IP6TablesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 6 tests, listed below:
+[  SKIPPED ] IP6TablesBasic.FailSockoptNonRaw
+[  SKIPPED ] IP6TablesBasic.GetInfoErrorPrecedence
+[  SKIPPED ] IP6TablesBasic.GetEntriesErrorPrecedence
+[  SKIPPED ] IP6TablesBasic.GetRevision
+[  SKIPPED ] IP6TablesTest.InitialInfo
+[  SKIPPED ] IP6TablesTest.InitialEntries
+Failed to match any benchmarks against regex: .

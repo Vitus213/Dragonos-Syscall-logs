@@ -1,0 +1,78 @@
+[==========] Running 26 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 26 tests from IOUringTest
+[ RUN      ] IOUringTest.ValidFD
+[       OK ] IOUringTest.ValidFD (0 ms)
+[ RUN      ] IOUringTest.ParamsNonZeroResv
+[       OK ] IOUringTest.ParamsNonZeroResv (0 ms)
+[ RUN      ] IOUringTest.ZeroCQEntries
+[       OK ] IOUringTest.ZeroCQEntries (0 ms)
+[ RUN      ] IOUringTest.ZeroCQEntriesLessThanSQEntries
+[       OK ] IOUringTest.ZeroCQEntriesLessThanSQEntries (0 ms)
+[ RUN      ] IOUringTest.UnsupportedFlags
+test/syscalls/linux/io_uring.cc:133: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] IOUringTest.UnsupportedFlags (0 ms)
+[ RUN      ] IOUringTest.MMapMUnMapWork
+[       OK ] IOUringTest.MMapMUnMapWork (1186 ms)
+[ RUN      ] IOUringTest.MMapWrongOffset
+[       OK ] IOUringTest.MMapWrongOffset (0 ms)
+[ RUN      ] IOUringTest.MMapOffsets
+[       OK ] IOUringTest.MMapOffsets (0 ms)
+[ RUN      ] IOUringTest.ReturnedParamsValues
+test/syscalls/linux/io_uring.cc:225: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] IOUringTest.ReturnedParamsValues (0 ms)
+[ RUN      ] IOUringTest.SqeIndexArrayCacheAligned
+[       OK ] IOUringTest.SqeIndexArrayCacheAligned (0 ms)
+[ RUN      ] IOUringTest.SingleNOPTest
+[       OK ] IOUringTest.SingleNOPTest (0 ms)
+[ RUN      ] IOUringTest.QueueingNOPTest
+[       OK ] IOUringTest.QueueingNOPTest (0 ms)
+[ RUN      ] IOUringTest.MultipleNOPTest
+[       OK ] IOUringTest.MultipleNOPTest (0 ms)
+[ RUN      ] IOUringTest.MultiThreadedNOPTest
+[       OK ] IOUringTest.MultiThreadedNOPTest (0 ms)
+[ RUN      ] IOUringTest.InvalidOpCodeTest
+[       OK ] IOUringTest.InvalidOpCodeTest (0 ms)
+[ RUN      ] IOUringTest.CorruptRingHeader
+[       OK ] IOUringTest.CorruptRingHeader (0 ms)
+[ RUN      ] IOUringTest.SQERingBuffersWrapAroundTest
+[       OK ] IOUringTest.SQERingBuffersWrapAroundTest (0 ms)
+[ RUN      ] IOUringTest.NonNullSigsetTest
+test/syscalls/linux/io_uring.cc:615: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] IOUringTest.NonNullSigsetTest (0 ms)
+[ RUN      ] IOUringTest.OverflowCQTest
+test/syscalls/linux/io_uring.cc:641: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] IOUringTest.OverflowCQTest (0 ms)
+[ RUN      ] IOUringTest.SingleREADVTest
+[       OK ] IOUringTest.SingleREADVTest (0 ms)
+[ RUN      ] IOUringTest.ReadvEmptyFile
+[       OK ] IOUringTest.ReadvEmptyFile (0 ms)
+[ RUN      ] IOUringTest.ThreeREADVSingleEnterTest
+[       OK ] IOUringTest.ThreeREADVSingleEnterTest (0 ms)
+[ RUN      ] IOUringTest.ReadClosedFD
+[       OK ] IOUringTest.ReadClosedFD (0 ms)
+[ RUN      ] IOUringTest.ShortReadREADVTest
+[       OK ] IOUringTest.ShortReadREADVTest (0 ms)
+[ RUN      ] IOUringTest.NoReadPermissionsREADVTest
+[       OK ] IOUringTest.NoReadPermissionsREADVTest (0 ms)
+[ RUN      ] IOUringTest.READVWithInvalidSqeFieldValue
+[       OK ] IOUringTest.READVWithInvalidSqeFieldValue (0 ms)
+[----------] 26 tests from IOUringTest (1189 ms total)
+
+[----------] Global test environment tear-down
+[==========] 26 tests from 1 test suite ran. (1189 ms total)
+[  PASSED  ] 22 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] IOUringTest.UnsupportedFlags
+[  SKIPPED ] IOUringTest.ReturnedParamsValues
+[  SKIPPED ] IOUringTest.NonNullSigsetTest
+[  SKIPPED ] IOUringTest.OverflowCQTest
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,80 @@
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from KeysTest
+[ RUN      ] KeysTest.GetCurrentSessionKeyring
+Session key: id=86510119 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+[       OK ] KeysTest.GetCurrentSessionKeyring (0 ms)
+[ RUN      ] KeysTest.GetCurrentSessionKeyringViaID
+Session key (retrieved via KEY_SPEC_SESSION_KEYRING): id=86510119 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Session key (retrieved via explicit ID 86510119): id=86510119 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+[       OK ] KeysTest.GetCurrentSessionKeyringViaID (0 ms)
+[ RUN      ] KeysTest.GetKeyringThatDoesNotExist
+[       OK ] KeysTest.GetKeyringThatDoesNotExist (0 ms)
+[ RUN      ] KeysTest.DescribeKeyWithNullBuffer
+[       OK ] KeysTest.DescribeKeyWithNullBuffer (0 ms)
+[ RUN      ] KeysTest.DescribeKeyWithTooSmallBuffer
+[       OK ] KeysTest.DescribeKeyWithTooSmallBuffer (0 ms)
+[ RUN      ] KeysTest.ChildThreadInheritsSessionKeyring
+Parent session keyring before spawning child thread: id=86510119 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Child session keyring: id=86510119 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+[       OK ] KeysTest.ChildThreadInheritsSessionKeyring (0 ms)
+[ RUN      ] KeysTest.ChildThreadInheritsSessionKeyringCreatedAfterChildIsBorn
+Parent session keyring before spawning child: id=212277410 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Child is spawned and waiting for parent.
+Parent session keyring after spawning child: id=719330781 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Child session keyring: id=212277410 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+[       OK ] KeysTest.ChildThreadInheritsSessionKeyringCreatedAfterChildIsBorn (3 ms)
+[ RUN      ] KeysTest.JoinNewNamedSessionKeyring
+Child session keyring after joining new session keyring: id=239891927 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=my_little_keyring
+[       OK ] KeysTest.JoinNewNamedSessionKeyring (0 ms)
+[ RUN      ] KeysTest.ChildJoinsNewSessionKeyring
+Parent session keyring before spawning child thread: id=86510119 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Child session keyring after joining new session keyring: id=865607675 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Parent session keyring after child finished: id=86510119 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+[       OK ] KeysTest.ChildJoinsNewSessionKeyring (0 ms)
+[ RUN      ] KeysTest.ExistingNamedSessionKeyringIsNew
+First child's session keyring: id=592449018 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=my_little_keyring
+Session child's initial session keyring: id=902647514 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Session child's second session keyring: id=1049497099 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=my_little_keyring
+[       OK ] KeysTest.ExistingNamedSessionKeyringIsNew (0 ms)
+[ RUN      ] KeysTest.SetAndRetrieveKeyPermissions
+Child session keyring after joining new session keyring: id=53356167 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+Child session keyring after changing session keyring permissions: id=53356167 type=keyring uid=1000 gid=1000 perms=0x3f0b0000 [process=vrwsla,user=vr-s--,group=------,other=------] desc=_ses
+Second-level child session keyring: id=53356167 type=keyring uid=1000 gid=1000 perms=0x3f0b0000 [process=vrwsla,user=vr-s--,group=------,other=------] desc=_ses
+[       OK ] KeysTest.SetAndRetrieveKeyPermissions (0 ms)
+[ RUN      ] KeysTest.JoinExistingNamedKeyringFromParent
+First-level child keyring: id=544221319 type=keyring uid=1000 gid=1000 perms=0x3f1b0008 [process=vrwsla,user=vr-sl-,group=------,other=---s--] desc=my_little_keyring
+Second-level child keyring: id=1056758507 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=my_other_keyring
+Third-level child keyring: id=544221319 type=keyring uid=1000 gid=1000 perms=0x3f1b0008 [process=vrwsla,user=vr-sl-,group=------,other=---s--] desc=my_little_keyring
+[       OK ] KeysTest.JoinExistingNamedKeyringFromParent (0 ms)
+[ RUN      ] KeysTest.DefaultKeyPermissions
+Default named session keyring: id=900632255 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=named_session_keyring
+Default unnamed session keyring: id=299640821 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+[       OK ] KeysTest.DefaultKeyPermissions (0 ms)
+[ RUN      ] KeysTest.EnforceKeyPermissions
+[       OK ] KeysTest.EnforceKeyPermissions (0 ms)
+[ RUN      ] KeysTest.JoiningNonSearchableNamedKeyring
+First child keyring: id=912608978 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=my_little_keyring
+Second child keyring: id=912608978 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=my_little_keyring
+[       OK ] KeysTest.JoiningNonSearchableNamedKeyring (0 ms)
+[ RUN      ] KeysTest.JoiningSearchableNamedKeyring
+Initial session keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f130000 [process=vrwsla,user=vr--l-,group=------,other=------] desc=my_little_keyring
+Searchable session keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b0000 [process=vrwsla,user=vr-sl-,group=------,other=------] desc=my_little_keyring
+Second keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b0000 [process=vrwsla,user=vr-sl-,group=------,other=------] desc=my_little_keyring
+[       OK ] KeysTest.JoiningSearchableNamedKeyring (0 ms)
+[ RUN      ] KeysTest.SearchableKeyringIsSharedAcrossThreads
+Parent session keyring: id=605941530 type=keyring uid=1000 gid=1000 perms=0x3f030000 [process=vrwsla,user=vr----,group=------,other=------] desc=_ses
+First child: initial session keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b0000 [process=vrwsla,user=vr-sl-,group=------,other=------] desc=my_little_keyring
+First child: searchable session keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b0000 [process=vrwsla,user=vr-sl-,group=------,other=------] desc=my_little_keyring
+Second child: initial session keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b0000 [process=vrwsla,user=vr-sl-,group=------,other=------] desc=my_little_keyring
+Second child: session keyring after modifying its permissions: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b1000 [process=vrwsla,user=vr-sl-,group=----l-,other=------] desc=my_little_keyring
+First child: session keyring after second thread modified it: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b1000 [process=vrwsla,user=vr-sl-,group=----l-,other=------] desc=my_little_keyring
+First child: final session keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b1010 [process=vrwsla,user=vr-sl-,group=----l-,other=----l-] desc=my_little_keyring
+Second child: final session keyring: id=693336574 type=keyring uid=1000 gid=1000 perms=0x3f1b1010 [process=vrwsla,user=vr-sl-,group=----l-,other=----l-] desc=my_little_keyring
+[       OK ] KeysTest.SearchableKeyringIsSharedAcrossThreads (0 ms)
+[----------] 17 tests from KeysTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (7 ms total)
+[  PASSED  ] 17 tests.
+Failed to match any benchmarks against regex: .

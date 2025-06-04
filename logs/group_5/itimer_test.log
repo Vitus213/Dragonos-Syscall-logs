@@ -1,0 +1,20 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from ItimerTest
+[ RUN      ] ItimerTest.ItimervalUpdatedBeforeExpiration
+[       OK ] ItimerTest.ItimervalUpdatedBeforeExpiration (10000 ms)
+[ RUN      ] ItimerTest.DeliversSIGALRMToMainThread
+result: {expected_total: 802, main_thread_samples: 802, worker_samples: [0, 0]}
+[       OK ] ItimerTest.DeliversSIGALRMToMainThread (20070 ms)
+[ RUN      ] ItimerTest.DeliversSIGPROFToThreadsRoughlyFairlyActive
+result: {expected_total: 1602, main_thread_samples: 0, worker_samples: [797, 807]}
+[       OK ] ItimerTest.DeliversSIGPROFToThreadsRoughlyFairlyActive (40124 ms)
+[ RUN      ] ItimerTest.DeliversSIGPROFToThreadsRoughlyFairlyIdle
+result: {expected_total: 1602, main_thread_samples: 0, worker_samples: [804, 798]}
+[       OK ] ItimerTest.DeliversSIGPROFToThreadsRoughlyFairlyIdle (63520 ms)
+[----------] 4 tests from ItimerTest (133715 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (133715 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,34 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from KcovTest
+[ RUN      ] KcovTest.Kcov
+test/syscalls/linux/kcov.cc:49: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_DAC_OVERRIDE)))
+
+[  SKIPPED ] KcovTest.Kcov (0 ms)
+[ RUN      ] KcovTest.PrematureMmap
+test/syscalls/linux/kcov.cc:79: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_DAC_OVERRIDE)))
+
+[  SKIPPED ] KcovTest.PrematureMmap (0 ms)
+[ RUN      ] KcovTest.MultipleFds
+test/syscalls/linux/kcov.cc:95: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_DAC_OVERRIDE)))
+
+[  SKIPPED ] KcovTest.MultipleFds (0 ms)
+[ RUN      ] KcovTest.MultipleThreads
+test/syscalls/linux/kcov.cc:125: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability((CAP_DAC_OVERRIDE)))
+
+[  SKIPPED ] KcovTest.MultipleThreads (0 ms)
+[----------] 4 tests from KcovTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] KcovTest.Kcov
+[  SKIPPED ] KcovTest.PrematureMmap
+[  SKIPPED ] KcovTest.MultipleFds
+[  SKIPPED ] KcovTest.MultipleThreads
+Failed to match any benchmarks against regex: .

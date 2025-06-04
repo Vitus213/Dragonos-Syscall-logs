@@ -1,0 +1,165 @@
+[==========] Running 69 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 66 tests from Inotify
+[ RUN      ] Inotify.IllegalSeek
+test/syscalls/linux/inotify.cc:337: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] Inotify.IllegalSeek (0 ms)
+[ RUN      ] Inotify.IllegalPread
+[       OK ] Inotify.IllegalPread (0 ms)
+[ RUN      ] Inotify.IllegalPwrite
+[       OK ] Inotify.IllegalPwrite (0 ms)
+[ RUN      ] Inotify.IllegalWrite
+[       OK ] Inotify.IllegalWrite (0 ms)
+[ RUN      ] Inotify.InitFlags
+[       OK ] Inotify.InitFlags (0 ms)
+[ RUN      ] Inotify.NonBlockingReadReturnsEagain
+[       OK ] Inotify.NonBlockingReadReturnsEagain (0 ms)
+[ RUN      ] Inotify.AddWatchOnInvalidFdFails
+[       OK ] Inotify.AddWatchOnInvalidFdFails (0 ms)
+[ RUN      ] Inotify.RemovingWatchGeneratesEvent
+[       OK ] Inotify.RemovingWatchGeneratesEvent (0 ms)
+[ RUN      ] Inotify.CanDeleteFileAfterRemovingWatch
+[       OK ] Inotify.CanDeleteFileAfterRemovingWatch (0 ms)
+[ RUN      ] Inotify.RemoveWatchAfterDeletingFileFails
+[       OK ] Inotify.RemoveWatchAfterDeletingFileFails (0 ms)
+[ RUN      ] Inotify.DuplicateWatchRemovalFails
+[       OK ] Inotify.DuplicateWatchRemovalFails (4 ms)
+[ RUN      ] Inotify.ConcurrentFileDeletionAndWatchRemoval
+[       OK ] Inotify.ConcurrentFileDeletionAndWatchRemoval (9 ms)
+[ RUN      ] Inotify.DeletingChildGeneratesEvents
+[       OK ] Inotify.DeletingChildGeneratesEvents (3 ms)
+[ RUN      ] Inotify.CreatingFileGeneratesEvents
+[       OK ] Inotify.CreatingFileGeneratesEvents (0 ms)
+[ RUN      ] Inotify.ReadingFileGeneratesAccessEvent
+[       OK ] Inotify.ReadingFileGeneratesAccessEvent (0 ms)
+[ RUN      ] Inotify.WritingFileGeneratesModifyEvent
+[       OK ] Inotify.WritingFileGeneratesModifyEvent (0 ms)
+[ RUN      ] Inotify.SizeZeroReadWriteGeneratesNothing
+[       OK ] Inotify.SizeZeroReadWriteGeneratesNothing (0 ms)
+[ RUN      ] Inotify.FailedFileCreationGeneratesNoEvents
+[       OK ] Inotify.FailedFileCreationGeneratesNoEvents (5 ms)
+[ RUN      ] Inotify.WatchSetAfterOpenReportsCloseFdEvent
+[       OK ] Inotify.WatchSetAfterOpenReportsCloseFdEvent (0 ms)
+[ RUN      ] Inotify.ChildrenDeletionInWatchedDirGeneratesEvent
+[       OK ] Inotify.ChildrenDeletionInWatchedDirGeneratesEvent (0 ms)
+[ RUN      ] Inotify.RmdirOnWatchedTargetGeneratesEvent
+/tmp/gvisor_test_temp_26_1749025567204432621: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_26_1749025567204432621 does not exist
+[       OK ] Inotify.RmdirOnWatchedTargetGeneratesEvent (0 ms)
+[ RUN      ] Inotify.MoveGeneratesEvents
+/tmp/gvisor_test_temp_27_1749025567204725220/gvisor_test_temp_30_1749025567204948308/gvisor_test_temp_33_1749025567205113047: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_27_1749025567204725220/gvisor_test_temp_30_1749025567204948308/gvisor_test_temp_33_1749025567205113047 does not exist
+[       OK ] Inotify.MoveGeneratesEvents (4 ms)
+[ RUN      ] Inotify.MoveWatchedTargetGeneratesEvents
+[       OK ] Inotify.MoveWatchedTargetGeneratesEvents (0 ms)
+[ RUN      ] Inotify.DupFD
+[       OK ] Inotify.DupFD (1 ms)
+[ RUN      ] Inotify.CoalesceEvents
+[       OK ] Inotify.CoalesceEvents (0 ms)
+[ RUN      ] Inotify.ClosingInotifyFdWithoutRemovingWatchesWorks
+[       OK ] Inotify.ClosingInotifyFdWithoutRemovingWatchesWorks (3 ms)
+[ RUN      ] Inotify.NestedWatches
+[       OK ] Inotify.NestedWatches (0 ms)
+[ RUN      ] Inotify.ConcurrentThreadsGeneratingEvents
+[       OK ] Inotify.ConcurrentThreadsGeneratingEvents (2 ms)
+[ RUN      ] Inotify.ReadWithTooSmallBufferFails
+[       OK ] Inotify.ReadWithTooSmallBufferFails (4 ms)
+[ RUN      ] Inotify.BlockingReadOnInotifyFd
+[       OK ] Inotify.BlockingReadOnInotifyFd (0 ms)
+[ RUN      ] Inotify.WatchOnRelativePath
+[       OK ] Inotify.WatchOnRelativePath (6 ms)
+[ RUN      ] Inotify.ZeroLengthReadWriteDoesNotGenerateEvent
+[       OK ] Inotify.ZeroLengthReadWriteDoesNotGenerateEvent (6 ms)
+[ RUN      ] Inotify.ChmodGeneratesAttribEvent
+[       OK ] Inotify.ChmodGeneratesAttribEvent (0 ms)
+[ RUN      ] Inotify.TruncateGeneratesModifyEvent
+[       OK ] Inotify.TruncateGeneratesModifyEvent (0 ms)
+[ RUN      ] Inotify.GetdentsGeneratesAccessEvent
+[       OK ] Inotify.GetdentsGeneratesAccessEvent (4 ms)
+[ RUN      ] Inotify.MknodGeneratesCreateEvent
+[       OK ] Inotify.MknodGeneratesCreateEvent (0 ms)
+[ RUN      ] Inotify.SymlinkGeneratesCreateEvent
+[       OK ] Inotify.SymlinkGeneratesCreateEvent (4 ms)
+[ RUN      ] Inotify.SymlinkFollow
+/tmp/gvisor_test_temp_75_1749025567247591030: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_75_1749025567247591030 does not exist
+/tmp/gvisor_test_temp_74_1749025567247460775: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_74_1749025567247460775 does not exist
+[       OK ] Inotify.SymlinkFollow (0 ms)
+[ RUN      ] Inotify.LinkGeneratesAttribAndCreateEvents
+[       OK ] Inotify.LinkGeneratesAttribAndCreateEvents (4 ms)
+[ RUN      ] Inotify.UtimesGeneratesAttribEvent
+[       OK ] Inotify.UtimesGeneratesAttribEvent (0 ms)
+[ RUN      ] Inotify.HardlinksReuseSameWatch
+[       OK ] Inotify.HardlinksReuseSameWatch (4 ms)
+[ RUN      ] Inotify.MkdirGeneratesCreateEventWithDirFlag
+[       OK ] Inotify.MkdirGeneratesCreateEventWithDirFlag (4 ms)
+[ RUN      ] Inotify.MultipleInotifyInstancesAndWatchesAllGetEvents
+[       OK ] Inotify.MultipleInotifyInstancesAndWatchesAllGetEvents (46 ms)
+[ RUN      ] Inotify.EventsGoUpAtMostOneLevel
+[       OK ] Inotify.EventsGoUpAtMostOneLevel (4 ms)
+[ RUN      ] Inotify.DuplicateWatchReturnsSameWatchDescriptor
+[       OK ] Inotify.DuplicateWatchReturnsSameWatchDescriptor (0 ms)
+[ RUN      ] Inotify.UnmatchedEventsAreDiscarded
+[       OK ] Inotify.UnmatchedEventsAreDiscarded (0 ms)
+[ RUN      ] Inotify.AddWatchWithInvalidEventMaskFails
+[       OK ] Inotify.AddWatchWithInvalidEventMaskFails (0 ms)
+[ RUN      ] Inotify.AddWatchOnInvalidPathFails
+/tmp/gvisor_test_temp_95_1749025567313642906: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_95_1749025567313642906 does not exist
+[       OK ] Inotify.AddWatchOnInvalidPathFails (0 ms)
+[ RUN      ] Inotify.InOnlyDirFlagRespected
+[       OK ] Inotify.InOnlyDirFlagRespected (0 ms)
+[ RUN      ] Inotify.MaskAddMergesWithExistingEventMask
+[       OK ] Inotify.MaskAddMergesWithExistingEventMask (1 ms)
+[ RUN      ] Inotify.ControlEvents
+[       OK ] Inotify.ControlEvents (4 ms)
+[ RUN      ] Inotify.EpollNoDeadlock
+[       OK ] Inotify.EpollNoDeadlock (5170 ms)
+[ RUN      ] Inotify.Fallocate
+[       OK ] Inotify.Fallocate (4 ms)
+[ RUN      ] Inotify.Utimensat
+[       OK ] Inotify.Utimensat (3 ms)
+[ RUN      ] Inotify.Sendfile
+[       OK ] Inotify.Sendfile (5 ms)
+[ RUN      ] Inotify.SpliceOnWatchTarget
+[       OK ] Inotify.SpliceOnWatchTarget (3 ms)
+[ RUN      ] Inotify.LinkOnOtherParent
+[       OK ] Inotify.LinkOnOtherParent (4 ms)
+[ RUN      ] Inotify.Xattr
+[       OK ] Inotify.Xattr (3 ms)
+[ RUN      ] Inotify.Exec
+[       OK ] Inotify.Exec (2 ms)
+[ RUN      ] Inotify.IncludeUnlinkedFile
+/tmp/gvisor_test_temp_1115_1749025572518832025/gvisor_test_temp_1116_1749025572518927564: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_1115_1749025572518832025/gvisor_test_temp_1116_1749025572518927564 does not exist
+[       OK ] Inotify.IncludeUnlinkedFile (4 ms)
+[ RUN      ] Inotify.ExcludeUnlink
+/tmp/gvisor_test_temp_1117_1749025572523476952/gvisor_test_temp_1118_1749025572523584494: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_1117_1749025572523476952/gvisor_test_temp_1118_1749025572523584494 does not exist
+[       OK ] Inotify.ExcludeUnlink (4 ms)
+[ RUN      ] Inotify.ExcludeUnlinkDirectory
+/tmp/gvisor_test_temp_1119_1749025572528460946/gvisor_test_temp_1120_1749025572528560953: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_1119_1749025572528460946/gvisor_test_temp_1120_1749025572528560953 does not exist
+[       OK ] Inotify.ExcludeUnlinkDirectory (4 ms)
+[ RUN      ] Inotify.ExcludeUnlinkMultipleChildren
+/tmp/gvisor_test_temp_1121_1749025572533333971/gvisor_test_temp_1122_1749025572533426685: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_1121_1749025572533333971/gvisor_test_temp_1122_1749025572533426685 does not exist
+[       OK ] Inotify.ExcludeUnlinkMultipleChildren (5 ms)
+[ RUN      ] Inotify.ExcludeUnlinkInodeEvents
+/tmp/gvisor_test_temp_1124_1749025572538536184/gvisor_test_temp_1125_1749025572538628076: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_1124_1749025572538536184/gvisor_test_temp_1125_1749025572538628076 does not exist
+[       OK ] Inotify.ExcludeUnlinkInodeEvents (3 ms)
+[ RUN      ] Inotify.OneShot
+[       OK ] Inotify.OneShot (3 ms)
+[ RUN      ] Inotify.KernfsBasic
+[       OK ] Inotify.KernfsBasic (3 ms)
+[----------] 66 tests from Inotify (5373 ms total)
+
+[----------] 3 tests from InotifyTest
+[ RUN      ] InotifyTest.InotifyAndTargetDestructionDoNotDeadlock
+[       OK ] InotifyTest.InotifyAndTargetDestructionDoNotDeadlock (4001 ms)
+[ RUN      ] InotifyTest.AddRemoveUnlinkDoNotDeadlock
+[       OK ] InotifyTest.AddRemoveUnlinkDoNotDeadlock (1002 ms)
+[ RUN      ] InotifyTest.NotifyNoDeadlock
+[       OK ] InotifyTest.NotifyNoDeadlock (307 ms)
+[----------] 3 tests from InotifyTest (5311 ms total)
+
+[----------] Global test environment tear-down
+[==========] 69 tests from 2 test suites ran. (10685 ms total)
+[  PASSED  ] 68 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] Inotify.IllegalSeek
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,58 @@
+[==========] Running 7 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from IPTablesBasic
+[ RUN      ] IPTablesBasic.CreateSocket
+test/syscalls/linux/iptables.cc:50: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IPTablesBasic.CreateSocket (0 ms)
+[ RUN      ] IPTablesBasic.FailSockoptNonRaw
+test/syscalls/linux/iptables.cc:62: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IPTablesBasic.FailSockoptNonRaw (0 ms)
+[ RUN      ] IPTablesBasic.GetInfoErrorPrecedence
+test/syscalls/linux/iptables.cc:77: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IPTablesBasic.GetInfoErrorPrecedence (0 ms)
+[ RUN      ] IPTablesBasic.GetEntriesErrorPrecedence
+test/syscalls/linux/iptables.cc:92: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IPTablesBasic.GetEntriesErrorPrecedence (0 ms)
+[ RUN      ] IPTablesBasic.OriginalDstErrors
+test/syscalls/linux/iptables.cc:108: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IPTablesBasic.OriginalDstErrors (0 ms)
+[ RUN      ] IPTablesBasic.GetRevision
+test/syscalls/linux/iptables.cc:121: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IPTablesBasic.GetRevision (0 ms)
+[----------] 6 tests from IPTablesBasic (0 ms total)
+
+[----------] 1 test from IPTablesTest
+[ RUN      ] IPTablesTest.InitialState
+test/syscalls/linux/iptables.cc:160: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+test/syscalls/linux/iptables.cc:166: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_RAW))
+
+[  SKIPPED ] IPTablesTest.InitialState (0 ms)
+[----------] 1 test from IPTablesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 7 tests, listed below:
+[  SKIPPED ] IPTablesBasic.CreateSocket
+[  SKIPPED ] IPTablesBasic.FailSockoptNonRaw
+[  SKIPPED ] IPTablesBasic.GetInfoErrorPrecedence
+[  SKIPPED ] IPTablesBasic.GetEntriesErrorPrecedence
+[  SKIPPED ] IPTablesBasic.OriginalDstErrors
+[  SKIPPED ] IPTablesBasic.GetRevision
+[  SKIPPED ] IPTablesTest.InitialState
+Failed to match any benchmarks against regex: .

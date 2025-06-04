@@ -1,0 +1,11 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GetrandomTest
+[ RUN      ] GetrandomTest.IsRandom
+[       OK ] GetrandomTest.IsRandom (0 ms)
+[----------] 1 test from GetrandomTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+Failed to match any benchmarks against regex: .

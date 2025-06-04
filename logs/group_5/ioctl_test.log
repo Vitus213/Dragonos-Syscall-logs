@@ -1,0 +1,118 @@
+[==========] Running 41 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 17 tests from IoctlTest
+[ RUN      ] IoctlTest.BadFileDescriptor
+[       OK ] IoctlTest.BadFileDescriptor (0 ms)
+[ RUN      ] IoctlTest.InvalidControlNumber
+[       OK ] IoctlTest.InvalidControlNumber (0 ms)
+[ RUN      ] IoctlTest.IoctlWithOpath
+[       OK ] IoctlTest.IoctlWithOpath (0 ms)
+[ RUN      ] IoctlTest.FIONBIOSucceeds
+[       OK ] IoctlTest.FIONBIOSucceeds (0 ms)
+[ RUN      ] IoctlTest.FIONBIOFails
+[       OK ] IoctlTest.FIONBIOFails (0 ms)
+[ RUN      ] IoctlTest.FIONCLEXSucceeds
+[       OK ] IoctlTest.FIONCLEXSucceeds (0 ms)
+[ RUN      ] IoctlTest.FIOCLEXSucceeds
+[       OK ] IoctlTest.FIOCLEXSucceeds (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCFails
+[       OK ] IoctlTest.FIOASYNCFails (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCSucceeds
+[       OK ] IoctlTest.FIOASYNCSucceeds (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCNoTarget
+[       OK ] IoctlTest.FIOASYNCNoTarget (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCSelfTarget
+[       OK ] IoctlTest.FIOASYNCSelfTarget (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCSelfTarget2
+[       OK ] IoctlTest.FIOASYNCSelfTarget2 (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCSelfTargetClose
+[       OK ] IoctlTest.FIOASYNCSelfTargetClose (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCInvalidPID
+[       OK ] IoctlTest.FIOASYNCInvalidPID (0 ms)
+[ RUN      ] IoctlTest.FIOASYNCUnsetTarget
+[       OK ] IoctlTest.FIOASYNCUnsetTarget (0 ms)
+[ RUN      ] IoctlTest.FIOGETOWNSucceeds
+[       OK ] IoctlTest.FIOGETOWNSucceeds (0 ms)
+[ RUN      ] IoctlTest.SIOCGPGRPSucceeds
+[       OK ] IoctlTest.SIOCGPGRPSucceeds (0 ms)
+[----------] 17 tests from IoctlTest (1 ms total)
+
+[----------] 24 tests from IoctlTest/IoctlTestSIOCGIFCONF
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/0
+Testing with Family 1, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/0 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/1
+Testing with Family 1, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/1 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/2
+Testing with Family 2, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/2 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/3
+Testing with Family 10, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/3 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/4
+Testing with Family 2, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/4 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/5
+Testing with Family 10, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoArrayGetsLength/5 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/0
+Testing with Family 1, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/0 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/1
+Testing with Family 1, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/1 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/2
+Testing with Family 2, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/2 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/3
+Testing with Family 10, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/3 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/4
+Testing with Family 2, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/4 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/5
+Testing with Family 10, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNoPartialIfrsReturned/5 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/0
+Testing with Family 1, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/0 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/1
+Testing with Family 1, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/1 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/2
+Testing with Family 2, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/2 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/3
+Testing with Family 10, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/3 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/4
+Testing with Family 2, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/4 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/5
+Testing with Family 10, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateNestedPointerCheck/5 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/0
+Testing with Family 1, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/0 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/1
+Testing with Family 1, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/1 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/2
+Testing with Family 2, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/2 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/3
+Testing with Family 10, type 1, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/3 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/4
+Testing with Family 2, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/4 (0 ms)
+[ RUN      ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/5
+Testing with Family 10, type 2, proto 0
+[       OK ] IoctlTest/IoctlTestSIOCGIFCONF.ValidateLoopbackIsPresent/5 (0 ms)
+[----------] 24 tests from IoctlTest/IoctlTestSIOCGIFCONF (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 41 tests from 2 test suites ran. (2 ms total)
+[  PASSED  ] 41 tests.
+Failed to match any benchmarks against regex: .

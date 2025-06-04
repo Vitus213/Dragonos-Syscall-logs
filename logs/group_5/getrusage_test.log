@@ -1,0 +1,19 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from GetrusageTest
+[ RUN      ] GetrusageTest.BasicFork
+[       OK ] GetrusageTest.BasicFork (0 ms)
+[ RUN      ] GetrusageTest.Grandchild
+[       OK ] GetrusageTest.Grandchild (0 ms)
+[ RUN      ] GetrusageTest.IgnoreSIGCHLD
+[       OK ] GetrusageTest.IgnoreSIGCHLD (0 ms)
+[ RUN      ] GetrusageTest.IgnoreZombie
+[       OK ] GetrusageTest.IgnoreZombie (5000 ms)
+[ RUN      ] GetrusageTest.Wait4
+[       OK ] GetrusageTest.Wait4 (0 ms)
+[----------] 5 tests from GetrusageTest (5002 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (5002 ms total)
+[  PASSED  ] 5 tests.
+Failed to match any benchmarks against regex: .
