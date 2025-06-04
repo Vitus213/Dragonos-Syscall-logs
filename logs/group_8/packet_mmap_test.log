@@ -1,0 +1,91 @@
+[==========] Running 13 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 12 tests from PacketMmapTest
+[ RUN      ] PacketMmapTest.SetRXRingFailsBadRequests
+test/syscalls/linux/packet_mmap.cc:64: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.SetRXRingFailsBadRequests (0 ms)
+[ RUN      ] PacketMmapTest.Basic
+test/syscalls/linux/packet_mmap.cc:124: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.Basic (0 ms)
+[ RUN      ] PacketMmapTest.FillBlocks
+test/syscalls/linux/packet_mmap.cc:173: Skipped
+Missing packet socket capability 
+
+[  SKIPPED ] PacketMmapTest.FillBlocks (0 ms)
+[ RUN      ] PacketMmapTest.ZeroSizeRing
+test/syscalls/linux/packet_mmap.cc:263: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.ZeroSizeRing (0 ms)
+[ RUN      ] PacketMmapTest.ConcurrentReadWrite
+test/syscalls/linux/packet_mmap.cc:289: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.ConcurrentReadWrite (0 ms)
+[ RUN      ] PacketMmapTest.RawPacket
+test/syscalls/linux/packet_mmap.cc:347: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.RawPacket (0 ms)
+[ RUN      ] PacketMmapTest.SetRingAfterMmapFails
+test/syscalls/linux/packet_mmap.cc:406: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.SetRingAfterMmapFails (0 ms)
+[ RUN      ] PacketMmapTest.MmapCopy
+test/syscalls/linux/packet_mmap.cc:442: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.MmapCopy (0 ms)
+[ RUN      ] PacketMmapTest.SetVersion
+test/syscalls/linux/packet_mmap.cc:498: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.SetVersion (0 ms)
+[ RUN      ] PacketMmapTest.BasicV2
+test/syscalls/linux/packet_mmap.cc:524: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.BasicV2 (0 ms)
+[ RUN      ] PacketMmapTest.PacketReserve
+test/syscalls/linux/packet_mmap.cc:601: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.PacketReserve (0 ms)
+[ RUN      ] PacketMmapTest.PacketStatistics
+test/syscalls/linux/packet_mmap.cc:660: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMmapTest.PacketStatistics (0 ms)
+[----------] 12 tests from PacketMmapTest (0 ms total)
+
+[----------] 1 test from PacketMMmapTest
+[ RUN      ] PacketMMmapTest.GetPacketHdrLen
+test/syscalls/linux/packet_mmap.cc:573: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] PacketMMmapTest.GetPacketHdrLen (0 ms)
+[----------] 1 test from PacketMMmapTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 13 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 13 tests, listed below:
+[  SKIPPED ] PacketMmapTest.SetRXRingFailsBadRequests
+[  SKIPPED ] PacketMmapTest.Basic
+[  SKIPPED ] PacketMmapTest.FillBlocks
+[  SKIPPED ] PacketMmapTest.ZeroSizeRing
+[  SKIPPED ] PacketMmapTest.ConcurrentReadWrite
+[  SKIPPED ] PacketMmapTest.RawPacket
+[  SKIPPED ] PacketMmapTest.SetRingAfterMmapFails
+[  SKIPPED ] PacketMmapTest.MmapCopy
+[  SKIPPED ] PacketMmapTest.SetVersion
+[  SKIPPED ] PacketMmapTest.BasicV2
+[  SKIPPED ] PacketMmapTest.PacketReserve
+[  SKIPPED ] PacketMmapTest.PacketStatistics
+[  SKIPPED ] PacketMMmapTest.GetPacketHdrLen
+Failed to match any benchmarks against regex: .

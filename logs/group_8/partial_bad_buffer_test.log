@@ -1,0 +1,49 @@
+[==========] Running 20 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 20 tests from PartialBadBufferTest
+[ RUN      ] PartialBadBufferTest.ReadBig
+[       OK ] PartialBadBufferTest.ReadBig (0 ms)
+[ RUN      ] PartialBadBufferTest.ReadSmall
+[       OK ] PartialBadBufferTest.ReadSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.PreadBig
+[       OK ] PartialBadBufferTest.PreadBig (0 ms)
+[ RUN      ] PartialBadBufferTest.PreadSmall
+[       OK ] PartialBadBufferTest.PreadSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.ReadvBig
+[       OK ] PartialBadBufferTest.ReadvBig (0 ms)
+[ RUN      ] PartialBadBufferTest.ReadvSmall
+[       OK ] PartialBadBufferTest.ReadvSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.PreadvBig
+[       OK ] PartialBadBufferTest.PreadvBig (0 ms)
+[ RUN      ] PartialBadBufferTest.PreadvSmall
+[       OK ] PartialBadBufferTest.PreadvSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.WriteBig
+[       OK ] PartialBadBufferTest.WriteBig (0 ms)
+[ RUN      ] PartialBadBufferTest.WriteSmall
+[       OK ] PartialBadBufferTest.WriteSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.PwriteBig
+[       OK ] PartialBadBufferTest.PwriteBig (0 ms)
+[ RUN      ] PartialBadBufferTest.PwriteSmall
+[       OK ] PartialBadBufferTest.PwriteSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.WritevBig
+[       OK ] PartialBadBufferTest.WritevBig (0 ms)
+[ RUN      ] PartialBadBufferTest.WritevSmall
+[       OK ] PartialBadBufferTest.WritevSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.PwritevBig
+[       OK ] PartialBadBufferTest.PwritevBig (0 ms)
+[ RUN      ] PartialBadBufferTest.PwritevSmall
+[       OK ] PartialBadBufferTest.PwritevSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.GetdentsBig
+[       OK ] PartialBadBufferTest.GetdentsBig (0 ms)
+[ RUN      ] PartialBadBufferTest.GetdentsSmall
+[       OK ] PartialBadBufferTest.GetdentsSmall (0 ms)
+[ RUN      ] PartialBadBufferTest.GetdentsOneEntry
+[       OK ] PartialBadBufferTest.GetdentsOneEntry (0 ms)
+[ RUN      ] PartialBadBufferTest.SendMsgTCP
+[       OK ] PartialBadBufferTest.SendMsgTCP (50 ms)
+[----------] 20 tests from PartialBadBufferTest (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 1 test suite ran. (57 ms total)
+[  PASSED  ] 20 tests.
+Failed to match any benchmarks against regex: .

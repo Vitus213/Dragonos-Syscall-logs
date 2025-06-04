@@ -1,0 +1,217 @@
+[==========] Running 34 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 30 tests from AllInetTests/RawPacketTest
+[ RUN      ] AllInetTests/RawPacketTest.Receive/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.Receive/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.Receive/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.Receive/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SendFromLoopback/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromLoopback/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SendFromLoopback/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromLoopback/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SendFromUnspec/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromUnspec/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SendFromUnspec/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromUnspec/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketRecvBufBelowMin/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufBelowMin/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketRecvBufBelowMin/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufBelowMin/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketRecvBufAboveMax/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufAboveMax/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketRecvBufAboveMax/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufAboveMax/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketRecvBuf/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBuf/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketRecvBuf/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBuf/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketSendBufBelowMin/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufBelowMin/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketSendBufBelowMin/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufBelowMin/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketSendBufAboveMax/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufAboveMax/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketSendBufAboveMax/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufAboveMax/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketSendBuf/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBuf/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketSendBuf/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBuf/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketError/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketError/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketError/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketError/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketErrorBind/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketErrorBind/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketErrorBind/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketErrorBind/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketDetachFilterNoInstalledFilter/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketDetachFilterNoInstalledFilter/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetSocketDetachFilterNoInstalledFilter/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketDetachFilterNoInstalledFilter/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketDetachFilter/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketDetachFilter/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketDetachFilter/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketDetachFilter/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetAndGetSocketLinger/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetAndGetSocketLinger/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.SetAndGetSocketLinger/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.SetAndGetSocketLinger/1 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketAcceptConn/0
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketAcceptConn/0 (0 ms)
+[ RUN      ] AllInetTests/RawPacketTest.GetSocketAcceptConn/1
+test/syscalls/linux/packet_socket_raw.cc:112: Skipped
+
+
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketAcceptConn/1 (0 ms)
+[----------] 30 tests from AllInetTests/RawPacketTest (1 ms total)
+
+[----------] 4 tests from AllRawPacketMsgSizeTest/RawPacketMsgSizeTest
+[ RUN      ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SendTooLong/0
+test/syscalls/linux/packet_socket_raw.cc:668: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HavePacketSocketCapability())
+
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SendTooLong/0 (0 ms)
+[ RUN      ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SendTooLong/1
+test/syscalls/linux/packet_socket_raw.cc:668: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HavePacketSocketCapability())
+
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SendTooLong/1 (0 ms)
+[ RUN      ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SpliceTooLong/0
+test/syscalls/linux/packet_socket_raw.cc:689: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HavePacketSocketCapability())
+
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SpliceTooLong/0 (0 ms)
+[ RUN      ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SpliceTooLong/1
+test/syscalls/linux/packet_socket_raw.cc:689: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HavePacketSocketCapability())
+
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SpliceTooLong/1 (0 ms)
+[----------] 4 tests from AllRawPacketMsgSizeTest/RawPacketMsgSizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 34 tests from 2 test suites ran. (2 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 34 tests, listed below:
+[  SKIPPED ] AllInetTests/RawPacketTest.Receive/0
+[  SKIPPED ] AllInetTests/RawPacketTest.Receive/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromLoopback/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromLoopback/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromUnspec/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SendFromUnspec/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufBelowMin/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufBelowMin/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufAboveMax/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBufAboveMax/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBuf/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketRecvBuf/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufBelowMin/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufBelowMin/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufAboveMax/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBufAboveMax/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBuf/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketSendBuf/1
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketError/0
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketError/1
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketErrorBind/0
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketErrorBind/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketDetachFilterNoInstalledFilter/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetSocketDetachFilterNoInstalledFilter/1
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketDetachFilter/0
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketDetachFilter/1
+[  SKIPPED ] AllInetTests/RawPacketTest.SetAndGetSocketLinger/0
+[  SKIPPED ] AllInetTests/RawPacketTest.SetAndGetSocketLinger/1
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketAcceptConn/0
+[  SKIPPED ] AllInetTests/RawPacketTest.GetSocketAcceptConn/1
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SendTooLong/0
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SendTooLong/1
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SpliceTooLong/0
+[  SKIPPED ] AllRawPacketMsgSizeTest/RawPacketMsgSizeTest.SpliceTooLong/1
+Failed to match any benchmarks against regex: .

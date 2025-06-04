@@ -1,0 +1,37 @@
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from CreateTest
+[ RUN      ] CreateTest.TmpFile
+[       OK ] CreateTest.TmpFile (0 ms)
+[ RUN      ] CreateTest.ExistingFile
+[       OK ] CreateTest.ExistingFile (0 ms)
+[ RUN      ] CreateTest.CreateAtFile
+[       OK ] CreateTest.CreateAtFile (0 ms)
+[ RUN      ] CreateTest.HonorsUmask
+[       OK ] CreateTest.HonorsUmask (0 ms)
+[ RUN      ] CreateTest.CreateExclusively
+[       OK ] CreateTest.CreateExclusively (0 ms)
+[ RUN      ] CreateTest.CreatWithOTrunc
+[       OK ] CreateTest.CreatWithOTrunc (0 ms)
+[ RUN      ] CreateTest.CreatDirWithOTruncAndReadOnly
+[       OK ] CreateTest.CreatDirWithOTruncAndReadOnly (0 ms)
+[ RUN      ] CreateTest.CreatFileWithOTruncAndReadOnly
+[       OK ] CreateTest.CreatFileWithOTruncAndReadOnly (0 ms)
+[ RUN      ] CreateTest.CreateFailsOnDirWithoutWritePerms
+[       OK ] CreateTest.CreateFailsOnDirWithoutWritePerms (0 ms)
+[ RUN      ] CreateTest.OpenCreateROThenRW
+[       OK ] CreateTest.OpenCreateROThenRW (0 ms)
+[ RUN      ] CreateTest.ChmodReadToWriteBetweenOpens
+[       OK ] CreateTest.ChmodReadToWriteBetweenOpens (0 ms)
+[ RUN      ] CreateTest.ChmodWriteToReadBetweenOpens
+[       OK ] CreateTest.ChmodWriteToReadBetweenOpens (0 ms)
+[ RUN      ] CreateTest.CreateWithReadFlagNotAllowedByMode
+[       OK ] CreateTest.CreateWithReadFlagNotAllowedByMode (0 ms)
+[ RUN      ] CreateTest.CreateWithWriteFlagNotAllowedByMode
+[       OK ] CreateTest.CreateWithWriteFlagNotAllowedByMode (0 ms)
+[----------] 14 tests from CreateTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 14 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,103 @@
+[==========] Running 15 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from BasicCookedPacketTest
+[ RUN      ] BasicCookedPacketTest.WrongType
+test/syscalls/linux/packet_socket_dgram.cc:96: Skipped
+
+
+[  SKIPPED ] BasicCookedPacketTest.WrongType (0 ms)
+[----------] 1 test from BasicCookedPacketTest (0 ms total)
+
+[----------] 14 tests from AllInetTests/CookedPacketTest
+[ RUN      ] AllInetTests/CookedPacketTest.Receive/0
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.Receive/0 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.Receive/1
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.Receive/1 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.Send/0
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.Send/0 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.Send/1
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.Send/1 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.BindReceive/0
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindReceive/0 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.BindReceive/1
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindReceive/1 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.DoubleBindSucceeds/0
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.DoubleBindSucceeds/0 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.DoubleBindSucceeds/1
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.DoubleBindSucceeds/1 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.BindDrop/0
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindDrop/0 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.BindDrop/1
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindDrop/1 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.ReceiveOutbound/0
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.ReceiveOutbound/0 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.ReceiveOutbound/1
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.ReceiveOutbound/1 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.BindFail/0
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindFail/0 (0 ms)
+[ RUN      ] AllInetTests/CookedPacketTest.BindFail/1
+test/syscalls/linux/packet_socket_dgram.cc:138: Skipped
+
+
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindFail/1 (0 ms)
+[----------] 14 tests from AllInetTests/CookedPacketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 15 tests, listed below:
+[  SKIPPED ] BasicCookedPacketTest.WrongType
+[  SKIPPED ] AllInetTests/CookedPacketTest.Receive/0
+[  SKIPPED ] AllInetTests/CookedPacketTest.Receive/1
+[  SKIPPED ] AllInetTests/CookedPacketTest.Send/0
+[  SKIPPED ] AllInetTests/CookedPacketTest.Send/1
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindReceive/0
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindReceive/1
+[  SKIPPED ] AllInetTests/CookedPacketTest.DoubleBindSucceeds/0
+[  SKIPPED ] AllInetTests/CookedPacketTest.DoubleBindSucceeds/1
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindDrop/0
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindDrop/1
+[  SKIPPED ] AllInetTests/CookedPacketTest.ReceiveOutbound/0
+[  SKIPPED ] AllInetTests/CookedPacketTest.ReceiveOutbound/1
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindFail/0
+[  SKIPPED ] AllInetTests/CookedPacketTest.BindFail/1
+Failed to match any benchmarks against regex: .

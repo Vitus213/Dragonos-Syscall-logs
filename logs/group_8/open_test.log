@@ -1,0 +1,79 @@
+[==========] Running 35 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 35 tests from OpenTest
+[ RUN      ] OpenTest.OTrunc
+[       OK ] OpenTest.OTrunc (0 ms)
+[ RUN      ] OpenTest.OTruncAndReadOnlyDir
+[       OK ] OpenTest.OTruncAndReadOnlyDir (0 ms)
+[ RUN      ] OpenTest.OTruncAndReadOnlyFile
+[       OK ] OpenTest.OTruncAndReadOnlyFile (0 ms)
+[ RUN      ] OpenTest.OCreateDirectory
+[       OK ] OpenTest.OCreateDirectory (0 ms)
+[ RUN      ] OpenTest.MustCreateExisting
+[       OK ] OpenTest.MustCreateExisting (0 ms)
+[ RUN      ] OpenTest.ReadOnly
+[       OK ] OpenTest.ReadOnly (0 ms)
+[ RUN      ] OpenTest.WriteOnly
+[       OK ] OpenTest.WriteOnly (0 ms)
+[ RUN      ] OpenTest.CreateWithAppend
+[       OK ] OpenTest.CreateWithAppend (0 ms)
+[ RUN      ] OpenTest.ReadWrite
+[       OK ] OpenTest.ReadWrite (0 ms)
+[ RUN      ] OpenTest.RelPath
+[       OK ] OpenTest.RelPath (0 ms)
+[ RUN      ] OpenTest.AbsPath
+[       OK ] OpenTest.AbsPath (0 ms)
+[ RUN      ] OpenTest.AtRelPath
+[       OK ] OpenTest.AtRelPath (0 ms)
+[ RUN      ] OpenTest.AtAbsPath
+[       OK ] OpenTest.AtAbsPath (0 ms)
+[ RUN      ] OpenTest.OpenNoFollowSymlink
+[       OK ] OpenTest.OpenNoFollowSymlink (0 ms)
+[ RUN      ] OpenTest.OpenNoFollowStillFollowsLinksInPath
+[       OK ] OpenTest.OpenNoFollowStillFollowsLinksInPath (0 ms)
+[ RUN      ] OpenTest.SymlinkRecurse
+[       OK ] OpenTest.SymlinkRecurse (0 ms)
+[ RUN      ] OpenTest.Fault
+[       OK ] OpenTest.Fault (0 ms)
+[ RUN      ] OpenTest.AppendOnly
+[       OK ] OpenTest.AppendOnly (0 ms)
+[ RUN      ] OpenTest.AppendConcurrentWrite
+[       OK ] OpenTest.AppendConcurrentWrite (363 ms)
+[ RUN      ] OpenTest.Truncate
+[       OK ] OpenTest.Truncate (0 ms)
+[ RUN      ] OpenTest.NameTooLong
+[       OK ] OpenTest.NameTooLong (0 ms)
+[ RUN      ] OpenTest.DotsFromRoot
+[       OK ] OpenTest.DotsFromRoot (0 ms)
+[ RUN      ] OpenTest.DirectoryWritableFails
+[       OK ] OpenTest.DirectoryWritableFails (0 ms)
+[ RUN      ] OpenTest.DirectoryDirectFails
+[       OK ] OpenTest.DirectoryDirectFails (0 ms)
+[ RUN      ] OpenTest.FileNotDirectory
+[       OK ] OpenTest.FileNotDirectory (0 ms)
+[ RUN      ] OpenTest.SymlinkDirectory
+[       OK ] OpenTest.SymlinkDirectory (0 ms)
+[ RUN      ] OpenTest.Null
+[       OK ] OpenTest.Null (0 ms)
+[ RUN      ] OpenTest.CanTruncateReadOnly
+[       OK ] OpenTest.CanTruncateReadOnly (0 ms)
+[ RUN      ] OpenTest.CanTruncateReadOnlyNoWritePermission
+[       OK ] OpenTest.CanTruncateReadOnlyNoWritePermission (0 ms)
+[ RUN      ] OpenTest.CanTruncateWriteOnlyNoReadPermission
+[       OK ] OpenTest.CanTruncateWriteOnlyNoReadPermission (0 ms)
+[ RUN      ] OpenTest.CanTruncateWithStrangePermissions
+[       OK ] OpenTest.CanTruncateWithStrangePermissions (0 ms)
+[ RUN      ] OpenTest.OpenNonDirectoryWithTrailingSlash
+[       OK ] OpenTest.OpenNonDirectoryWithTrailingSlash (0 ms)
+[ RUN      ] OpenTest.OpenWithStrangeFlags
+[       OK ] OpenTest.OpenWithStrangeFlags (0 ms)
+[ RUN      ] OpenTest.OpenWithOpath
+[       OK ] OpenTest.OpenWithOpath (0 ms)
+[ RUN      ] OpenTest.OPathWithODirectory
+[       OK ] OpenTest.OPathWithODirectory (0 ms)
+[----------] 35 tests from OpenTest (373 ms total)
+
+[----------] Global test environment tear-down
+[==========] 35 tests from 1 test suite ran. (373 ms total)
+[  PASSED  ] 35 tests.
+Failed to match any benchmarks against regex: .

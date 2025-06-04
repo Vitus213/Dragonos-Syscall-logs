@@ -1,0 +1,229 @@
+[==========] Running 36 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 8 tests from PingSocket
+[ RUN      ] PingSocket.ICMPPortExhaustion
+test/syscalls/linux/ping_socket.cc:55: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSocket.ICMPPortExhaustion (0 ms)
+[ RUN      ] PingSocket.PayloadTooLarge
+test/syscalls/linux/ping_socket.cc:90: Skipped
+ping socket not supported
+
+[  SKIPPED ] PingSocket.PayloadTooLarge (0 ms)
+[ RUN      ] PingSocket.ReceiveTOS
+test/syscalls/linux/ping_socket.cc:113: Skipped
+ping socket not supported
+
+[  SKIPPED ] PingSocket.ReceiveTOS (0 ms)
+[ RUN      ] PingSocket.ReceiveTClass
+test/syscalls/linux/ping_socket.cc:162: Skipped
+ping socket not supported
+
+[  SKIPPED ] PingSocket.ReceiveTClass (0 ms)
+[ RUN      ] PingSocket.ReceiveTTL
+test/syscalls/linux/ping_socket.cc:216: Skipped
+ping socket not supported
+
+[  SKIPPED ] PingSocket.ReceiveTTL (0 ms)
+[ RUN      ] PingSocket.ReceiveHopLimit
+test/syscalls/linux/ping_socket.cc:262: Skipped
+ping socket not supported
+
+[  SKIPPED ] PingSocket.ReceiveHopLimit (0 ms)
+[ RUN      ] PingSocket.ReceiveIPPacketInfo
+test/syscalls/linux/ping_socket.cc:308: Skipped
+ping socket not supported
+
+[  SKIPPED ] PingSocket.ReceiveIPPacketInfo (0 ms)
+[ RUN      ] PingSocket.ReceiveIPv6PktInfo
+test/syscalls/linux/ping_socket.cc:360: Skipped
+ping socket not supported
+
+[  SKIPPED ] PingSocket.ReceiveIPv6PktInfo (0 ms)
+[----------] 8 tests from PingSocket (0 ms total)
+
+[----------] 28 tests from PingSockets/Fixture
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V4Any
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Any (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V4Broadcast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Broadcast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V4Loopback
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Loopback (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V4LoopbackSubnetBroadcast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4LoopbackSubnetBroadcast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V4Multicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Multicast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V4MulticastAllHosts
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4MulticastAllHosts (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_IPv4UnknownUnicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_IPv4UnknownUnicast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V6Any
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6Any (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V6Loopback
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6Loopback (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V6Multicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6Multicast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastInterfaceLocalAllNodes
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastInterfaceLocalAllNodes (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastLinkLocalAllNodes
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastLinkLocalAllNodes (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastLinkLocalAllRouters
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastLinkLocalAllRouters (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMP_socket_IPv6UnknownUnicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_IPv6UnknownUnicast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Any
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Any (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Broadcast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Broadcast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Loopback
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Loopback (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V4LoopbackSubnetBroadcast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4LoopbackSubnetBroadcast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Multicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Multicast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V4MulticastAllHosts
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4MulticastAllHosts (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_IPv4UnknownUnicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_IPv4UnknownUnicast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Any
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Any (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Loopback
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Loopback (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Multicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Multicast (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastInterfaceLocalAllNodes
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastInterfaceLocalAllNodes (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastLinkLocalAllNodes
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastLinkLocalAllNodes (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastLinkLocalAllRouters
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastLinkLocalAllRouters (0 ms)
+[ RUN      ] PingSockets/Fixture.Bind/ICMPv6_socket_IPv6UnknownUnicast
+test/syscalls/linux/ping_socket.cc:422: Skipped
+TODO(gvisor.dev/issue/6126): Buildkite does not allow creation of ICMP or ICMPv6 sockets
+
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_IPv6UnknownUnicast (0 ms)
+[----------] 28 tests from PingSockets/Fixture (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 36 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 36 tests, listed below:
+[  SKIPPED ] PingSocket.ICMPPortExhaustion
+[  SKIPPED ] PingSocket.PayloadTooLarge
+[  SKIPPED ] PingSocket.ReceiveTOS
+[  SKIPPED ] PingSocket.ReceiveTClass
+[  SKIPPED ] PingSocket.ReceiveTTL
+[  SKIPPED ] PingSocket.ReceiveHopLimit
+[  SKIPPED ] PingSocket.ReceiveIPPacketInfo
+[  SKIPPED ] PingSocket.ReceiveIPv6PktInfo
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Any
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Broadcast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Loopback
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4LoopbackSubnetBroadcast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4Multicast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V4MulticastAllHosts
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_IPv4UnknownUnicast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6Any
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6Loopback
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6Multicast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastInterfaceLocalAllNodes
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastLinkLocalAllNodes
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_V6MulticastLinkLocalAllRouters
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMP_socket_IPv6UnknownUnicast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Any
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Broadcast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Loopback
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4LoopbackSubnetBroadcast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4Multicast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V4MulticastAllHosts
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_IPv4UnknownUnicast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Any
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Loopback
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6Multicast
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastInterfaceLocalAllNodes
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastLinkLocalAllNodes
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_V6MulticastLinkLocalAllRouters
+[  SKIPPED ] PingSockets/Fixture.Bind/ICMPv6_socket_IPv6UnknownUnicast
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,133 @@
+[==========] Running 20 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 12 tests from AllPacketSocketTests/PacketSocketCreationTest
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/0
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/0 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/1
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/1 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/2
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/2 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/3
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/3 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/4
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/4 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/5
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/5 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/6
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/6 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/7
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/7 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/8
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/8 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/9
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/9 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/10
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/10 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketCreationTest.Create/11
+test/syscalls/linux/packet_socket.cc:51: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/11 (0 ms)
+[----------] 12 tests from AllPacketSocketTests/PacketSocketCreationTest (0 ms total)
+
+[----------] 8 tests from AllPacketSocketTests/PacketSocketTest
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.GetSockName/0
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.GetSockName/0 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.GetSockName/1
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.GetSockName/1 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.RebindProtocol/0
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.RebindProtocol/0 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.RebindProtocol/1
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.RebindProtocol/1 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.ReceiveSentBoundToProtocolAll/0
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.ReceiveSentBoundToProtocolAll/0 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.ReceiveSentBoundToProtocolAll/1
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.ReceiveSentBoundToProtocolAll/1 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.SendWithoutTargetDevice/0
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.SendWithoutTargetDevice/0 (0 ms)
+[ RUN      ] AllPacketSocketTests/PacketSocketTest.SendWithoutTargetDevice/1
+test/syscalls/linux/packet_socket.cc:74: Skipped
+Missing packet socket capability
+
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.SendWithoutTargetDevice/1 (0 ms)
+[----------] 8 tests from AllPacketSocketTests/PacketSocketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 20 tests, listed below:
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/0
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/1
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/2
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/3
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/4
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/5
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/6
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/7
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/8
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/9
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/10
+[  SKIPPED ] AllPacketSocketTests/PacketSocketCreationTest.Create/11
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.GetSockName/0
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.GetSockName/1
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.RebindProtocol/0
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.RebindProtocol/1
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.ReceiveSentBoundToProtocolAll/0
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.ReceiveSentBoundToProtocolAll/1
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.SendWithoutTargetDevice/0
+[  SKIPPED ] AllPacketSocketTests/PacketSocketTest.SendWithoutTargetDevice/1
+Failed to match any benchmarks against regex: .
