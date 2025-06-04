@@ -1,0 +1,2385 @@
+[==========] Running 792 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 792 tests from AllTCPSockets/TCPSocketPairTest
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TcpInfoSucceeds/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShortTcpInfoSucceeds/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ZeroTcpInfoSucceeds/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CheckTcpInfoFields/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadData/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTCausesPollHUP/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.RSTSentOnCloseWithUnreadDataAllowsReadBuffered/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.FINSentOnShutdownWrWithUnreadData/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/0 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/1 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/2 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/3 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/4 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/5 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/6 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/7 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/8 (3000 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/9 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/10 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdShouldCauseNoPacketsWithUnreadData/11 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdAllowsReadOfReceivedDataBeforeEOF/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownWrServerClientClose/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ClosedReadNonBlockingSocket/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/0 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/1 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/2 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/3 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/4 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/5 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/6 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/7 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/8 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/9 (3002 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/10 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ShutdownRdUnreadDataShouldCauseNoPacketsUnlessClosed/11 (3003 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCorkDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPCork/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPCork/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPCork/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPQuickAckDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPQuickAck/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoKeepaliveDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepalive/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetSoKeepaliveClosed/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepidleDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepintvlDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleAboveMax/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlAboveMax/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepidleToMax/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepintvlToMax/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPKeepcountDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountAboveMax/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToMax/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToOne/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPKeepcountToNegative/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOOBInline/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.MsgTruncMsgPeek/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlSucceedsForSupported/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionShortReadBuffer/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetGetTCPCongestionLargeReadBuffer/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetCongestionControlFailsForUnsupported/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPLingerTimeoutDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutLessThanZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SoLingerOptionWithReset/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeoutAboveMax/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPLingerTimeout/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/0 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/1 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/2 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/3 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/4 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/5 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/6 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/7 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/8 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/9 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/10 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TestTCPCloseWithData/11 (100 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPUserTimeoutDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutBelowZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPUserTimeoutAboveZero/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceFromPipe/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SpliceToPipe/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/0 (7 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/1 (6 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/2 (6 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/3 (6 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/4 (6 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/5 (7 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/6 (6 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/7 (6 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/8 (7 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/9 (7 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/10 (7 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.LargeSpliceFromPipe/11 (6 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/0 (1 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SendfileFromRegularFileSucceeds/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetTCPWindowClampBelowMinRcvBufConnectedSocket/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastTtlDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.IpMulticastLoopDefault/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/0 (15 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/1 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/2 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/3 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/4 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/5 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/6 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/7 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/8 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/9 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/10 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.TCPResetDuringClose/11 (14 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/10 (1 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetAndGetLingerOption/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.SetOffLingerOption/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/0 (41 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/1 (41 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/2 (41 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/3 (40 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/4 (40 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/5 (40 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/6 (40 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/7 (40 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/8 (41 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/9 (41 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/10 (40 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.CloseWithLingerOption/11 (40 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/0 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/1 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/2 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/3 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/4 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/5 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/6 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/7 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/8 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/9 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/10 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.ResetWithSoLingerZeroTimeoutOption/11 (0 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/0 (213 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/1 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/2 (208 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/3 (206 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/4 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/5 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/6 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/7 (208 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/8 (206 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/9 (208 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/10 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillMSSWithCorkOption/11 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/0
+Testing with connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/0 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/1
+Testing with connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/1 (208 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/2
+Testing with connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/2 (206 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/3 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/4 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/5 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/6 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/7 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/8 (208 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/9 (206 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/10 (207 ms)
+[ RUN      ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] AllTCPSockets/TCPSocketPairTest.WaitTillTimeoutWithCorkOption/11 (207 ms)
+[----------] 792 tests from AllTCPSockets/TCPSocketPairTest (79143 ms total)
+
+[----------] Global test environment tear-down
+[==========] 792 tests from 1 test suite ran. (79143 ms total)
+[  PASSED  ] 792 tests.
+Failed to match any benchmarks against regex: .

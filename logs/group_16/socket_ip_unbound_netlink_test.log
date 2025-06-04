@@ -1,0 +1,41 @@
+[==========] Running 4 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from IPUnboundSockets/IPv6UnboundSocketTest
+[ RUN      ] IPUnboundSockets/IPv6UnboundSocketTest.ConnectToBadLocalAddress/0
+Testing with IPv6 UDP socket
+test/syscalls/linux/socket_ip_unbound_netlink.cc:43: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPUnboundSockets/IPv6UnboundSocketTest.ConnectToBadLocalAddress/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPv6UnboundSocketTest.ConnectToBadLocalAddress/1
+Testing with IPv6 TCP socket
+test/syscalls/linux/socket_ip_unbound_netlink.cc:43: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPUnboundSockets/IPv6UnboundSocketTest.ConnectToBadLocalAddress/1 (0 ms)
+[----------] 2 tests from IPUnboundSockets/IPv6UnboundSocketTest (0 ms total)
+
+[----------] 2 tests from IPUnboundSockets/IPv4UnboundSocketTest
+[ RUN      ] IPUnboundSockets/IPv4UnboundSocketTest.ConnectToBadLocalAddress/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ip_unbound_netlink.cc:79: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPUnboundSockets/IPv4UnboundSocketTest.ConnectToBadLocalAddress/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPv4UnboundSocketTest.ConnectToBadLocalAddress/1
+Testing with IPv4 TCP socket
+test/syscalls/linux/socket_ip_unbound_netlink.cc:79: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] IPUnboundSockets/IPv4UnboundSocketTest.ConnectToBadLocalAddress/1 (0 ms)
+[----------] 2 tests from IPUnboundSockets/IPv4UnboundSocketTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] IPUnboundSockets/IPv6UnboundSocketTest.ConnectToBadLocalAddress/0
+[  SKIPPED ] IPUnboundSockets/IPv6UnboundSocketTest.ConnectToBadLocalAddress/1
+[  SKIPPED ] IPUnboundSockets/IPv4UnboundSocketTest.ConnectToBadLocalAddress/0
+[  SKIPPED ] IPUnboundSockets/IPv4UnboundSocketTest.ConnectToBadLocalAddress/1
+Failed to match any benchmarks against regex: .

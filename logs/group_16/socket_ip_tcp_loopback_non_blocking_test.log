@@ -1,0 +1,81 @@
+[==========] Running 24 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 24 tests from NonBlockingTCPSockets/NonBlockingSocketPairTest
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/0
+Testing with non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/1
+Testing with non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/2
+Testing with setsockopt(6, 1, 1) non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/3
+Testing with setsockopt(6, 1, 1) non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/4
+Testing with reversed non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/4 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/5
+Testing with reversed non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/5 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/6
+Testing with reversed setsockopt(6, 1, 1) non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/6 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/7
+Testing with reversed setsockopt(6, 1, 1) non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/7 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/0
+Testing with non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/1
+Testing with non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/2
+Testing with setsockopt(6, 1, 1) non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/3
+Testing with setsockopt(6, 1, 1) non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/4
+Testing with reversed non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/4 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/5
+Testing with reversed non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/5 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/6
+Testing with reversed setsockopt(6, 1, 1) non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/6 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/7
+Testing with reversed setsockopt(6, 1, 1) non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/7 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/0
+Testing with non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/1
+Testing with non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/2
+Testing with setsockopt(6, 1, 1) non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/3
+Testing with setsockopt(6, 1, 1) non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/4
+Testing with reversed non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/4 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/5
+Testing with reversed non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/5 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/6
+Testing with reversed setsockopt(6, 1, 1) non-blocking connected IPv6 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/6 (0 ms)
+[ RUN      ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/7
+Testing with reversed setsockopt(6, 1, 1) non-blocking connected IPv4 TCP socket
+[       OK ] NonBlockingTCPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/7 (0 ms)
+[----------] 24 tests from NonBlockingTCPSockets/NonBlockingSocketPairTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 24 tests.
+Failed to match any benchmarks against regex: .

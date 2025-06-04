@@ -1,0 +1,682 @@
+[==========] Running 96 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 96 tests from IPv4Sockets/IPv4DatagramBasedUnboundSocketTest
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/5 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/0 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/1 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/2
+Testing with IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/2 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/3
+Testing with non-blocking IPv4 Raw UDP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/3 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/4
+Testing with ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/4 (0 ms)
+[ RUN      ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/5
+Testing with non-blocking ICMP socket
+test/syscalls/linux/socket_ipv4_datagram_based_socket_unbound.cc:28: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/5 (0 ms)
+[----------] 96 tests from IPv4Sockets/IPv4DatagramBasedUnboundSocketTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 96 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 96 tests, listed below:
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastInvalidDrop/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfZero/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidNic/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfInvalidAddr/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetShort/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefault/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfDefaultReqn/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddrGetReqn/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddrGetReqn/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNicGetReqn/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetAddr/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetReqAddr/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.IpMulticastIfSetNic/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupNoIf/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestJoinGroupInvalidIf/5
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/0
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/1
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/2
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/3
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/4
+[  SKIPPED ] IPv4Sockets/IPv4DatagramBasedUnboundSocketTest.TestMultipleJoinsOnSingleSocket/5
+Failed to match any benchmarks against regex: .

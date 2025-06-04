@@ -1,0 +1,266 @@
+[==========] Running 80 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 80 tests from IPUnboundSockets/IPUnboundSocketTest
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TtlDefault/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTtl/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ResetTtlToDefault/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTtl/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTtl/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTtl/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.TOSDefault/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetTOS/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOS/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidLargeTOS/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/0
+Testing with IPv4 UDP socket
+test/syscalls/linux/socket_ip_unbound.cc:222: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/1
+Testing with non-blocking IPv4 UDP socket
+test/syscalls/linux/socket_ip_unbound.cc:222: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/2
+Testing with IPv6 UDP socket
+test/syscalls/linux/socket_ip_unbound.cc:222: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/3
+Testing with non-blocking IPv6 UDP socket
+test/syscalls/linux/socket_ip_unbound.cc:222: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ZeroTOSOptionSize/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SmallTOSOptionSize/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.LargeTOSOptionSize/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NegativeTOS/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InvalidNegativeTOS/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.NullTOS/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.InsufficientBufferTOS/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.ReuseAddrDefault/3 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/0
+Testing with IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/0 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/1
+Testing with non-blocking IPv4 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/1 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/2
+Testing with IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/2 (0 ms)
+[ RUN      ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/3
+Testing with non-blocking IPv6 UDP socket
+[       OK ] IPUnboundSockets/IPUnboundSocketTest.SetReuseAddr/3 (0 ms)
+[----------] 80 tests from IPUnboundSockets/IPUnboundSocketTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 80 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 76 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/0
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/1
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/2
+[  SKIPPED ] IPUnboundSockets/IPUnboundSocketTest.CheckSkipECN/3
+Failed to match any benchmarks against regex: .

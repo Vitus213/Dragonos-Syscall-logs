@@ -1,0 +1,1726 @@
+[==========] Running 546 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 312 tests from AllUDPSockets/AllSocketPairTest
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWrite/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicReadWriteBadBuffer/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendRecv/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicSendmmsg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/0 (3 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/1 (3 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/2 (3 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/3 (3 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/4 (3 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmmsgIsLimitedByMAXIOV/5 (3 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.BasicRecvmmsg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg10KB/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsgMsgCtruncNoop/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendmsgRecvmsg16KB/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsNotClearedOnFailure/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgMsghdrFlagsCleared/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgPeekMsghdrFlagsCleared/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmsgIovNotUpdated/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvmmsgInvalidTimeout/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/0
+Testing with connected IPv6 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:340: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/1
+Testing with connected IPv4 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:340: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/2
+Testing with connected dual stack UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:340: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/3
+Testing with reversed connected IPv6 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:340: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/4
+Testing with reversed connected IPv4 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:340: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/5
+Testing with reversed connected dual stack UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:340: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.MsgPeek/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.MsgPeek/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.MsgPeek/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.MsgPeek/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.MsgPeek/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.MsgPeek/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.MsgPeek/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.MsgPeek/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.MsgPeek/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.MsgPeek/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.MsgPeek/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.MsgPeek/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.LingerSocketOption/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.KeepAliveSocketOption/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RcvBufSucceeds/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetSocketRecvBufForceAboveMax/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSndBufSucceeds/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/0 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/1 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/2 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/3 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/4 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutReadSucceeds/5 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/0 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/1 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/2 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/3 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/4 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvSucceeds/5 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/0 (1041 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/1 (1023 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/2 (1024 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/3 (1023 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/4 (1023 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvOneSecondSucceeds/5 (1024 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/0 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/1 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/2 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/3 (1 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/4 (2 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgSucceeds/5 (2 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeout/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetSendTimeoutLargerArg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsWrite/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSend/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutAllowsSendmsg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeout/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetGetRecvTimeoutLargerArg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/0 (1006 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/1 (1022 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/2 (1023 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/3 (1023 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/4 (1023 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutRecvmsgOneSecondSucceeds/5 (1023 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecTooLarge/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecTooLarge/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutUsecNeg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SendTimeoutUsecNeg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRead/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecv/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutNegSecRecvmsg/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAll/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvWaitAllDontWait/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.RecvTimeoutWaitAll/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptType/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptType/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptType/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptType/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptType/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptType/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptType/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptType/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptType/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptType/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptType/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptType/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptDomain/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSockoptProtocol/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.SetAndGetBooleanSocketOptions/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/0
+Testing with connected IPv6 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:939: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/1
+Testing with connected IPv4 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:939: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/2
+Testing with connected dual stack UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:939: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/3
+Testing with reversed connected IPv6 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:939: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/4
+Testing with reversed connected IPv4 UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:939: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/5
+Testing with reversed connected dual stack UDP socket
+test/syscalls/linux/socket_generic_test_cases.cc:939: Skipped
+!IsRunningOnGvisor() || IsRunningWithHostinet()
+
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSocketRcvbufOption/5 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/0 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/1 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/2 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/3 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/4 (0 ms)
+[ RUN      ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/AllSocketPairTest.GetSetSocketRcvlowatOption/5 (0 ms)
+[----------] 312 tests from AllUDPSockets/AllSocketPairTest (12367 ms total)
+
+[----------] 72 tests from AllUDPSockets/NonStreamSocketPairTest
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SendMsgTooLarge/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SplitRecv/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SingleRecv/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.SinglePeek/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncation/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncSameSize/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.MsgTruncNotFull/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/5 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/0 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/1 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/2 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/3 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/4 (0 ms)
+[ RUN      ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/5 (0 ms)
+[----------] 72 tests from AllUDPSockets/NonStreamSocketPairTest (6 ms total)
+
+[----------] 162 tests from AllUDPSockets/UDPSocketPairTest
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastTTLDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMin/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLMax/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLNegativeOne/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLBelowMin/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLAboveMax/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetUDPMulticastTTLChar/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetEmptyIPAddMembership/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.MulticastLoopDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoop/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetMulticastLoopChar/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReuseAddrDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddr/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReusePortDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReusePort/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReusePort/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReusePort/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReusePort/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReusePort/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReusePort/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReusePort/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReusePort/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReusePort/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReusePort/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReusePort/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReusePort/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetReuseAddrReusePort/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.IPPKTINFODefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetIPPKTINFO/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.ReceiveOrigDstAddrDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetReceiveOrigDstAddr/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.RecvTosDefault/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetRecvTos/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.TOSRecvMismatch/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/0
+Testing with connected IPv6 UDP socket
+test/syscalls/linux/socket_ip_udp_generic.cc:497: Skipped
+(GetParam().type != SOCK_DGRAM) || (GetParam().type != SOCK_RAW)
+
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/1
+Testing with connected IPv4 UDP socket
+test/syscalls/linux/socket_ip_udp_generic.cc:495: Skipped
+GetParam().domain != AF_INET6
+
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/2
+Testing with connected dual stack UDP socket
+test/syscalls/linux/socket_ip_udp_generic.cc:497: Skipped
+(GetParam().type != SOCK_DGRAM) || (GetParam().type != SOCK_RAW)
+
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/3
+Testing with reversed connected IPv6 UDP socket
+test/syscalls/linux/socket_ip_udp_generic.cc:497: Skipped
+(GetParam().type != SOCK_DGRAM) || (GetParam().type != SOCK_RAW)
+
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/4
+Testing with reversed connected IPv4 UDP socket
+test/syscalls/linux/socket_ip_udp_generic.cc:495: Skipped
+GetParam().domain != AF_INET6
+
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/5
+Testing with reversed connected dual stack UDP socket
+test/syscalls/linux/socket_ip_udp_generic.cc:497: Skipped
+(GetParam().type != SOCK_DGRAM) || (GetParam().type != SOCK_RAW)
+
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.SetAndGetSocketLinger/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.GetSocketAcceptConn/5 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/0 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/1 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/2
+Testing with connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/2 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/3
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/3 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/4
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/4 (0 ms)
+[ RUN      ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/5
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllUDPSockets/UDPSocketPairTest.PayloadTooBig/5 (0 ms)
+[----------] 162 tests from AllUDPSockets/UDPSocketPairTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 546 tests from 3 test suites ran. (12387 ms total)
+[  PASSED  ] 528 tests.
+[  SKIPPED ] 18 tests, listed below:
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/0
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/1
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/2
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/3
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/4
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.RecvmmsgTimeoutBeforeRecv/5
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/0
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/1
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/2
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/3
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/4
+[  SKIPPED ] AllUDPSockets/AllSocketPairTest.GetSocketOutOfBandInlineOption/5
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/0
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/1
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/2
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/3
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/4
+[  SKIPPED ] AllUDPSockets/UDPSocketPairTest.TClassRecvMismatch/5
+Failed to match any benchmarks against regex: .

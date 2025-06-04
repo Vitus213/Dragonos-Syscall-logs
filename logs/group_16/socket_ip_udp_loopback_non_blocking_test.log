@@ -1,0 +1,45 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from NonBlockingUDPSockets/NonBlockingSocketPairTest
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/0
+Testing with non-blocking connected IPv6 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/1
+Testing with non-blocking connected IPv4 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/2
+Testing with reversed non-blocking connected IPv6 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/3
+Testing with reversed non-blocking connected IPv4 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.ReadNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/0
+Testing with non-blocking connected IPv6 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/1
+Testing with non-blocking connected IPv4 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/2
+Testing with reversed non-blocking connected IPv6 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/3
+Testing with reversed non-blocking connected IPv4 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/0
+Testing with non-blocking connected IPv6 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/1
+Testing with non-blocking connected IPv4 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/2
+Testing with reversed non-blocking connected IPv6 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/3
+Testing with reversed non-blocking connected IPv4 UDP socket
+[       OK ] NonBlockingUDPSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/3 (0 ms)
+[----------] 12 tests from NonBlockingUDPSockets/NonBlockingSocketPairTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 12 tests.
+Failed to match any benchmarks against regex: .

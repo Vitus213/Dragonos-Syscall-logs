@@ -1,0 +1,81 @@
+[==========] Running 24 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 24 tests from AllIPSockets/TcpUdpSocketPairTest
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/0 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/1
+Testing with non-blocking connected IPv6 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/1 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/2
+Testing with connected IPv4 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/2 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/3
+Testing with non-blocking connected IPv4 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/3 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/4
+Testing with connected dual stack UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/4 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/5
+Testing with non-blocking connected dual stack UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/5 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/6
+Testing with connected IPv6 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/6 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/7
+Testing with non-blocking connected IPv6 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/7 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/8
+Testing with connected IPv4 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/8 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/9
+Testing with non-blocking connected IPv4 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/9 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/10
+Testing with connected dual stack TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/10 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/11
+Testing with non-blocking connected dual stack TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/11 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/12
+Testing with reversed connected IPv6 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/12 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/13
+Testing with reversed non-blocking connected IPv6 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/13 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/14
+Testing with reversed connected IPv4 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/14 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/15
+Testing with reversed non-blocking connected IPv4 UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/15 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/16
+Testing with reversed connected dual stack UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/16 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/17
+Testing with reversed non-blocking connected dual stack UDP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/17 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/18
+Testing with reversed connected IPv6 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/18 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/19
+Testing with reversed non-blocking connected IPv6 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/19 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/20
+Testing with reversed connected IPv4 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/20 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/21
+Testing with reversed non-blocking connected IPv4 TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/21 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/22
+Testing with reversed connected dual stack TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/22 (0 ms)
+[ RUN      ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/23
+Testing with reversed non-blocking connected dual stack TCP socket
+[       OK ] AllIPSockets/TcpUdpSocketPairTest.ShutdownWrFollowedBySendIsError/23 (0 ms)
+[----------] 24 tests from AllIPSockets/TcpUdpSocketPairTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 24 tests.
+Failed to match any benchmarks against regex: .
