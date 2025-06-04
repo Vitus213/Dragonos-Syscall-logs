@@ -1,0 +1,204 @@
+[==========] Running 54 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 54 tests from AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AddressAfterNull/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ShortAddressNotExtended/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindNothing/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindSuccess/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.AutoBindAddrInUse/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:127: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:127: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:127: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:127: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:127: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:127: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_NET_ADMIN))
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:165: Skipped
+(GetParam().type & SOCK_DGRAM) != 0
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+test/syscalls/linux/socket_unix_unbound_abstract.cc:165: Skipped
+(GetParam().type & SOCK_DGRAM) != 0
+
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNameFullLength/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/0
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/4
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.GetSockNamePartialLength/5 (0 ms)
+[----------] 54 tests from AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 54 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 46 tests.
+[  SKIPPED ] 8 tests, listed below:
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/0
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/1
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/2
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/3
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/4
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.BindConnectInSubNamespace/5
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/4
+[  SKIPPED ] AllUnixDomainSockets/UnboundAbstractUnixSocketPairTest.ListenZeroBacklog/5
+Failed to match any benchmarks against regex: .

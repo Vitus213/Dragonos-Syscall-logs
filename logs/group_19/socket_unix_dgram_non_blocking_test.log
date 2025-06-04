@@ -1,0 +1,27 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest
+[ RUN      ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/0
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/0 (0 ms)
+[ RUN      ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/1 (0 ms)
+[ RUN      ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/2
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/2 (0 ms)
+[ RUN      ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/3
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/3 (0 ms)
+[ RUN      ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/4
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/4 (0 ms)
+[ RUN      ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/5
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest.ReadOneSideClosed/5 (0 ms)
+[----------] 6 tests from NonBlockingDgramUnixSockets/NonBlockingDgramUnixSocketPairTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 6 tests.
+Failed to match any benchmarks against regex: .

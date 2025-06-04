@@ -1,0 +1,1504 @@
+[==========] Running 432 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 48 tests from DgramUnixSockets/DgramUnixSocketPairTest
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/0 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/1 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/2 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/3 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/4 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/5 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/6 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/7 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/8 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/9 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/10 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/11 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/12 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/13 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/14 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/15 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/16 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/17 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/18 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/19 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/20 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/21 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/22 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.WriteOneSideClosed/23 (0 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/0 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/1 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/2 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/3 (41 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/4 (41 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/5 (41 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/6 (41 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/7 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/8 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/9 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/10 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/11 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/12 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/13 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/14 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/15 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/16 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/17 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/18 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/19 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/20 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/21 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/22 (40 ms)
+[ RUN      ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/DgramUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/23 (40 ms)
+[----------] 48 tests from DgramUnixSockets/DgramUnixSocketPairTest (982 ms total)
+
+[----------] 96 tests from DgramUnixSockets/UnixNonStreamSocketPairTest
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/0 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/1 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/2 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/3 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/4 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/5 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/6 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/7 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/8 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/9 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/10 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/11 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/12 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/13 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/14 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/15 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/16 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/17 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/18 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/19 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/20 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/21 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/22 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/23 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/0
+Testing with SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/0 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/1 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/2
+Testing with Unix domain socket with unknown type 3
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/2 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/3
+Testing with Unix domain socket with unknown type 2051
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/3 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/4 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/5 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/6 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/7 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/8 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/9 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/10 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/11 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/12 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/13 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/14
+Testing with reversed Unix domain socket with unknown type 3
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/14 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/15
+Testing with reversed Unix domain socket with unknown type 2051
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/15 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/16 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/17 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/18 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/19 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/20 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/21 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/22 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/23 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/0
+Testing with SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/0 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/1 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/2
+Testing with Unix domain socket with unknown type 3
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/2 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/3
+Testing with Unix domain socket with unknown type 2051
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/3 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/4 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/5 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/6 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/7 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/8 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/9 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/10 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/11 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/12 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/13 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/14
+Testing with reversed Unix domain socket with unknown type 3
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/14 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/15
+Testing with reversed Unix domain socket with unknown type 2051
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/15 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/16 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/17 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/18 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/19 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/20 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/21 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/22 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/23 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/0 (1 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/1 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/2 (2 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/3 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/4 (2 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/5 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/6 (1 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/7 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/8 (1 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/9 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/10 (1 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/11 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/12 (1 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/13 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/14 (2 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/15 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/16 (1 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/17 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/18 (2 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/19 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/20 (2 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/21 (0 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/22 (2 ms)
+[ RUN      ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/23 (0 ms)
+[----------] 96 tests from DgramUnixSockets/UnixNonStreamSocketPairTest (42 ms total)
+
+[----------] 288 tests from DgramUnixSockets/NonStreamSocketPairTest
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SplitRecv/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SingleRecv/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.SinglePeek/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/23 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/0 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/1 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/2
+Testing with Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/2 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/3
+Testing with Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/3 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/4
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/4 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/5 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/6
+Testing with Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/6 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/7
+Testing with Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/7 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/8 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/9
+Testing with non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/9 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/10
+Testing with Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/10 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/11
+Testing with Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/11 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/12
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/12 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/13
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/13 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/14
+Testing with reversed Unix domain socket with unknown type 3
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/14 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/15
+Testing with reversed Unix domain socket with unknown type 2051
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/15 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/16
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/16 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/17
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/17 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/18
+Testing with reversed Unix domain socket with unknown type 3 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/18 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/19
+Testing with reversed Unix domain socket with unknown type 2051 created with filesystem binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/19 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/20
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/20 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/21
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/21 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/22
+Testing with reversed Unix domain socket with unknown type 3 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/22 (0 ms)
+[ RUN      ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/23
+Testing with reversed Unix domain socket with unknown type 2051 created with abstract namespace binding
+[       OK ] DgramUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/23 (0 ms)
+[----------] 288 tests from DgramUnixSockets/NonStreamSocketPairTest (38 ms total)
+
+[----------] Global test environment tear-down
+[==========] 432 tests from 3 test suites ran. (1064 ms total)
+[  PASSED  ] 384 tests.
+[  SKIPPED ] 48 tests, listed below:
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/0
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/1
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/2
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/3
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/4
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/5
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/6
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/7
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/8
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/9
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/10
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/11
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/12
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/13
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/14
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/15
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/16
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/17
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/18
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/19
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/20
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/21
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/22
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/23
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/0
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/1
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/2
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/3
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/4
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/5
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/6
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/7
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/8
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/9
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/10
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/11
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/12
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/13
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/14
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/15
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/16
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/17
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/18
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/19
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/20
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/21
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/22
+[  SKIPPED ] DgramUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/23
+Failed to match any benchmarks against regex: .

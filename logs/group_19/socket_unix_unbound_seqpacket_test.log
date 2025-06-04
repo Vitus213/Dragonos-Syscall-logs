@@ -1,0 +1,57 @@
+[==========] Running 16 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 16 tests from AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/0
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/4
+Testing with reversed SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/5
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnect/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/0
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/4
+Testing with reversed SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/5
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest.SendtoWithoutConnectIgnoresAddr/7 (0 ms)
+[----------] 16 tests from AllUnixDomainSockets/UnboundUnixSeqpacketSocketPairTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 16 tests.
+Failed to match any benchmarks against regex: .

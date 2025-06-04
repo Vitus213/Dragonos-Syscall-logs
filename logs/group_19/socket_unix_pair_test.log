@@ -1,0 +1,2345 @@
+[==========] Running 732 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 156 tests from AllUnixDomainSockets/UnixSocketPairTest
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.InvalidGetSockOpt/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadName/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.BindToBadFamily/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.RecvmmsgTimeoutAfterRecv/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/0
+Testing with SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/2
+Testing with SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/4
+Testing with SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/6
+Testing with reversed SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:143: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/0
+Testing with SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/2
+Testing with SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/4
+Testing with SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/6
+Testing with reversed SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix.cc:169: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.NetdeviceIoctlsSucceed/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.Shutdown/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownRead/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.ShutdownWrite/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SocketReopenFromProcfs/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.SendFromMmapBeyondEof/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/0 (1000 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/1 (1001 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/2 (1001 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/3 (1000 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/4 (1001 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/5 (1001 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/6 (1001 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/7 (1000 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/8 (1000 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/9 (1000 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/10 (1001 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairTest.EpollEdgeTrigger/11 (1000 ms)
+[----------] 156 tests from AllUnixDomainSockets/UnixSocketPairTest (12025 ms total)
+
+[----------] 576 tests from AllUnixDomainSockets/UnixSocketPairCmsgTest
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BadFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ShortCmsg/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpace/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNoSpaceMsgCtrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNullControlMsgCtrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassNotEnoughSpaceMsgCtrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicThreeFDPassTruncationMsgCtrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecv/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicFDPassUnalignedRecvNoMsgTrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicTwoFDPassUnalignedRecvTruncationMsgTrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ConcurrentBasicFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNoRecv/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed1/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassInterspersed2/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassNotCoalesced/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassPeek/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/2
+Testing with SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/4
+Testing with SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_cmsg.cc:678: Skipped
+GetParam().type != SOCK_STREAM
+
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.BasicCredPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredRecvEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredSendEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsAfterSoPassCredSendEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SendNullCredsBeforeSoPassCredRecvEndAfterSendEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredRecvEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredSendEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteAfterSoPassCredSendEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.WriteBeforeSoPassCredRecvEndAfterSendEnd/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncated/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoMsgCtrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassNoSpaceMsgCtrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredPassTruncatedMsgCtrunc/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.SoPassCred/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoDataCredPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.NoPassCred/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CredAndFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassBeforeSoPassCred/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCred/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecDroppedWhenFDPassed/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.CloexecRecvFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredSpace/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.InheritPasscred/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.MsgCtruncInputIsNoop/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/4
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/8
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/9
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixSocketPairCmsgTest.FDPassAfterSoPassCredWithoutCredHeaderSpace/11 (0 ms)
+[----------] 576 tests from AllUnixDomainSockets/UnixSocketPairCmsgTest (46 ms total)
+
+[----------] Global test environment tear-down
+[==========] 732 tests from 2 test suites ran. (12072 ms total)
+[  PASSED  ] 698 tests.
+[  SKIPPED ] 34 tests, listed below:
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/0
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/1
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/2
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/3
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/4
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/5
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/6
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/7
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/8
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/9
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/10
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCINQSucceeds/11
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/0
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/1
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/2
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/3
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/4
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/5
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/6
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/7
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/8
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/9
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/10
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairTest.TIOCOUTQSucceeds/11
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/1
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/2
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/3
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/4
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/5
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/7
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/8
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/9
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/10
+[  SKIPPED ] AllUnixDomainSockets/UnixSocketPairCmsgTest.ZeroFDPassCoalesceData/11
+Failed to match any benchmarks against regex: .

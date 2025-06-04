@@ -1,0 +1,63 @@
+[==========] Running 18 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 18 tests from AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/4
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.AddressAfterNull/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/4
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.GetSockNameLength/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/2
+Testing with SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/4
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/5
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest.OpenSocketWithTruncate/5 (0 ms)
+[----------] 18 tests from AllUnixDomainSockets/UnboundFilesystemUnixSocketPairTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 18 tests.
+Failed to match any benchmarks against regex: .

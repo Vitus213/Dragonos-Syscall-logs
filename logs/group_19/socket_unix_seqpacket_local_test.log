@@ -1,0 +1,832 @@
+[==========] Running 240 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 144 tests from SeqpacketUnixSockets/NonStreamSocketPairTest
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SendMsgTooLarge/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SplitRecv/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SingleRecv/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsghdrFlagMsgTrunc/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.SinglePeek/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncation/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncTruncationRecvmsgMsghdrFlagMsgTrunc/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncSameSize/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.MsgTruncNotFull/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncZeroLen/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgMsgTruncMsgPeekZeroLen/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/NonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLen/11 (0 ms)
+[----------] 144 tests from SeqpacketUnixSockets/NonStreamSocketPairTest (16 ms total)
+
+[----------] 48 tests from SeqpacketUnixSockets/SeqpacketUnixSocketPairTest
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.WriteOneSideClosed/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.ReadOneSideClosed/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.Sendto/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/0 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/1 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/2 (41 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/3 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/4 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/5 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/6 (41 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/7 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/8 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/9 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/10 (40 ms)
+[ RUN      ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/SeqpacketUnixSocketPairTest.IncreasedSocketSendBufUnblocksWrites/11 (40 ms)
+[----------] 48 tests from SeqpacketUnixSockets/SeqpacketUnixSocketPairTest (494 ms total)
+
+[----------] 48 tests from SeqpacketUnixSockets/UnixNonStreamSocketPairTest
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.RecvMsgTooLarge/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/0
+Testing with SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:140: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/0
+Testing with SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/0 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/2 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/4 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/6 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/8 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/10 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_non_stream.cc:196: Skipped
+SO_SNDBUF = 425984, want 4198400
+
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/11 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/0
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/0 (1 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/1
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/1 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/2
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/2 (1 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/3
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/3 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/4
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/4 (2 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/5
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/5 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/6
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/6 (2 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/7
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/7 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/8
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/8 (1 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/9
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/9 (0 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/10 (2 ms)
+[ RUN      ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/11
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.SendTimeout/11 (0 ms)
+[----------] 48 tests from SeqpacketUnixSockets/UnixNonStreamSocketPairTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 240 tests from 3 test suites ran. (531 ms total)
+[  PASSED  ] 216 tests.
+[  SKIPPED ] 24 tests, listed below:
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/0
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/1
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/2
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/3
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/4
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/5
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/6
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/7
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/8
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/9
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/10
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedSendMsg/11
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/0
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/1
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/2
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/3
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/4
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/5
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/6
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/7
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/8
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/9
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/10
+[  SKIPPED ] SeqpacketUnixSockets/UnixNonStreamSocketPairTest.FragmentedRecvMsg/11
+Failed to match any benchmarks against regex: .

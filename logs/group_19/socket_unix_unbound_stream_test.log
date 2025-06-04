@@ -1,0 +1,685 @@
+[==========] Running 208 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 192 tests from AllUnixDomainSockets/UnixStreamSocketPairTest
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassPartialRead/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRead/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ZeroLengthMessageFDDiscarded/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassCoalescedRecv/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.ReadsNotCoalescedAfterFDPass/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.FDPassNotCombined/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredPassPartialRead/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/0
+Testing with SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/6
+Testing with reversed SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+test/syscalls/linux/socket_unix_unbound_stream.cc:274: Skipped
+version.major > 4 || (version.major == 4 && version.minor >= 3)
+
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedUp/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CredsNotCoalescedDown/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCredsNoPasscred/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds1/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedCreds2/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds1/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.NonCoalescedDifferingCreds2/11 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/8 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/9 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/10 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] AllUnixDomainSockets/UnixStreamSocketPairTest.CoalescedDifferingCreds/11 (0 ms)
+[----------] 192 tests from AllUnixDomainSockets/UnixStreamSocketPairTest (23 ms total)
+
+[----------] 16 tests from AllUnixDomainSockets/UnboundUnixStreamSocketPairTest
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/2
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/3
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/4
+Testing with reversed SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/5
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/6
+Testing with reversed SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnect/7 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/0
+Testing with SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/1
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/2
+Testing with SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/3
+Testing with non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/4
+Testing with reversed SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/4 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/5
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/5 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/6
+Testing with reversed SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/6 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundUnixStreamSocketPairTest.SendtoWithoutConnectIgnoresAddr/7 (0 ms)
+[----------] 16 tests from AllUnixDomainSockets/UnboundUnixStreamSocketPairTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 208 tests from 2 test suites ran. (25 ms total)
+[  PASSED  ] 196 tests.
+[  SKIPPED ] 12 tests, listed below:
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/0
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/1
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/2
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/3
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/4
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/5
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/6
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/7
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/8
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/9
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/10
+[  SKIPPED ] AllUnixDomainSockets/UnixStreamSocketPairTest.SinglePeek/11
+Failed to match any benchmarks against regex: .

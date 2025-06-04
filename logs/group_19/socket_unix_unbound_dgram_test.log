@@ -1,0 +1,129 @@
+[==========] Running 40 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 40 tests from AllUnixDomainSockets/UnboundDgramUnixSocketPairTest
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.BindConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SelfConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.DoubleConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.GetRemoteAddress/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Sendto/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.ZeroWriteAllowed/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Listen/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.Accept/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnect/3 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/0
+Testing with SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/0 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with a filesystem address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/1 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/2
+Testing with SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/2 (0 ms)
+[ RUN      ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/3
+Testing with non-blocking SOCK_DGRAM Unix domain socket unbound with an abstract namespace address
+[       OK ] AllUnixDomainSockets/UnboundDgramUnixSocketPairTest.SendtoWithoutConnectPassCreds/3 (0 ms)
+[----------] 40 tests from AllUnixDomainSockets/UnboundDgramUnixSocketPairTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 40 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 40 tests.
+Failed to match any benchmarks against regex: .
