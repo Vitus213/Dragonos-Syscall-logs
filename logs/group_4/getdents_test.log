@@ -1,0 +1,83 @@
+[==========] Running 34 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 13 tests from GetdentsTest/0, where TypeParam = gvisor::testing::(anonymous namespace)::linux_dirent
+[ RUN      ] GetdentsTest/0.VerifyEntries
+[       OK ] GetdentsTest/0.VerifyEntries (0 ms)
+[ RUN      ] GetdentsTest/0.VerifyPadding
+[       OK ] GetdentsTest/0.VerifyPadding (1 ms)
+[ RUN      ] GetdentsTest/0.SmallDir
+[       OK ] GetdentsTest/0.SmallDir (0 ms)
+[ RUN      ] GetdentsTest/0.LargeDir
+[       OK ] GetdentsTest/0.LargeDir (8 ms)
+[ RUN      ] GetdentsTest/0.PartialBuffer
+[       OK ] GetdentsTest/0.PartialBuffer (9 ms)
+[ RUN      ] GetdentsTest/0.ProcSelfFd
+[       OK ] GetdentsTest/0.ProcSelfFd (0 ms)
+[ RUN      ] GetdentsTest/0.NotDir
+[       OK ] GetdentsTest/0.NotDir (0 ms)
+[ RUN      ] GetdentsTest/0.OpathFile
+[       OK ] GetdentsTest/0.OpathFile (0 ms)
+[ RUN      ] GetdentsTest/0.OpathDirectory
+[       OK ] GetdentsTest/0.OpathDirectory (0 ms)
+[ RUN      ] GetdentsTest/0.SeekResetsCursor
+[       OK ] GetdentsTest/0.SeekResetsCursor (1 ms)
+[ RUN      ] GetdentsTest/0.Issue128ProcSeekEnd
+[       OK ] GetdentsTest/0.Issue128ProcSeekEnd (0 ms)
+[ RUN      ] GetdentsTest/0.ZeroLengthOutBuffer
+[       OK ] GetdentsTest/0.ZeroLengthOutBuffer (0 ms)
+[ RUN      ] GetdentsTest/0.TooLargeSize
+[       OK ] GetdentsTest/0.TooLargeSize (0 ms)
+[----------] 13 tests from GetdentsTest/0 (24 ms total)
+
+[----------] 13 tests from GetdentsTest/1, where TypeParam = gvisor::testing::(anonymous namespace)::linux_dirent64
+[ RUN      ] GetdentsTest/1.VerifyEntries
+[       OK ] GetdentsTest/1.VerifyEntries (0 ms)
+[ RUN      ] GetdentsTest/1.VerifyPadding
+[       OK ] GetdentsTest/1.VerifyPadding (1 ms)
+[ RUN      ] GetdentsTest/1.SmallDir
+[       OK ] GetdentsTest/1.SmallDir (0 ms)
+[ RUN      ] GetdentsTest/1.LargeDir
+[       OK ] GetdentsTest/1.LargeDir (9 ms)
+[ RUN      ] GetdentsTest/1.PartialBuffer
+[       OK ] GetdentsTest/1.PartialBuffer (8 ms)
+[ RUN      ] GetdentsTest/1.ProcSelfFd
+[       OK ] GetdentsTest/1.ProcSelfFd (0 ms)
+[ RUN      ] GetdentsTest/1.NotDir
+[       OK ] GetdentsTest/1.NotDir (0 ms)
+[ RUN      ] GetdentsTest/1.OpathFile
+[       OK ] GetdentsTest/1.OpathFile (0 ms)
+[ RUN      ] GetdentsTest/1.OpathDirectory
+[       OK ] GetdentsTest/1.OpathDirectory (0 ms)
+[ RUN      ] GetdentsTest/1.SeekResetsCursor
+[       OK ] GetdentsTest/1.SeekResetsCursor (1 ms)
+[ RUN      ] GetdentsTest/1.Issue128ProcSeekEnd
+[       OK ] GetdentsTest/1.Issue128ProcSeekEnd (0 ms)
+[ RUN      ] GetdentsTest/1.ZeroLengthOutBuffer
+[       OK ] GetdentsTest/1.ZeroLengthOutBuffer (0 ms)
+[ RUN      ] GetdentsTest/1.TooLargeSize
+[       OK ] GetdentsTest/1.TooLargeSize (0 ms)
+[----------] 13 tests from GetdentsTest/1 (23 ms total)
+
+[----------] 8 tests from ReaddirTest
+[ RUN      ] ReaddirTest.OpenDir
+[       OK ] ReaddirTest.OpenDir (0 ms)
+[ RUN      ] ReaddirTest.RootContainsBasicDirectories
+[       OK ] ReaddirTest.RootContainsBasicDirectories (0 ms)
+[ RUN      ] ReaddirTest.Bug24096713Dev
+[       OK ] ReaddirTest.Bug24096713Dev (0 ms)
+[ RUN      ] ReaddirTest.Bug24096713ProcTid
+[       OK ] ReaddirTest.Bug24096713ProcTid (0 ms)
+[ RUN      ] ReaddirTest.Bug33429925Proc
+[       OK ] ReaddirTest.Bug33429925Proc (0 ms)
+[ RUN      ] ReaddirTest.Bug35110122Root
+[       OK ] ReaddirTest.Bug35110122Root (0 ms)
+[ RUN      ] ReaddirTest.GoneAfterRemoveCache
+[       OK ] ReaddirTest.GoneAfterRemoveCache (0 ms)
+[ RUN      ] ReaddirTest.GoneAfterRenameCache
+[       OK ] ReaddirTest.GoneAfterRenameCache (0 ms)
+[----------] 8 tests from ReaddirTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 34 tests from 3 test suites ran. (50 ms total)
+[  PASSED  ] 34 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,55 @@
+[==========] Running 19 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 13 tests from ForkTest
+[ RUN      ] ForkTest.Simple
+[       OK ] ForkTest.Simple (0 ms)
+[ RUN      ] ForkTest.ExitCode
+[       OK ] ForkTest.ExitCode (0 ms)
+[ RUN      ] ForkTest.Multi
+[       OK ] ForkTest.Multi (0 ms)
+[ RUN      ] ForkTest.Pipe
+[       OK ] ForkTest.Pipe (0 ms)
+[ RUN      ] ForkTest.SharedMapping
+[       OK ] ForkTest.SharedMapping (0 ms)
+[ RUN      ] ForkTest.PrivateMapping
+[       OK ] ForkTest.PrivateMapping (0 ms)
+[ RUN      ] ForkTest.Cpuid
+[       OK ] ForkTest.Cpuid (0 ms)
+[ RUN      ] ForkTest.Mmap
+[       OK ] ForkTest.Mmap (0 ms)
+[ RUN      ] ForkTest.Alarm
+[       OK ] ForkTest.Alarm (1000 ms)
+[ RUN      ] ForkTest.PrivateMemory
+[       OK ] ForkTest.PrivateMemory (0 ms)
+[ RUN      ] ForkTest.COWSegment
+[       OK ] ForkTest.COWSegment (6001 ms)
+[ RUN      ] ForkTest.SigAltStack
+[       OK ] ForkTest.SigAltStack (0 ms)
+[ RUN      ] ForkTest.Affinity
+[       OK ] ForkTest.Affinity (0 ms)
+[----------] 13 tests from ForkTest (7006 ms total)
+
+[----------] 6 tests from CloneTest
+[ RUN      ] CloneTest.NewUserNamespacePermitsAllOtherNamespaces
+[       OK ] CloneTest.NewUserNamespacePermitsAllOtherNamespaces (0 ms)
+[ RUN      ] CloneTest.NewUserMountNamespace
+test/syscalls/linux/fork.cc:442: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] CloneTest.NewUserMountNamespace (0 ms)
+[ RUN      ] CloneTest.NonCanonicalTLS
+[       OK ] CloneTest.NonCanonicalTLS (0 ms)
+[ RUN      ] CloneTest.Clone3UnknownFlag
+[       OK ] CloneTest.Clone3UnknownFlag (0 ms)
+[ RUN      ] CloneTest.Clone3AsClone
+[       OK ] CloneTest.Clone3AsClone (0 ms)
+[ RUN      ] CloneTest.Clone3Basic
+[       OK ] CloneTest.Clone3Basic (0 ms)
+[----------] 6 tests from CloneTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 2 test suites ran. (7009 ms total)
+[  PASSED  ] 18 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] CloneTest.NewUserMountNamespace
+Failed to match any benchmarks against regex: .

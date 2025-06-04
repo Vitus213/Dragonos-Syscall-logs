@@ -1,0 +1,13 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from GetcpuTest
+[ RUN      ] GetcpuTest.IsValidCpuStress
+[       OK ] GetcpuTest.IsValidCpuStress (10000 ms)
+[ RUN      ] GetcpuTest.IsValidCpu
+[       OK ] GetcpuTest.IsValidCpu (0 ms)
+[----------] 2 tests from GetcpuTest (10000 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (10000 ms total)
+[  PASSED  ] 2 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,22 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from FuseTest
+[ RUN      ] FuseTest.RejectBadInit
+test/syscalls/linux/fuse.cc:49: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] FuseTest.RejectBadInit (0 ms)
+[ RUN      ] FuseTest.LookupUpdatesInode
+test/syscalls/linux/fuse.cc:75: Skipped
+absl::NullSafeStringView(getenv("GVISOR_FUSE_TEST")) != "TRUE"
+
+[  SKIPPED ] FuseTest.LookupUpdatesInode (0 ms)
+[----------] 2 tests from FuseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] FuseTest.RejectBadInit
+[  SKIPPED ] FuseTest.LookupUpdatesInode
+Failed to match any benchmarks against regex: .

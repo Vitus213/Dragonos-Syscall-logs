@@ -1,0 +1,15 @@
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from FsyncTest
+[ RUN      ] FsyncTest.TempFileSucceeds
+[       OK ] FsyncTest.TempFileSucceeds (2 ms)
+[ RUN      ] FsyncTest.TempDirSucceeds
+[       OK ] FsyncTest.TempDirSucceeds (1 ms)
+[ RUN      ] FsyncTest.CannotFsyncOnUnopenedFd
+[       OK ] FsyncTest.CannotFsyncOnUnopenedFd (0 ms)
+[----------] 3 tests from FsyncTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 3 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,136 @@
+[==========] Running 59 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 5 tests from PrivateFutexTest
+[ RUN      ] PrivateFutexTest.WakeOp0Set
+[       OK ] PrivateFutexTest.WakeOp0Set (0 ms)
+[ RUN      ] PrivateFutexTest.WakeOp0Add
+[       OK ] PrivateFutexTest.WakeOp0Add (0 ms)
+[ RUN      ] PrivateFutexTest.WakeOp0Or
+[       OK ] PrivateFutexTest.WakeOp0Or (0 ms)
+[ RUN      ] PrivateFutexTest.WakeOp0Andn
+[       OK ] PrivateFutexTest.WakeOp0Andn (0 ms)
+[ RUN      ] PrivateFutexTest.WakeOp0Xor
+[       OK ] PrivateFutexTest.WakeOp0Xor (0 ms)
+[----------] 5 tests from PrivateFutexTest (0 ms total)
+
+[----------] 2 tests from SharedFutexTest
+[ RUN      ] SharedFutexTest.WakeInterprocessSharedAnon
+[       OK ] SharedFutexTest.WakeInterprocessSharedAnon (3000 ms)
+[ RUN      ] SharedFutexTest.WakeInterprocessFile
+[       OK ] SharedFutexTest.WakeInterprocessFile (3001 ms)
+[----------] 2 tests from SharedFutexTest (6002 ms total)
+
+[----------] 4 tests from RobustFutexTest
+[ RUN      ] RobustFutexTest.BasicSetGet
+[       OK ] RobustFutexTest.BasicSetGet (0 ms)
+[ RUN      ] RobustFutexTest.GetFromOtherTid
+[       OK ] RobustFutexTest.GetFromOtherTid (0 ms)
+[ RUN      ] RobustFutexTest.InvalidSize
+[       OK ] RobustFutexTest.InvalidSize (0 ms)
+[ RUN      ] RobustFutexTest.PthreadMutexAttr
+[       OK ] RobustFutexTest.PthreadMutexAttr (1 ms)
+[----------] 4 tests from RobustFutexTest (1 ms total)
+
+[----------] 48 tests from SharedPrivate/PrivateAndSharedFutexTest
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroTimeout/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroTimeout/0 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroTimeout/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroTimeout/1 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_Timeout/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_Timeout/0 (1000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_Timeout/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_Timeout/1 (1000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_BitsetTimeout/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_BitsetTimeout/0 (1000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_BitsetTimeout/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_BitsetTimeout/1 (1000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_NegativeTimeout/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_NegativeTimeout/0 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_NegativeTimeout/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_NegativeTimeout/1 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WrongVal/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WrongVal/0 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WrongVal/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WrongVal/1 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroBitset/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroBitset/0 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroBitset/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_ZeroBitset/1 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wake1/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wake1/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wake1/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wake1/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wake0/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wake0/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wake0/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wake0/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeAll/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeAll/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeAll/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeAll/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeSome/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeSome/0 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeSome/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeSome/1 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_Wake/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_Wake/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_Wake/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_Wake/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WakeBitset/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WakeBitset/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WakeBitset/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.Wait_WakeBitset/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetMatch/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetMatch/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetMatch/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetMatch/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetNoMatch/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetNoMatch/0 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetNoMatch/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WaitBitset_WakeBitsetNoMatch/1 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondSuccess/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondSuccess/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondSuccess/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondSuccess/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondFailure/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondFailure/0 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondFailure/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeOpCondFailure/1 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.NoWakeInterprocessPrivateAnon/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.NoWakeInterprocessPrivateAnon/0 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.NoWakeInterprocessPrivateAnon/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.NoWakeInterprocessPrivateAnon/1 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeAfterCOWBreak/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeAfterCOWBreak/0 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeAfterCOWBreak/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeAfterCOWBreak/1 (3000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeWrongKind/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeWrongKind/0 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.WakeWrongKind/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.WakeWrongKind/1 (6000 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PIBasic/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PIBasic/0 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PIBasic/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PIBasic/1 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PIConcurrency/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PIConcurrency/0 (5128 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PIConcurrency/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PIConcurrency/1 (5189 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PIWaiters/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PIWaiters/0 (100 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PIWaiters/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PIWaiters/1 (100 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PITryLock/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PITryLock/0 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PITryLock/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PITryLock/1 (0 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PITryLockConcurrency/0
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PITryLockConcurrency/0 (506 ms)
+[ RUN      ] SharedPrivate/PrivateAndSharedFutexTest.PITryLockConcurrency/1
+[       OK ] SharedPrivate/PrivateAndSharedFutexTest.PITryLockConcurrency/1 (506 ms)
+[----------] 48 tests from SharedPrivate/PrivateAndSharedFutexTest (123543 ms total)
+
+[----------] Global test environment tear-down
+[==========] 59 tests from 4 test suites ran. (129548 ms total)
+[  PASSED  ] 59 tests.
+Failed to match any benchmarks against regex: .
