@@ -1,0 +1,39 @@
+[==========] Running 11 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 10 tests from DupTest
+[ RUN      ] DupTest.Dup
+[       OK ] DupTest.Dup (0 ms)
+[ RUN      ] DupTest.DupClearsCloExec
+[       OK ] DupTest.DupClearsCloExec (0 ms)
+[ RUN      ] DupTest.DupWithOpath
+[       OK ] DupTest.DupWithOpath (0 ms)
+[ RUN      ] DupTest.Dup2
+[       OK ] DupTest.Dup2 (0 ms)
+[ RUN      ] DupTest.Rlimit
+[       OK ] DupTest.Rlimit (0 ms)
+[ RUN      ] DupTest.Dup2SameFD
+[       OK ] DupTest.Dup2SameFD (0 ms)
+[ RUN      ] DupTest.Dup2WithOpath
+[       OK ] DupTest.Dup2WithOpath (0 ms)
+[ RUN      ] DupTest.Dup3
+[       OK ] DupTest.Dup3 (0 ms)
+[ RUN      ] DupTest.Dup3FailsSameFD
+[       OK ] DupTest.Dup3FailsSameFD (0 ms)
+[ RUN      ] DupTest.Dup3WithOpath
+[       OK ] DupTest.Dup3WithOpath (0 ms)
+[----------] 10 tests from DupTest (2 ms total)
+
+[----------] 1 test from RlimitTest
+[ RUN      ] RlimitTest.DupLimitedByNROpenSysctl
+test/syscalls/linux/dup.cc:147: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_RESOURCE))
+
+[  SKIPPED ] RlimitTest.DupLimitedByNROpenSysctl (0 ms)
+[----------] 1 test from RlimitTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 2 test suites ran. (2 ms total)
+[  PASSED  ] 10 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] RlimitTest.DupLimitedByNROpenSysctl
+Failed to match any benchmarks against regex: .

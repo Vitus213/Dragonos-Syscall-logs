@@ -1,0 +1,57 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from EventfdTest
+[ RUN      ] EventfdTest.Nonblock
+[       OK ] EventfdTest.Nonblock (0 ms)
+[ RUN      ] EventfdTest.BlockingWrite
+[       OK ] EventfdTest.BlockingWrite (0 ms)
+[ RUN      ] EventfdTest.SmallWrite
+[       OK ] EventfdTest.SmallWrite (0 ms)
+[ RUN      ] EventfdTest.SmallRead
+[       OK ] EventfdTest.SmallRead (0 ms)
+[ RUN      ] EventfdTest.IllegalSeek
+test/syscalls/linux/eventfd.cc:105: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] EventfdTest.IllegalSeek (0 ms)
+[ RUN      ] EventfdTest.IllegalPread
+[       OK ] EventfdTest.IllegalPread (0 ms)
+[ RUN      ] EventfdTest.IllegalPwrite
+[       OK ] EventfdTest.IllegalPwrite (0 ms)
+[ RUN      ] EventfdTest.BigWrite
+test/syscalls/linux/eventfd.cc:129: Failure
+Value of: write(efd.get(), big, sizeof(big))
+Expected: not -1 (success)
+  Actual: -1 (of type long), with errno PosixError(errno=22 Invalid argument)
+
+[  FAILED  ] EventfdTest.BigWrite (1 ms)
+[ RUN      ] EventfdTest.BigRead
+[       OK ] EventfdTest.BigRead (0 ms)
+[ RUN      ] EventfdTest.BigWriteBigRead
+test/syscalls/linux/eventfd.cc:150: Failure
+Value of: write(efd.get(), l, sizeof(l))
+Expected: not -1 (success)
+  Actual: -1 (of type long), with errno PosixError(errno=22 Invalid argument)
+
+[  FAILED  ] EventfdTest.BigWriteBigRead (0 ms)
+[ RUN      ] EventfdTest.NotifyNonZero
+[       OK ] EventfdTest.NotifyNonZero (5000 ms)
+[ RUN      ] EventfdTest.SpliceReturnsEINVAL
+test/syscalls/linux/eventfd.cc:199: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] EventfdTest.SpliceReturnsEINVAL (0 ms)
+[----------] 12 tests from EventfdTest (5002 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (5002 ms total)
+[  PASSED  ] 8 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] EventfdTest.IllegalSeek
+[  SKIPPED ] EventfdTest.SpliceReturnsEINVAL
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] EventfdTest.BigWrite
+[  FAILED  ] EventfdTest.BigWriteBigRead
+
+ 2 FAILED TESTS
+Failed to match any benchmarks against regex: .

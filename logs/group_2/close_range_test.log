@@ -1,0 +1,46 @@
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from CloseRangeTest
+[ RUN      ] CloseRangeTest.ContiguousRange
+[       OK ] CloseRangeTest.ContiguousRange (1 ms)
+[ RUN      ] CloseRangeTest.RangeWithHoles
+[       OK ] CloseRangeTest.RangeWithHoles (1 ms)
+[ RUN      ] CloseRangeTest.RangeInMiddleOfOpenFiles
+[       OK ] CloseRangeTest.RangeInMiddleOfOpenFiles (1 ms)
+[ RUN      ] CloseRangeTest.SingleFile
+[       OK ] CloseRangeTest.SingleFile (0 ms)
+[ RUN      ] CloseRangeTest.CallCloseRangeTwice
+[       OK ] CloseRangeTest.CallCloseRangeTwice (1 ms)
+[ RUN      ] CloseRangeTest.CloexecFlagTest
+test/syscalls/linux/close_range.cc:220: Skipped
+close_range(1, 0, flags) < 0 && errno == EINVAL
+
+[  SKIPPED ] CloseRangeTest.CloexecFlagTest (0 ms)
+[ RUN      ] CloseRangeTest.UnshareFlagTest
+[       OK ] CloseRangeTest.UnshareFlagTest (1 ms)
+[ RUN      ] CloseRangeTest.UnshareFlagAndCloseRangeAtStart
+[       OK ] CloseRangeTest.UnshareFlagAndCloseRangeAtStart (1 ms)
+[ RUN      ] CloseRangeTest.UnshareFlagAndCloseRangeAtEnd
+[       OK ] CloseRangeTest.UnshareFlagAndCloseRangeAtEnd (1 ms)
+[ RUN      ] CloseRangeTest.CloexecAndUnshareFlagTest
+test/syscalls/linux/close_range.cc:325: Skipped
+close_range(1, 0, flags) < 0 && errno == EINVAL
+
+[  SKIPPED ] CloseRangeTest.CloexecAndUnshareFlagTest (0 ms)
+[ RUN      ] CloseRangeTest.RangeFirstGreaterThanLast
+[       OK ] CloseRangeTest.RangeFirstGreaterThanLast (0 ms)
+[ RUN      ] CloseRangeTest.RangeMaxLast
+[       OK ] CloseRangeTest.RangeMaxLast (1 ms)
+[ RUN      ] CloseRangeTest.InvalidFlags
+[       OK ] CloseRangeTest.InvalidFlags (0 ms)
+[ RUN      ] CloseRangeTest.ConcurrentCalls
+[       OK ] CloseRangeTest.ConcurrentCalls (4 ms)
+[----------] 14 tests from CloseRangeTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test suite ran. (16 ms total)
+[  PASSED  ] 12 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] CloseRangeTest.CloexecFlagTest
+[  SKIPPED ] CloseRangeTest.CloexecAndUnshareFlagTest
+Failed to match any benchmarks against regex: .

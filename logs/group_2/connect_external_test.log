@@ -1,0 +1,75 @@
+[==========] Running 10 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 8 tests from StreamSeqpacket/GoferStreamSeqpacketTest
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/0
+test/syscalls/linux/connect_external.cc:61: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/0, where GetParam() = ("TEST_UDS_TREE", 40-byte object <01-00 00-00 00-00 00-00 F8-7F 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-00 00-00 00-00 00-00 00-00>) (0 ms)
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/1
+test/syscalls/linux/connect_external.cc:61: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/1, where GetParam() = ("TEST_UDS_TREE", 40-byte object <05-00 00-00 00-00 00-00 68-89 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>) (0 ms)
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/2
+test/syscalls/linux/connect_external.cc:61: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/2, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <01-00 00-00 00-00 00-00 98-8C 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-00 00-00 00-00 00-00 00-00>) (0 ms)
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/3
+test/syscalls/linux/connect_external.cc:61: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/3, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <05-00 00-00 00-00 00-00 E8-8F 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>) (0 ms)
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/0
+test/syscalls/linux/connect_external.cc:97: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/0, where GetParam() = ("TEST_UDS_TREE", 40-byte object <01-00 00-00 00-00 00-00 E8-8F 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-65 74-00 00-00 00-00 00-00>) (0 ms)
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/1
+test/syscalls/linux/connect_external.cc:97: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/1, where GetParam() = ("TEST_UDS_TREE", 40-byte object <05-00 00-00 00-00 00-00 08-96 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>) (0 ms)
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/2
+test/syscalls/linux/connect_external.cc:97: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/2, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <01-00 00-00 00-00 00-00 D8-98 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-00 00-00 00-00 00-00 00-00>) (0 ms)
+[ RUN      ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/3
+test/syscalls/linux/connect_external.cc:97: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/3, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <05-00 00-00 00-00 00-00 A8-9B 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>) (0 ms)
+[----------] 8 tests from StreamSeqpacket/GoferStreamSeqpacketTest (0 ms total)
+
+[----------] 2 tests from Dgram/GoferDgramTest
+[ RUN      ] Dgram/GoferDgramTest.Null/0
+test/syscalls/linux/connect_external.cc:132: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] Dgram/GoferDgramTest.Null/0, where GetParam() = "TEST_UDS_TREE" (0 ms)
+[ RUN      ] Dgram/GoferDgramTest.Null/1
+test/syscalls/linux/connect_external.cc:132: Failure
+Expected: (val) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] Dgram/GoferDgramTest.Null/1, where GetParam() = "TEST_UDS_ATTACH_TREE" (0 ms)
+[----------] 2 tests from Dgram/GoferDgramTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 10 tests, listed below:
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/0, where GetParam() = ("TEST_UDS_TREE", 40-byte object <01-00 00-00 00-00 00-00 F8-7F 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-00 00-00 00-00 00-00 00-00>)
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/1, where GetParam() = ("TEST_UDS_TREE", 40-byte object <05-00 00-00 00-00 00-00 68-89 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>)
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/2, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <01-00 00-00 00-00 00-00 98-8C 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-00 00-00 00-00 00-00 00-00>)
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.Echo/3, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <05-00 00-00 00-00 00-00 E8-8F 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>)
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/0, where GetParam() = ("TEST_UDS_TREE", 40-byte object <01-00 00-00 00-00 00-00 E8-8F 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-65 74-00 00-00 00-00 00-00>)
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/1, where GetParam() = ("TEST_UDS_TREE", 40-byte object <05-00 00-00 00-00 00-00 08-96 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>)
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/2, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <01-00 00-00 00-00 00-00 D8-98 6F-7B E6-5E 00-00 06-00 00-00 00-00 00-00 73-74 72-65 61-6D 00-00 00-00 00-00 00-00 00-00>)
+[  FAILED  ] StreamSeqpacket/GoferStreamSeqpacketTest.NonListening/3, where GetParam() = ("TEST_UDS_ATTACH_TREE", 40-byte object <05-00 00-00 00-00 00-00 A8-9B 6F-7B E6-5E 00-00 09-00 00-00 00-00 00-00 73-65 71-70 61-63 6B-65 74-00 00-00 00-00 00-00>)
+[  FAILED  ] Dgram/GoferDgramTest.Null/0, where GetParam() = "TEST_UDS_TREE"
+[  FAILED  ] Dgram/GoferDgramTest.Null/1, where GetParam() = "TEST_UDS_ATTACH_TREE"
+
+10 FAILED TESTS
+Failed to match any benchmarks against regex: .

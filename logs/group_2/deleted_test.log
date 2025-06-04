@@ -1,0 +1,19 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from DeletedTest
+[ RUN      ] DeletedTest.Utime
+[       OK ] DeletedTest.Utime (0 ms)
+[ RUN      ] DeletedTest.Chmod
+[       OK ] DeletedTest.Chmod (0 ms)
+[ RUN      ] DeletedTest.Truncate
+[       OK ] DeletedTest.Truncate (0 ms)
+[ RUN      ] DeletedTest.Fallocate
+[       OK ] DeletedTest.Fallocate (0 ms)
+[ RUN      ] DeletedTest.Replace
+[       OK ] DeletedTest.Replace (0 ms)
+[----------] 5 tests from DeletedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 5 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,10 @@
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from ConcurrencyTest
+[ RUN      ] ConcurrencyTest.SingleProcessMultithreaded
+[       OK ] ConcurrencyTest.SingleProcessMultithreaded (1000 ms)
+[ RUN      ] ConcurrencyTest.MultiProcessMultithreaded
+[       OK ] ConcurrencyTest.MultiProcessMultithreaded (4677 ms)
+[ RUN      ] ConcurrencyTest.MultiProcessConcurrency
+GVISOR_PLATFORM_SUPPORT variable undefined
+Check failed: false

@@ -1,0 +1,15 @@
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from CreatTest
+[ RUN      ] CreatTest.CreatCreatesNewFile
+[       OK ] CreatTest.CreatCreatesNewFile (0 ms)
+[ RUN      ] CreatTest.CreatTruncatesExistingFile
+[       OK ] CreatTest.CreatTruncatesExistingFile (0 ms)
+[ RUN      ] CreatTest.CreatWithNameTooLong
+[       OK ] CreatTest.CreatWithNameTooLong (0 ms)
+[----------] 3 tests from CreatTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+Failed to match any benchmarks against regex: .

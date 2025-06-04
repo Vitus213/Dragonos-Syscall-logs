@@ -1,0 +1,51 @@
+[==========] Running 21 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 21 tests from EpollTest
+[ RUN      ] EpollTest.AllWritable
+[       OK ] EpollTest.AllWritable (0 ms)
+[ RUN      ] EpollTest.LastReadable
+[       OK ] EpollTest.LastReadable (0 ms)
+[ RUN      ] EpollTest.LastNonWritable
+[       OK ] EpollTest.LastNonWritable (0 ms)
+[ RUN      ] EpollTest.Timeout
+[       OK ] EpollTest.Timeout (200 ms)
+[ RUN      ] EpollTest.EpollPwait2Timeout
+[       OK ] EpollTest.EpollPwait2Timeout (200 ms)
+[ RUN      ] EpollTest.WaitThenUnblock
+[       OK ] EpollTest.WaitThenUnblock (200 ms)
+[ RUN      ] EpollTest.UnblockWithSignal
+[       OK ] EpollTest.UnblockWithSignal (200 ms)
+[ RUN      ] EpollTest.TimeoutNoFds
+[       OK ] EpollTest.TimeoutNoFds (100 ms)
+[ RUN      ] EpollTest.UnblockWithNewFD
+[       OK ] EpollTest.UnblockWithNewFD (200 ms)
+[ RUN      ] EpollTest.Oneshot
+[       OK ] EpollTest.Oneshot (100 ms)
+[ RUN      ] EpollTest.DoubleEpollOneShot
+[       OK ] EpollTest.DoubleEpollOneShot (139 ms)
+[ RUN      ] EpollTest.EdgeTriggered
+[       OK ] EpollTest.EdgeTriggered (200 ms)
+[ RUN      ] EpollTest.OneshotAndEdgeTriggered
+[       OK ] EpollTest.OneshotAndEdgeTriggered (200 ms)
+[ RUN      ] EpollTest.CycleOfOneDisallowed
+[       OK ] EpollTest.CycleOfOneDisallowed (0 ms)
+[ RUN      ] EpollTest.CycleOfThreeDisallowed
+[       OK ] EpollTest.CycleOfThreeDisallowed (0 ms)
+[ RUN      ] EpollTest.CloseFile
+[       OK ] EpollTest.CloseFile (100 ms)
+[ RUN      ] EpollTest.PipeReaderHupAfterWriterClosed
+[       OK ] EpollTest.PipeReaderHupAfterWriterClosed (0 ms)
+[ RUN      ] EpollTest.PipeWriterErrAfterReaderClosed
+[       OK ] EpollTest.PipeWriterErrAfterReaderClosed (0 ms)
+[ RUN      ] EpollTest.DoubleLayerEpoll
+[       OK ] EpollTest.DoubleLayerEpoll (2000 ms)
+[ RUN      ] EpollTest.RegularFiles
+[       OK ] EpollTest.RegularFiles (1 ms)
+[ RUN      ] EpollTest.ReadyMutexCircularity
+[       OK ] EpollTest.ReadyMutexCircularity (1032 ms)
+[----------] 21 tests from EpollTest (4877 ms total)
+
+[----------] Global test environment tear-down
+[==========] 21 tests from 1 test suite ran. (4877 ms total)
+[  PASSED  ] 21 tests.
+Failed to match any benchmarks against regex: .

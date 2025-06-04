@@ -1,0 +1,28 @@
+[==========] Running 14 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 14 tests from ExceptionTest
+[ RUN      ] ExceptionTest.Halt
+[       OK ] ExceptionTest.Halt (1152 ms)
+[ RUN      ] ExceptionTest.DivideByZero
+[       OK ] ExceptionTest.DivideByZero (1197 ms)
+[ RUN      ] ExceptionTest.X87DivideByZeroMasked
+[       OK ] ExceptionTest.X87DivideByZeroMasked (0 ms)
+[ RUN      ] ExceptionTest.X87DivideByZeroUnmasked
+[       OK ] ExceptionTest.X87DivideByZeroUnmasked (1194 ms)
+[ RUN      ] ExceptionTest.X87StatusClobber
+[       OK ] ExceptionTest.X87StatusClobber (1132 ms)
+[ RUN      ] ExceptionTest.SSEDivideByZeroMasked
+[       OK ] ExceptionTest.SSEDivideByZeroMasked (0 ms)
+[ RUN      ] ExceptionTest.SSEDivideByZeroUnmasked
+[       OK ] ExceptionTest.SSEDivideByZeroUnmasked (1169 ms)
+[ RUN      ] ExceptionTest.SSEStatusClobber
+[       OK ] ExceptionTest.SSEStatusClobber (0 ms)
+[ RUN      ] ExceptionTest.IOAccessFault
+[       OK ] ExceptionTest.IOAccessFault (7226 ms)
+[ RUN      ] ExceptionTest.Alignment
+[       OK ] ExceptionTest.Alignment (0 ms)
+[ RUN      ] ExceptionTest.AlignmentHalt
+[       OK ] ExceptionTest.AlignmentHalt (1176 ms)
+[ RUN      ] ExceptionTest.AlignmentCheck
+GVISOR_PLATFORM_SUPPORT variable undefined
+Check failed: false
