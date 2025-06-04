@@ -1,0 +1,29 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from AllFamilies/SocketMultiProtocolInetLoopbackTest
+[ RUN      ] AllFamilies/SocketMultiProtocolInetLoopbackTest.TCPBindAvoidsOtherBoundPortsReuseAddr/TCP
+[       OK ] AllFamilies/SocketMultiProtocolInetLoopbackTest.TCPBindAvoidsOtherBoundPortsReuseAddr/TCP (91332 ms)
+[ RUN      ] AllFamilies/SocketMultiProtocolInetLoopbackTest.TCPBindAvoidsOtherBoundPortsReuseAddr/UDP
+test/syscalls/linux/socket_inet_loopback_nogotsan.cc:115: Skipped
+param.type != SOCK_STREAM
+
+[  SKIPPED ] AllFamilies/SocketMultiProtocolInetLoopbackTest.TCPBindAvoidsOtherBoundPortsReuseAddr/UDP (0 ms)
+[ RUN      ] AllFamilies/SocketMultiProtocolInetLoopbackTest.UDPBindMayBindOtherBoundPortsReuseAddr/TCP
+test/syscalls/linux/socket_inet_loopback_nogotsan.cc:161: Skipped
+param.type != SOCK_DGRAM
+
+[  SKIPPED ] AllFamilies/SocketMultiProtocolInetLoopbackTest.UDPBindMayBindOtherBoundPortsReuseAddr/TCP (0 ms)
+[ RUN      ] AllFamilies/SocketMultiProtocolInetLoopbackTest.UDPBindMayBindOtherBoundPortsReuseAddr/UDP
+[       OK ] AllFamilies/SocketMultiProtocolInetLoopbackTest.UDPBindMayBindOtherBoundPortsReuseAddr/UDP (1 ms)
+[----------] 4 tests from AllFamilies/SocketMultiProtocolInetLoopbackTest (91335 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (91335 ms total)
+[  PASSED  ] 2 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] AllFamilies/SocketMultiProtocolInetLoopbackTest.TCPBindAvoidsOtherBoundPortsReuseAddr/UDP
+[  SKIPPED ] AllFamilies/SocketMultiProtocolInetLoopbackTest.UDPBindMayBindOtherBoundPortsReuseAddr/TCP
+
+  YOU HAVE 22 DISABLED TESTS
+
+Failed to match any benchmarks against regex: .

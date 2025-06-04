@@ -1,0 +1,63 @@
+[==========] Running 18 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 18 tests from NonBlockingUnixDomainSockets/BlockingSocketPairTest
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/0 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/1
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/1 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/2
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/2 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/3
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/3 (201 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/4
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/4 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/5
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/5 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/6
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/6 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/7
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/7 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/8
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/8 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/9
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/9 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/10
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/10 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/11
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/11 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/12
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/12 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/13
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/13 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/14
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/14 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/15
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/15 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/16
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/16 (200 ms)
+[ RUN      ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/17
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingUnixDomainSockets/BlockingSocketPairTest.RecvBlocks/17 (200 ms)
+[----------] 18 tests from NonBlockingUnixDomainSockets/BlockingSocketPairTest (3608 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 1 test suite ran. (3608 ms total)
+[  PASSED  ] 18 tests.
+Failed to match any benchmarks against regex: .

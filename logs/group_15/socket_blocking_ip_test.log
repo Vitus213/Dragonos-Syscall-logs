@@ -1,0 +1,45 @@
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from BlockingIPSockets/BlockingSocketPairTest
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/0
+Testing with connected IPv6 UDP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/0 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/1
+Testing with connected IPv4 UDP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/1 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/2
+Testing with connected IPv6 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/2 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/3
+Testing with connected IPv4 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/3 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/4
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/4 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/5
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/5 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/6
+Testing with reversed connected IPv6 UDP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/6 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/7
+Testing with reversed connected IPv4 UDP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/7 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/8
+Testing with reversed connected IPv6 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/8 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/9
+Testing with reversed connected IPv4 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/9 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/10 (200 ms)
+[ RUN      ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/11
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingIPSockets/BlockingSocketPairTest.RecvBlocks/11 (200 ms)
+[----------] 12 tests from BlockingIPSockets/BlockingSocketPairTest (2405 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (2405 ms total)
+[  PASSED  ] 12 tests.
+Failed to match any benchmarks against regex: .

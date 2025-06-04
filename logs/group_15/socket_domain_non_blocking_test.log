@@ -1,0 +1,63 @@
+[==========] Running 18 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 18 tests from NonBlockingUnixSockets/NonBlockingSocketPairTest
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/0
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/2
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/3
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/4
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/4 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/5
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.ReadNothingAvailable/5 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/0
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/2
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/3
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/4
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/4 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/5
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvNothingAvailable/5 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/0
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/0 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/1
+Testing with non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/1 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/2
+Testing with non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/2 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/3
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/3 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/4
+Testing with reversed non-blocking SOCK_DGRAM Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/4 (0 ms)
+[ RUN      ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/5
+Testing with reversed non-blocking SOCK_SEQPACKET Unix domain socket
+[       OK ] NonBlockingUnixSockets/NonBlockingSocketPairTest.RecvMsgNothingAvailable/5 (0 ms)
+[----------] 18 tests from NonBlockingUnixSockets/NonBlockingSocketPairTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 18 tests.
+Failed to match any benchmarks against regex: .
