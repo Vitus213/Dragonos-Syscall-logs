@@ -1,0 +1,216 @@
+[==========] Running 94 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 41 tests from FcntlTest
+[ RUN      ] FcntlTest.FcntlDupWithOpath
+[       OK ] FcntlTest.FcntlDupWithOpath (0 ms)
+[ RUN      ] FcntlTest.SetFileStatusFlagWithOpath
+[       OK ] FcntlTest.SetFileStatusFlagWithOpath (0 ms)
+[ RUN      ] FcntlTest.BadFcntlsWithOpath
+[       OK ] FcntlTest.BadFcntlsWithOpath (0 ms)
+[ RUN      ] FcntlTest.SetCloExecBadFD
+[       OK ] FcntlTest.SetCloExecBadFD (0 ms)
+[ RUN      ] FcntlTest.SetCloExec
+[       OK ] FcntlTest.SetCloExec (0 ms)
+[ RUN      ] FcntlTest.SetCloExecWithOpath
+[       OK ] FcntlTest.SetCloExecWithOpath (0 ms)
+[ RUN      ] FcntlTest.DupFDCloExecWithOpath
+[       OK ] FcntlTest.DupFDCloExecWithOpath (0 ms)
+[ RUN      ] FcntlTest.ClearCloExec
+[       OK ] FcntlTest.ClearCloExec (0 ms)
+[ RUN      ] FcntlTest.IndependentDescriptorFlags
+[       OK ] FcntlTest.IndependentDescriptorFlags (0 ms)
+[ RUN      ] FcntlTest.GetAllFlags
+[       OK ] FcntlTest.GetAllFlags (0 ms)
+[ RUN      ] FcntlTest.GetOpathFlag
+[       OK ] FcntlTest.GetOpathFlag (1 ms)
+[ RUN      ] FcntlTest.SetFlags
+[       OK ] FcntlTest.SetFlags (0 ms)
+[ RUN      ] FcntlTest.GetO_ASYNC
+[       OK ] FcntlTest.GetO_ASYNC (0 ms)
+[ RUN      ] FcntlTest.SetFlO_ASYNC
+[       OK ] FcntlTest.SetFlO_ASYNC (0 ms)
+[ RUN      ] FcntlTest.SetFdO_ASYNC
+[       OK ] FcntlTest.SetFdO_ASYNC (0 ms)
+[ RUN      ] FcntlTest.DupAfterO_ASYNC
+[       OK ] FcntlTest.DupAfterO_ASYNC (0 ms)
+[ RUN      ] FcntlTest.GetOwnNone
+[       OK ] FcntlTest.GetOwnNone (0 ms)
+[ RUN      ] FcntlTest.GetOwnExNone
+[       OK ] FcntlTest.GetOwnExNone (0 ms)
+[ RUN      ] FcntlTest.SetOwnInvalidPid
+[       OK ] FcntlTest.SetOwnInvalidPid (0 ms)
+[ RUN      ] FcntlTest.SetOwnInvalidPgrp
+[       OK ] FcntlTest.SetOwnInvalidPgrp (0 ms)
+[ RUN      ] FcntlTest.SetOwnPid
+[       OK ] FcntlTest.SetOwnPid (0 ms)
+[ RUN      ] FcntlTest.SetOwnPgrp
+[       OK ] FcntlTest.SetOwnPgrp (0 ms)
+[ RUN      ] FcntlTest.SetOwnUnset
+[       OK ] FcntlTest.SetOwnUnset (0 ms)
+[ RUN      ] FcntlTest.SetOwnOverflow
+[       OK ] FcntlTest.SetOwnOverflow (0 ms)
+[ RUN      ] FcntlTest.SetOwnExInvalidType
+[       OK ] FcntlTest.SetOwnExInvalidType (0 ms)
+[ RUN      ] FcntlTest.SetOwnExInvalidTid
+[       OK ] FcntlTest.SetOwnExInvalidTid (0 ms)
+[ RUN      ] FcntlTest.SetOwnExInvalidPid
+[       OK ] FcntlTest.SetOwnExInvalidPid (0 ms)
+[ RUN      ] FcntlTest.SetOwnExInvalidPgrp
+[       OK ] FcntlTest.SetOwnExInvalidPgrp (0 ms)
+[ RUN      ] FcntlTest.SetOwnExTid
+[       OK ] FcntlTest.SetOwnExTid (0 ms)
+[ RUN      ] FcntlTest.SetOwnExPid
+[       OK ] FcntlTest.SetOwnExPid (0 ms)
+[ RUN      ] FcntlTest.SetOwnExPgrp
+[       OK ] FcntlTest.SetOwnExPgrp (0 ms)
+[ RUN      ] FcntlTest.SetOwnExUnset
+[       OK ] FcntlTest.SetOwnExUnset (0 ms)
+[ RUN      ] FcntlTest.GetOwnExTid
+[       OK ] FcntlTest.GetOwnExTid (0 ms)
+[ RUN      ] FcntlTest.GetOwnExPid
+[       OK ] FcntlTest.GetOwnExPid (0 ms)
+[ RUN      ] FcntlTest.GetOwnExPgrp
+[       OK ] FcntlTest.GetOwnExPgrp (0 ms)
+[ RUN      ] FcntlTest.SetSig
+[       OK ] FcntlTest.SetSig (0 ms)
+[ RUN      ] FcntlTest.SetSigDefaultsToZero
+[       OK ] FcntlTest.SetSigDefaultsToZero (0 ms)
+[ RUN      ] FcntlTest.SetSigToDefault
+[       OK ] FcntlTest.SetSigToDefault (0 ms)
+[ RUN      ] FcntlTest.SetSigInvalid
+[       OK ] FcntlTest.SetSigInvalid (0 ms)
+[ RUN      ] FcntlTest.SetSigInvalidDoesNotResetPreviousChoice
+[       OK ] FcntlTest.SetSigInvalidDoesNotResetPreviousChoice (0 ms)
+[ RUN      ] FcntlTest.SetFlSetOwnSetSigDoNotRace
+[       OK ] FcntlTest.SetFlSetOwnSetSigDoNotRace (317 ms)
+[----------] 41 tests from FcntlTest (325 ms total)
+
+[----------] 39 tests from FcntlLockTest
+[ RUN      ] FcntlLockTest.SetLockBadFd
+[       OK ] FcntlLockTest.SetLockBadFd (0 ms)
+[ RUN      ] FcntlLockTest.SetLockDir
+[       OK ] FcntlLockTest.SetLockDir (0 ms)
+[ RUN      ] FcntlLockTest.SetLockSymlink
+[       OK ] FcntlLockTest.SetLockSymlink (0 ms)
+[ RUN      ] FcntlLockTest.SetLockProc
+[       OK ] FcntlLockTest.SetLockProc (0 ms)
+[ RUN      ] FcntlLockTest.SetLockPipe
+[       OK ] FcntlLockTest.SetLockPipe (0 ms)
+[ RUN      ] FcntlLockTest.SetLockSocket
+[       OK ] FcntlLockTest.SetLockSocket (0 ms)
+[ RUN      ] FcntlLockTest.SetLockBadOpenFlagsWrite
+[       OK ] FcntlLockTest.SetLockBadOpenFlagsWrite (0 ms)
+[ RUN      ] FcntlLockTest.SetLockBadOpenFlagsRead
+[       OK ] FcntlLockTest.SetLockBadOpenFlagsRead (0 ms)
+[ RUN      ] FcntlLockTest.SetLockWithOpath
+[       OK ] FcntlLockTest.SetLockWithOpath (0 ms)
+[ RUN      ] FcntlLockTest.SetLockUnlockOnNothing
+[       OK ] FcntlLockTest.SetLockUnlockOnNothing (0 ms)
+[ RUN      ] FcntlLockTest.SetWriteLockSingleProc
+[       OK ] FcntlLockTest.SetWriteLockSingleProc (0 ms)
+[ RUN      ] FcntlLockTest.SetReadLockMultiProc
+[       OK ] FcntlLockTest.SetReadLockMultiProc (4 ms)
+[ RUN      ] FcntlLockTest.SetReadThenWriteLockMultiProc
+CHILD lock /tmp/gvisor_test_temp_19_1749025344212894627 failed 11
+[       OK ] FcntlLockTest.SetReadThenWriteLockMultiProc (6 ms)
+[ RUN      ] FcntlLockTest.SetWriteThenReadLockMultiProc
+CHILD lock /tmp/gvisor_test_temp_20_1749025344219058973 failed 11
+[       OK ] FcntlLockTest.SetWriteThenReadLockMultiProc (5 ms)
+[ RUN      ] FcntlLockTest.SetWriteLockMultiProc
+CHILD lock /tmp/gvisor_test_temp_21_1749025344224197556 failed 11
+[       OK ] FcntlLockTest.SetWriteLockMultiProc (4 ms)
+[ RUN      ] FcntlLockTest.SetLockIsRegional
+[       OK ] FcntlLockTest.SetLockIsRegional (2 ms)
+[ RUN      ] FcntlLockTest.SetLockUpgradeDowngrade
+CHILD lock /tmp/gvisor_test_temp_23_1749025344231766125 failed 11
+[       OK ] FcntlLockTest.SetLockUpgradeDowngrade (5 ms)
+[ RUN      ] FcntlLockTest.SetLockDroppedOnClose
+[       OK ] FcntlLockTest.SetLockDroppedOnClose (2 ms)
+[ RUN      ] FcntlLockTest.SetLockUnlock
+CHILD lock /tmp/gvisor_test_temp_25_1749025344239930871 failed 11
+[       OK ] FcntlLockTest.SetLockUnlock (4 ms)
+[ RUN      ] FcntlLockTest.SetLockAcrossRename
+CHILD lock /tmp/gvisor_test_temp_27_1749025344244843872 failed 11
+/tmp/gvisor_test_temp_26_1749025344244718387: failed to delete 0 directories and 0 files: PosixError(errno=2 No such file or directory) /tmp/gvisor_test_temp_26_1749025344244718387 does not exist
+[       OK ] FcntlLockTest.SetLockAcrossRename (2 ms)
+[ RUN      ] FcntlLockTest.SetWriteLockThenBlockingWriteLock
+[       OK ] FcntlLockTest.SetWriteLockThenBlockingWriteLock (5002 ms)
+[ RUN      ] FcntlLockTest.SetReadLockThenBlockingWriteLock
+[       OK ] FcntlLockTest.SetReadLockThenBlockingWriteLock (5003 ms)
+[ RUN      ] FcntlLockTest.SetWriteLockThenBlockingReadLock
+[       OK ] FcntlLockTest.SetWriteLockThenBlockingReadLock (5004 ms)
+[ RUN      ] FcntlLockTest.SetReadLockThenBlockingReadLock
+[       OK ] FcntlLockTest.SetReadLockThenBlockingReadLock (3 ms)
+[ RUN      ] FcntlLockTest.GetLockOnNothing
+[       OK ] FcntlLockTest.GetLockOnNothing (0 ms)
+[ RUN      ] FcntlLockTest.GetLockOnLockSameProcess
+[       OK ] FcntlLockTest.GetLockOnLockSameProcess (0 ms)
+[ RUN      ] FcntlLockTest.GetReadLockOnReadLock
+[       OK ] FcntlLockTest.GetReadLockOnReadLock (1 ms)
+[ RUN      ] FcntlLockTest.GetReadLockOnWriteLock
+[       OK ] FcntlLockTest.GetReadLockOnWriteLock (0 ms)
+[ RUN      ] FcntlLockTest.GetWriteLockOnReadLock
+[       OK ] FcntlLockTest.GetWriteLockOnReadLock (0 ms)
+[ RUN      ] FcntlLockTest.GetWriteLockOnWriteLock
+[       OK ] FcntlLockTest.GetWriteLockOnWriteLock (0 ms)
+[ RUN      ] FcntlLockTest.GetLockRespectsPIDNamespace
+test/syscalls/linux/fcntl.cc:1911: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] FcntlLockTest.GetLockRespectsPIDNamespace (0 ms)
+[ RUN      ] FcntlLockTest.TestOFDBasicLock
+[       OK ] FcntlLockTest.TestOFDBasicLock (0 ms)
+[ RUN      ] FcntlLockTest.TestOFDLockNonZeroPidFails
+[       OK ] FcntlLockTest.TestOFDLockNonZeroPidFails (0 ms)
+[ RUN      ] FcntlLockTest.TestOFDNoUnlockOnClose
+[       OK ] FcntlLockTest.TestOFDNoUnlockOnClose (0 ms)
+[ RUN      ] FcntlLockTest.TestOFDUnlocksOnLastClose
+[       OK ] FcntlLockTest.TestOFDUnlocksOnLastClose (0 ms)
+[ RUN      ] FcntlLockTest.TestOFDInheritsLockAfterDup
+[       OK ] FcntlLockTest.TestOFDInheritsLockAfterDup (0 ms)
+[ RUN      ] FcntlLockTest.TestOFDLocksHoldAfterExec
+CHILD lock /tmp/gvisor_test_temp_43_1749025359268913779 failed 11
+[       OK ] FcntlLockTest.TestOFDLocksHoldAfterExec (3 ms)
+[ RUN      ] FcntlLockTest.TestOFDGetLkReturnsNegPID
+[       OK ] FcntlLockTest.TestOFDGetLkReturnsNegPID (0 ms)
+[ RUN      ] FcntlLockTest.TestOFDCanUpgradeLock
+[       OK ] FcntlLockTest.TestOFDCanUpgradeLock (0 ms)
+[----------] 39 tests from FcntlLockTest (15066 ms total)
+
+[----------] 14 tests from FcntlSignalTest
+[ RUN      ] FcntlSignalTest.SetSigDefault
+[       OK ] FcntlSignalTest.SetSigDefault (0 ms)
+[ RUN      ] FcntlSignalTest.SignalFD
+[       OK ] FcntlSignalTest.SignalFD (0 ms)
+[ RUN      ] FcntlSignalTest.SignalFDSetSigAfterASYNC
+[       OK ] FcntlSignalTest.SignalFDSetSigAfterASYNC (0 ms)
+[ RUN      ] FcntlSignalTest.SetSigCustom
+[       OK ] FcntlSignalTest.SetSigCustom (0 ms)
+[ RUN      ] FcntlSignalTest.SetSigUnregisterStillGetsSigio
+[       OK ] FcntlSignalTest.SetSigUnregisterStillGetsSigio (0 ms)
+[ RUN      ] FcntlSignalTest.SetSigWithSigioStillGetsSiginfo
+[       OK ] FcntlSignalTest.SetSigWithSigioStillGetsSiginfo (0 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupThenCloseOld
+[       OK ] FcntlSignalTest.SetSigDupThenCloseOld (1007 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupThenCloseNew
+[       OK ] FcntlSignalTest.SetSigDupThenCloseNew (1007 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupOldRegistered
+[       OK ] FcntlSignalTest.SetSigDupOldRegistered (1002 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupNewRegistered
+[       OK ] FcntlSignalTest.SetSigDupNewRegistered (1002 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupBothRegistered
+[       OK ] FcntlSignalTest.SetSigDupBothRegistered (1001 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupBothRegisteredAfterDup
+[       OK ] FcntlSignalTest.SetSigDupBothRegisteredAfterDup (1004 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupUnregisterOld
+[       OK ] FcntlSignalTest.SetSigDupUnregisterOld (1002 ms)
+[ RUN      ] FcntlSignalTest.SetSigDupUnregisterNew
+[       OK ] FcntlSignalTest.SetSigDupUnregisterNew (1007 ms)
+[----------] 14 tests from FcntlSignalTest (8036 ms total)
+
+[----------] Global test environment tear-down
+[==========] 94 tests from 3 test suites ran. (23429 ms total)
+[  PASSED  ] 93 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] FcntlLockTest.GetLockRespectsPIDNamespace
+Failed to match any benchmarks against regex: .

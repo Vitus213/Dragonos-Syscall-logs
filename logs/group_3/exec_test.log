@@ -1,0 +1,408 @@
+[==========] Running 54 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 28 tests from ExecTest
+[ RUN      ] ExecTest.EmptyPath
+[       OK ] ExecTest.EmptyPath (0 ms)
+[ RUN      ] ExecTest.Basic
+Unable to find runfiles: ERROR: external/bazel_tools/tools/cpp/runfiles/runfiles.cc(123): cannot find runfiles (argv0="")
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.Basic (1 ms)
+[ RUN      ] ExecTest.OneArg
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.OneArg (0 ms)
+[ RUN      ] ExecTest.FiveArg
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.FiveArg (0 ms)
+[ RUN      ] ExecTest.OneEnv
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.OneEnv (0 ms)
+[ RUN      ] ExecTest.FiveEnv
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.FiveEnv (0 ms)
+[ RUN      ] ExecTest.OneArgOneEnv
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.OneArgOneEnv (0 ms)
+[ RUN      ] ExecTest.InterpreterScript
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScript (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptArgSplit
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScriptArgSplit (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptArgvZero
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScriptArgvZero (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptArgvZeroRelative
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScriptArgvZeroRelative (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptArgvZeroAdded
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScriptArgvZeroAdded (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptArgNUL
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScriptArgNUL (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptTrailingWhitespace
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScriptTrailingWhitespace (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptArgWhitespace
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.InterpreterScriptArgWhitespace (0 ms)
+[ RUN      ] ExecTest.InterpreterScriptNoPath
+[       OK ] ExecTest.InterpreterScriptNoPath (0 ms)
+[ RUN      ] ExecTest.ExecFn
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.ExecFn (0 ms)
+[ RUN      ] ExecTest.ExecName
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.ExecName (0 ms)
+[ RUN      ] ExecTest.ExecNameScript
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.ExecNameScript (0 ms)
+[ RUN      ] ExecTest.WithSiblingThread
+[       OK ] ExecTest.WithSiblingThread (3 ms)
+[ RUN      ] ExecTest.FromSiblingThread
+[       OK ] ExecTest.FromSiblingThread (3 ms)
+[ RUN      ] ExecTest.NotFound
+[       OK ] ExecTest.NotFound (0 ms)
+[ RUN      ] ExecTest.NoExecPerm
+[       OK ] ExecTest.NoExecPerm (0 ms)
+[ RUN      ] ExecTest.CloexecNormalFile
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.CloexecNormalFile (0 ms)
+[ RUN      ] ExecTest.CloexecEventfd
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecTest.CloexecEventfd (0 ms)
+[ RUN      ] ExecTest.SymlinkLimitExceeded
+[       OK ] ExecTest.SymlinkLimitExceeded (4 ms)
+[ RUN      ] ExecTest.SymlinkLimitRefreshedForInterpreter
+[       OK ] ExecTest.SymlinkLimitRefreshedForInterpreter (6 ms)
+[ RUN      ] ExecTest.Setpgid
+[       OK ] ExecTest.Setpgid (0 ms)
+[----------] 28 tests from ExecTest (30 ms total)
+
+[----------] 4 tests from ExecStateTest
+[ RUN      ] ExecStateTest.HandlerReset
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecStateTest.HandlerReset (0 ms)
+[ RUN      ] ExecStateTest.IgnorePreserved
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecStateTest.IgnorePreserved (0 ms)
+[ RUN      ] ExecStateTest.SignalMask
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecStateTest.SignalMask (0 ms)
+[ RUN      ] ExecStateTest.ItimerPreserved
+test/syscalls/linux/exec.cc:493: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecStateTest.ItimerPreserved (0 ms)
+[----------] 4 tests from ExecStateTest (1 ms total)
+
+[----------] 1 test from ProcSelfExe
+[ RUN      ] ProcSelfExe.ChangesAcrossExecve
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ProcSelfExe.ChangesAcrossExecve (0 ms)
+[----------] 1 test from ProcSelfExe (0 ms total)
+
+[----------] 20 tests from ExecveatTest
+[ RUN      ] ExecveatTest.BasicWithFDCWD
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecveatTest.BasicWithFDCWD (0 ms)
+[ RUN      ] ExecveatTest.Basic
+test/syscalls/linux/exec.cc:601: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux, 0x10000, 0)
+
+[  FAILED  ] ExecveatTest.Basic (0 ms)
+[ RUN      ] ExecveatTest.FDNotADirectory
+test/syscalls/linux/exec.cc:610: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux/exec_basic_workload, 0, 0)
+
+[  FAILED  ] ExecveatTest.FDNotADirectory (0 ms)
+[ RUN      ] ExecveatTest.AbsolutePathWithFDCWD
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] ExecveatTest.AbsolutePathWithFDCWD (0 ms)
+[ RUN      ] ExecveatTest.AbsolutePath
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 9
+
+[  FAILED  ] ExecveatTest.AbsolutePath (0 ms)
+[ RUN      ] ExecveatTest.EmptyPathBasic
+test/syscalls/linux/exec.cc:635: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux/exec_basic_workload, 0x200000, 0)
+
+[  FAILED  ] ExecveatTest.EmptyPathBasic (0 ms)
+[ RUN      ] ExecveatTest.EmptyPathWithDirFD
+test/syscalls/linux/exec.cc:645: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux, 0x10000, 0)
+
+[  FAILED  ] ExecveatTest.EmptyPathWithDirFD (0 ms)
+[ RUN      ] ExecveatTest.EmptyPathWithoutEmptyPathFlag
+test/syscalls/linux/exec.cc:656: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux/exec_basic_workload, 0x200000, 0)
+
+[  FAILED  ] ExecveatTest.EmptyPathWithoutEmptyPathFlag (0 ms)
+[ RUN      ] ExecveatTest.AbsolutePathWithEmptyPathFlag
+test/syscalls/linux/exec.cc:666: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux/exec_basic_workload, 0x200000, 0)
+
+[  FAILED  ] ExecveatTest.AbsolutePathWithEmptyPathFlag (0 ms)
+[ RUN      ] ExecveatTest.RelativePathWithEmptyPathFlag
+test/syscalls/linux/exec.cc:677: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux, 0x10000, 0)
+
+[  FAILED  ] ExecveatTest.RelativePathWithEmptyPathFlag (0 ms)
+[ RUN      ] ExecveatTest.SymlinkNoFollowWithRelativePath
+[       OK ] ExecveatTest.SymlinkNoFollowWithRelativePath (0 ms)
+[ RUN      ] ExecveatTest.UnshareFiles
+test/syscalls/linux/exec.cc:717: Failure
+Expected equality of these values:
+  status
+    Which is: 256
+  0
+
+[  FAILED  ] ExecveatTest.UnshareFiles (0 ms)
+[ RUN      ] ExecveatTest.SymlinkNoFollowWithAbsolutePath
+[       OK ] ExecveatTest.SymlinkNoFollowWithAbsolutePath (0 ms)
+[ RUN      ] ExecveatTest.SymlinkNoFollowAndEmptyPath
+test/syscalls/linux/exec.cc:740: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(/tmp/gvisor_test_temp_109_1749025322643361855, 0, 0)
+
+[  FAILED  ] ExecveatTest.SymlinkNoFollowAndEmptyPath (0 ms)
+[ RUN      ] ExecveatTest.SymlinkNoFollowIgnoreSymlinkAncestor
+[       OK ] ExecveatTest.SymlinkNoFollowIgnoreSymlinkAncestor (0 ms)
+[ RUN      ] ExecveatTest.SymlinkNoFollowWithNormalFile
+[       OK ] ExecveatTest.SymlinkNoFollowWithNormalFile (0 ms)
+[ RUN      ] ExecveatTest.BasicWithCloexecFD
+test/syscalls/linux/exec.cc:765: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux/exec_basic_workload, 0x80000, 0)
+
+[  FAILED  ] ExecveatTest.BasicWithCloexecFD (0 ms)
+[ RUN      ] ExecveatTest.InterpreterScriptWithCloexecFD
+test/syscalls/linux/exec.cc:773: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux/exit_script, 0x80000, 0)
+
+[  FAILED  ] ExecveatTest.InterpreterScriptWithCloexecFD (0 ms)
+[ RUN      ] ExecveatTest.InterpreterScriptWithCloexecDirFD
+test/syscalls/linux/exec.cc:787: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=2 No such file or directory) open(__main__/test/syscalls/linux, 0x90000, 0)
+
+[  FAILED  ] ExecveatTest.InterpreterScriptWithCloexecDirFD (0 ms)
+[ RUN      ] ExecveatTest.InvalidFlags
+[       OK ] ExecveatTest.InvalidFlags (0 ms)
+[----------] 20 tests from ExecveatTest (5 ms total)
+
+[----------] 1 test from GetpriorityTest
+[ RUN      ] GetpriorityTest.ExecveMaintainsPriority
+test/syscalls/linux/exec.cc:120: Failure
+Expected equality of these values:
+  0
+  execve_errno
+    Which is: 2
+
+[  FAILED  ] GetpriorityTest.ExecveMaintainsPriority (0 ms)
+[----------] 1 test from GetpriorityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 54 tests from 5 test suites ran. (37 ms total)
+[  PASSED  ] 14 tests.
+[  FAILED  ] 40 tests, listed below:
+[  FAILED  ] ExecTest.Basic
+[  FAILED  ] ExecTest.OneArg
+[  FAILED  ] ExecTest.FiveArg
+[  FAILED  ] ExecTest.OneEnv
+[  FAILED  ] ExecTest.FiveEnv
+[  FAILED  ] ExecTest.OneArgOneEnv
+[  FAILED  ] ExecTest.InterpreterScript
+[  FAILED  ] ExecTest.InterpreterScriptArgSplit
+[  FAILED  ] ExecTest.InterpreterScriptArgvZero
+[  FAILED  ] ExecTest.InterpreterScriptArgvZeroRelative
+[  FAILED  ] ExecTest.InterpreterScriptArgvZeroAdded
+[  FAILED  ] ExecTest.InterpreterScriptArgNUL
+[  FAILED  ] ExecTest.InterpreterScriptTrailingWhitespace
+[  FAILED  ] ExecTest.InterpreterScriptArgWhitespace
+[  FAILED  ] ExecTest.ExecFn
+[  FAILED  ] ExecTest.ExecName
+[  FAILED  ] ExecTest.ExecNameScript
+[  FAILED  ] ExecTest.CloexecNormalFile
+[  FAILED  ] ExecTest.CloexecEventfd
+[  FAILED  ] ExecStateTest.HandlerReset
+[  FAILED  ] ExecStateTest.IgnorePreserved
+[  FAILED  ] ExecStateTest.SignalMask
+[  FAILED  ] ExecStateTest.ItimerPreserved
+[  FAILED  ] ProcSelfExe.ChangesAcrossExecve
+[  FAILED  ] ExecveatTest.BasicWithFDCWD
+[  FAILED  ] ExecveatTest.Basic
+[  FAILED  ] ExecveatTest.FDNotADirectory
+[  FAILED  ] ExecveatTest.AbsolutePathWithFDCWD
+[  FAILED  ] ExecveatTest.AbsolutePath
+[  FAILED  ] ExecveatTest.EmptyPathBasic
+[  FAILED  ] ExecveatTest.EmptyPathWithDirFD
+[  FAILED  ] ExecveatTest.EmptyPathWithoutEmptyPathFlag
+[  FAILED  ] ExecveatTest.AbsolutePathWithEmptyPathFlag
+[  FAILED  ] ExecveatTest.RelativePathWithEmptyPathFlag
+[  FAILED  ] ExecveatTest.UnshareFiles
+[  FAILED  ] ExecveatTest.SymlinkNoFollowAndEmptyPath
+[  FAILED  ] ExecveatTest.BasicWithCloexecFD
+[  FAILED  ] ExecveatTest.InterpreterScriptWithCloexecFD
+[  FAILED  ] ExecveatTest.InterpreterScriptWithCloexecDirFD
+[  FAILED  ] GetpriorityTest.ExecveMaintainsPriority
+
+40 FAILED TESTS
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,24 @@
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from AllocateTest
+[ RUN      ] AllocateTest.Fallocate
+[       OK ] AllocateTest.Fallocate (0 ms)
+[ RUN      ] AllocateTest.FallocateInvalid
+[       OK ] AllocateTest.FallocateInvalid (0 ms)
+[ RUN      ] AllocateTest.FallocateReadonly
+[       OK ] AllocateTest.FallocateReadonly (0 ms)
+[ RUN      ] AllocateTest.FallocateWithOpath
+[       OK ] AllocateTest.FallocateWithOpath (0 ms)
+[ RUN      ] AllocateTest.FallocatePipe
+[       OK ] AllocateTest.FallocatePipe (0 ms)
+[ RUN      ] AllocateTest.FallocateChar
+[       OK ] AllocateTest.FallocateChar (0 ms)
+[ RUN      ] AllocateTest.FallocateRlimit
+test/syscalls/linux/fallocate.cc:153: Failure
+Value of: fallocate(test_file_fd_.get(), 0, 0, 1025)
+Expected: -1 (failure), with errno PosixError(errno=27 File too large)
+  Actual: 0 (of type int)
+
+test/syscalls/linux/fallocate.cc:158: Failure
+Expected equality of these values:
+  sigtimedwait(&new_mask, nullptr,

@@ -1,0 +1,17 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from FAdvise64Test
+[ RUN      ] FAdvise64Test.Basic
+[       OK ] FAdvise64Test.Basic (0 ms)
+[ RUN      ] FAdvise64Test.FAdvise64WithOpath
+[       OK ] FAdvise64Test.FAdvise64WithOpath (0 ms)
+[ RUN      ] FAdvise64Test.InvalidArgs
+[       OK ] FAdvise64Test.InvalidArgs (0 ms)
+[ RUN      ] FAdvise64Test.NoPipes
+[       OK ] FAdvise64Test.NoPipes (0 ms)
+[----------] 4 tests from FAdvise64Test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,21 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ExitTest
+[ RUN      ] ExitTest.Success
+[       OK ] ExitTest.Success (0 ms)
+[ RUN      ] ExitTest.Failure
+[       OK ] ExitTest.Failure (0 ms)
+[ RUN      ] ExitTest.CloseFds
+[       OK ] ExitTest.CloseFds (10000 ms)
+[ RUN      ] ExitTest.ExitAllThreads
+[       OK ] ExitTest.ExitAllThreads (3 ms)
+[ RUN      ] ExitTest.SigkillZombieGroup
+[       OK ] ExitTest.SigkillZombieGroup (0 ms)
+[ RUN      ] ExitTest.SigkillZombieThread
+[       OK ] ExitTest.SigkillZombieThread (0 ms)
+[----------] 6 tests from ExitTest (10005 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (10005 ms total)
+[  PASSED  ] 6 tests.
+Failed to match any benchmarks against regex: .

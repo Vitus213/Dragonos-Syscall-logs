@@ -1,0 +1,21 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from FifoTest
+[ RUN      ] FifoTest.MknodAtFIFO
+[       OK ] FifoTest.MknodAtFIFO (0 ms)
+[ RUN      ] FifoTest.Fifo
+[       OK ] FifoTest.Fifo (0 ms)
+[ RUN      ] FifoTest.FifoOtrunc
+[       OK ] FifoTest.FifoOtrunc (0 ms)
+[ RUN      ] FifoTest.FifoTruncNoOp
+[       OK ] FifoTest.FifoTruncNoOp (0 ms)
+[ RUN      ] FifoTest.OpenBlockedAndInterrupted
+[       OK ] FifoTest.OpenBlockedAndInterrupted (2000 ms)
+[ RUN      ] FifoTest.FifoOpenRDWR
+[       OK ] FifoTest.FifoOpenRDWR (0 ms)
+[----------] 6 tests from FifoTest (2002 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (2002 ms total)
+[  PASSED  ] 6 tests.
+Failed to match any benchmarks against regex: .

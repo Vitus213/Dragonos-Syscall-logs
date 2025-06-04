@@ -1,0 +1,19 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from FchdirTest
+[ RUN      ] FchdirTest.Success
+[       OK ] FchdirTest.Success (0 ms)
+[ RUN      ] FchdirTest.InvalidFD
+[       OK ] FchdirTest.InvalidFD (0 ms)
+[ RUN      ] FchdirTest.PermissionDenied
+[       OK ] FchdirTest.PermissionDenied (0 ms)
+[ RUN      ] FchdirTest.NotDir
+[       OK ] FchdirTest.NotDir (0 ms)
+[ RUN      ] FchdirTest.FchdirWithOpath
+[       OK ] FchdirTest.FchdirWithOpath (0 ms)
+[----------] 5 tests from FchdirTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 5 tests.
+Failed to match any benchmarks against regex: .

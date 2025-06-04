@@ -1,0 +1,80 @@
+[==========] Running 34 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 28 tests from FlockTest
+[ RUN      ] FlockTest.InvalidOpCombinations
+[       OK ] FlockTest.InvalidOpCombinations (0 ms)
+[ RUN      ] FlockTest.NoOperationSpecified
+[       OK ] FlockTest.NoOperationSpecified (0 ms)
+[ RUN      ] FlockTest.TestSimpleExLock
+[       OK ] FlockTest.TestSimpleExLock (0 ms)
+[ RUN      ] FlockTest.TestSimpleShLock
+[       OK ] FlockTest.TestSimpleShLock (0 ms)
+[ RUN      ] FlockTest.TestLockableAnyMode
+[       OK ] FlockTest.TestLockableAnyMode (0 ms)
+[ RUN      ] FlockTest.TestUnlockWithNoHolders
+[       OK ] FlockTest.TestUnlockWithNoHolders (0 ms)
+[ RUN      ] FlockTest.TestRepeatedExLockingBySameHolder
+[       OK ] FlockTest.TestRepeatedExLockingBySameHolder (0 ms)
+[ RUN      ] FlockTest.TestRepeatedExLockingSingleUnlock
+[       OK ] FlockTest.TestRepeatedExLockingSingleUnlock (0 ms)
+[ RUN      ] FlockTest.TestRepeatedShLockingBySameHolder
+[       OK ] FlockTest.TestRepeatedShLockingBySameHolder (0 ms)
+[ RUN      ] FlockTest.TestSingleHolderUpgrade
+[       OK ] FlockTest.TestSingleHolderUpgrade (0 ms)
+[ RUN      ] FlockTest.TestSingleHolderDowngrade
+[       OK ] FlockTest.TestSingleHolderDowngrade (0 ms)
+[ RUN      ] FlockTest.TestMultipleShared
+[       OK ] FlockTest.TestMultipleShared (0 ms)
+[ RUN      ] FlockTest.TestMultipleHolderSharedExclusive
+[       OK ] FlockTest.TestMultipleHolderSharedExclusive (0 ms)
+[ RUN      ] FlockTest.TestSharedLockFailExclusiveHolderNonblocking
+[       OK ] FlockTest.TestSharedLockFailExclusiveHolderNonblocking (0 ms)
+[ RUN      ] FlockTest.TestSharedLockFailExclusiveHolderBlocking
+[       OK ] FlockTest.TestSharedLockFailExclusiveHolderBlocking (10 ms)
+[ RUN      ] FlockTest.TestExclusiveLockFailExclusiveHolderNonblocking
+[       OK ] FlockTest.TestExclusiveLockFailExclusiveHolderNonblocking (0 ms)
+[ RUN      ] FlockTest.TestExclusiveLockFailExclusiveHolderBlocking
+[       OK ] FlockTest.TestExclusiveLockFailExclusiveHolderBlocking (10 ms)
+[ RUN      ] FlockTest.TestMultipleHolderSharedExclusiveUpgrade
+[       OK ] FlockTest.TestMultipleHolderSharedExclusiveUpgrade (0 ms)
+[ RUN      ] FlockTest.TestMultipleHolderSharedExclusiveDowngrade
+[       OK ] FlockTest.TestMultipleHolderSharedExclusiveDowngrade (0 ms)
+[ RUN      ] FlockTest.TestDupFdUpgrade
+[       OK ] FlockTest.TestDupFdUpgrade (0 ms)
+[ RUN      ] FlockTest.TestDupFdDowngrade
+[       OK ] FlockTest.TestDupFdDowngrade (0 ms)
+[ RUN      ] FlockTest.TestDupFdCloseRelease
+[       OK ] FlockTest.TestDupFdCloseRelease (0 ms)
+[ RUN      ] FlockTest.TestDupFdUnlockRelease
+[       OK ] FlockTest.TestDupFdUnlockRelease (0 ms)
+[ RUN      ] FlockTest.TestDupFdFollowedByLock
+[       OK ] FlockTest.TestDupFdFollowedByLock (0 ms)
+[ RUN      ] FlockTest.BlockingLockNoBlockingForSharedLocks
+[       OK ] FlockTest.BlockingLockNoBlockingForSharedLocks (30000 ms)
+[ RUN      ] FlockTest.BlockingLockFirstSharedSecondExclusive
+[       OK ] FlockTest.BlockingLockFirstSharedSecondExclusive (2000 ms)
+[ RUN      ] FlockTest.BlockingLockFirstExclusiveSecondShared
+[       OK ] FlockTest.BlockingLockFirstExclusiveSecondShared (2000 ms)
+[ RUN      ] FlockTest.BlockingLockFirstExclusiveSecondExclusive
+[       OK ] FlockTest.BlockingLockFirstExclusiveSecondExclusive (2000 ms)
+[----------] 28 tests from FlockTest (36028 ms total)
+
+[----------] 6 tests from FlockTestNoFixture
+[ RUN      ] FlockTestNoFixture.BadFD
+[       OK ] FlockTestNoFixture.BadFD (0 ms)
+[ RUN      ] FlockTestNoFixture.FlockDir
+[       OK ] FlockTestNoFixture.FlockDir (0 ms)
+[ RUN      ] FlockTestNoFixture.FlockSymlink
+[       OK ] FlockTestNoFixture.FlockSymlink (0 ms)
+[ RUN      ] FlockTestNoFixture.FlockProc
+[       OK ] FlockTestNoFixture.FlockProc (0 ms)
+[ RUN      ] FlockTestNoFixture.FlockPipe
+[       OK ] FlockTestNoFixture.FlockPipe (0 ms)
+[ RUN      ] FlockTestNoFixture.FlockSocket
+[       OK ] FlockTestNoFixture.FlockSocket (0 ms)
+[----------] 6 tests from FlockTestNoFixture (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 34 tests from 2 test suites ran. (36031 ms total)
+[  PASSED  ] 34 tests.
+Failed to match any benchmarks against regex: .

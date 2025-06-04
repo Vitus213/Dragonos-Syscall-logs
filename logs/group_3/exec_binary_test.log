@@ -1,0 +1,182 @@
+[==========] Running 41 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 21 tests from ElfTest
+[ RUN      ] ElfTest.Execute
+line: 00040000-00041000 r-xp 00000000 00:1c 1606890                            /tmp/gvisor_test_temp_1_1749025322421760584
+line: 716ebac1a000-716ebac1e000 r--p 00000000 00:00 0                          [vvar]
+line: 716ebac1e000-716ebac20000 r-xp 00000000 00:00 0                          [vdso]
+line: 7fff11665000-7fff11686000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.Execute (1 ms)
+[ RUN      ] ElfTest.MissingText
+[       OK ] ElfTest.MissingText (126 ms)
+[ RUN      ] ElfTest.DataSegment
+line: 00040000-00041000 r-xp 00000000 00:1c 1606988                            /tmp/gvisor_test_temp_3_1749025322549791942
+line: 00041000-00042000 rw-p 00001000 00:1c 1606988                            /tmp/gvisor_test_temp_3_1749025322549791942
+line: 00042000-00043000 rw-p 00000000 00:00 0 
+line: 7036094c6000-7036094ca000 r--p 00000000 00:00 0                          [vvar]
+line: 7036094ca000-7036094cc000 r-xp 00000000 00:00 0                          [vdso]
+line: 7ffc72fa3000-7ffc72fc4000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.DataSegment (1 ms)
+[ RUN      ] ElfTest.ExtraMemPages
+line: 00040000-00041000 r-xp 00000000 00:1c 1606990                            /tmp/gvisor_test_temp_4_1749025322551838368
+line: 00041000-00042000 rwxp 00001000 00:1c 1606990                            /tmp/gvisor_test_temp_4_1749025322551838368
+line: 00042000-00043000 rwxp 00000000 00:00 0 
+line: 75b55f4d6000-75b55f4da000 r--p 00000000 00:00 0                          [vvar]
+line: 75b55f4da000-75b55f4dc000 r-xp 00000000 00:00 0                          [vdso]
+line: 7fff2f642000-7fff2f663000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.ExtraMemPages (1 ms)
+[ RUN      ] ElfTest.AnonOnlySegment
+line: 00040000-00041000 r-xp 00000000 00:1c 1606992                            /tmp/gvisor_test_temp_5_1749025322552807926
+line: 00041000-00042000 rw-p 00000000 00:00 0 
+line: 7324e6408000-7324e640c000 r--p 00000000 00:00 0                          [vvar]
+line: 7324e640c000-7324e640e000 r-xp 00000000 00:00 0                          [vdso]
+line: 7ffe8c90b000-7ffe8c92c000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.AnonOnlySegment (0 ms)
+[ RUN      ] ElfTest.UnalignedOffset
+[       OK ] ElfTest.UnalignedOffset (0 ms)
+[ RUN      ] ElfTest.DirectlyOverlappingSegments
+line: 00040000-00041000 rwxp 00000000 00:1c 1607308                            /tmp/gvisor_test_temp_7_1749025322554262462
+line: 7d48764a4000-7d48764a8000 r--p 00000000 00:00 0                          [vvar]
+line: 7d48764a8000-7d48764aa000 r-xp 00000000 00:00 0                          [vdso]
+line: 7fffe9976000-7fffe9997000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.DirectlyOverlappingSegments (0 ms)
+[ RUN      ] ElfTest.OutOfOrderSegments
+line: 00020000-00021000 r-xp 00000000 00:1c 1607310                            /tmp/gvisor_test_temp_8_1749025322554964198
+line: 00040000-00041000 r-xp 00000000 00:1c 1607310                            /tmp/gvisor_test_temp_8_1749025322554964198
+line: 724af17de000-724af17e2000 r--p 00000000 00:00 0                          [vvar]
+line: 724af17e2000-724af17e4000 r-xp 00000000 00:00 0                          [vdso]
+line: 7ffd734a3000-7ffd734c4000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.OutOfOrderSegments (0 ms)
+[ RUN      ] ElfTest.OutOfBoundsPhdrs
+[       OK ] ElfTest.OutOfBoundsPhdrs (13 ms)
+[ RUN      ] ElfTest.MissingPhdr
+[       OK ] ElfTest.MissingPhdr (2 ms)
+[ RUN      ] ElfTest.MissingHeader
+[       OK ] ElfTest.MissingHeader (2 ms)
+[ RUN      ] ElfTest.PIE
+line: 7869b7ec6000-7869b7ec7000 r-xp 00000000 00:1c 1606996                    /tmp/gvisor_test_temp_12_1749025322573753492
+line: 7869b7ee0000-7869b7ee4000 r--p 00000000 00:00 0                          [vvar]
+line: 7869b7ee4000-7869b7ee6000 r-xp 00000000 00:00 0                          [vdso]
+line: 7869b7ee6000-7869b7ee7000 rw-p 00001000 00:1c 1606996                    /tmp/gvisor_test_temp_12_1749025322573753492
+line: 7869b7ee7000-7869b7ee8000 rw-p 00000000 00:00 0 
+line: 7ffc2ec1e000-7ffc2ec3f000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.PIE (0 ms)
+[ RUN      ] ElfTest.PIENonZeroStart
+line: 7cb411e16000-7cb411e17000 r-xp 00000000 00:1c 1606998                    /tmp/gvisor_test_temp_13_1749025322574634704
+line: 7cb411e30000-7cb411e34000 r--p 00000000 00:00 0                          [vvar]
+line: 7cb411e34000-7cb411e36000 r-xp 00000000 00:00 0                          [vdso]
+line: 7cb411e36000-7cb411e37000 rw-p 00001000 00:1c 1606998                    /tmp/gvisor_test_temp_13_1749025322574634704
+line: 7cb411e37000-7cb411e38000 rw-p 00000000 00:00 0 
+line: 7ffec12d5000-7ffec12f6000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.PIENonZeroStart (0 ms)
+[ RUN      ] ElfTest.PIEOutOfOrderSegments
+test/syscalls/linux/exec_binary.cc:921: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] ElfTest.PIEOutOfOrderSegments (0 ms)
+[ RUN      ] ElfTest.PIEOverflow
+[       OK ] ElfTest.PIEOverflow (0 ms)
+[ RUN      ] ElfTest.ELFInterpreter
+line: 00040000-00041000 r-xp 00000000 00:1c 1607004                            /tmp/gvisor_test_temp_16_1749025322576106152
+line: 77e74b7e5000-77e74b7e9000 r--p 00000000 00:00 0                          [vvar]
+line: 77e74b7e9000-77e74b7eb000 r-xp 00000000 00:00 0                          [vdso]
+line: 77e74b7eb000-77e74b7ec000 rwxp 00000000 00:1c 1607002                    /tmp/gvisor_test_temp_15_1749025322575965008
+line: 7ffd4680a000-7ffd4682b000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.ELFInterpreter (0 ms)
+[ RUN      ] ElfTest.ELFInterpreterRelative
+line: 00040000-00041000 r-xp 00000000 00:1c 1607008                            /tmp/gvisor_test_temp_18_1749025322577091149
+line: 7853dad67000-7853dad6b000 r--p 00000000 00:00 0                          [vvar]
+line: 7853dad6b000-7853dad6d000 r-xp 00000000 00:00 0                          [vdso]
+line: 7853dad6d000-7853dad6e000 rwxp 00000000 00:1c 1607006                    /tmp/gvisor_test_temp_17_1749025322576930337
+line: 7ffed8fe8000-7ffed9009000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+[       OK ] ElfTest.ELFInterpreterRelative (0 ms)
+[ RUN      ] ElfTest.ELFInterpreterWrongArch
+[       OK ] ElfTest.ELFInterpreterWrongArch (0 ms)
+[ RUN      ] ElfTest.NoExecute
+[       OK ] ElfTest.NoExecute (0 ms)
+[ RUN      ] ElfTest.NoRead
+[       OK ] ElfTest.NoRead (0 ms)
+[ RUN      ] ElfTest.ElfInterpreterNoExecute
+[       OK ] ElfTest.ElfInterpreterNoExecute (0 ms)
+[----------] 21 tests from ElfTest (159 ms total)
+
+[----------] 9 tests from InterpreterScriptTest
+[ RUN      ] InterpreterScriptTest.Execute
+[       OK ] InterpreterScriptTest.Execute (0 ms)
+[ RUN      ] InterpreterScriptTest.Whitespace
+[       OK ] InterpreterScriptTest.Whitespace (0 ms)
+[ RUN      ] InterpreterScriptTest.InterpreterScriptNoExecute
+[       OK ] InterpreterScriptTest.InterpreterScriptNoExecute (0 ms)
+[ RUN      ] InterpreterScriptTest.BinaryNoExecute
+[       OK ] InterpreterScriptTest.BinaryNoExecute (0 ms)
+[ RUN      ] InterpreterScriptTest.MaxRecursion
+[       OK ] InterpreterScriptTest.MaxRecursion (1 ms)
+[ RUN      ] InterpreterScriptTest.RelativePath
+[       OK ] InterpreterScriptTest.RelativePath (0 ms)
+[ RUN      ] InterpreterScriptTest.UncleanPath
+[       OK ] InterpreterScriptTest.UncleanPath (0 ms)
+[ RUN      ] InterpreterScriptTest.Symlink
+[       OK ] InterpreterScriptTest.Symlink (0 ms)
+[ RUN      ] InterpreterScriptTest.SymlinkLoop
+[       OK ] InterpreterScriptTest.SymlinkLoop (0 ms)
+[----------] 9 tests from InterpreterScriptTest (7 ms total)
+
+[----------] 4 tests from ExecveTest
+[ RUN      ] ExecveTest.SymlinkLoop
+[       OK ] ExecveTest.SymlinkLoop (0 ms)
+[ RUN      ] ExecveTest.Directory
+[       OK ] ExecveTest.Directory (0 ms)
+[ RUN      ] ExecveTest.BinaryAsDirectory
+[       OK ] ExecveTest.BinaryAsDirectory (0 ms)
+[ RUN      ] ExecveTest.BrkAfterBinary
+[       OK ] ExecveTest.BrkAfterBinary (0 ms)
+[----------] 4 tests from ExecveTest (1 ms total)
+
+[----------] 3 tests from Cases/ElfInterpreterStaticTest
+[ RUN      ] Cases/ElfInterpreterStaticTest.Test/0
+test/syscalls/linux/exec_binary.cc:1077: Skipped
+version.major > 4
+
+[  SKIPPED ] Cases/ElfInterpreterStaticTest.Test/0 (0 ms)
+[ RUN      ] Cases/ElfInterpreterStaticTest.Test/1
+test/syscalls/linux/exec_binary.cc:1077: Skipped
+version.major > 4
+
+[  SKIPPED ] Cases/ElfInterpreterStaticTest.Test/1 (0 ms)
+[ RUN      ] Cases/ElfInterpreterStaticTest.Test/2
+test/syscalls/linux/exec_binary.cc:1077: Skipped
+version.major > 4
+
+[  SKIPPED ] Cases/ElfInterpreterStaticTest.Test/2 (0 ms)
+[----------] 3 tests from Cases/ElfInterpreterStaticTest (0 ms total)
+
+[----------] 4 tests from Cases/ElfInterpreterBadPathTest
+[ RUN      ] Cases/ElfInterpreterBadPathTest.Test/0
+[       OK ] Cases/ElfInterpreterBadPathTest.Test/0 (0 ms)
+[ RUN      ] Cases/ElfInterpreterBadPathTest.Test/1
+[       OK ] Cases/ElfInterpreterBadPathTest.Test/1 (2 ms)
+[ RUN      ] Cases/ElfInterpreterBadPathTest.Test/2
+[       OK ] Cases/ElfInterpreterBadPathTest.Test/2 (2 ms)
+[ RUN      ] Cases/ElfInterpreterBadPathTest.Test/3
+[       OK ] Cases/ElfInterpreterBadPathTest.Test/3 (0 ms)
+[----------] 4 tests from Cases/ElfInterpreterBadPathTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 41 tests from 5 test suites ran. (174 ms total)
+[  PASSED  ] 37 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] ElfTest.PIEOutOfOrderSegments
+[  SKIPPED ] Cases/ElfInterpreterStaticTest.Test/0
+[  SKIPPED ] Cases/ElfInterpreterStaticTest.Test/1
+[  SKIPPED ] Cases/ElfInterpreterStaticTest.Test/2
+Failed to match any benchmarks against regex: .
