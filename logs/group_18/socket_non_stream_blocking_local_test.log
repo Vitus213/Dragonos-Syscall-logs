@@ -1,0 +1,81 @@
+[==========] Running 24 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 24 tests from BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/0 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/1
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/1 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/2
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/2 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/3
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/3 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/4
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/4 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/5
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/5 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/6
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/6 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/7
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/7 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/8
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/8 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/9
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/9 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/10
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/10 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/11
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/11 (0 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/0
+Testing with SOCK_DGRAM Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/0 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/1
+Testing with SOCK_SEQPACKET Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/1 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/2
+Testing with SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/2 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/3
+Testing with SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/3 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/4
+Testing with SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/4 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/5
+Testing with SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/5 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/6
+Testing with reversed SOCK_DGRAM Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/6 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/7
+Testing with reversed SOCK_SEQPACKET Unix domain socket
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/7 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/8
+Testing with reversed SOCK_DGRAM Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/8 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/9
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with filesystem binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/9 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/10
+Testing with reversed SOCK_DGRAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/10 (1000 ms)
+[ RUN      ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/11
+Testing with reversed SOCK_SEQPACKET Unix domain socket created with abstract namespace binding
+[       OK ] BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/11 (1000 ms)
+[----------] 24 tests from BlockingNonStreamUnixSockets/BlockingNonStreamSocketPairTest (12009 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 1 test suite ran. (12010 ms total)
+[  PASSED  ] 24 tests.
+Failed to match any benchmarks against regex: .

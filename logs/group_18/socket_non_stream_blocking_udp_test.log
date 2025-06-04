@@ -1,0 +1,33 @@
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from BlockingUDPSockets/BlockingNonStreamSocketPairTest
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/0
+Testing with connected IPv6 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/0 (0 ms)
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/1
+Testing with connected IPv4 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/1 (0 ms)
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/2
+Testing with reversed connected IPv6 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/2 (0 ms)
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/3
+Testing with reversed connected IPv4 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvLessThanBufferWaitAll/3 (0 ms)
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/0
+Testing with connected IPv6 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/0 (1000 ms)
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/1
+Testing with connected IPv4 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/1 (1000 ms)
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/2
+Testing with reversed connected IPv6 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/2 (1000 ms)
+[ RUN      ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/3
+Testing with reversed connected IPv4 UDP socket
+[       OK ] BlockingUDPSockets/BlockingNonStreamSocketPairTest.RecvmsgTruncPeekDontwaitZeroLenBlocking/3 (1000 ms)
+[----------] 8 tests from BlockingUDPSockets/BlockingNonStreamSocketPairTest (4003 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (4003 ms total)
+[  PASSED  ] 8 tests.
+Failed to match any benchmarks against regex: .

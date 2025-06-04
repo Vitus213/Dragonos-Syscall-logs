@@ -1,0 +1,30 @@
+[==========] Running 9 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from SocketTest
+[ RUN      ] SocketTest.UnixSocketPairProtocol
+[       OK ] SocketTest.UnixSocketPairProtocol (0 ms)
+[ RUN      ] SocketTest.ProtocolUnix
+[       OK ] SocketTest.ProtocolUnix (0 ms)
+[ RUN      ] SocketTest.ProtocolInet
+[       OK ] SocketTest.ProtocolInet (0 ms)
+[ RUN      ] SocketTest.UnixSocketStat
+[       OK ] SocketTest.UnixSocketStat (0 ms)
+[ RUN      ] SocketTest.UnixSocketStatFS
+[       OK ] SocketTest.UnixSocketStatFS (0 ms)
+[ RUN      ] SocketTest.UnixSCMRightsOnlyPassedOnce
+[       OK ] SocketTest.UnixSCMRightsOnlyPassedOnce (1 ms)
+[ RUN      ] SocketTest.Permission
+[       OK ] SocketTest.Permission (0 ms)
+[----------] 7 tests from SocketTest (2 ms total)
+
+[----------] 2 tests from OpenModes/SocketOpenTest
+[ RUN      ] OpenModes/SocketOpenTest.Unix/0
+[       OK ] OpenModes/SocketOpenTest.Unix/0 (0 ms)
+[ RUN      ] OpenModes/SocketOpenTest.Unix/1
+[       OK ] OpenModes/SocketOpenTest.Unix/1 (0 ms)
+[----------] 2 tests from OpenModes/SocketOpenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 2 test suites ran. (3 ms total)
+[  PASSED  ] 9 tests.
+Failed to match any benchmarks against regex: .

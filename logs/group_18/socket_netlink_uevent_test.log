@@ -1,0 +1,15 @@
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from NetlinkUeventTest
+[ RUN      ] NetlinkUeventTest.PassCred
+[       OK ] NetlinkUeventTest.PassCred (0 ms)
+[ RUN      ] NetlinkUeventTest.DetachNoFilter
+[       OK ] NetlinkUeventTest.DetachNoFilter (0 ms)
+[ RUN      ] NetlinkUeventTest.AttachFilter
+[       OK ] NetlinkUeventTest.AttachFilter (0 ms)
+[----------] 3 tests from NetlinkUeventTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+Failed to match any benchmarks against regex: .

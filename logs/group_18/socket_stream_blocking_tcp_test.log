@@ -1,0 +1,189 @@
+[==========] Running 60 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 60 tests from BlockingTCPSockets/BlockingStreamSocketPairTest
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/0
+Testing with connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/0 (1001 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/1
+Testing with connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/1 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/2
+Testing with connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/2 (1001 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/3 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/4 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/5 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/6 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/7 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/8 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/9 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/10 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/11 (1000 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/0
+Testing with connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/0 (9 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/1
+Testing with connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/1 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/2
+Testing with connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/2 (3 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/3 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/4 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/5 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/6 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/7 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/8 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/9 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/10 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/11 (2 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/0
+Testing with connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/0 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/1
+Testing with connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/1 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/2
+Testing with connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/2 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/3 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/4 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/5 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/6 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/7 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/8 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/9 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/10 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/11 (0 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/0
+Testing with connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/0 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/1
+Testing with connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/1 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/2
+Testing with connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/2 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/3 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/4 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/5 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/6 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/7 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/8 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/9 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/10 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/11 (200 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/0
+Testing with connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/0 (9 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/1
+Testing with connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/1 (8 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/2
+Testing with connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/2 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/3
+Testing with setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/3 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/4
+Testing with setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/4 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/5
+Testing with setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/5 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/6
+Testing with reversed connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/6 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/7
+Testing with reversed connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/7 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/8
+Testing with reversed connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/8 (6 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/9
+Testing with reversed setsockopt(6, 1, 1) connected IPv6 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/9 (9 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/10
+Testing with reversed setsockopt(6, 1, 1) connected IPv4 TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/10 (7 ms)
+[ RUN      ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/11
+Testing with reversed setsockopt(6, 1, 1) connected dual stack TCP socket
+[       OK ] BlockingTCPSockets/BlockingStreamSocketPairTest.SendTimeout/11 (5 ms)
+[----------] 60 tests from BlockingTCPSockets/BlockingStreamSocketPairTest (14547 ms total)
+
+[----------] Global test environment tear-down
+[==========] 60 tests from 1 test suite ran. (14548 ms total)
+[  PASSED  ] 60 tests.
+Failed to match any benchmarks against regex: .

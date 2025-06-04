@@ -1,0 +1,27 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest
+[ RUN      ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/0
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/0 (0 ms)
+[ RUN      ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/1
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/1 (0 ms)
+[ RUN      ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/2
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/2 (0 ms)
+[ RUN      ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/3
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/3 (0 ms)
+[ RUN      ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/4
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/4 (0 ms)
+[ RUN      ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/5
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest.SendMsgTooLarge/5 (0 ms)
+[----------] 6 tests from NonBlockingStreamUnixSockets/NonBlockingStreamSocketPairTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 6 tests.
+Failed to match any benchmarks against regex: .

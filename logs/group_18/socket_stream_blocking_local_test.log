@@ -1,0 +1,99 @@
+[==========] Running 30 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 30 tests from BlockingStreamUnixSockets/BlockingStreamSocketPairTest
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/0 (1000 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/1
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/1 (1000 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/2
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/2 (1000 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/3
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/3 (1000 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/4
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/4 (1000 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/5
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.BlockPartialWriteClosed/5 (1000 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/0 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/1
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/1 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/2
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/2 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/3
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/3 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/4
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/4 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/5
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendMsgTooLarge/5 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/0 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/1
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/1 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/2
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/2 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/3
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/3 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/4
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/4 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/5
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBuffer/5 (0 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/0 (200 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/1
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/1 (200 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/2
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/2 (203 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/3
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/3 (203 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/4
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/4 (201 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/5
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.RecvLessThanBufferWaitAll/5 (200 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/0 (3 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/1
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/1 (3 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/2
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/2 (2 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/3
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/3 (1 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/4
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/4 (1 ms)
+[ RUN      ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/5
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] BlockingStreamUnixSockets/BlockingStreamSocketPairTest.SendTimeout/5 (1 ms)
+[----------] 30 tests from BlockingStreamUnixSockets/BlockingStreamSocketPairTest (7232 ms total)
+
+[----------] Global test environment tear-down
+[==========] 30 tests from 1 test suite ran. (7233 ms total)
+[  PASSED  ] 30 tests.
+Failed to match any benchmarks against regex: .

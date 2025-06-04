@@ -1,0 +1,261 @@
+[==========] Running 84 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 84 tests from StreamUnixSockets/StreamSocketPairTest
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/0 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/1 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/2 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/3 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/4 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/5 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/6 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/7 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/8 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/9 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/10 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.SplitRecv/11 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/0 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/1 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/2 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/3 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/4 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/5 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/6 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/7 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/8 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/9 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/10 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.CoalescedRecv/11 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/0 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/1 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/2 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/3 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/4 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/5 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/6 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/7 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/8 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/9 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/10 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.WriteOneSideClosed/11 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/0 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/1 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/2 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/3 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/4 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/5 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/6 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/7 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/8 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/9 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/10 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgMsghdrFlagsNoMsgTrunc/11 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/0 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/1 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/2 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/3 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/4 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/5 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/6 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/7 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/8 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/9 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/10 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncZeroLen/11 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/0 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/1 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/2 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/3 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/4 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/5 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/6 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/7 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/8 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/9 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/10 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.RecvmsgTruncPeekZeroLen/11 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/0
+Testing with SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/0 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/1
+Testing with non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/1 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/2
+Testing with SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/2 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/3
+Testing with non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/3 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/4
+Testing with SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/4 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/5
+Testing with non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/5 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/6
+Testing with reversed SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/6 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/7
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/7 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/8
+Testing with reversed SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/8 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/9
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with filesystem binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/9 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/10
+Testing with reversed SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/10 (0 ms)
+[ RUN      ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/11
+Testing with reversed non-blocking SOCK_STREAM Unix domain socket created with abstract namespace binding
+[       OK ] StreamUnixSockets/StreamSocketPairTest.MsgTrunc/11 (0 ms)
+[----------] 84 tests from StreamUnixSockets/StreamSocketPairTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 84 tests from 1 test suite ran. (9 ms total)
+[  PASSED  ] 84 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,70 @@
+[==========] Running 33 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 12 tests from AllConnectedSockets/ConnectStressTest
+[ RUN      ] AllConnectedSockets/ConnectStressTest.Reset/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.Reset/0 (1506 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.Reset/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.Reset/1 (1391 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.Reset/2
+Testing with connected dual stack UDP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.Reset/2 (1474 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.Reset/3
+Testing with setsockopt(1, 2, 1) connected IPv6 TCP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.Reset/3 (4091 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.Reset/4
+Testing with setsockopt(1, 2, 1) connected IPv4 TCP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.Reset/4 (8106 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.Reset/5
+Testing with setsockopt(1, 2, 1) connected dual stack TCP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.Reset/5 (7087 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.TooManyOpen/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.TooManyOpen/0 (418 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.TooManyOpen/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.TooManyOpen/1 (356 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.TooManyOpen/2
+Testing with connected dual stack UDP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.TooManyOpen/2 (432 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.TooManyOpen/3
+Testing with setsockopt(1, 2, 1) connected IPv6 TCP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.TooManyOpen/3 (24446 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.TooManyOpen/4
+Testing with setsockopt(1, 2, 1) connected IPv4 TCP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.TooManyOpen/4 (28771 ms)
+[ RUN      ] AllConnectedSockets/ConnectStressTest.TooManyOpen/5
+Testing with setsockopt(1, 2, 1) connected dual stack TCP socket
+[       OK ] AllConnectedSockets/ConnectStressTest.TooManyOpen/5 (20761 ms)
+[----------] 12 tests from AllConnectedSockets/ConnectStressTest (98845 ms total)
+
+[----------] 18 tests from AllConnectedSockets/PersistentListenerConnectStressTest
+[ RUN      ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/0
+Testing with connected IPv6 UDP socket
+[       OK ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/0 (1042 ms)
+[ RUN      ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/1
+Testing with connected IPv4 UDP socket
+[       OK ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/1 (1006 ms)
+[ RUN      ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/2
+Testing with connected dual stack UDP socket
+[       OK ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/2 (1029 ms)
+[ RUN      ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/3
+Testing with setsockopt(1, 2, 1) connected IPv6 TCP socket
+test/syscalls/linux/socket_generic_stress.cc:132: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=99 Cannot assign requested address) (connect_result = RetryEINTR(connect)( connected.get(), AsSockAddr(&bind_addr), sizeof(bind_addr))) == -1 && errno == EINPROGRESS ? 0 : connect_result
+
+[  FAILED  ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/3, where GetParam() = 80-byte object <00-E1 B7-BF BF-61 00-00 2D-00 00-00 00-00 00-00 2D-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 0A-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 A0-DF B7-BF BF-61 00-00 00-00 00-00 00-00 00-00 65-A3 98-93 BF-61 00-00 2D-A3 98-93 BF-61 00-00> (1899 ms)
+[ RUN      ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/4
+Testing with setsockopt(1, 2, 1) connected IPv4 TCP socket
+test/syscalls/linux/socket_generic_stress.cc:132: Failure
+Value of: _expr_result
+Expected: is OK
+  Actual: PosixError(errno=99 Cannot assign requested address) (connect_result = RetryEINTR(connect)( connected.get(), AsSockAddr(&bind_addr), sizeof(bind_addr))) == -1 && errno == EINPROGRESS ? 0 : connect_result
+
+[  FAILED  ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/4, where GetParam() = 80-byte object <70-86 B7-BF BF-61 00-00 2D-00 00-00 00-00 00-00 2D-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 40-E1 B7-BF BF-61 00-00 00-00 00-00 00-00 00-00 65-A3 98-93 BF-61 00-00 2D-A3 98-93 BF-61 00-00> (1812 ms)
+[ RUN      ] AllConnectedSockets/PersistentListenerConnectStressTest.ShutdownCloseFirst/5
+Testing with setsockopt(1, 2, 1) connected dual stack TCP socket
+Check failed: absl::holds_alternative<T>(value_)
