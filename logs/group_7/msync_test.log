@@ -1,0 +1,235 @@
+[==========] Running 110 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 6 tests from All/MsyncNoMappingTest
+[ RUN      ] All/MsyncNoMappingTest.UnmappedAddressWithZeroLengthSucceeds/0
+[       OK ] All/MsyncNoMappingTest.UnmappedAddressWithZeroLengthSucceeds/0 (0 ms)
+[ RUN      ] All/MsyncNoMappingTest.UnmappedAddressWithZeroLengthSucceeds/1
+[       OK ] All/MsyncNoMappingTest.UnmappedAddressWithZeroLengthSucceeds/1 (0 ms)
+[ RUN      ] All/MsyncNoMappingTest.UnmappedAddressWithZeroLengthSucceeds/2
+[       OK ] All/MsyncNoMappingTest.UnmappedAddressWithZeroLengthSucceeds/2 (0 ms)
+[ RUN      ] All/MsyncNoMappingTest.UnmappedAddressWithNonzeroLengthFails/0
+[       OK ] All/MsyncNoMappingTest.UnmappedAddressWithNonzeroLengthFails/0 (0 ms)
+[ RUN      ] All/MsyncNoMappingTest.UnmappedAddressWithNonzeroLengthFails/1
+[       OK ] All/MsyncNoMappingTest.UnmappedAddressWithNonzeroLengthFails/1 (0 ms)
+[ RUN      ] All/MsyncNoMappingTest.UnmappedAddressWithNonzeroLengthFails/2
+[       OK ] All/MsyncNoMappingTest.UnmappedAddressWithNonzeroLengthFails/2 (0 ms)
+[----------] 6 tests from All/MsyncNoMappingTest (0 ms total)
+
+[----------] 8 tests from All/MsyncNoFlagsTest
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/0
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/0 (0 ms)
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/1
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/1 (0 ms)
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/2
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/2 (0 ms)
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/3
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/3 (0 ms)
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/4
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/4 (0 ms)
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/5
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/5 (0 ms)
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/6
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/6 (0 ms)
+[ RUN      ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/7
+[       OK ] All/MsyncNoFlagsTest.BothSyncAndAsyncFails/7 (0 ms)
+[----------] 8 tests from All/MsyncNoFlagsTest (1 ms total)
+
+[----------] 96 tests from All/MsyncFullParamTest
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/0
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/0 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/1
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/1 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/2
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/2 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/3
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/3 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/4
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/4 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/5
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/5 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/6
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/6 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/7
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/7 (1 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/8
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/8 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/9
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/9 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/10
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/10 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/11
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/11 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/12
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/12 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/13
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/13 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/14
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/14 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/15
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/15 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/16
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/16 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/17
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/17 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/18
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/18 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/19
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/19 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/20
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/20 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/21
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/21 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/22
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/22 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.NormallySucceeds/23
+[       OK ] All/MsyncFullParamTest.NormallySucceeds/23 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/0
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/0 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/1
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/1 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/2
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/2 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/3
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/3 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/4
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/4 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/5
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/5 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/6
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/6 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/7
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/7 (1 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/8
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/8 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/9
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/9 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/10
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/10 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/11
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/11 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/12
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/12 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/13
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/13 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/14
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/14 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/15
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/15 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/16
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/16 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/17
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/17 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/18
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/18 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/19
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/19 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/20
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/20 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/21
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/21 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/22
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/22 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedLengthSucceeds/23
+[       OK ] All/MsyncFullParamTest.UnalignedLengthSucceeds/23 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/0
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/0 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/1
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/1 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/2
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/2 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/3
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/3 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/4
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/4 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/5
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/5 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/6
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/6 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/7
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/7 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/8
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/8 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/9
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/9 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/10
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/10 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/11
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/11 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/12
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/12 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/13
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/13 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/14
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/14 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/15
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/15 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/16
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/16 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/17
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/17 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/18
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/18 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/19
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/19 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/20
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/20 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/21
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/21 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/22
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/22 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.UnalignedAddressFails/23
+[       OK ] All/MsyncFullParamTest.UnalignedAddressFails/23 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/0
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/0 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/1
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/1 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/2
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/2 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/3
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/3 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/4
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/4 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/5
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/5 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/6
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/6 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/7
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/7 (1 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/8
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/8 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/9
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/9 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/10
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/10 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/11
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/11 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/12
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/12 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/13
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/13 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/14
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/14 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/15
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/15 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/16
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/16 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/17
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/17 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/18
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/18 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/19
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/19 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/20
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/20 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/21
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/21 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/22
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/22 (0 ms)
+[ RUN      ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/23
+[       OK ] All/MsyncFullParamTest.InvalidateUnlockedSucceeds/23 (0 ms)
+[----------] 96 tests from All/MsyncFullParamTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 110 tests from 3 test suites ran. (12 ms total)
+[  PASSED  ] 110 tests.
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,62 @@
+[==========] Running 16 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 16 tests from MqTest
+[ RUN      ] MqTest.Open
+[       OK ] MqTest.Open (0 ms)
+[ RUN      ] MqTest.ModeWithFileType
+[       OK ] MqTest.ModeWithFileType (0 ms)
+[ RUN      ] MqTest.OpenAfterUnlink
+[       OK ] MqTest.OpenAfterUnlink (0 ms)
+[ RUN      ] MqTest.OpenInvalidArgs
+[       OK ] MqTest.OpenInvalidArgs (0 ms)
+[ RUN      ] MqTest.CreateAlreadyExists
+[       OK ] MqTest.CreateAlreadyExists (0 ms)
+[ RUN      ] MqTest.NoQueueExists
+[       OK ] MqTest.NoQueueExists (0 ms)
+[ RUN      ] MqTest.OpenNoAccess
+[       OK ] MqTest.OpenNoAccess (0 ms)
+[ RUN      ] MqTest.OpenReadAccess
+[       OK ] MqTest.OpenReadAccess (0 ms)
+[ RUN      ] MqTest.OpenWriteAccess
+[       OK ] MqTest.OpenWriteAccess (0 ms)
+[ RUN      ] MqTest.ChangeIpcNamespace
+test/syscalls/linux/mq.cc:229: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MqTest.ChangeIpcNamespace (0 ms)
+[ RUN      ] MqTest.Mount
+test/syscalls/linux/mq.cc:259: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MqTest.Mount (0 ms)
+[ RUN      ] MqTest.MountSeveral
+test/syscalls/linux/mq.cc:270: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MqTest.MountSeveral (0 ms)
+[ RUN      ] MqTest.OpenAsFile
+test/syscalls/linux/mq.cc:294: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MqTest.OpenAsFile (0 ms)
+[ RUN      ] MqTest.UnlinkAsFile
+test/syscalls/linux/mq.cc:321: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MqTest.UnlinkAsFile (0 ms)
+[ RUN      ] MqTest.ReadEmpty
+[       OK ] MqTest.ReadEmpty (0 ms)
+[ RUN      ] MqTest.PollEmpty
+[       OK ] MqTest.PollEmpty (0 ms)
+[----------] 16 tests from MqTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 11 tests.
+[  SKIPPED ] 5 tests, listed below:
+[  SKIPPED ] MqTest.ChangeIpcNamespace
+[  SKIPPED ] MqTest.Mount
+[  SKIPPED ] MqTest.MountSeveral
+[  SKIPPED ] MqTest.OpenAsFile
+[  SKIPPED ] MqTest.UnlinkAsFile
+Failed to match any benchmarks against regex: .

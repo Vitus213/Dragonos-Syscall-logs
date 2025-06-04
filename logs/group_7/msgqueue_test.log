@@ -1,0 +1,73 @@
+[==========] Running 32 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 32 tests from MsgqueueTest
+[ RUN      ] MsgqueueTest.MsgGet
+[       OK ] MsgqueueTest.MsgGet (0 ms)
+[ RUN      ] MsgqueueTest.MsgGetFail
+[       OK ] MsgqueueTest.MsgGetFail (0 ms)
+[ RUN      ] MsgqueueTest.MsgGetIpcPrivate
+[       OK ] MsgqueueTest.MsgGetIpcPrivate (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpSimple
+[       OK ] MsgqueueTest.MsgOpSimple (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpEmpty
+[       OK ] MsgqueueTest.MsgOpEmpty (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpTruncate
+[       OK ] MsgqueueTest.MsgOpTruncate (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpInvalidArgs
+[       OK ] MsgqueueTest.MsgOpInvalidArgs (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpNoMsg
+[       OK ] MsgqueueTest.MsgOpNoMsg (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpNoMsgType
+[       OK ] MsgqueueTest.MsgOpNoMsgType (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpTooBig
+[       OK ] MsgqueueTest.MsgOpTooBig (0 ms)
+[ RUN      ] MsgqueueTest.MsgRcvType
+[       OK ] MsgqueueTest.MsgRcvType (0 ms)
+[ RUN      ] MsgqueueTest.MsgExcept
+[       OK ] MsgqueueTest.MsgExcept (0 ms)
+[ RUN      ] MsgqueueTest.MsgRcvTypeNegative
+[       OK ] MsgqueueTest.MsgRcvTypeNegative (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpPermissions
+[       OK ] MsgqueueTest.MsgOpPermissions (0 ms)
+[ RUN      ] MsgqueueTest.MsgOpLimits
+[       OK ] MsgqueueTest.MsgOpLimits (0 ms)
+[ RUN      ] MsgqueueTest.MsgCopy
+[       OK ] MsgqueueTest.MsgCopy (0 ms)
+[ RUN      ] MsgqueueTest.MsgCopyInvalidArgs
+[       OK ] MsgqueueTest.MsgCopyInvalidArgs (0 ms)
+[ RUN      ] MsgqueueTest.MsgCopyInvalidIndex
+[       OK ] MsgqueueTest.MsgCopyInvalidIndex (0 ms)
+[ RUN      ] MsgqueueTest.MsgRcvBlocking
+[       OK ] MsgqueueTest.MsgRcvBlocking (150 ms)
+[ RUN      ] MsgqueueTest.MsgRcvTypeBlocking
+[       OK ] MsgqueueTest.MsgRcvTypeBlocking (150 ms)
+[ RUN      ] MsgqueueTest.MsgSndBlocking
+[       OK ] MsgqueueTest.MsgSndBlocking (100 ms)
+[ RUN      ] MsgqueueTest.MsgSndRmWhileBlocking
+[       OK ] MsgqueueTest.MsgSndRmWhileBlocking (100 ms)
+[ RUN      ] MsgqueueTest.MsgRcvRmWhileBlocking
+[       OK ] MsgqueueTest.MsgRcvRmWhileBlocking (150 ms)
+[ RUN      ] MsgqueueTest.MsgOpGeneral
+[       OK ] MsgqueueTest.MsgOpGeneral (0 ms)
+[ RUN      ] MsgqueueTest.InterruptRecv
+[       OK ] MsgqueueTest.InterruptRecv (200 ms)
+[ RUN      ] MsgqueueTest.InterruptSend
+[       OK ] MsgqueueTest.InterruptSend (200 ms)
+[ RUN      ] MsgqueueTest.MsgCtlIpcStat
+[       OK ] MsgqueueTest.MsgCtlIpcStat (3030 ms)
+[ RUN      ] MsgqueueTest.MsgCtlIpcStatWriteOnly
+[       OK ] MsgqueueTest.MsgCtlIpcStatWriteOnly (0 ms)
+[ RUN      ] MsgqueueTest.MsgCtlIpcSet
+[       OK ] MsgqueueTest.MsgCtlIpcSet (0 ms)
+[ RUN      ] MsgqueueTest.MsgCtlIpcSetMaxBytes
+[       OK ] MsgqueueTest.MsgCtlIpcSetMaxBytes (0 ms)
+[ RUN      ] MsgqueueTest.MsgCtlIpcInfo
+[       OK ] MsgqueueTest.MsgCtlIpcInfo (0 ms)
+[ RUN      ] MsgqueueTest.MsgCtlMsgInfo
+[       OK ] MsgqueueTest.MsgCtlMsgInfo (0 ms)
+[----------] 32 tests from MsgqueueTest (4086 ms total)
+
+[----------] Global test environment tear-down
+[==========] 32 tests from 1 test suite ran. (4086 ms total)
+[  PASSED  ] 32 tests.
+Failed to match any benchmarks against regex: .

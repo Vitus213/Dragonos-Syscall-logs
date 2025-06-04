@@ -1,0 +1,528 @@
+[==========] Running 87 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 87 tests from MountTest
+[ RUN      ] MountTest.MountBadFilesystem
+test/syscalls/linux/mount.cc:86: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountBadFilesystem (0 ms)
+[ RUN      ] MountTest.MountInvalidTarget
+test/syscalls/linux/mount.cc:95: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountInvalidTarget (0 ms)
+[ RUN      ] MountTest.MountPermDenied
+[       OK ] MountTest.MountPermDenied (0 ms)
+[ RUN      ] MountTest.UmountPermDenied
+test/syscalls/linux/mount.cc:113: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountPermDenied (0 ms)
+[ RUN      ] MountTest.MountOverBusy
+test/syscalls/linux/mount.cc:128: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountOverBusy (0 ms)
+[ RUN      ] MountTest.OpenFileBusy
+test/syscalls/linux/mount.cc:139: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.OpenFileBusy (0 ms)
+[ RUN      ] MountTest.UmountNoFollow
+test/syscalls/linux/mount.cc:152: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountNoFollow (0 ms)
+[ RUN      ] MountTest.UmountDetach
+test/syscalls/linux/mount.cc:186: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountDetach (0 ms)
+[ RUN      ] MountTest.MMapWithExecProtFailsOnNoExecFile
+test/syscalls/linux/mount.cc:259: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MMapWithExecProtFailsOnNoExecFile (0 ms)
+[ RUN      ] MountTest.MMapWithExecProtSucceedsOnExecutableVolumeFile
+test/syscalls/linux/mount.cc:276: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MMapWithExecProtSucceedsOnExecutableVolumeFile (0 ms)
+[ RUN      ] MountTest.MMapWithoutNoExecProtSucceedsOnNoExecFile
+test/syscalls/linux/mount.cc:294: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MMapWithoutNoExecProtSucceedsOnNoExecFile (0 ms)
+[ RUN      ] MountTest.MProtectWithNoExecProtFailsOnNoExecFile
+test/syscalls/linux/mount.cc:313: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MProtectWithNoExecProtFailsOnNoExecFile (0 ms)
+[ RUN      ] MountTest.UmountMountsStackedOnDot
+test/syscalls/linux/mount.cc:334: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountMountsStackedOnDot (0 ms)
+[ RUN      ] MountTest.ActiveSubmountBusy
+test/syscalls/linux/mount.cc:355: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.ActiveSubmountBusy (0 ms)
+[ RUN      ] MountTest.MountTmpfs
+test/syscalls/linux/mount.cc:371: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountTmpfs (0 ms)
+[ RUN      ] MountTest.MountTmpfsMagicValIgnored
+test/syscalls/linux/mount.cc:413: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountTmpfsMagicValIgnored (0 ms)
+[ RUN      ] MountTest.NullData
+test/syscalls/linux/mount.cc:423: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.NullData (0 ms)
+[ RUN      ] MountTest.MountReadonly
+test/syscalls/linux/mount.cc:433: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountReadonly (0 ms)
+[ RUN      ] MountTest.MountNoAtime
+test/syscalls/linux/mount.cc:458: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountNoAtime (0 ms)
+[ RUN      ] MountTest.MountWithStrictAtime
+test/syscalls/linux/mount.cc:485: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountWithStrictAtime (0 ms)
+[ RUN      ] MountTest.MountNoExec
+test/syscalls/linux/mount.cc:513: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountNoExec (0 ms)
+[ RUN      ] MountTest.RenameRemoveMountPoint
+test/syscalls/linux/mount.cc:530: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.RenameRemoveMountPoint (0 ms)
+[ RUN      ] MountTest.MountInfo
+test/syscalls/linux/mount.cc:547: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountInfo (0 ms)
+[ RUN      ] MountTest.TmpfsSizeRoundUpSinglePageSize
+test/syscalls/linux/mount.cc:577: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSizeRoundUpSinglePageSize (0 ms)
+[ RUN      ] MountTest.TmpfsSizeAllocationMultiplePages
+test/syscalls/linux/mount.cc:603: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSizeAllocationMultiplePages (0 ms)
+[ RUN      ] MountTest.TmpfsSizeMoreThanSinglePgSZMultipleFiles
+test/syscalls/linux/mount.cc:637: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSizeMoreThanSinglePgSZMultipleFiles (0 ms)
+[ RUN      ] MountTest.TmpfsSizeFtruncate
+test/syscalls/linux/mount.cc:663: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSizeFtruncate (0 ms)
+[ RUN      ] MountTest.TmpfsDirectoryAllocCheck
+test/syscalls/linux/mount.cc:690: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsDirectoryAllocCheck (0 ms)
+[ RUN      ] MountTest.TmpfsSymlinkAllocCheck
+test/syscalls/linux/mount.cc:721: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSymlinkAllocCheck (0 ms)
+[ RUN      ] MountTest.TmpfsSymlinkUnallocCheck
+test/syscalls/linux/mount.cc:750: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSymlinkUnallocCheck (0 ms)
+[ RUN      ] MountTest.TmpfsHardLinkAllocCheck
+test/syscalls/linux/mount.cc:771: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsHardLinkAllocCheck (0 ms)
+[ RUN      ] MountTest.TmpfsEmptySizeAllocCheck
+test/syscalls/linux/mount.cc:803: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsEmptySizeAllocCheck (0 ms)
+[ RUN      ] MountTest.TmpfsUnlinkRegularFileAllocCheck
+test/syscalls/linux/mount.cc:810: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsUnlinkRegularFileAllocCheck (0 ms)
+[ RUN      ] MountTest.TmpfsSizePartialWriteSinglePage
+test/syscalls/linux/mount.cc:823: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSizePartialWriteSinglePage (0 ms)
+[ RUN      ] MountTest.TmpfsSizePartialWriteMultiplePages
+test/syscalls/linux/mount.cc:838: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSizePartialWriteMultiplePages (0 ms)
+[ RUN      ] MountTest.TmpfsSizeMmap
+test/syscalls/linux/mount.cc:870: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.TmpfsSizeMmap (0 ms)
+[ RUN      ] MountTest.SimpleBind
+test/syscalls/linux/mount.cc:893: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.SimpleBind (0 ms)
+[ RUN      ] MountTest.BindToSelf
+test/syscalls/linux/mount.cc:930: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindToSelf (0 ms)
+[ RUN      ] MountTest.MaxMounts
+test/syscalls/linux/mount.cc:954: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MaxMounts (0 ms)
+[ RUN      ] MountTest.PropagateToSameMountpointStacksMounts
+test/syscalls/linux/mount.cc:994: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.PropagateToSameMountpointStacksMounts (0 ms)
+[ RUN      ] MountTest.UmountReparentsCoveredMounts
+test/syscalls/linux/mount.cc:1029: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountReparentsCoveredMounts (0 ms)
+[ RUN      ] MountTest.MakeShared
+test/syscalls/linux/mount.cc:1056: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MakeShared (0 ms)
+[ RUN      ] MountTest.MakeMultipleShared
+test/syscalls/linux/mount.cc:1071: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MakeMultipleShared (0 ms)
+[ RUN      ] MountTest.ReuseGroupIDs
+test/syscalls/linux/mount.cc:1093: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.ReuseGroupIDs (0 ms)
+[ RUN      ] MountTest.InerheritPropagation
+test/syscalls/linux/mount.cc:1125: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.InerheritPropagation (0 ms)
+[ RUN      ] MountTest.MakePrivate
+test/syscalls/linux/mount.cc:1145: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MakePrivate (0 ms)
+[ RUN      ] MountTest.ArgumentsAreIgnored
+test/syscalls/linux/mount.cc:1161: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.ArgumentsAreIgnored (0 ms)
+[ RUN      ] MountTest.MultiplePropagationFlagsFails
+test/syscalls/linux/mount.cc:1175: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MultiplePropagationFlagsFails (0 ms)
+[ RUN      ] MountTest.SetMountPropagationOfStackedMounts
+test/syscalls/linux/mount.cc:1185: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.SetMountPropagationOfStackedMounts (0 ms)
+[ RUN      ] MountTest.MakePeer
+test/syscalls/linux/mount.cc:1202: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MakePeer (0 ms)
+[ RUN      ] MountTest.PropagateMountEvent
+test/syscalls/linux/mount.cc:1221: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.PropagateMountEvent (0 ms)
+[ RUN      ] MountTest.PropagateUmountEvent
+test/syscalls/linux/mount.cc:1253: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.PropagateUmountEvent (0 ms)
+[ RUN      ] MountTest.PropagateChildUmountEvent
+test/syscalls/linux/mount.cc:1285: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.PropagateChildUmountEvent (0 ms)
+[ RUN      ] MountTest.UmountIgnoresPeersWithChildren
+test/syscalls/linux/mount.cc:1311: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountIgnoresPeersWithChildren (0 ms)
+[ RUN      ] MountTest.BindSharedOnShared
+test/syscalls/linux/mount.cc:1351: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindSharedOnShared (0 ms)
+[ RUN      ] MountTest.BindSharedOnPrivate
+test/syscalls/linux/mount.cc:1393: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindSharedOnPrivate (0 ms)
+[ RUN      ] MountTest.BindPeerGroupsWithChildren
+test/syscalls/linux/mount.cc:1423: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindPeerGroupsWithChildren (0 ms)
+[ RUN      ] MountTest.BindParentToChild
+test/syscalls/linux/mount.cc:1462: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindParentToChild (0 ms)
+[ RUN      ] MountTest.MountInfoHasRoot
+test/syscalls/linux/mount.cc:1489: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountInfoHasRoot (0 ms)
+[ RUN      ] MountTest.DeadMountsAreDecRefd
+test/syscalls/linux/mount.cc:1510: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.DeadMountsAreDecRefd (0 ms)
+[ RUN      ] MountTest.UmountSharedBind
+test/syscalls/linux/mount.cc:1530: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountSharedBind (0 ms)
+[ RUN      ] MountTest.MakeSlave
+test/syscalls/linux/mount.cc:1546: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MakeSlave (0 ms)
+[ RUN      ] MountTest.MakeSharedSlave
+test/syscalls/linux/mount.cc:1563: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MakeSharedSlave (0 ms)
+[ RUN      ] MountTest.PrivateMasterUnslaves
+test/syscalls/linux/mount.cc:1585: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.PrivateMasterUnslaves (0 ms)
+[ RUN      ] MountTest.SlaveMaster
+test/syscalls/linux/mount.cc:1616: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.SlaveMaster (0 ms)
+[ RUN      ] MountTest.BindSharedToSlave
+test/syscalls/linux/mount.cc:1645: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindSharedToSlave (0 ms)
+[ RUN      ] MountTest.BindSlaveToShared
+test/syscalls/linux/mount.cc:1675: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindSlaveToShared (0 ms)
+[ RUN      ] MountTest.BindSlaveToSlave
+test/syscalls/linux/mount.cc:1712: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.BindSlaveToSlave (0 ms)
+[ RUN      ] MountTest.SlavePropagationEvent
+test/syscalls/linux/mount.cc:1747: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.SlavePropagationEvent (0 ms)
+[ RUN      ] MountTest.LargeTreePropagationEvent
+test/syscalls/linux/mount.cc:1788: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.LargeTreePropagationEvent (0 ms)
+[ RUN      ] MountTest.MaxMountsWithSlave
+test/syscalls/linux/mount.cc:1905: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MaxMountsWithSlave (0 ms)
+[ RUN      ] MountTest.SetPropagationRecursive
+test/syscalls/linux/mount.cc:1964: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.SetPropagationRecursive (0 ms)
+[ RUN      ] MountTest.SetSlaveRecursive
+test/syscalls/linux/mount.cc:1990: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.SetSlaveRecursive (0 ms)
+[ RUN      ] MountTest.RecursiveBind
+test/syscalls/linux/mount.cc:2019: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.RecursiveBind (0 ms)
+[ RUN      ] MountTest.MaxRecursiveBind
+test/syscalls/linux/mount.cc:2047: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MaxRecursiveBind (0 ms)
+[ RUN      ] MountTest.RecursiveBindPropagation
+test/syscalls/linux/mount.cc:2078: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.RecursiveBindPropagation (0 ms)
+[ RUN      ] MountTest.MountNamespace
+test/syscalls/linux/mount.cc:2121: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountNamespace (0 ms)
+[ RUN      ] MountTest.MountNamespaceSetns
+test/syscalls/linux/mount.cc:2147: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountNamespaceSetns (0 ms)
+[ RUN      ] MountTest.MountNamespacePropagation
+test/syscalls/linux/mount.cc:2172: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountNamespacePropagation (0 ms)
+[ RUN      ] MountTest.MountNamespaceSlavesNewUserNamespace
+test/syscalls/linux/mount.cc:2210: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountNamespaceSlavesNewUserNamespace (0 ms)
+[ RUN      ] MountTest.LockedMountStopsNonRecBind
+test/syscalls/linux/mount.cc:2267: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.LockedMountStopsNonRecBind (0 ms)
+[ RUN      ] MountTest.UmountPropagatedSubtreeFromPrivilegedNS
+test/syscalls/linux/mount.cc:2297: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.UmountPropagatedSubtreeFromPrivilegedNS (0 ms)
+[ RUN      ] MountTest.MountFailsOnPseudoFilesystemMountpoint
+test/syscalls/linux/mount.cc:2353: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountFailsOnPseudoFilesystemMountpoint (0 ms)
+[ RUN      ] MountTest.ChangeMountFlags
+test/syscalls/linux/mount.cc:2361: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.ChangeMountFlags (0 ms)
+[ RUN      ] MountTest.RemountUnmounted
+test/syscalls/linux/mount.cc:2384: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.RemountUnmounted (0 ms)
+[ RUN      ] MountTest.DetachedMountBindFails
+test/syscalls/linux/mount.cc:2393: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.DetachedMountBindFails (0 ms)
+[ RUN      ] MountTest.MountProc
+test/syscalls/linux/mount.cc:2410: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] MountTest.MountProc (0 ms)
+[----------] 87 tests from MountTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 87 tests from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+[  SKIPPED ] 86 tests, listed below:
+[  SKIPPED ] MountTest.MountBadFilesystem
+[  SKIPPED ] MountTest.MountInvalidTarget
+[  SKIPPED ] MountTest.UmountPermDenied
+[  SKIPPED ] MountTest.MountOverBusy
+[  SKIPPED ] MountTest.OpenFileBusy
+[  SKIPPED ] MountTest.UmountNoFollow
+[  SKIPPED ] MountTest.UmountDetach
+[  SKIPPED ] MountTest.MMapWithExecProtFailsOnNoExecFile
+[  SKIPPED ] MountTest.MMapWithExecProtSucceedsOnExecutableVolumeFile
+[  SKIPPED ] MountTest.MMapWithoutNoExecProtSucceedsOnNoExecFile
+[  SKIPPED ] MountTest.MProtectWithNoExecProtFailsOnNoExecFile
+[  SKIPPED ] MountTest.UmountMountsStackedOnDot
+[  SKIPPED ] MountTest.ActiveSubmountBusy
+[  SKIPPED ] MountTest.MountTmpfs
+[  SKIPPED ] MountTest.MountTmpfsMagicValIgnored
+[  SKIPPED ] MountTest.NullData
+[  SKIPPED ] MountTest.MountReadonly
+[  SKIPPED ] MountTest.MountNoAtime
+[  SKIPPED ] MountTest.MountWithStrictAtime
+[  SKIPPED ] MountTest.MountNoExec
+[  SKIPPED ] MountTest.RenameRemoveMountPoint
+[  SKIPPED ] MountTest.MountInfo
+[  SKIPPED ] MountTest.TmpfsSizeRoundUpSinglePageSize
+[  SKIPPED ] MountTest.TmpfsSizeAllocationMultiplePages
+[  SKIPPED ] MountTest.TmpfsSizeMoreThanSinglePgSZMultipleFiles
+[  SKIPPED ] MountTest.TmpfsSizeFtruncate
+[  SKIPPED ] MountTest.TmpfsDirectoryAllocCheck
+[  SKIPPED ] MountTest.TmpfsSymlinkAllocCheck
+[  SKIPPED ] MountTest.TmpfsSymlinkUnallocCheck
+[  SKIPPED ] MountTest.TmpfsHardLinkAllocCheck
+[  SKIPPED ] MountTest.TmpfsEmptySizeAllocCheck
+[  SKIPPED ] MountTest.TmpfsUnlinkRegularFileAllocCheck
+[  SKIPPED ] MountTest.TmpfsSizePartialWriteSinglePage
+[  SKIPPED ] MountTest.TmpfsSizePartialWriteMultiplePages
+[  SKIPPED ] MountTest.TmpfsSizeMmap
+[  SKIPPED ] MountTest.SimpleBind
+[  SKIPPED ] MountTest.BindToSelf
+[  SKIPPED ] MountTest.MaxMounts
+[  SKIPPED ] MountTest.PropagateToSameMountpointStacksMounts
+[  SKIPPED ] MountTest.UmountReparentsCoveredMounts
+[  SKIPPED ] MountTest.MakeShared
+[  SKIPPED ] MountTest.MakeMultipleShared
+[  SKIPPED ] MountTest.ReuseGroupIDs
+[  SKIPPED ] MountTest.InerheritPropagation
+[  SKIPPED ] MountTest.MakePrivate
+[  SKIPPED ] MountTest.ArgumentsAreIgnored
+[  SKIPPED ] MountTest.MultiplePropagationFlagsFails
+[  SKIPPED ] MountTest.SetMountPropagationOfStackedMounts
+[  SKIPPED ] MountTest.MakePeer
+[  SKIPPED ] MountTest.PropagateMountEvent
+[  SKIPPED ] MountTest.PropagateUmountEvent
+[  SKIPPED ] MountTest.PropagateChildUmountEvent
+[  SKIPPED ] MountTest.UmountIgnoresPeersWithChildren
+[  SKIPPED ] MountTest.BindSharedOnShared
+[  SKIPPED ] MountTest.BindSharedOnPrivate
+[  SKIPPED ] MountTest.BindPeerGroupsWithChildren
+[  SKIPPED ] MountTest.BindParentToChild
+[  SKIPPED ] MountTest.MountInfoHasRoot
+[  SKIPPED ] MountTest.DeadMountsAreDecRefd
+[  SKIPPED ] MountTest.UmountSharedBind
+[  SKIPPED ] MountTest.MakeSlave
+[  SKIPPED ] MountTest.MakeSharedSlave
+[  SKIPPED ] MountTest.PrivateMasterUnslaves
+[  SKIPPED ] MountTest.SlaveMaster
+[  SKIPPED ] MountTest.BindSharedToSlave
+[  SKIPPED ] MountTest.BindSlaveToShared
+[  SKIPPED ] MountTest.BindSlaveToSlave
+[  SKIPPED ] MountTest.SlavePropagationEvent
+[  SKIPPED ] MountTest.LargeTreePropagationEvent
+[  SKIPPED ] MountTest.MaxMountsWithSlave
+[  SKIPPED ] MountTest.SetPropagationRecursive
+[  SKIPPED ] MountTest.SetSlaveRecursive
+[  SKIPPED ] MountTest.RecursiveBind
+[  SKIPPED ] MountTest.MaxRecursiveBind
+[  SKIPPED ] MountTest.RecursiveBindPropagation
+[  SKIPPED ] MountTest.MountNamespace
+[  SKIPPED ] MountTest.MountNamespaceSetns
+[  SKIPPED ] MountTest.MountNamespacePropagation
+[  SKIPPED ] MountTest.MountNamespaceSlavesNewUserNamespace
+[  SKIPPED ] MountTest.LockedMountStopsNonRecBind
+[  SKIPPED ] MountTest.UmountPropagatedSubtreeFromPrivilegedNS
+[  SKIPPED ] MountTest.MountFailsOnPseudoFilesystemMountpoint
+[  SKIPPED ] MountTest.ChangeMountFlags
+[  SKIPPED ] MountTest.RemountUnmounted
+[  SKIPPED ] MountTest.DetachedMountBindFails
+[  SKIPPED ] MountTest.MountProc
+Failed to match any benchmarks against regex: .

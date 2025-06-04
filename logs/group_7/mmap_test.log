@@ -1,0 +1,247 @@
+[==========] Running 113 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from MMapDeathTest
+[ RUN      ] MMapDeathTest.TruncateAfterCOWBreak
+[       OK ] MMapDeathTest.TruncateAfterCOWBreak (1251 ms)
+[----------] 1 test from MMapDeathTest (1251 ms total)
+
+[----------] 44 tests from MMapTest
+[ RUN      ] MMapTest.MapPipe
+[       OK ] MMapTest.MapPipe (0 ms)
+[ RUN      ] MMapTest.MapDevZeroShared
+[       OK ] MMapTest.MapDevZeroShared (0 ms)
+[ RUN      ] MMapTest.MapDevZeroPrivate
+[       OK ] MMapTest.MapDevZeroPrivate (0 ms)
+[ RUN      ] MMapTest.MapDevZeroNoPersistence
+[       OK ] MMapTest.MapDevZeroNoPersistence (0 ms)
+[ RUN      ] MMapTest.MapDevZeroSharedMultiplePages
+[       OK ] MMapTest.MapDevZeroSharedMultiplePages (0 ms)
+[ RUN      ] MMapTest.MapDevZeroSharedFdNoPersistence
+[       OK ] MMapTest.MapDevZeroSharedFdNoPersistence (0 ms)
+[ RUN      ] MMapTest.MapDevZeroSegfaultAfterUnmap
+[       OK ] MMapTest.MapDevZeroSegfaultAfterUnmap (1116 ms)
+[ RUN      ] MMapTest.MapDevZeroUnaligned
+[       OK ] MMapTest.MapDevZeroUnaligned (0 ms)
+[ RUN      ] MMapTest.MapCharDevice
+[       OK ] MMapTest.MapCharDevice (0 ms)
+[ RUN      ] MMapTest.MapDirectory
+[       OK ] MMapTest.MapDirectory (0 ms)
+[ RUN      ] MMapTest.MapAnything
+[       OK ] MMapTest.MapAnything (0 ms)
+[ RUN      ] MMapTest.SmallMap
+[       OK ] MMapTest.SmallMap (0 ms)
+[ RUN      ] MMapTest.HintAddress
+[       OK ] MMapTest.HintAddress (0 ms)
+[ RUN      ] MMapTest.MapFixed
+[       OK ] MMapTest.MapFixed (0 ms)
+[ RUN      ] MMapTest.MapFixed64
+[       OK ] MMapTest.MapFixed64 (0 ms)
+[ RUN      ] MMapTest.MapStack
+[       OK ] MMapTest.MapStack (0 ms)
+[ RUN      ] MMapTest.MapLocked
+[       OK ] MMapTest.MapLocked (0 ms)
+[ RUN      ] MMapTest.NotPrivateOrShared
+[       OK ] MMapTest.NotPrivateOrShared (0 ms)
+[ RUN      ] MMapTest.PrivateAndShared
+[       OK ] MMapTest.PrivateAndShared (0 ms)
+[ RUN      ] MMapTest.FixedAlignment
+[       OK ] MMapTest.FixedAlignment (0 ms)
+[ RUN      ] MMapTest.NonFixedAlignment
+[       OK ] MMapTest.NonFixedAlignment (0 ms)
+[ RUN      ] MMapTest.InvalidLength
+[       OK ] MMapTest.InvalidLength (0 ms)
+[ RUN      ] MMapTest.BadFd
+[       OK ] MMapTest.BadFd (0 ms)
+[ RUN      ] MMapTest.ProtWrite
+[       OK ] MMapTest.ProtWrite (0 ms)
+[ RUN      ] MMapTest.ProtWriteOnly
+[       OK ] MMapTest.ProtWriteOnly (0 ms)
+[ RUN      ] MMapTest.ProtWriteOnlyReadable
+[       OK ] MMapTest.ProtWriteOnlyReadable (0 ms)
+[ RUN      ] MMapTest.ProtectProtWrite
+[       OK ] MMapTest.ProtectProtWrite (0 ms)
+[ RUN      ] MMapTest.ProtNoneDeath
+[       OK ] MMapTest.ProtNoneDeath (1111 ms)
+[ RUN      ] MMapTest.ReadOnlyDeath
+[       OK ] MMapTest.ReadOnlyDeath (1096 ms)
+[ RUN      ] MMapTest.MprotectReadOnlyDeath
+[       OK ] MMapTest.MprotectReadOnlyDeath (1094 ms)
+[ RUN      ] MMapTest.MprotectNotPageAligned
+[       OK ] MMapTest.MprotectNotPageAligned (0 ms)
+[ RUN      ] MMapTest.MprotectHugeLength
+[       OK ] MMapTest.MprotectHugeLength (0 ms)
+[ RUN      ] MMapTest.ProtExec
+[       OK ] MMapTest.ProtExec (0 ms)
+[ RUN      ] MMapTest.NoProtExecDeath
+[       OK ] MMapTest.NoProtExecDeath (1097 ms)
+[ RUN      ] MMapTest.NoExceedLimitData
+[       OK ] MMapTest.NoExceedLimitData (0 ms)
+[ RUN      ] MMapTest.ExceedLimitData
+[       OK ] MMapTest.ExceedLimitData (0 ms)
+[ RUN      ] MMapTest.ExceedLimitDataPrlimit
+[       OK ] MMapTest.ExceedLimitDataPrlimit (0 ms)
+[ RUN      ] MMapTest.ExceedLimitDataPrlimitPID
+[       OK ] MMapTest.ExceedLimitDataPrlimitPID (0 ms)
+[ RUN      ] MMapTest.NoExceedLimitAS
+[       OK ] MMapTest.NoExceedLimitAS (0 ms)
+[ RUN      ] MMapTest.ExceedLimitAS
+[       OK ] MMapTest.ExceedLimitAS (0 ms)
+[ RUN      ] MMapTest.SettingProtNoneDoesntFreeMemory
+[       OK ] MMapTest.SettingProtNoneDoesntFreeMemory (0 ms)
+[ RUN      ] MMapTest.HugeLength
+[       OK ] MMapTest.HugeLength (0 ms)
+[ RUN      ] MMapTest.AccessCOWInvalidatesCachedSegments
+[       OK ] MMapTest.AccessCOWInvalidatesCachedSegments (0 ms)
+[ RUN      ] MMapTest.NoReserve
+[       OK ] MMapTest.NoReserve (6 ms)
+[----------] 44 tests from MMapTest (5526 ms total)
+
+[----------] 30 tests from MMapFileTest
+[ RUN      ] MMapFileTest.Read
+[       OK ] MMapFileTest.Read (16 ms)
+[ RUN      ] MMapFileTest.MapOffset
+[       OK ] MMapFileTest.MapOffset (16 ms)
+[ RUN      ] MMapFileTest.MapOffsetBeyondEnd
+[       OK ] MMapFileTest.MapOffsetBeyondEnd (1118 ms)
+[ RUN      ] MMapFileTest.MapSecondToLastPositivePage
+[       OK ] MMapFileTest.MapSecondToLastPositivePage (16 ms)
+[ RUN      ] MMapFileTest.MapLastPositivePage
+[       OK ] MMapFileTest.MapLastPositivePage (16 ms)
+[ RUN      ] MMapFileTest.MapFirstNegativePage
+[       OK ] MMapFileTest.MapFirstNegativePage (16 ms)
+[ RUN      ] MMapFileTest.MapSecondToLastNegativePage
+[       OK ] MMapFileTest.MapSecondToLastNegativePage (16 ms)
+[ RUN      ] MMapFileTest.MapLastNegativePage
+[       OK ] MMapFileTest.MapLastNegativePage (16 ms)
+[ RUN      ] MMapFileTest.WritePrivateOnReadOnlyFd
+[       OK ] MMapFileTest.WritePrivateOnReadOnlyFd (16 ms)
+[ RUN      ] MMapFileTest.WriteSharedOnReadOnlyFd
+[       OK ] MMapFileTest.WriteSharedOnReadOnlyFd (16 ms)
+[ RUN      ] MMapFileTest.MmapFileWithOpath
+[       OK ] MMapFileTest.MmapFileWithOpath (17 ms)
+[ RUN      ] MMapFileTest.ReadSharedConsistentWithOverwrite
+[       OK ] MMapFileTest.ReadSharedConsistentWithOverwrite (16 ms)
+[ RUN      ] MMapFileTest.ReadSharedConsistentWithPartialOverwrite
+[       OK ] MMapFileTest.ReadSharedConsistentWithPartialOverwrite (16 ms)
+[ RUN      ] MMapFileTest.ReadSharedConsistentWithWriteAndFile
+[       OK ] MMapFileTest.ReadSharedConsistentWithWriteAndFile (16 ms)
+[ RUN      ] MMapFileTest.WriteShared
+[       OK ] MMapFileTest.WriteShared (16 ms)
+[ RUN      ] MMapFileTest.WriteSharedBeyondEnd
+[       OK ] MMapFileTest.WriteSharedBeyondEnd (16 ms)
+[ RUN      ] MMapFileTest.WriteSharedTruncateUp
+[       OK ] MMapFileTest.WriteSharedTruncateUp (17 ms)
+[ RUN      ] MMapFileTest.ReadSharedTruncateDownThenUp
+[       OK ] MMapFileTest.ReadSharedTruncateDownThenUp (34 ms)
+[ RUN      ] MMapFileTest.WriteSharedTruncateDownThenUp
+[       OK ] MMapFileTest.WriteSharedTruncateDownThenUp (16 ms)
+[ RUN      ] MMapFileTest.ReadSharedTruncateSIGBUS
+[       OK ] MMapFileTest.ReadSharedTruncateSIGBUS (1114 ms)
+[ RUN      ] MMapFileTest.WriteSharedTruncateSIGBUS
+[       OK ] MMapFileTest.WriteSharedTruncateSIGBUS (1134 ms)
+[ RUN      ] MMapFileTest.ReadSharedTruncatePartialPage
+[       OK ] MMapFileTest.ReadSharedTruncatePartialPage (19 ms)
+[ RUN      ] MMapFileTest.WriteSharedTruncatePartialPage
+[       OK ] MMapFileTest.WriteSharedTruncatePartialPage (17 ms)
+[ RUN      ] MMapFileTest.WritePrivate
+[       OK ] MMapFileTest.WritePrivate (17 ms)
+[ RUN      ] MMapFileTest.ReadingWritableSharedFilePageSucceeds
+[       OK ] MMapFileTest.ReadingWritableSharedFilePageSucceeds (16 ms)
+[ RUN      ] MMapFileTest.InternalSigBus
+[       OK ] MMapFileTest.InternalSigBus (17 ms)
+[ RUN      ] MMapFileTest.InternalSigBusZeroing
+[       OK ] MMapFileTest.InternalSigBusZeroing (17 ms)
+[ RUN      ] MMapFileTest.Bug38498194
+[       OK ] MMapFileTest.Bug38498194 (33 ms)
+[ RUN      ] MMapFileTest.SelfRead
+[       OK ] MMapFileTest.SelfRead (17 ms)
+[ RUN      ] MMapFileTest.SelfWrite
+[       OK ] MMapFileTest.SelfWrite (17 ms)
+[----------] 30 tests from MMapFileTest (3863 ms total)
+
+[----------] 2 tests from MMapNoFixtureTest
+[ RUN      ] MMapNoFixtureTest.MapReadOnlyAfterCreateWriteOnly
+[       OK ] MMapNoFixtureTest.MapReadOnlyAfterCreateWriteOnly (0 ms)
+[ RUN      ] MMapNoFixtureTest.Map32Bit
+[       OK ] MMapNoFixtureTest.Map32Bit (0 ms)
+[----------] 2 tests from MMapNoFixtureTest (0 ms total)
+
+[----------] 36 tests from ReadWriteSharedPrivate/MMapFileParamTest
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/0
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/0 (17 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/1
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/1 (17 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/2
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/2 (17 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/3
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/3 (17 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/4
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/4 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/5
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulate/5 (18 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/0
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/0 (19 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/1
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/1 (17 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/2
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/2 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/3
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/3 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/4
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/4 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/5
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.MapPopulateShort/5 (18 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/0
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/0 (17 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/1
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/1 (18 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/2
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/2 (20 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/3
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/3 (18 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/4
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/4 (21 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/5
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.WriteOnlyFd/5 (20 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/0
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/0 (1148 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/1
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/1 (1120 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/2
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/2 (1123 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/3
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/3 (1120 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/4
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/4 (1117 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/5
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.SigBusDeath/5 (1111 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/0
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/0 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/1
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/1 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/2
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/2 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/3
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/3 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/4
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/4 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/5
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPagesBeforeEOF/5 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/0
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/0 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/1
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/1 (17 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/2
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/2 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/3
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/3 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/4
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/4 (16 ms)
+[ RUN      ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/5
+[       OK ] ReadWriteSharedPrivate/MMapFileParamTest.NoSigBusOnPageContainingEOF/5 (16 ms)
+[----------] 36 tests from ReadWriteSharedPrivate/MMapFileParamTest (7269 ms total)
+
+[----------] Global test environment tear-down
+[==========] 113 tests from 5 test suites ran. (17910 ms total)
+[  PASSED  ] 113 tests.
+Failed to match any benchmarks against regex: .

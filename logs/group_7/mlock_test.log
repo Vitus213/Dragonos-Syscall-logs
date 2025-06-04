@@ -1,0 +1,67 @@
+[==========] Running 20 tests from 7 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from MlockTest
+[ RUN      ] MlockTest.Basic
+[       OK ] MlockTest.Basic (0 ms)
+[ RUN      ] MlockTest.ProtNone
+[       OK ] MlockTest.ProtNone (0 ms)
+[ RUN      ] MlockTest.MadviseDontneed
+[       OK ] MlockTest.MadviseDontneed (0 ms)
+[ RUN      ] MlockTest.MsyncInvalidate
+[       OK ] MlockTest.MsyncInvalidate (0 ms)
+[ RUN      ] MlockTest.Fork
+[       OK ] MlockTest.Fork (0 ms)
+[ RUN      ] MlockTest.RlimitMemlockZero
+[       OK ] MlockTest.RlimitMemlockZero (0 ms)
+[ RUN      ] MlockTest.RlimitMemlockInsufficient
+[       OK ] MlockTest.RlimitMemlockInsufficient (0 ms)
+[----------] 7 tests from MlockTest (0 ms total)
+
+[----------] 2 tests from MunlockTest
+[ RUN      ] MunlockTest.Basic
+[       OK ] MunlockTest.Basic (0 ms)
+[ RUN      ] MunlockTest.NotLocked
+[       OK ] MunlockTest.NotLocked (0 ms)
+[----------] 2 tests from MunlockTest (0 ms total)
+
+[----------] 1 test from MlockallTest
+[ RUN      ] MlockallTest.Future
+[       OK ] MlockallTest.Future (0 ms)
+[----------] 1 test from MlockallTest (0 ms total)
+
+[----------] 1 test from MunlockallTest
+[ RUN      ] MunlockallTest.Basic
+[       OK ] MunlockallTest.Basic (0 ms)
+[----------] 1 test from MunlockallTest (0 ms total)
+
+[----------] 3 tests from Mlock2Test
+[ RUN      ] Mlock2Test.NoFlags
+[       OK ] Mlock2Test.NoFlags (0 ms)
+[ RUN      ] Mlock2Test.MlockOnfault
+[       OK ] Mlock2Test.MlockOnfault (0 ms)
+[ RUN      ] Mlock2Test.UnknownFlags
+[       OK ] Mlock2Test.UnknownFlags (0 ms)
+[----------] 3 tests from Mlock2Test (0 ms total)
+
+[----------] 3 tests from MapLockedTest
+[ RUN      ] MapLockedTest.Basic
+[       OK ] MapLockedTest.Basic (0 ms)
+[ RUN      ] MapLockedTest.RlimitMemlockZero
+[       OK ] MapLockedTest.RlimitMemlockZero (0 ms)
+[ RUN      ] MapLockedTest.RlimitMemlockInsufficient
+[       OK ] MapLockedTest.RlimitMemlockInsufficient (0 ms)
+[----------] 3 tests from MapLockedTest (0 ms total)
+
+[----------] 3 tests from MremapLockedTest
+[ RUN      ] MremapLockedTest.Basic
+[       OK ] MremapLockedTest.Basic (0 ms)
+[ RUN      ] MremapLockedTest.RlimitMemlockZero
+[       OK ] MremapLockedTest.RlimitMemlockZero (0 ms)
+[ RUN      ] MremapLockedTest.RlimitMemlockInsufficient
+[       OK ] MremapLockedTest.RlimitMemlockInsufficient (0 ms)
+[----------] 3 tests from MremapLockedTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 7 test suites ran. (2 ms total)
+[  PASSED  ] 20 tests.
+Failed to match any benchmarks against regex: .

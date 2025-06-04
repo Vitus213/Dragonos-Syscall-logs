@@ -1,0 +1,21 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from MknodTest
+[ RUN      ] MknodTest.RegularFile
+[       OK ] MknodTest.RegularFile (0 ms)
+[ RUN      ] MknodTest.RegularFilePermissions
+[       OK ] MknodTest.RegularFilePermissions (0 ms)
+[ RUN      ] MknodTest.MknodAtFIFO
+[       OK ] MknodTest.MknodAtFIFO (0 ms)
+[ RUN      ] MknodTest.MknodOnExistingPathFails
+[       OK ] MknodTest.MknodOnExistingPathFails (0 ms)
+[ RUN      ] MknodTest.Socket
+[       OK ] MknodTest.Socket (0 ms)
+[ RUN      ] MknodTest.MknodAtEmptyPath
+[       OK ] MknodTest.MknodAtEmptyPath (0 ms)
+[----------] 6 tests from MknodTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 6 tests.
+Failed to match any benchmarks against regex: .

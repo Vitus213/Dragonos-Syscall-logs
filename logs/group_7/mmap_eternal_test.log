@@ -1,0 +1,11 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MmapEternalTest
+[ RUN      ] MmapEternalTest.PageTableLeak
+[       OK ] MmapEternalTest.PageTableLeak (29048 ms)
+[----------] 1 test from MmapEternalTest (29049 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29050 ms total)
+[  PASSED  ] 1 test.
+Failed to match any benchmarks against regex: .

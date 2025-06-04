@@ -1,0 +1,81 @@
+[==========] Running 33 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from MremapDeathTest
+[ RUN      ] MremapDeathTest.SharedAnon
+[       OK ] MremapDeathTest.SharedAnon (1097 ms)
+[----------] 1 test from MremapDeathTest (1097 ms total)
+
+[----------] 4 tests from MremapTest
+[ RUN      ] MremapTest.InPlace_Copy
+[       OK ] MremapTest.InPlace_Copy (0 ms)
+[ RUN      ] MremapTest.MayMove_Copy
+[       OK ] MremapTest.MayMove_Copy (0 ms)
+[ RUN      ] MremapTest.MustMove_Copy
+[       OK ] MremapTest.MustMove_Copy (0 ms)
+[ RUN      ] MremapTest.ExpansionPreservesCOWPagesAndExposesNewFilePages
+[       OK ] MremapTest.ExpansionPreservesCOWPagesAndExposesNewFilePages (1 ms)
+[----------] 4 tests from MremapTest (1 ms total)
+
+[----------] 28 tests from PrivateShared/MremapParamTest
+[ RUN      ] PrivateShared/MremapParamTest.Noop/0
+[       OK ] PrivateShared/MremapParamTest.Noop/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Noop/1
+[       OK ] PrivateShared/MremapParamTest.Noop/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ShrinkingWholeVMA/0
+[       OK ] PrivateShared/MremapParamTest.InPlace_ShrinkingWholeVMA/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ShrinkingWholeVMA/1
+[       OK ] PrivateShared/MremapParamTest.InPlace_ShrinkingWholeVMA/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ShrinkingPartialVMA/0
+[       OK ] PrivateShared/MremapParamTest.InPlace_ShrinkingPartialVMA/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ShrinkingPartialVMA/1
+[       OK ] PrivateShared/MremapParamTest.InPlace_ShrinkingPartialVMA/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ShrinkingAcrossVMAs/0
+[       OK ] PrivateShared/MremapParamTest.InPlace_ShrinkingAcrossVMAs/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ShrinkingAcrossVMAs/1
+[       OK ] PrivateShared/MremapParamTest.InPlace_ShrinkingAcrossVMAs/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ExpansionSuccess/0
+[       OK ] PrivateShared/MremapParamTest.InPlace_ExpansionSuccess/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ExpansionSuccess/1
+[       OK ] PrivateShared/MremapParamTest.InPlace_ExpansionSuccess/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ExpansionFailure/0
+[       OK ] PrivateShared/MremapParamTest.InPlace_ExpansionFailure/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.InPlace_ExpansionFailure/1
+[       OK ] PrivateShared/MremapParamTest.InPlace_ExpansionFailure/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.MayMove_Expansion/0
+[       OK ] PrivateShared/MremapParamTest.MayMove_Expansion/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.MayMove_Expansion/1
+[       OK ] PrivateShared/MremapParamTest.MayMove_Expansion/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_SourceAndDestinationCannotOverlap/0
+[       OK ] PrivateShared/MremapParamTest.Fixed_SourceAndDestinationCannotOverlap/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_SourceAndDestinationCannotOverlap/1
+[       OK ] PrivateShared/MremapParamTest.Fixed_SourceAndDestinationCannotOverlap/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_SameSize/0
+[       OK ] PrivateShared/MremapParamTest.Fixed_SameSize/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_SameSize/1
+[       OK ] PrivateShared/MremapParamTest.Fixed_SameSize/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_SameSize_Unmapping/0
+[       OK ] PrivateShared/MremapParamTest.Fixed_SameSize_Unmapping/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_SameSize_Unmapping/1
+[       OK ] PrivateShared/MremapParamTest.Fixed_SameSize_Unmapping/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_ShrinkingWholeVMA/0
+[       OK ] PrivateShared/MremapParamTest.Fixed_ShrinkingWholeVMA/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_ShrinkingWholeVMA/1
+[       OK ] PrivateShared/MremapParamTest.Fixed_ShrinkingWholeVMA/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_ShrinkingPartialVMA/0
+[       OK ] PrivateShared/MremapParamTest.Fixed_ShrinkingPartialVMA/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_ShrinkingPartialVMA/1
+[       OK ] PrivateShared/MremapParamTest.Fixed_ShrinkingPartialVMA/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_ShrinkingAcrossVMAs/0
+[       OK ] PrivateShared/MremapParamTest.Fixed_ShrinkingAcrossVMAs/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_ShrinkingAcrossVMAs/1
+[       OK ] PrivateShared/MremapParamTest.Fixed_ShrinkingAcrossVMAs/1 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_Expansion/0
+[       OK ] PrivateShared/MremapParamTest.Fixed_Expansion/0 (0 ms)
+[ RUN      ] PrivateShared/MremapParamTest.Fixed_Expansion/1
+[       OK ] PrivateShared/MremapParamTest.Fixed_Expansion/1 (0 ms)
+[----------] 28 tests from PrivateShared/MremapParamTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 33 tests from 3 test suites ran. (1106 ms total)
+[  PASSED  ] 33 tests.
+Failed to match any benchmarks against regex: .
