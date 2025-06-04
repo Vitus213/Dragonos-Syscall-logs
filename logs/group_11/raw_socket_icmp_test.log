@@ -1,0 +1,136 @@
+[==========] Running 20 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 13 tests from RawSocketICMPTest
+[ RUN      ] RawSocketICMPTest.IPv6ChecksumNotSupported
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.IPv6ChecksumNotSupported (0 ms)
+[ RUN      ] RawSocketICMPTest.ICMPv6FilterNotSupported
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.ICMPv6FilterNotSupported (0 ms)
+[ RUN      ] RawSocketICMPTest.SendAndReceiveBadChecksum
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.SendAndReceiveBadChecksum (0 ms)
+[ RUN      ] RawSocketICMPTest.SendAndReceive
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.SendAndReceive (0 ms)
+[ RUN      ] RawSocketICMPTest.MultipleSocketReceive
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.MultipleSocketReceive (0 ms)
+[ RUN      ] RawSocketICMPTest.RawAndPingSockets
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.RawAndPingSockets (0 ms)
+[ RUN      ] RawSocketICMPTest.ShortEchoRawAndPingSockets
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.ShortEchoRawAndPingSockets (0 ms)
+[ RUN      ] RawSocketICMPTest.ShortEchoReplyRawAndPingSockets
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.ShortEchoReplyRawAndPingSockets (0 ms)
+[ RUN      ] RawSocketICMPTest.SendAndReceiveViaConnect
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.SendAndReceiveViaConnect (0 ms)
+[ RUN      ] RawSocketICMPTest.BindSendAndReceive
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.BindSendAndReceive (0 ms)
+[ RUN      ] RawSocketICMPTest.BindConnectSendAndReceive
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.BindConnectSendAndReceive (0 ms)
+[ RUN      ] RawSocketICMPTest.SetAndGetSocketLinger
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.SetAndGetSocketLinger (0 ms)
+[ RUN      ] RawSocketICMPTest.GetSocketAcceptConn
+test/syscalls/linux/raw_socket_icmp.cc:92: Skipped
+
+
+[  SKIPPED ] RawSocketICMPTest.GetSocketAcceptConn (0 ms)
+[----------] 13 tests from RawSocketICMPTest (0 ms total)
+
+[----------] 5 tests from RawSocketICMPv6Test
+[ RUN      ] RawSocketICMPv6Test.InitialFilterPassesAll
+test/syscalls/linux/raw_socket_icmp.cc:593: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] RawSocketICMPv6Test.InitialFilterPassesAll (0 ms)
+[ RUN      ] RawSocketICMPv6Test.GetPartialFilterSucceeds
+test/syscalls/linux/raw_socket_icmp.cc:593: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] RawSocketICMPv6Test.GetPartialFilterSucceeds (0 ms)
+[ RUN      ] RawSocketICMPv6Test.SetSockOptIPv6ChecksumFails
+test/syscalls/linux/raw_socket_icmp.cc:593: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] RawSocketICMPv6Test.SetSockOptIPv6ChecksumFails (0 ms)
+[ RUN      ] RawSocketICMPv6Test.MsgTooSmallToFillChecksumFailsSend
+test/syscalls/linux/raw_socket_icmp.cc:593: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] RawSocketICMPv6Test.MsgTooSmallToFillChecksumFailsSend (0 ms)
+[ RUN      ] RawSocketICMPv6Test.PingSuccessfully
+test/syscalls/linux/raw_socket_icmp.cc:593: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] RawSocketICMPv6Test.PingSuccessfully (0 ms)
+[----------] 5 tests from RawSocketICMPv6Test (0 ms total)
+
+[----------] 2 tests from AllRawSocketTests/RawSocketICMPv6TypeTest
+[ RUN      ] AllRawSocketTests/RawSocketICMPv6TypeTest.FilterDeliveredPackets/0
+test/syscalls/linux/raw_socket_icmp.cc:593: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] AllRawSocketTests/RawSocketICMPv6TypeTest.FilterDeliveredPackets/0 (0 ms)
+[ RUN      ] AllRawSocketTests/RawSocketICMPv6TypeTest.FilterDeliveredPackets/1
+test/syscalls/linux/raw_socket_icmp.cc:593: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveRawIPSocketCapability())
+
+[  SKIPPED ] AllRawSocketTests/RawSocketICMPv6TypeTest.FilterDeliveredPackets/1 (0 ms)
+[----------] 2 tests from AllRawSocketTests/RawSocketICMPv6TypeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 3 test suites ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 20 tests, listed below:
+[  SKIPPED ] RawSocketICMPTest.IPv6ChecksumNotSupported
+[  SKIPPED ] RawSocketICMPTest.ICMPv6FilterNotSupported
+[  SKIPPED ] RawSocketICMPTest.SendAndReceiveBadChecksum
+[  SKIPPED ] RawSocketICMPTest.SendAndReceive
+[  SKIPPED ] RawSocketICMPTest.MultipleSocketReceive
+[  SKIPPED ] RawSocketICMPTest.RawAndPingSockets
+[  SKIPPED ] RawSocketICMPTest.ShortEchoRawAndPingSockets
+[  SKIPPED ] RawSocketICMPTest.ShortEchoReplyRawAndPingSockets
+[  SKIPPED ] RawSocketICMPTest.SendAndReceiveViaConnect
+[  SKIPPED ] RawSocketICMPTest.BindSendAndReceive
+[  SKIPPED ] RawSocketICMPTest.BindConnectSendAndReceive
+[  SKIPPED ] RawSocketICMPTest.SetAndGetSocketLinger
+[  SKIPPED ] RawSocketICMPTest.GetSocketAcceptConn
+[  SKIPPED ] RawSocketICMPv6Test.InitialFilterPassesAll
+[  SKIPPED ] RawSocketICMPv6Test.GetPartialFilterSucceeds
+[  SKIPPED ] RawSocketICMPv6Test.SetSockOptIPv6ChecksumFails
+[  SKIPPED ] RawSocketICMPv6Test.MsgTooSmallToFillChecksumFailsSend
+[  SKIPPED ] RawSocketICMPv6Test.PingSuccessfully
+[  SKIPPED ] AllRawSocketTests/RawSocketICMPv6TypeTest.FilterDeliveredPackets/0
+[  SKIPPED ] AllRawSocketTests/RawSocketICMPv6TypeTest.FilterDeliveredPackets/1
+Failed to match any benchmarks against regex: .

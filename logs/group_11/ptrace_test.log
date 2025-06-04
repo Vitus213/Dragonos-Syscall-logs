@@ -1,0 +1,57 @@
+[==========] Running 33 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 31 tests from PtraceTest
+[ RUN      ] PtraceTest.AttachSelf
+[       OK ] PtraceTest.AttachSelf (0 ms)
+[ RUN      ] PtraceTest.AttachSameThreadGroup
+[       OK ] PtraceTest.AttachSameThreadGroup (0 ms)
+[ RUN      ] PtraceTest.TraceParentNotAllowed
+[       OK ] PtraceTest.TraceParentNotAllowed (0 ms)
+[ RUN      ] PtraceTest.TraceNonDescendantNotAllowed
+[       OK ] PtraceTest.TraceNonDescendantNotAllowed (0 ms)
+[ RUN      ] PtraceTest.TraceNonDescendantWithCapabilityAllowed
+test/syscalls/linux/ptrace.cc:302: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_PTRACE))
+
+[  SKIPPED ] PtraceTest.TraceNonDescendantWithCapabilityAllowed (0 ms)
+[ RUN      ] PtraceTest.TraceDescendantsAllowed
+[       OK ] PtraceTest.TraceDescendantsAllowed (2 ms)
+[ RUN      ] PtraceTest.PrctlSetPtracerInvalidPID
+[       OK ] PtraceTest.PrctlSetPtracerInvalidPID (0 ms)
+[ RUN      ] PtraceTest.PrctlSetPtracer
+[       OK ] PtraceTest.PrctlSetPtracer (2 ms)
+[ RUN      ] PtraceTest.PrctlSetPtracerPersistsPastTraceeThreadExit
+[       OK ] PtraceTest.PrctlSetPtracerPersistsPastTraceeThreadExit (1 ms)
+[ RUN      ] PtraceTest.PrctlSetPtracerPersistsPastLeaderExec
+[       OK ] PtraceTest.PrctlSetPtracerPersistsPastLeaderExec (1 ms)
+[ RUN      ] PtraceTest.PrctlSetPtracerDoesNotPersistPastNonLeaderExec
+[       OK ] PtraceTest.PrctlSetPtracerDoesNotPersistPastNonLeaderExec (3 ms)
+[ RUN      ] PtraceTest.PrctlSetPtracerDoesNotPersistPastTracerThreadExit
+[       OK ] PtraceTest.PrctlSetPtracerDoesNotPersistPastTracerThreadExit (102 ms)
+[ RUN      ] PtraceTest.PrctlSetPtracerRespectsTracerThreadID
+[       OK ] PtraceTest.PrctlSetPtracerRespectsTracerThreadID (5 ms)
+[ RUN      ] PtraceTest.PrctlClearPtracerDoesNotAffectCurrentTracer
+[       OK ] PtraceTest.PrctlClearPtracerDoesNotAffectCurrentTracer (0 ms)
+[ RUN      ] PtraceTest.PrctlNotInherited
+[       OK ] PtraceTest.PrctlNotInherited (0 ms)
+[ RUN      ] PtraceTest.AttachParent_PeekData_PokeData_SignalSuppression
+[       OK ] PtraceTest.AttachParent_PeekData_PokeData_SignalSuppression (1 ms)
+[ RUN      ] PtraceTest.GetSigMask
+[       OK ] PtraceTest.GetSigMask (0 ms)
+[ RUN      ] PtraceTest.GetSiginfo_SetSiginfo_SignalInjection
+[       OK ] PtraceTest.GetSiginfo_SetSiginfo_SignalInjection (0 ms)
+[ RUN      ] PtraceTest.SIGKILLDoesNotCauseSignalDeliveryStop
+[       OK ] PtraceTest.SIGKILLDoesNotCauseSignalDeliveryStop (0 ms)
+[ RUN      ] PtraceTest.PtraceKill
+[       OK ] PtraceTest.PtraceKill (0 ms)
+[ RUN      ] PtraceTest.GetRegSet
+[       OK ] PtraceTest.GetRegSet (0 ms)
+[ RUN      ] PtraceTest.ChangeRegSetInOptSyscall
+[       OK ] PtraceTest.ChangeRegSetInOptSyscall (0 ms)
+[ RUN      ] PtraceTest.AttachingConvertsGroupStopToPtraceStop
+[       OK ] PtraceTest.AttachingConvertsGroupStopToPtraceStop (0 ms)
+[ RUN      ] PtraceTest.ExitWhenParentIsNotTracer_Syscall_TraceVfork_TraceVforkDone
+[       OK ] PtraceTest.ExitWhenParentIsNotTracer_Syscall_TraceVfork_TraceVforkDone (2001 ms)
+[ RUN      ] PtraceTest.Int3
+GVISOR_PLATFORM_SUPPORT variable undefined
+Check failed: false

@@ -1,0 +1,57 @@
+[==========] Running 14 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 10 tests from All/ProcSelfUidGidMapTest
+[ RUN      ] All/ProcSelfUidGidMapTest.IsInitiallyEmpty/UID
+[       OK ] All/ProcSelfUidGidMapTest.IsInitiallyEmpty/UID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.IsInitiallyEmpty/GID
+[       OK ] All/ProcSelfUidGidMapTest.IsInitiallyEmpty/GID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.IdentityMapOwnID/UID
+[       OK ] All/ProcSelfUidGidMapTest.IdentityMapOwnID/UID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.IdentityMapOwnID/GID
+[       OK ] All/ProcSelfUidGidMapTest.IdentityMapOwnID/GID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.TrailingNewlineAndNULIgnored/UID
+[       OK ] All/ProcSelfUidGidMapTest.TrailingNewlineAndNULIgnored/UID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.TrailingNewlineAndNULIgnored/GID
+[       OK ] All/ProcSelfUidGidMapTest.TrailingNewlineAndNULIgnored/GID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.NonIdentityMapOwnID/UID
+[       OK ] All/ProcSelfUidGidMapTest.NonIdentityMapOwnID/UID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.NonIdentityMapOwnID/GID
+[       OK ] All/ProcSelfUidGidMapTest.NonIdentityMapOwnID/GID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.MapOtherID/UID
+[       OK ] All/ProcSelfUidGidMapTest.MapOtherID/UID (0 ms)
+[ RUN      ] All/ProcSelfUidGidMapTest.MapOtherID/GID
+[       OK ] All/ProcSelfUidGidMapTest.MapOtherID/GID (0 ms)
+[----------] 10 tests from All/ProcSelfUidGidMapTest (4 ms total)
+
+[----------] 4 tests from All/ProcPidUidGidMapTest
+[ RUN      ] All/ProcPidUidGidMapTest.MapOtherIDPrivileged/UID
+test/syscalls/linux/proc_pid_uid_gid_map.cc:267: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveSetIDCapability())
+
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapOtherIDPrivileged/UID (0 ms)
+[ RUN      ] All/ProcPidUidGidMapTest.MapOtherIDPrivileged/GID
+test/syscalls/linux/proc_pid_uid_gid_map.cc:267: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveSetIDCapability())
+
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapOtherIDPrivileged/GID (0 ms)
+[ RUN      ] All/ProcPidUidGidMapTest.MapAnyIDsPrivileged/UID
+test/syscalls/linux/proc_pid_uid_gid_map.cc:286: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveSetIDCapability())
+
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapAnyIDsPrivileged/UID (0 ms)
+[ RUN      ] All/ProcPidUidGidMapTest.MapAnyIDsPrivileged/GID
+test/syscalls/linux/proc_pid_uid_gid_map.cc:286: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveSetIDCapability())
+
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapAnyIDsPrivileged/GID (0 ms)
+[----------] 4 tests from All/ProcPidUidGidMapTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 2 test suites ran. (5 ms total)
+[  PASSED  ] 10 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapOtherIDPrivileged/UID
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapOtherIDPrivileged/GID
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapAnyIDsPrivileged/UID
+[  SKIPPED ] All/ProcPidUidGidMapTest.MapAnyIDsPrivileged/GID
+Failed to match any benchmarks against regex: .

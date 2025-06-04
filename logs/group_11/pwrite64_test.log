@@ -1,0 +1,17 @@
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from Pwrite64
+[ RUN      ] Pwrite64.AppendOnly
+[       OK ] Pwrite64.AppendOnly (0 ms)
+[ RUN      ] Pwrite64.InvalidArgs
+[       OK ] Pwrite64.InvalidArgs (0 ms)
+[ RUN      ] Pwrite64.Overflow
+[       OK ] Pwrite64.Overflow (0 ms)
+[ RUN      ] Pwrite64.Pwrite64WithOpath
+[       OK ] Pwrite64.Pwrite64WithOpath (0 ms)
+[----------] 4 tests from Pwrite64 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 4 tests.
+Failed to match any benchmarks against regex: .

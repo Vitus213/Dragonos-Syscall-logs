@@ -1,0 +1,100 @@
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from RawHDRINCL
+[ RUN      ] RawHDRINCL.MultipleCreation
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.MultipleCreation (0 ms)
+[ RUN      ] RawHDRINCL.FailShutdownWithoutConnect
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.FailShutdownWithoutConnect (0 ms)
+[ RUN      ] RawHDRINCL.FailListen
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.FailListen (0 ms)
+[ RUN      ] RawHDRINCL.FailAccept
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.FailAccept (0 ms)
+[ RUN      ] RawHDRINCL.PollWritableImmediately
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.PollWritableImmediately (0 ms)
+[ RUN      ] RawHDRINCL.NotReadable
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.NotReadable (0 ms)
+[ RUN      ] RawHDRINCL.ConnectToLoopback
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.ConnectToLoopback (0 ms)
+[ RUN      ] RawHDRINCL.SendWithoutConnectFails
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.SendWithoutConnectFails (0 ms)
+[ RUN      ] RawHDRINCL.NotReadableAfterWrite
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.NotReadableAfterWrite (0 ms)
+[ RUN      ] RawHDRINCL.WriteTooSmall
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.WriteTooSmall (0 ms)
+[ RUN      ] RawHDRINCL.BindToLocalhost
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.BindToLocalhost (0 ms)
+[ RUN      ] RawHDRINCL.BindToInvalid
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.BindToInvalid (0 ms)
+[ RUN      ] RawHDRINCL.SendAndReceive
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.SendAndReceive (0 ms)
+[ RUN      ] RawHDRINCL.SendAndReceiveDifferentAddress
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.SendAndReceiveDifferentAddress (0 ms)
+[ RUN      ] RawHDRINCL.SendAndReceiveIPHdrIncl
+test/syscalls/linux/raw_socket_hdrincl.cc:68: Skipped
+
+
+[  SKIPPED ] RawHDRINCL.SendAndReceiveIPHdrIncl (0 ms)
+[----------] 15 tests from RawHDRINCL (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 15 tests, listed below:
+[  SKIPPED ] RawHDRINCL.MultipleCreation
+[  SKIPPED ] RawHDRINCL.FailShutdownWithoutConnect
+[  SKIPPED ] RawHDRINCL.FailListen
+[  SKIPPED ] RawHDRINCL.FailAccept
+[  SKIPPED ] RawHDRINCL.PollWritableImmediately
+[  SKIPPED ] RawHDRINCL.NotReadable
+[  SKIPPED ] RawHDRINCL.ConnectToLoopback
+[  SKIPPED ] RawHDRINCL.SendWithoutConnectFails
+[  SKIPPED ] RawHDRINCL.NotReadableAfterWrite
+[  SKIPPED ] RawHDRINCL.WriteTooSmall
+[  SKIPPED ] RawHDRINCL.BindToLocalhost
+[  SKIPPED ] RawHDRINCL.BindToInvalid
+[  SKIPPED ] RawHDRINCL.SendAndReceive
+[  SKIPPED ] RawHDRINCL.SendAndReceiveDifferentAddress
+[  SKIPPED ] RawHDRINCL.SendAndReceiveIPHdrIncl
+Failed to match any benchmarks against regex: .

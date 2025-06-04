@@ -1,0 +1,31 @@
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from PselectTest
+[ RUN      ] PselectTest.NullFds
+[       OK ] PselectTest.NullFds (20 ms)
+[ RUN      ] PselectTest.ClosedFds
+[       OK ] PselectTest.ClosedFds (0 ms)
+[ RUN      ] PselectTest.ZeroTimeout
+[       OK ] PselectTest.ZeroTimeout (0 ms)
+[ RUN      ] PselectTest.NoTimeout
+[       OK ] PselectTest.NoTimeout (100 ms)
+[ RUN      ] PselectTest.InvalidTimeoutNegative
+[       OK ] PselectTest.InvalidTimeoutNegative (0 ms)
+[ RUN      ] PselectTest.InvalidTimeoutNotNormalized
+[       OK ] PselectTest.InvalidTimeoutNotNormalized (0 ms)
+[ RUN      ] PselectTest.EmptySigMaskInvalidMaskSize
+[       OK ] PselectTest.EmptySigMaskInvalidMaskSize (0 ms)
+[ RUN      ] PselectTest.EmptySigMaskValidMaskSize
+[       OK ] PselectTest.EmptySigMaskValidMaskSize (0 ms)
+[ RUN      ] PselectTest.InvalidMaskSize
+[       OK ] PselectTest.InvalidMaskSize (0 ms)
+[ RUN      ] PselectTest.SignalMaskBlocksSignal
+[       OK ] PselectTest.SignalMaskBlocksSignal (30024 ms)
+[ RUN      ] PselectTest.SignalMaskAllowsSignal
+[       OK ] PselectTest.SignalMaskAllowsSignal (10000 ms)
+[----------] 11 tests from PselectTest (40145 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (40145 ms total)
+[  PASSED  ] 11 tests.
+Failed to match any benchmarks against regex: .

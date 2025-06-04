@@ -1,0 +1,203 @@
+[==========] Running 84 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from PtyTrunc
+[ RUN      ] PtyTrunc.Truncate
+[       OK ] PtyTrunc.Truncate (0 ms)
+[----------] 1 test from PtyTrunc (0 ms total)
+
+[----------] 11 tests from BasicPtyTest
+[ RUN      ] BasicPtyTest.StatUnopenedMaster
+[       OK ] BasicPtyTest.StatUnopenedMaster (0 ms)
+[ RUN      ] BasicPtyTest.OpenMasterReplica
+[       OK ] BasicPtyTest.OpenMasterReplica (0 ms)
+[ RUN      ] BasicPtyTest.OpenSetsControllingTTY
+[       OK ] BasicPtyTest.OpenSetsControllingTTY (0 ms)
+[ RUN      ] BasicPtyTest.OpenMasterDoesNotSetsControllingTTY
+[       OK ] BasicPtyTest.OpenMasterDoesNotSetsControllingTTY (0 ms)
+[ RUN      ] BasicPtyTest.OpenNOCTTY
+[       OK ] BasicPtyTest.OpenNOCTTY (0 ms)
+[ RUN      ] BasicPtyTest.ReplicaEntryGoneAfterMasterClose
+[       OK ] BasicPtyTest.ReplicaEntryGoneAfterMasterClose (0 ms)
+[ RUN      ] BasicPtyTest.Getdents
+[       OK ] BasicPtyTest.Getdents (0 ms)
+[ RUN      ] BasicPtyTest.NewInstance
+test/syscalls/linux/pty.cc:605: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] BasicPtyTest.NewInstance (0 ms)
+[ RUN      ] BasicPtyTest.SetMode
+test/syscalls/linux/pty.cc:627: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] BasicPtyTest.SetMode (0 ms)
+[ RUN      ] BasicPtyTest.OpenDevTTY
+test/syscalls/linux/pty.cc:645: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] BasicPtyTest.OpenDevTTY (0 ms)
+[ RUN      ] BasicPtyTest.OpenDevTTYNoCTTY
+[       OK ] BasicPtyTest.OpenDevTTYNoCTTY (0 ms)
+[----------] 11 tests from BasicPtyTest (0 ms total)
+
+[----------] 47 tests from PtyTest
+[ RUN      ] PtyTest.ReplicaCloseNotify
+[       OK ] PtyTest.ReplicaCloseNotify (200 ms)
+[ RUN      ] PtyTest.WriteMasterToReplica
+[       OK ] PtyTest.WriteMasterToReplica (0 ms)
+[ RUN      ] PtyTest.WriteReplicaToMaster
+[       OK ] PtyTest.WriteReplicaToMaster (0 ms)
+[ RUN      ] PtyTest.WriteReplicaToMasterReadAfterReplicaClosed
+[       OK ] PtyTest.WriteReplicaToMasterReadAfterReplicaClosed (0 ms)
+[ RUN      ] PtyTest.WriteInvalidUTF8
+[       OK ] PtyTest.WriteInvalidUTF8 (0 ms)
+[ RUN      ] PtyTest.DefaultTermios
+[       OK ] PtyTest.DefaultTermios (0 ms)
+[ RUN      ] PtyTest.TermiosAffectsReplica
+[       OK ] PtyTest.TermiosAffectsReplica (0 ms)
+[ RUN      ] PtyTest.MasterTermiosUnchangable
+[       OK ] PtyTest.MasterTermiosUnchangable (0 ms)
+[ RUN      ] PtyTest.TermiosICRNL
+[       OK ] PtyTest.TermiosICRNL (0 ms)
+[ RUN      ] PtyTest.TermiosONLCR
+[       OK ] PtyTest.TermiosONLCR (0 ms)
+[ RUN      ] PtyTest.TCSETSFTermiosICRNL
+[       OK ] PtyTest.TCSETSFTermiosICRNL (0 ms)
+[ RUN      ] PtyTest.TCSETSFTermiosONLCR
+[       OK ] PtyTest.TCSETSFTermiosONLCR (0 ms)
+[ RUN      ] PtyTest.TermiosIGNCR
+[       OK ] PtyTest.TermiosIGNCR (2000 ms)
+[ RUN      ] PtyTest.TermiosPollReplica
+[       OK ] PtyTest.TermiosPollReplica (1000 ms)
+[ RUN      ] PtyTest.TermiosPollMaster
+[       OK ] PtyTest.TermiosPollMaster (1003 ms)
+[ RUN      ] PtyTest.TermiosINLCR
+[       OK ] PtyTest.TermiosINLCR (0 ms)
+[ RUN      ] PtyTest.TermiosONOCR
+[       OK ] PtyTest.TermiosONOCR (4001 ms)
+[ RUN      ] PtyTest.TermiosOCRNL
+[       OK ] PtyTest.TermiosOCRNL (0 ms)
+[ RUN      ] PtyTest.VEOLTermination
+[       OK ] PtyTest.VEOLTermination (2001 ms)
+[ RUN      ] PtyTest.CanonInputBackspace
+[       OK ] PtyTest.CanonInputBackspace (500 ms)
+[ RUN      ] PtyTest.CanonInputBackspaceMultibyteCharacterWithIUTF8
+[       OK ] PtyTest.CanonInputBackspaceMultibyteCharacterWithIUTF8 (500 ms)
+[ RUN      ] PtyTest.CanonInputBackspaceMultibyteCharacterWithoutIUTF8
+[       OK ] PtyTest.CanonInputBackspaceMultibyteCharacterWithoutIUTF8 (500 ms)
+[ RUN      ] PtyTest.CanonInputBackspaceMultibyteCharacterPartialWithIUTF8
+[       OK ] PtyTest.CanonInputBackspaceMultibyteCharacterPartialWithIUTF8 (500 ms)
+[ RUN      ] PtyTest.CanonInputBackspaceMultibyteCharacterPartialWithoutIUTF8
+[       OK ] PtyTest.CanonInputBackspaceMultibyteCharacterPartialWithoutIUTF8 (500 ms)
+[ RUN      ] PtyTest.CanonInputWordErase
+[       OK ] PtyTest.CanonInputWordErase (0 ms)
+[ RUN      ] PtyTest.CanonBigWrite
+[       OK ] PtyTest.CanonBigWrite (0 ms)
+[ RUN      ] PtyTest.SwitchCanonToNoncanon
+[       OK ] PtyTest.SwitchCanonToNoncanon (2000 ms)
+[ RUN      ] PtyTest.SwitchCanonToNonCanonNewline
+[       OK ] PtyTest.SwitchCanonToNonCanonNewline (0 ms)
+[ RUN      ] PtyTest.SwitchNoncanonToCanonNewlineBig
+[       OK ] PtyTest.SwitchNoncanonToCanonNewlineBig (1 ms)
+[ RUN      ] PtyTest.SwitchNoncanonToCanonNoNewline
+[       OK ] PtyTest.SwitchNoncanonToCanonNoNewline (0 ms)
+[ RUN      ] PtyTest.SwitchNoncanonToCanonNoNewlineBig
+[       OK ] PtyTest.SwitchNoncanonToCanonNoNewlineBig (1 ms)
+[ RUN      ] PtyTest.SwitchCanonToNoncanonEmptyInput
+[       OK ] PtyTest.SwitchCanonToNoncanonEmptyInput (2000 ms)
+[ RUN      ] PtyTest.NoncanonBigWrite
+[       OK ] PtyTest.NoncanonBigWrite (39 ms)
+[ RUN      ] PtyTest.TermiosICANONNewline
+[       OK ] PtyTest.TermiosICANONNewline (2001 ms)
+[ RUN      ] PtyTest.TermiosICANONEOF
+[       OK ] PtyTest.TermiosICANONEOF (2000 ms)
+[ RUN      ] PtyTest.CanonDiscard
+[       OK ] PtyTest.CanonDiscard (25 ms)
+[ RUN      ] PtyTest.CanonMultiline
+[       OK ] PtyTest.CanonMultiline (0 ms)
+[ RUN      ] PtyTest.SwitchNoncanonToCanonMultiline
+[       OK ] PtyTest.SwitchNoncanonToCanonMultiline (0 ms)
+[ RUN      ] PtyTest.SwitchTwiceMultiline
+[       OK ] PtyTest.SwitchTwiceMultiline (0 ms)
+[ RUN      ] PtyTest.QueueSize
+[       OK ] PtyTest.QueueSize (501 ms)
+[ RUN      ] PtyTest.PartialBadBuffer
+[       OK ] PtyTest.PartialBadBuffer (0 ms)
+[ RUN      ] PtyTest.ReplicaWriteNothingCanonical
+[       OK ] PtyTest.ReplicaWriteNothingCanonical (0 ms)
+[ RUN      ] PtyTest.ReplicaWriteNothingNonCanonical
+[       OK ] PtyTest.ReplicaWriteNothingNonCanonical (0 ms)
+[ RUN      ] PtyTest.SimpleEcho
+[       OK ] PtyTest.SimpleEcho (0 ms)
+[ RUN      ] PtyTest.GetWindowSize
+[       OK ] PtyTest.GetWindowSize (0 ms)
+[ RUN      ] PtyTest.SetReplicaWindowSize
+[       OK ] PtyTest.SetReplicaWindowSize (0 ms)
+[ RUN      ] PtyTest.SetMasterWindowSize
+[       OK ] PtyTest.SetMasterWindowSize (0 ms)
+[----------] 47 tests from PtyTest (21287 ms total)
+
+[----------] 25 tests from JobControlTest
+[ RUN      ] JobControlTest.SetTTYMaster
+[       OK ] JobControlTest.SetTTYMaster (0 ms)
+[ RUN      ] JobControlTest.SetTTY
+[       OK ] JobControlTest.SetTTY (0 ms)
+[ RUN      ] JobControlTest.SetTTYNonLeader
+[       OK ] JobControlTest.SetTTYNonLeader (0 ms)
+[ RUN      ] JobControlTest.SetTTYBadArg
+test/syscalls/linux/pty.cc:1718: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] JobControlTest.SetTTYBadArg (0 ms)
+[ RUN      ] JobControlTest.SetTTYDifferentSession
+[       OK ] JobControlTest.SetTTYDifferentSession (0 ms)
+[ RUN      ] JobControlTest.ReleaseTTY
+[       OK ] JobControlTest.ReleaseTTY (0 ms)
+[ RUN      ] JobControlTest.ReleaseUnsetTTY
+[       OK ] JobControlTest.ReleaseUnsetTTY (0 ms)
+[ RUN      ] JobControlTest.ReleaseWrongTTY
+[       OK ] JobControlTest.ReleaseWrongTTY (0 ms)
+[ RUN      ] JobControlTest.ReleaseTTYNonLeader
+[       OK ] JobControlTest.ReleaseTTYNonLeader (0 ms)
+[ RUN      ] JobControlTest.ReleaseTTYDifferentSession
+[       OK ] JobControlTest.ReleaseTTYDifferentSession (0 ms)
+[ RUN      ] JobControlTest.ReleaseTTYSignals
+[       OK ] JobControlTest.ReleaseTTYSignals (0 ms)
+[ RUN      ] JobControlTest.ControllingProcessPersistsAfterChildExists
+[       OK ] JobControlTest.ControllingProcessPersistsAfterChildExists (1000 ms)
+[ RUN      ] JobControlTest.GetForegroundProcessGroup
+[       OK ] JobControlTest.GetForegroundProcessGroup (0 ms)
+[ RUN      ] JobControlTest.GetForegroundProcessGroupNonControlling
+[       OK ] JobControlTest.GetForegroundProcessGroupNonControlling (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroup
+[       OK ] JobControlTest.SetForegroundProcessGroup (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroupSIGTTOUBackground
+[       OK ] JobControlTest.SetForegroundProcessGroupSIGTTOUBackground (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroupSIGTTOUIgnored
+[       OK ] JobControlTest.SetForegroundProcessGroupSIGTTOUIgnored (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroupSIGTTOUBlocked
+[       OK ] JobControlTest.SetForegroundProcessGroupSIGTTOUBlocked (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroupWrongTTY
+[       OK ] JobControlTest.SetForegroundProcessGroupWrongTTY (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroupNegPgid
+[       OK ] JobControlTest.SetForegroundProcessGroupNegPgid (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroupEmptyProcessGroup
+[       OK ] JobControlTest.SetForegroundProcessGroupEmptyProcessGroup (0 ms)
+[ RUN      ] JobControlTest.SetForegroundProcessGroupDifferentSession
+[       OK ] JobControlTest.SetForegroundProcessGroupDifferentSession (0 ms)
+[ RUN      ] JobControlTest.SetGetSession
+[       OK ] JobControlTest.SetGetSession (0 ms)
+[ RUN      ] JobControlTest.OrphanRegression
+[       OK ] JobControlTest.OrphanRegression (0 ms)
+[ RUN      ] JobControlTest.ReuseControllingTTYAfterExit
+[       OK ] JobControlTest.ReuseControllingTTYAfterExit (0 ms)
+[----------] 25 tests from JobControlTest (1010 ms total)
+
+[----------] Global test environment tear-down
+[==========] 84 tests from 4 test suites ran. (22299 ms total)
+[  PASSED  ] 80 tests.
+[  SKIPPED ] 4 tests, listed below:
+[  SKIPPED ] BasicPtyTest.NewInstance
+[  SKIPPED ] BasicPtyTest.SetMode
+[  SKIPPED ] BasicPtyTest.OpenDevTTY
+[  SKIPPED ] JobControlTest.SetTTYBadArg
+Failed to match any benchmarks against regex: .

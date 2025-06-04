@@ -1,0 +1,16 @@
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from JobControlRootTest
+[ RUN      ] JobControlRootTest.StealTTY
+test/syscalls/linux/pty_root.cc:35: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] JobControlRootTest.StealTTY (0 ms)
+[----------] 1 test from JobControlRootTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] JobControlRootTest.StealTTY
+Failed to match any benchmarks against regex: .

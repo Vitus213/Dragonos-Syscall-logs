@@ -1,0 +1,34 @@
+[==========] Running 11 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from Writev2Test
+[ RUN      ] Writev2Test.BaseCall
+[       OK ] Writev2Test.BaseCall (0 ms)
+[ RUN      ] Writev2Test.BadFile
+[       OK ] Writev2Test.BadFile (0 ms)
+[----------] 2 tests from Writev2Test (0 ms total)
+
+[----------] 9 tests from Pwritev2Test
+[ RUN      ] Pwritev2Test.ValidPositiveOffset
+[       OK ] Pwritev2Test.ValidPositiveOffset (0 ms)
+[ RUN      ] Pwritev2Test.NegativeOneOffset
+[       OK ] Pwritev2Test.NegativeOneOffset (0 ms)
+[ RUN      ] Pwritev2Test.CallWithRWF_HIPRI
+[       OK ] Pwritev2Test.CallWithRWF_HIPRI (0 ms)
+[ RUN      ] Pwritev2Test.InvalidOffset
+[       OK ] Pwritev2Test.InvalidOffset (0 ms)
+[ RUN      ] Pwritev2Test.UnseekableFileValid
+[       OK ] Pwritev2Test.UnseekableFileValid (0 ms)
+[ RUN      ] Pwritev2Test.UnseekableFileInvalid
+[       OK ] Pwritev2Test.UnseekableFileInvalid (0 ms)
+[ RUN      ] Pwritev2Test.ReadOnlyFile
+[       OK ] Pwritev2Test.ReadOnlyFile (0 ms)
+[ RUN      ] Pwritev2Test.Pwritev2WithOpath
+[       OK ] Pwritev2Test.Pwritev2WithOpath (0 ms)
+[ RUN      ] Pwritev2Test.InvalidFlag
+[       OK ] Pwritev2Test.InvalidFlag (0 ms)
+[----------] 9 tests from Pwritev2Test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 2 test suites ran. (2 ms total)
+[  PASSED  ] 11 tests.
+Failed to match any benchmarks against regex: .
