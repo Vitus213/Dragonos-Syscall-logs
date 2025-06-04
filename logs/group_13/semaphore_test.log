@@ -1,0 +1,75 @@
+[==========] Running 29 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 27 tests from SemaphoreTest
+[ RUN      ] SemaphoreTest.SemGet
+[       OK ] SemaphoreTest.SemGet (0 ms)
+[ RUN      ] SemaphoreTest.SemGetSystemLimits
+[       OK ] SemaphoreTest.SemGetSystemLimits (85 ms)
+[ RUN      ] SemaphoreTest.SemOpSingleNoBlock
+[       OK ] SemaphoreTest.SemOpSingleNoBlock (0 ms)
+[ RUN      ] SemaphoreTest.SemTimedOpSingleNoBlock
+[       OK ] SemaphoreTest.SemTimedOpSingleNoBlock (0 ms)
+[ RUN      ] SemaphoreTest.SemOpMultiNoBlock
+[       OK ] SemaphoreTest.SemOpMultiNoBlock (0 ms)
+[ RUN      ] SemaphoreTest.SemOpBlock
+[       OK ] SemaphoreTest.SemOpBlock (100 ms)
+[ RUN      ] SemaphoreTest.SemTimedOpBlock
+[       OK ] SemaphoreTest.SemTimedOpBlock (50 ms)
+[ RUN      ] SemaphoreTest.SemOpNoBlock
+[       OK ] SemaphoreTest.SemOpNoBlock (0 ms)
+[ RUN      ] SemaphoreTest.SemOpSimple
+[       OK ] SemaphoreTest.SemOpSimple (106 ms)
+[ RUN      ] SemaphoreTest.SemOpRemoveWithWaiter
+[       OK ] SemaphoreTest.SemOpRemoveWithWaiter (250 ms)
+[ RUN      ] SemaphoreTest.SemOpBestFitExecution
+[       OK ] SemaphoreTest.SemOpBestFitExecution (100 ms)
+[ RUN      ] SemaphoreTest.SemOpRandom
+[       OK ] SemaphoreTest.SemOpRandom (5661 ms)
+[ RUN      ] SemaphoreTest.SemOpNamespace
+test/syscalls/linux/semaphore.cc:457: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] SemaphoreTest.SemOpNamespace (0 ms)
+[ RUN      ] SemaphoreTest.SemCtlVal
+[       OK ] SemaphoreTest.SemCtlVal (0 ms)
+[ RUN      ] SemaphoreTest.SemCtlValAll
+[       OK ] SemaphoreTest.SemCtlValAll (0 ms)
+[ RUN      ] SemaphoreTest.SemCtlGetPid
+[       OK ] SemaphoreTest.SemCtlGetPid (0 ms)
+[ RUN      ] SemaphoreTest.SemCtlGetPidFork
+[       OK ] SemaphoreTest.SemCtlGetPidFork (0 ms)
+[ RUN      ] SemaphoreTest.SemIpcSet
+[       OK ] SemaphoreTest.SemIpcSet (0 ms)
+[ RUN      ] SemaphoreTest.SemCtlIpcStat
+[       OK ] SemaphoreTest.SemCtlIpcStat (1000 ms)
+[ RUN      ] SemaphoreTest.SemopGetzcnt
+[       OK ] SemaphoreTest.SemopGetzcnt (12 ms)
+[ RUN      ] SemaphoreTest.SemopGetzcntOnSetRemoval
+[       OK ] SemaphoreTest.SemopGetzcntOnSetRemoval (10 ms)
+[ RUN      ] SemaphoreTest.SemopGetzcntOnSignal
+[       OK ] SemaphoreTest.SemopGetzcntOnSignal (10 ms)
+[ RUN      ] SemaphoreTest.SemopGetncnt
+[       OK ] SemaphoreTest.SemopGetncnt (12 ms)
+[ RUN      ] SemaphoreTest.SemopGetncntOnSetRemoval
+[       OK ] SemaphoreTest.SemopGetncntOnSetRemoval (10 ms)
+[ RUN      ] SemaphoreTest.SemopGetncntOnSignal
+[       OK ] SemaphoreTest.SemopGetncntOnSignal (10 ms)
+[ RUN      ] SemaphoreTest.IpcInfo
+[       OK ] SemaphoreTest.IpcInfo (0 ms)
+[ RUN      ] SemaphoreTest.SemInfo
+[       OK ] SemaphoreTest.SemInfo (0 ms)
+[----------] 27 tests from SemaphoreTest (7425 ms total)
+
+[----------] 2 tests from SempahoreTest
+[ RUN      ] SempahoreTest.RemoveNonExistentSemaphore
+[       OK ] SempahoreTest.RemoveNonExistentSemaphore (0 ms)
+[ RUN      ] SempahoreTest.RemoveDeletedSemaphore
+[       OK ] SempahoreTest.RemoveDeletedSemaphore (0 ms)
+[----------] 2 tests from SempahoreTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 29 tests from 2 test suites ran. (7425 ms total)
+[  PASSED  ] 28 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] SemaphoreTest.SemOpNamespace
+Failed to match any benchmarks against regex: .

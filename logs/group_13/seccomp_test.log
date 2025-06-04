@@ -1,0 +1,50 @@
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from SeccompTest
+[ RUN      ] SeccompTest.RetKillCausesDeathBySIGSYS
+[       OK ] SeccompTest.RetKillCausesDeathBySIGSYS (1110 ms)
+[ RUN      ] SeccompTest.RetKillOnlyKillsOneThread
+[       OK ] SeccompTest.RetKillOnlyKillsOneThread (0 ms)
+[ RUN      ] SeccompTest.RetTrapCausesSIGSYS
+[       OK ] SeccompTest.RetTrapCausesSIGSYS (0 ms)
+[ RUN      ] SeccompTest.SeccompAppliesToVsyscall
+line: 6427d7c94000-6427d7ed0000 r-xp 00000000 00:33 521466                     /home/dragonos/Downloads/tmp-syscalltest/seccomp_test
+line: 6427d7ed1000-6427d7ed6000 r--p 0023c000 00:33 521466                     /home/dragonos/Downloads/tmp-syscalltest/seccomp_test
+line: 6427d7ed6000-6427d7ed7000 rw-p 00241000 00:33 521466                     /home/dragonos/Downloads/tmp-syscalltest/seccomp_test
+line: 6427d7ed7000-6427d7eda000 rw-p 00000000 00:00 0 
+line: 6427f7bcc000-6427f7bed000 rw-p 00000000 00:00 0                          [heap]
+line: 71449950f000-714499534000 rw-p 00000000 00:00 0 
+line: 714499534000-71449955c000 r--p 00000000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 71449955c000-7144996e4000 r-xp 00028000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 7144996e4000-714499733000 r--p 001b0000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 714499733000-714499737000 r--p 001fe000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 714499737000-714499739000 rw-p 00202000 00:1c 255950                     /usr/lib/x86_64-linux-gnu/libc.so.6
+line: 714499739000-714499746000 rw-p 00000000 00:00 0 
+line: 714499746000-71449974a000 r--p 00000000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 71449974a000-71449976e000 r-xp 00004000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 71449976e000-714499772000 r--p 00028000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 714499772000-714499773000 r--p 0002b000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 714499773000-714499774000 rw-p 0002c000 00:1c 361522                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+line: 714499774000-714499784000 r--p 00000000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 714499784000-714499803000 r-xp 00010000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 714499803000-71449985b000 r--p 0008f000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 71449985b000-71449985c000 r--p 000e7000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 71449985c000-71449985d000 rw-p 000e8000 00:1c 255956                     /usr/lib/x86_64-linux-gnu/libm.so.6
+line: 71449985d000-7144998fa000 r--p 00000000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 7144998fa000-714499a42000 r-xp 0009d000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 714499a42000-714499ac9000 r--p 001e5000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 714499ac9000-714499ad4000 r--p 0026b000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 714499ad4000-714499ad7000 rw-p 00276000 00:1c 357740                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+line: 714499ad7000-714499adb000 rw-p 00000000 00:00 0 
+line: 714499adf000-714499af1000 rw-p 00000000 00:00 0 
+line: 714499af1000-714499af5000 r--p 00000000 00:00 0                          [vvar]
+line: 714499af5000-714499af7000 r-xp 00000000 00:00 0                          [vdso]
+line: 714499af7000-714499af8000 r--p 00000000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 714499af8000-714499b23000 r-xp 00001000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 714499b23000-714499b2d000 r--p 0002c000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 714499b2d000-714499b2f000 r--p 00036000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 714499b2f000-714499b31000 rw-p 00038000 00:1c 255944                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+line: 7ffca4f10000-7ffca4f32000 rw-p 00000000 00:00 0                          [stack]
+line: ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+GVISOR_PLATFORM_SUPPORT variable undefined
+Check failed: false

@@ -1,0 +1,65 @@
+[==========] Running 24 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from ShmDeathTest
+[ RUN      ] ShmDeathTest.ReadonlySegment
+[       OK ] ShmDeathTest.ReadonlySegment (1102 ms)
+[ RUN      ] ShmDeathTest.SegmentNotAccessibleAfterDetach
+[       OK ] ShmDeathTest.SegmentNotAccessibleAfterDetach (1093 ms)
+[----------] 2 tests from ShmDeathTest (2196 ms total)
+
+[----------] 22 tests from ShmTest
+[ RUN      ] ShmTest.AttachDetach
+[       OK ] ShmTest.AttachDetach (0 ms)
+[ RUN      ] ShmTest.LookupByKey
+[       OK ] ShmTest.LookupByKey (0 ms)
+[ RUN      ] ShmTest.DetachedSegmentsPersist
+[       OK ] ShmTest.DetachedSegmentsPersist (0 ms)
+[ RUN      ] ShmTest.MultipleDetachFails
+[       OK ] ShmTest.MultipleDetachFails (0 ms)
+[ RUN      ] ShmTest.IpcStat
+[       OK ] ShmTest.IpcStat (2001 ms)
+[ RUN      ] ShmTest.ShmStat
+test/syscalls/linux/shm.cc:237: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] ShmTest.ShmStat (0 ms)
+[ RUN      ] ShmTest.IpcInfo
+[       OK ] ShmTest.IpcInfo (0 ms)
+[ RUN      ] ShmTest.ShmInfo
+[       OK ] ShmTest.ShmInfo (0 ms)
+[ RUN      ] ShmTest.ShmCtlSet
+[       OK ] ShmTest.ShmCtlSet (0 ms)
+[ RUN      ] ShmTest.RemovedSegmentsAreMarkedDeleted
+[       OK ] ShmTest.RemovedSegmentsAreMarkedDeleted (0 ms)
+[ RUN      ] ShmTest.RemovedSegmentsAreDestroyed
+[       OK ] ShmTest.RemovedSegmentsAreDestroyed (0 ms)
+[ RUN      ] ShmTest.AllowsAttachToRemovedSegmentWithRefs
+[       OK ] ShmTest.AllowsAttachToRemovedSegmentWithRefs (0 ms)
+[ RUN      ] ShmTest.RemovedSegmentsAreNotDiscoverable
+[       OK ] ShmTest.RemovedSegmentsAreNotDiscoverable (0 ms)
+[ RUN      ] ShmTest.RequestingSegmentSmallerThanSHMMINFails
+[       OK ] ShmTest.RequestingSegmentSmallerThanSHMMINFails (0 ms)
+[ RUN      ] ShmTest.RequestingSegmentLargerThanSHMMAXFails
+[       OK ] ShmTest.RequestingSegmentLargerThanSHMMAXFails (0 ms)
+[ RUN      ] ShmTest.RequestingUnalignedSizeSucceeds
+[       OK ] ShmTest.RequestingUnalignedSizeSucceeds (0 ms)
+[ RUN      ] ShmTest.RequestingDuplicateCreationFails
+[       OK ] ShmTest.RequestingDuplicateCreationFails (0 ms)
+[ RUN      ] ShmTest.NonExistentSegmentsAreNotFound
+[       OK ] ShmTest.NonExistentSegmentsAreNotFound (0 ms)
+[ RUN      ] ShmTest.SegmentsSizeFixedOnCreation
+[       OK ] ShmTest.SegmentsSizeFixedOnCreation (0 ms)
+[ RUN      ] ShmTest.PartialUnmap
+[       OK ] ShmTest.PartialUnmap (0 ms)
+[ RUN      ] ShmTest.GracefullyFailOnZeroLenSegmentCreation
+[       OK ] ShmTest.GracefullyFailOnZeroLenSegmentCreation (0 ms)
+[ RUN      ] ShmTest.NoDestructionOfAttachedSegmentWithMultipleRmid
+[       OK ] ShmTest.NoDestructionOfAttachedSegmentWithMultipleRmid (0 ms)
+[----------] 22 tests from ShmTest (2004 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 2 test suites ran. (4200 ms total)
+[  PASSED  ] 23 tests.
+[  SKIPPED ] 1 test, listed below:
+[  SKIPPED ] ShmTest.ShmStat
+Failed to match any benchmarks against regex: .

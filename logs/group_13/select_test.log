@@ -1,0 +1,27 @@
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from SelectTest
+[ RUN      ] SelectTest.NullFds
+[       OK ] SelectTest.NullFds (20 ms)
+[ RUN      ] SelectTest.NegativeNfds
+[       OK ] SelectTest.NegativeNfds (0 ms)
+[ RUN      ] SelectTest.ClosedFds
+[       OK ] SelectTest.ClosedFds (0 ms)
+[ RUN      ] SelectTest.ZeroTimeout
+[       OK ] SelectTest.ZeroTimeout (0 ms)
+[ RUN      ] SelectTest.NoTimeout
+[       OK ] SelectTest.NoTimeout (100 ms)
+[ RUN      ] SelectTest.InvalidTimeoutNegative
+[       OK ] SelectTest.InvalidTimeoutNegative (0 ms)
+[ RUN      ] SelectTest.InterruptedBySignal
+[       OK ] SelectTest.InterruptedBySignal (100 ms)
+[ RUN      ] SelectTest.IgnoreBitsAboveNfds
+[       OK ] SelectTest.IgnoreBitsAboveNfds (0 ms)
+[ RUN      ] SelectTest.SetrlimitCallNOFILE
+[       OK ] SelectTest.SetrlimitCallNOFILE (0 ms)
+[----------] 9 tests from SelectTest (222 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (222 ms total)
+[  PASSED  ] 9 tests.
+Failed to match any benchmarks against regex: .

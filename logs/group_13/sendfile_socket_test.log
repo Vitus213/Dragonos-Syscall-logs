@@ -1,0 +1,23 @@
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from AddressFamily/SendFileTest
+[ RUN      ] AddressFamily/SendFileTest.SendMultiple/0
+sendfile, size=5242880, sent=0, remain=5242880
+[       OK ] AddressFamily/SendFileTest.SendMultiple/0 (45 ms)
+[ RUN      ] AddressFamily/SendFileTest.SendMultiple/1
+sendfile, size=5242880, sent=0, remain=5242880
+[       OK ] AddressFamily/SendFileTest.SendMultiple/1 (43 ms)
+[ RUN      ] AddressFamily/SendFileTest.Shutdown/0
+[       OK ] AddressFamily/SendFileTest.Shutdown/0 (6 ms)
+[ RUN      ] AddressFamily/SendFileTest.Shutdown/1
+[       OK ] AddressFamily/SendFileTest.Shutdown/1 (6 ms)
+[ RUN      ] AddressFamily/SendFileTest.SendpageFromEmptyFileToUDP/0
+[       OK ] AddressFamily/SendFileTest.SendpageFromEmptyFileToUDP/0 (0 ms)
+[ RUN      ] AddressFamily/SendFileTest.SendpageFromEmptyFileToUDP/1
+[       OK ] AddressFamily/SendFileTest.SendpageFromEmptyFileToUDP/1 (0 ms)
+[----------] 6 tests from AddressFamily/SendFileTest (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (102 ms total)
+[  PASSED  ] 6 tests.
+Failed to match any benchmarks against regex: .

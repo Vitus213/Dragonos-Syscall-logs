@@ -1,0 +1,62 @@
+[==========] Running 22 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 22 tests from SendFileTest
+[ RUN      ] SendFileTest.SendZeroBytes
+[       OK ] SendFileTest.SendZeroBytes (0 ms)
+[ RUN      ] SendFileTest.InvalidOffset
+[       OK ] SendFileTest.InvalidOffset (0 ms)
+[ RUN      ] SendFileTest.Overflow
+[       OK ] SendFileTest.Overflow (0 ms)
+[ RUN      ] SendFileTest.SendTrivially
+[       OK ] SendFileTest.SendTrivially (0 ms)
+[ RUN      ] SendFileTest.SendTriviallyWithBothFilesReadWrite
+[       OK ] SendFileTest.SendTriviallyWithBothFilesReadWrite (0 ms)
+[ RUN      ] SendFileTest.SendAndUpdateFileOffset
+[       OK ] SendFileTest.SendAndUpdateFileOffset (0 ms)
+[ RUN      ] SendFileTest.SendAndUpdateFileOffsetFromNonzeroStartingPoint
+[       OK ] SendFileTest.SendAndUpdateFileOffsetFromNonzeroStartingPoint (0 ms)
+[ RUN      ] SendFileTest.SendAndUpdateGivenOffset
+[       OK ] SendFileTest.SendAndUpdateGivenOffset (0 ms)
+[ RUN      ] SendFileTest.DoNotSendfileIfOutfileIsAppendOnly
+[       OK ] SendFileTest.DoNotSendfileIfOutfileIsAppendOnly (0 ms)
+[ RUN      ] SendFileTest.AppendCheckOrdering
+[       OK ] SendFileTest.AppendCheckOrdering (0 ms)
+[ RUN      ] SendFileTest.DoNotSendfileIfOutfileIsNotWritable
+[       OK ] SendFileTest.DoNotSendfileIfOutfileIsNotWritable (0 ms)
+[ RUN      ] SendFileTest.DoNotSendfileIfInfileIsNotReadable
+[       OK ] SendFileTest.DoNotSendfileIfInfileIsNotReadable (0 ms)
+[ RUN      ] SendFileTest.DoNotSendANegativeNumberOfBytes
+[       OK ] SendFileTest.DoNotSendANegativeNumberOfBytes (0 ms)
+[ RUN      ] SendFileTest.SendTheCorrectNumberOfBytesEvenIfWeTryToSendTooManyBytes
+[       OK ] SendFileTest.SendTheCorrectNumberOfBytesEvenIfWeTryToSendTooManyBytes (0 ms)
+[ RUN      ] SendFileTest.SendToNotARegularFile
+[       OK ] SendFileTest.SendToNotARegularFile (0 ms)
+[ RUN      ] SendFileTest.SendPipeWouldBlock
+test/syscalls/linux/sendfile.cc:480: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] SendFileTest.SendPipeWouldBlock (0 ms)
+[ RUN      ] SendFileTest.SendPipeEOF
+[       OK ] SendFileTest.SendPipeEOF (0 ms)
+[ RUN      ] SendFileTest.SendToFullPipeReturnsEAGAIN
+test/syscalls/linux/sendfile.cc:528: Skipped
+!IsRunningOnGvisor()
+
+[  SKIPPED ] SendFileTest.SendToFullPipeReturnsEAGAIN (0 ms)
+[ RUN      ] SendFileTest.SendPipeBlocks
+[       OK ] SendFileTest.SendPipeBlocks (100 ms)
+[ RUN      ] SendFileTest.SendFileToPipe
+[       OK ] SendFileTest.SendFileToPipe (100 ms)
+[ RUN      ] SendFileTest.SendFileToSelf
+[       OK ] SendFileTest.SendFileToSelf (6831 ms)
+[ RUN      ] SendFileTest.LargeCount
+[       OK ] SendFileTest.LargeCount (0 ms)
+[----------] 22 tests from SendFileTest (7039 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 1 test suite ran. (7039 ms total)
+[  PASSED  ] 20 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] SendFileTest.SendPipeWouldBlock
+[  SKIPPED ] SendFileTest.SendToFullPipeReturnsEAGAIN
+Failed to match any benchmarks against regex: .

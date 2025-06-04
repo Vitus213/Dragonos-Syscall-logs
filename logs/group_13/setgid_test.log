@@ -1,0 +1,110 @@
+[==========] Running 21 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from SetgidDirTest
+[ RUN      ] SetgidDirTest.Control
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.Control (0 ms)
+[ RUN      ] SetgidDirTest.CreateFile
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.CreateFile (0 ms)
+[ RUN      ] SetgidDirTest.CreateDir
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.CreateDir (0 ms)
+[ RUN      ] SetgidDirTest.NoGroupExec
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.NoGroupExec (0 ms)
+[ RUN      ] SetgidDirTest.OldFile
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.OldFile (0 ms)
+[ RUN      ] SetgidDirTest.OldDir
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.OldDir (0 ms)
+[ RUN      ] SetgidDirTest.ChownFileClears
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.ChownFileClears (0 ms)
+[ RUN      ] SetgidDirTest.ChownNoExecFileDoesNotClear
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.ChownNoExecFileDoesNotClear (0 ms)
+[ RUN      ] SetgidDirTest.ChownDirDoesNotClear
+test/syscalls/linux/setgid.cc:126: Skipped
+!cleanup1.ok()
+
+[  SKIPPED ] SetgidDirTest.ChownDirDoesNotClear (0 ms)
+[----------] 9 tests from SetgidDirTest (0 ms total)
+
+[----------] 12 tests from FileModes/FileModeTest
+[ RUN      ] FileModes/FileModeTest.WriteToFile/0
+[       OK ] FileModes/FileModeTest.WriteToFile/0 (0 ms)
+[ RUN      ] FileModes/FileModeTest.WriteToFile/1
+[       OK ] FileModes/FileModeTest.WriteToFile/1 (0 ms)
+[ RUN      ] FileModes/FileModeTest.WriteToFile/2
+[       OK ] FileModes/FileModeTest.WriteToFile/2 (0 ms)
+[ RUN      ] FileModes/FileModeTest.WriteToFile/3
+[       OK ] FileModes/FileModeTest.WriteToFile/3 (0 ms)
+[ RUN      ] FileModes/FileModeTest.WriteToFile/4
+test/syscalls/linux/setgid.cc:368: Failure
+Expected equality of these values:
+  stats.st_mode & kDirmodeMask
+    Which is: 503
+  GetParam().result_mode
+    Which is: 1527
+
+[  FAILED  ] FileModes/FileModeTest.WriteToFile/4, where GetParam() = 40-byte object <80-7A BD-5F 43-58 00-00 13-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 F7-05 00-00 F7-05 00-00> (0 ms)
+[ RUN      ] FileModes/FileModeTest.WriteToFile/5
+test/syscalls/linux/setgid.cc:368: Failure
+Expected equality of these values:
+  stats.st_mode & kDirmodeMask
+    Which is: 503
+  GetParam().result_mode
+    Which is: 1527
+
+[  FAILED  ] FileModes/FileModeTest.WriteToFile/5, where GetParam() = 40-byte object <D0-9E BD-5F 43-58 00-00 1E-00 00-00 00-00 00-00 1E-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 F7-0D 00-00 F7-05 00-00> (0 ms)
+[ RUN      ] FileModes/FileModeTest.TruncateFile/0
+[       OK ] FileModes/FileModeTest.TruncateFile/0 (0 ms)
+[ RUN      ] FileModes/FileModeTest.TruncateFile/1
+[       OK ] FileModes/FileModeTest.TruncateFile/1 (0 ms)
+[ RUN      ] FileModes/FileModeTest.TruncateFile/2
+[       OK ] FileModes/FileModeTest.TruncateFile/2 (0 ms)
+[ RUN      ] FileModes/FileModeTest.TruncateFile/3
+[       OK ] FileModes/FileModeTest.TruncateFile/3 (0 ms)
+[ RUN      ] FileModes/FileModeTest.TruncateFile/4
+[       OK ] FileModes/FileModeTest.TruncateFile/4 (0 ms)
+[ RUN      ] FileModes/FileModeTest.TruncateFile/5
+[       OK ] FileModes/FileModeTest.TruncateFile/5 (0 ms)
+[----------] 12 tests from FileModes/FileModeTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 21 tests from 2 test suites ran. (5 ms total)
+[  PASSED  ] 10 tests.
+[  SKIPPED ] 9 tests, listed below:
+[  SKIPPED ] SetgidDirTest.Control
+[  SKIPPED ] SetgidDirTest.CreateFile
+[  SKIPPED ] SetgidDirTest.CreateDir
+[  SKIPPED ] SetgidDirTest.NoGroupExec
+[  SKIPPED ] SetgidDirTest.OldFile
+[  SKIPPED ] SetgidDirTest.OldDir
+[  SKIPPED ] SetgidDirTest.ChownFileClears
+[  SKIPPED ] SetgidDirTest.ChownNoExecFileDoesNotClear
+[  SKIPPED ] SetgidDirTest.ChownDirDoesNotClear
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] FileModes/FileModeTest.WriteToFile/4, where GetParam() = 40-byte object <80-7A BD-5F 43-58 00-00 13-00 00-00 00-00 00-00 13-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 F7-05 00-00 F7-05 00-00>
+[  FAILED  ] FileModes/FileModeTest.WriteToFile/5, where GetParam() = 40-byte object <D0-9E BD-5F 43-58 00-00 1E-00 00-00 00-00 00-00 1E-00 00-00 00-00 00-00 00-00 00-00 00-00 00-00 F7-0D 00-00 F7-05 00-00>
+
+ 2 FAILED TESTS
+Failed to match any benchmarks against regex: .

@@ -1,0 +1,22 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from SetnsTest
+[ RUN      ] SetnsTest.ChangeIPCNamespace
+test/syscalls/linux/setns.cc:31: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] SetnsTest.ChangeIPCNamespace (0 ms)
+[ RUN      ] SetnsTest.ChangeUTSNamespace
+test/syscalls/linux/setns.cc:53: Skipped
+!ASSERT_NO_ERRNO_AND_VALUE(HaveCapability(CAP_SYS_ADMIN))
+
+[  SKIPPED ] SetnsTest.ChangeUTSNamespace (0 ms)
+[----------] 2 tests from SetnsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  SKIPPED ] 2 tests, listed below:
+[  SKIPPED ] SetnsTest.ChangeIPCNamespace
+[  SKIPPED ] SetnsTest.ChangeUTSNamespace
+Failed to match any benchmarks against regex: .

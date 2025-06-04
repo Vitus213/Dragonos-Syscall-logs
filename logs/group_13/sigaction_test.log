@@ -1,0 +1,23 @@
+[==========] Running 7 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 7 tests from SigactionTest
+[ RUN      ] SigactionTest.GetLessThanOrEqualToZeroFails
+[       OK ] SigactionTest.GetLessThanOrEqualToZeroFails (0 ms)
+[ RUN      ] SigactionTest.SetLessThanOrEqualToZeroFails
+[       OK ] SigactionTest.SetLessThanOrEqualToZeroFails (0 ms)
+[ RUN      ] SigactionTest.GetGreaterThanMaxFails
+[       OK ] SigactionTest.GetGreaterThanMaxFails (0 ms)
+[ RUN      ] SigactionTest.SetGreaterThanMaxFails
+[       OK ] SigactionTest.SetGreaterThanMaxFails (0 ms)
+[ RUN      ] SigactionTest.SetSigkillFails
+[       OK ] SigactionTest.SetSigkillFails (0 ms)
+[ RUN      ] SigactionTest.SetSigstopFails
+[       OK ] SigactionTest.SetSigstopFails (0 ms)
+[ RUN      ] SigactionTest.BadSigsetFails
+[       OK ] SigactionTest.BadSigsetFails (0 ms)
+[----------] 7 tests from SigactionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 7 tests.
+Failed to match any benchmarks against regex: .

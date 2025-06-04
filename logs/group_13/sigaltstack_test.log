@@ -1,0 +1,30 @@
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from SigaltstackTest
+[ RUN      ] SigaltstackTest.Success
+[       OK ] SigaltstackTest.Success (0 ms)
+[ RUN      ] SigaltstackTest.ResetByExecve
+Unable to find runfiles: ERROR: external/bazel_tools/tools/cpp/runfiles/runfiles.cc(123): cannot find runfiles (argv0="")
+test/syscalls/linux/sigaltstack.cc:107: Failure
+Expected equality of these values:
+  execve_errno
+    Which is: 2
+  0
+
+[  FAILED  ] SigaltstackTest.ResetByExecve (0 ms)
+[ RUN      ] SigaltstackTest.WalksOffBottom
+[       OK ] SigaltstackTest.WalksOffBottom (1100 ms)
+[ RUN      ] SigaltstackTest.SetWhileOnStack
+[       OK ] SigaltstackTest.SetWhileOnStack (0 ms)
+[ RUN      ] SigaltstackTest.SetCurrentStack
+[       OK ] SigaltstackTest.SetCurrentStack (0 ms)
+[----------] 5 tests from SigaltstackTest (1102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (1102 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] SigaltstackTest.ResetByExecve
+
+ 1 FAILED TEST
+Failed to match any benchmarks against regex: .
