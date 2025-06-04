@@ -1,0 +1,46 @@
+[==========] Running 17 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from Signalfd
+[ RUN      ] Signalfd.Cloexec
+[       OK ] Signalfd.Cloexec (0 ms)
+[ RUN      ] Signalfd.Ppoll
+[       OK ] Signalfd.Ppoll (1000 ms)
+[ RUN      ] Signalfd.KillStillKills
+[       OK ] Signalfd.KillStillKills (0 ms)
+[----------] 3 tests from Signalfd (1002 ms total)
+
+[----------] 14 tests from Signalfd/SignalfdTest
+[ RUN      ] Signalfd/SignalfdTest.Basic/kSigno
+[       OK ] Signalfd/SignalfdTest.Basic/kSigno (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.Basic/kSignoMax
+[       OK ] Signalfd/SignalfdTest.Basic/kSignoMax (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.MaskWorks/kSigno
+[       OK ] Signalfd/SignalfdTest.MaskWorks/kSigno (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.MaskWorks/kSignoMax
+[       OK ] Signalfd/SignalfdTest.MaskWorks/kSignoMax (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.Blocking/kSigno
+[       OK ] Signalfd/SignalfdTest.Blocking/kSigno (3 ms)
+[ RUN      ] Signalfd/SignalfdTest.Blocking/kSignoMax
+[       OK ] Signalfd/SignalfdTest.Blocking/kSignoMax (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.ThreadGroup/kSigno
+[       OK ] Signalfd/SignalfdTest.ThreadGroup/kSigno (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.ThreadGroup/kSignoMax
+[       OK ] Signalfd/SignalfdTest.ThreadGroup/kSignoMax (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.Nonblock/kSigno
+[       OK ] Signalfd/SignalfdTest.Nonblock/kSigno (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.Nonblock/kSignoMax
+[       OK ] Signalfd/SignalfdTest.Nonblock/kSignoMax (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.SetMask/kSigno
+[       OK ] Signalfd/SignalfdTest.SetMask/kSigno (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.SetMask/kSignoMax
+[       OK ] Signalfd/SignalfdTest.SetMask/kSignoMax (0 ms)
+[ RUN      ] Signalfd/SignalfdTest.Poll/kSigno
+[       OK ] Signalfd/SignalfdTest.Poll/kSigno (5000 ms)
+[ RUN      ] Signalfd/SignalfdTest.Poll/kSignoMax
+[       OK ] Signalfd/SignalfdTest.Poll/kSignoMax (5000 ms)
+[----------] 14 tests from Signalfd/SignalfdTest (10004 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 2 test suites ran. (11007 ms total)
+[  PASSED  ] 17 tests.
+Failed to match any benchmarks against regex: .

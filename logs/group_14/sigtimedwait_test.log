@@ -1,0 +1,31 @@
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from SigtimedwaitTest
+[ RUN      ] SigtimedwaitTest.InvalidTimeout
+[       OK ] SigtimedwaitTest.InvalidTimeout (0 ms)
+[ RUN      ] SigtimedwaitTest.AlarmReturnsAlarm
+[       OK ] SigtimedwaitTest.AlarmReturnsAlarm (12000 ms)
+[ RUN      ] SigtimedwaitTest.NullTimeoutReturnsEINTR
+[       OK ] SigtimedwaitTest.NullTimeoutReturnsEINTR (12000 ms)
+[ RUN      ] SigtimedwaitTest.LegitTimeoutReturnsEAGAIN
+[       OK ] SigtimedwaitTest.LegitTimeoutReturnsEAGAIN (1000 ms)
+[ RUN      ] SigtimedwaitTest.ZeroTimeoutReturnsEAGAIN
+[       OK ] SigtimedwaitTest.ZeroTimeoutReturnsEAGAIN (0 ms)
+[ RUN      ] SigtimedwaitTest.KillGeneratedSIGCHLD
+[       OK ] SigtimedwaitTest.KillGeneratedSIGCHLD (0 ms)
+[ RUN      ] SigtimedwaitTest.ChildExitGeneratedSIGCHLD
+[       OK ] SigtimedwaitTest.ChildExitGeneratedSIGCHLD (0 ms)
+[ RUN      ] SigtimedwaitTest.ChildExitGeneratedSIGCHLDWithHandler
+[       OK ] SigtimedwaitTest.ChildExitGeneratedSIGCHLDWithHandler (0 ms)
+[ RUN      ] SigtimedwaitTest.SIGKILLUncaught
+[       OK ] SigtimedwaitTest.SIGKILLUncaught (2000 ms)
+[ RUN      ] SigtimedwaitTest.IgnoredUnmaskedSignal
+[       OK ] SigtimedwaitTest.IgnoredUnmaskedSignal (5000 ms)
+[ RUN      ] SigtimedwaitTest.IgnoredMaskedSignal
+[       OK ] SigtimedwaitTest.IgnoredMaskedSignal (2000 ms)
+[----------] 11 tests from SigtimedwaitTest (34003 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (34003 ms total)
+[  PASSED  ] 11 tests.
+Failed to match any benchmarks against regex: .

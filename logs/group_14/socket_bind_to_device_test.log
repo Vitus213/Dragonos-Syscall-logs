@@ -1,0 +1,172 @@
+[==========] Running 16 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 16 tests from BindToDeviceTest/BindToDeviceTest
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.GetsockoptDefault/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDefault/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.GetsockoptDefault/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDefault/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptInvalidDeviceName/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptInvalidDeviceName/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptInvalidDeviceName/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptInvalidDeviceName/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithoutNullTermination/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithoutNullTermination/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithoutNullTermination/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithoutNullTermination/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithNullTermination/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithNullTermination/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithNullTermination/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithNullTermination/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenInvalid/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenInvalid/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenInvalid/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenInvalid/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClear/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClear/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClear/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClear/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClearWithNull/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClearWithNull/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClearWithNull/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClearWithNull/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.GetsockoptDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDevice/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceTest.GetsockoptDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device.cc:52: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device.cc", 52, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDevice/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00> (0 ms)
+[----------] 16 tests from BindToDeviceTest/BindToDeviceTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 16 tests, listed below:
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDefault/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDefault/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptInvalidDeviceName/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptInvalidDeviceName/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithoutNullTermination/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithoutNullTermination/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithNullTermination/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidDeviceNameWithNullTermination/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenInvalid/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenInvalid/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClear/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClear/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClearWithNull/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.SetsockoptValidThenClearWithNull/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDevice/0, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceTest.GetsockoptDevice/1, where GetParam() = 80-byte object <90-88 73-C1 17-5D 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 AF-C8 17-BE 17-5D 00-00 77-C8 17-BE 17-5D 00-00>
+
+16 FAILED TESTS
+Failed to match any benchmarks against regex: .

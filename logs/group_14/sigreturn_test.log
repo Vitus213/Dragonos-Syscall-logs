@@ -1,0 +1,13 @@
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from SigIretTest
+[ RUN      ] SigIretTest.CheckRcxR11
+[       OK ] SigIretTest.CheckRcxR11 (500 ms)
+[ RUN      ] SigIretTest.BadHandler
+[       OK ] SigIretTest.BadHandler (1112 ms)
+[----------] 2 tests from SigIretTest (1613 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (1613 ms total)
+[  PASSED  ] 2 tests.
+Failed to match any benchmarks against regex: .

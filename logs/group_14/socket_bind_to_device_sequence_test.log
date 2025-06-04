@@ -1,0 +1,432 @@
+[==========] Running 42 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 42 tests from BindToDeviceTest/BindToDeviceSequenceTest
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithDeviceFails/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithDeviceFails/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithDeviceFails/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithDeviceFails/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDeviceAndThenWithoutDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDeviceAndThenWithoutDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDeviceAndThenWithoutDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDeviceAndThenWithoutDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithoutDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithoutDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithoutDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithoutDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuse/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuse/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuse/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuse/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindingWithReuseAndDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindingWithReuseAndDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindingWithReuseAndDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindingWithReuseAndDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.MixingReuseAndNotReuseByBindingToDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.MixingReuseAndNotReuseByBindingToDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.MixingReuseAndNotReuseByBindingToDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.MixingReuseAndNotReuseByBindingToDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAndNotReuse/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAndNotReuse/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAndNotReuse/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAndNotReuse/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndRelease/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndRelease/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndRelease/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndRelease/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithReuseOnce/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithReuseOnce/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithReuseOnce/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithReuseOnce/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuseAddr/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuseAddr/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAddrAndNotReuseAddr/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAddrAndNotReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAddrAndNotReuseAddr/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAddrAndNotReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReusePort/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReusePort/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReusePort/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReusePort/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReuseAddr/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReuseAddr/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReusePort/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReusePort/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReusePort/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReusePort/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReuseAddr/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReuseAddr/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReusePortThenReuseAddrReusePort/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReusePortThenReuseAddrReusePort/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReusePortThenReuseAddrReusePort/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReusePortThenReuseAddrReusePort/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddr/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddr/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddrReusePortThenReuseAddr/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddrReusePortThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddrReusePortThenReuseAddr/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddrReusePortThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndReleaseDifferentDevice/0
+Testing case: IPv4 UDP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndReleaseDifferentDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[ RUN      ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndReleaseDifferentDevice/1
+Testing case: IPv4 TCP socket
+test/syscalls/linux/socket_bind_to_device_sequence.cc:56: Failure
+Value of: ({ auto _expr_result = (HaveCapability(13)); switch (0) case 0: default: if (const ::testing::AssertionResult gtest_ar = (::testing::internal::MakePredicateFormatterFromMatcher(IsPosixErrorOkMatcher())("_expr_result", _expr_result))) ; else return ::testing::internal::AssertHelper(::testing::TestPartResult::kFatalFailure, "test/syscalls/linux/socket_bind_to_device_sequence.cc", 56, gtest_ar.failure_message()) = ::testing::Message(); std::move(_expr_result).ValueOrDie(); })
+  Actual: false
+Expected: true
+CAP_NET_RAW is required to use SO_BINDTODEVICE
+
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndReleaseDifferentDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00> (0 ms)
+[----------] 42 tests from BindToDeviceTest/BindToDeviceSequenceTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 42 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 42 tests, listed below:
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithDeviceFails/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithDeviceFails/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDeviceAndThenWithoutDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindToDeviceAndThenWithoutDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithoutDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithoutDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuse/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuse/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindingWithReuseAndDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindingWithReuseAndDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.MixingReuseAndNotReuseByBindingToDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.MixingReuseAndNotReuseByBindingToDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAndNotReuse/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAndNotReuse/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndRelease/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndRelease/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithReuseOnce/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindTwiceWithReuseOnce/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindWithReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAddrAndNotReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.CannotBindTo0AfterMixingReuseAddrAndNotReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReusePort/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReusePort/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrReusePortThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReusePort/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReusePort/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindDoubleReuseAddrReusePortThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReusePortThenReuseAddrReusePort/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReusePortThenReuseAddrReusePort/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddrReusePortThenReuseAddr/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindReuseAddrThenReuseAddrReusePortThenReuseAddr/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndReleaseDifferentDevice/0, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-55 44-50 20-73 6F-63 6B-65 74-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 02-00 00-00 02-00 00-00 11-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+[  FAILED  ] BindToDeviceTest/BindToDeviceSequenceTest.BindAndReleaseDifferentDevice/1, where GetParam() = 80-byte object <E0-4D 49-E0 35-62 00-00 0F-00 00-00 00-00 00-00 49-50 76-34 20-54 43-50 20-73 6F-63 6B-65 74-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 02-00 00-00 01-00 00-00 06-00 00-00 00-00 00-00 D3-72 6D-B0 35-62 00-00 9B-72 6D-B0 35-62 00-00>
+
+42 FAILED TESTS
+Failed to match any benchmarks against regex: .

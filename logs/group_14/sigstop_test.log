@@ -1,0 +1,15 @@
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SigstopTest
+[ RUN      ] SigstopTest.TimesAreRelativelyConsistent
+[       OK ] SigstopTest.TimesAreRelativelyConsistent (0 ms)
+[ RUN      ] SigstopTest.Correctness
+[       OK ] SigstopTest.Correctness (30010 ms)
+[ RUN      ] SigstopTest.RestartSyscall
+[       OK ] SigstopTest.RestartSyscall (15000 ms)
+[----------] 3 tests from SigstopTest (45010 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (45010 ms total)
+[  PASSED  ] 3 tests.
+Failed to match any benchmarks against regex: .
